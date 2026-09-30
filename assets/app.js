@@ -143,6 +143,7 @@
     }
     plot.appendChild(el("div", { "class": "hb-row hb-axis", "aria-hidden": "true" }, el("span"), el("span", { "class": "hb-plot" }, ticks)));
     fig.appendChild(plot);
+    if (opts.after) fig.appendChild(opts.after());
 
     // table view: the accessible twin of the chart
     var tableWrap = el("div", { "class": "tbl-wrap", hidden: true });
@@ -181,10 +182,18 @@
   function renderCharts() {
     barChart($("#chart-tech"), {
       title: "What a tech job must pay for your visa",
-      sub: "Minimum yearly salary where no degree is required, in euros. Blue bars are Plan A targets.",
+      sub: "Minimum yearly salary where no degree is required, in countries that use the euro. Blue bars are Plan A targets.",
       rows: G.techFloors, fmt: eurK, tick: eurTick, col: "Official threshold", labelWidth: "minmax(9rem, 19rem)",
       legend: ["Plan A targets", "Other routes"],
-      foot: ["Converted at " + G.fx, ["Migrationsverket", "https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html"], ["IND", "https://ind.nl/en/public-register-recognised-sponsors/public-register-work"], ["MRCI", "https://www.mrci.ie/2026/03/06/new-employment-permit-salary-thresholds-from-1-march-2026/"]]
+      after: function () {
+        return el("div", { "class": "other-cur" },
+          el("p", { "class": "eyebrow" }, "Countries with their own currency"),
+          el("ul", null, G.otherFloors.map(function (r) {
+            return el("li", { "class": r.plan ? "is-plan" : null },
+              el("span", { "class": "oc-l" }, r.label), el("b", null, r.shown), el("span", { "class": "oc-n" }, r.note));
+          })));
+      },
+      foot: [["IND", "https://ind.nl/en/public-register-recognised-sponsors/public-register-work"], ["MRCI", "https://www.mrci.ie/2026/03/06/new-employment-permit-salary-thresholds-from-1-march-2026/"], ["Migrationsverket", "https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html"], ["Hunt UK Visa Sponsors", "https://huntukvisasponsors.com/uk-visa-occupation-eligibility/2134-programmers-and-software-development-professionals"]]
     });
     barChart($("#chart-remote"), {
       title: "Remote income you must show each month",
@@ -481,8 +490,161 @@
     }));
   }
 
+  /* ---------- costs ---------- */
+
+  // Floating range bars (low–high) with an optional benchmark mark and one
+  // reference line. Same row grid, gridlines and tooltips as barChart.
+  function rangeChart(mount, opts) {
+    if (!mount) return;
+    var rows = opts.rows;
+    var max = Math.max.apply(null, rows.map(function (r) { return r.high; }));
+    var step = niceStep(max / (opts.ticks || 4));
+    var n = Math.ceil(max / step);
+    if (step * n <= max) n += 1; // headroom so the longest bar never touches the edge
+    var axisMax = step * n;
+    var pctOf = function (v) { return ((v / axisMax) * 100).toFixed(2) + "%"; };
+
+    var fig = el("figure", { "class": "chart card" });
+    fig.appendChild(el("figcaption", null, el("h3", null, opts.title), el("p", { "class": "sub" }, opts.sub)));
+    fig.appendChild(el("div", { "class": "legend" },
+      el("span", null, el("i", { "aria-hidden": "true" }), opts.legend[0]),
+      el("span", null, el("i", { "class": "bench", "aria-hidden": "true" }), opts.legend[1]),
+      opts.ref ? el("span", null, el("i", { "class": "refkey", "aria-hidden": "true" }), opts.ref.text) : null));
+
+    var plot = el("div", { "class": "hb", role: "list", style: "--n:" + n + ";--room:7.5rem" + (opts.labelWidth ? ";--label:" + opts.labelWidth : "") });
+    rows.forEach(function (r) {
+      var marks = [
+        opts.ref ? el("span", { "class": "rg-ref", style: "left:" + pctOf(opts.ref.value) }) : null,
+        r.bench ? el("span", { "class": "rg-bench", style: "left:" + pctOf(r.bench[0]) + ";width:max(8px, calc(" + pctOf(r.bench[1] - r.bench[0]) + "))" }) : null,
+        el("span", { "class": "rg-bar", style: "left:" + pctOf(r.low) + ";width:" + pctOf(r.high - r.low) }),
+        el("span", { "class": "hb-val", style: "left:calc(" + pctOf(r.high) + " + 6px)" }, r.shown)
+      ];
+      var row = el("div", { "class": "hb-row", role: "listitem", tabindex: "0",
+        "aria-label": r.label + ": " + r.shown + (r.benchText ? ". " + r.benchText : "") + ". " + r.note },
+        el("span", { "class": "hb-label" }, r.label),
+        el("span", { "class": "hb-plot" }, marks));
+      attachTip(row, { value: r.shown, label: r.label, note: (r.benchText ? r.benchText + ". " : "") + r.note },
+        function (n2) { return $(".rg-bar", n2); });
+      plot.appendChild(row);
+    });
+    var ticks = [];
+    for (var i = 0; i <= n; i++) {
+      ticks.push(el("span", { "class": "hb-tick", style: i === 0 ? "left:0" : "left:" + ((i / n) * 100).toFixed(2) + "%" }, opts.tick(i * step)));
+    }
+    plot.appendChild(el("div", { "class": "hb-row hb-axis", "aria-hidden": "true" }, el("span"), el("span", { "class": "hb-plot" }, ticks)));
+    fig.appendChild(plot);
+
+    var tableWrap = el("div", { "class": "tbl-wrap", hidden: true },
+      el("table", null,
+        el("thead", null, el("tr", null, el("th", null, "Country"), el("th", null, "What people pay"), el("th", null, "Benchmark"), el("th", null, "Details"))),
+        el("tbody", null, rows.map(function (r) {
+          return el("tr", null, el("td", { "class": "cname" }, r.label), el("td", { "class": "num" }, r.shown), el("td", null, r.benchText || "—"), el("td", null, r.note));
+        }))));
+    var btn = el("button", { type: "button", "class": "linkbtn", "aria-expanded": "false" }, "Show table");
+    btn.addEventListener("click", function () {
+      tableWrap.hidden = !tableWrap.hidden;
+      btn.setAttribute("aria-expanded", String(!tableWrap.hidden));
+      btn.textContent = tableWrap.hidden ? "Show table" : "Hide table";
+    });
+    fig.appendChild(tableWrap);
+    var src = el("span");
+    opts.foot.forEach(function (f, idx) {
+      if (idx) src.appendChild(document.createTextNode(" · "));
+      src.appendChild(ext(f[0], f[1]));
+    });
+    fig.appendChild(el("div", { "class": "chart-foot" }, src, btn));
+    mount.replaceChildren(fig);
+  }
+
+  function srcLink(src, isEstimate) {
+    if (isEstimate) return el("span", { "class": "est" }, "estimate");
+    return src ? el("span", { "class": "src" }, ext(src[0], src[1])) : null;
+  }
+
+  function renderCosts() {
+    var C = G.costs;
+    var k = $("#cost-kpis");
+    k.replaceChildren.apply(k, C.kpis.map(function (x) {
+      return el("div", { "class": "kpi card" },
+        el("span", { "class": "v" }, x.value),
+        el("span", { "class": "l" }, x.label),
+        el("span", { "class": "s" }, "Source: ", ext(x.src[0], x.src[1])));
+    }));
+
+    var b = $("#budgets");
+    b.replaceChildren.apply(b, C.plans.map(function (p) {
+      return el("article", { "class": "plan budget card" },
+        el("div", { "class": "plan-top" }, el("span", { "class": "plan-letter" }, p.letter), el("h3", null, p.title), el("span", { "class": "tag" }, p.tag)),
+        p.groups.map(function (g) {
+          return el("div", { "class": "bgroup" },
+            el("p", { "class": "eyebrow" }, g.head),
+            el("ul", { "class": "lines" }, g.items.map(function (it) {
+              var sub = it[0].indexOf("…of which") === 0;
+              return el("li", { "class": sub ? "sub" : null },
+                el("span", { "class": "what" }, it[0], " ", srcLink(it[2], it[3] === "estimate")),
+                el("span", { "class": "amt" }, it[1]));
+            })),
+            g.total ? el("p", { "class": "btotal" }, el("span", null, "Subtotal"), el("b", null, g.total)) : null);
+        }),
+        el("p", { "class": "small" }, p.note));
+    }));
+
+    rangeChart($("#chart-agency"), {
+      title: "Agency routes: what they should cost vs what people pay",
+      sub: "Lakh taka, all-in. Blue bars span 2026 agency ads and what workers reported paying; grey marks show the official benchmark where one exists.",
+      rows: C.agencyRanges,
+      legend: ["What people pay (ads and worker reports)", "Official benchmark"],
+      ref: { value: C.average.value, text: C.average.text },
+      tick: function (v) { return v === 0 ? "0" : v + " lakh"; },
+      labelWidth: "minmax(7rem, 10rem)",
+      foot: [["TBS", "https://www.tbsnews.net/bangladesh/migration/record-bangladeshis-hired-italy-year-800m-sent-home-706554"], ["InfoMigrants", "https://www.infomigrants.net/en/post/44251/bangladeshi-migrants-in-romania-from-regular-to-undocumented-part-1-of-2"], ["Probash Guide", "https://probashguide.com/croatia-visa-update-bangladesh/"], ["Reelpen", "https://www.reelpen.org/how-much-does-it-cost-to-go-to-romania/"]]
+    });
+
+    barChart($("#chart-movein"), {
+      title: "Cash to move into a flat",
+      sub: "First month's rent plus the largest deposit the law allows, in euros, 2026.",
+      rows: C.moveIn, fmt: eur, tick: eurTick, col: "Move-in cash", labelWidth: "minmax(8rem, 14rem)",
+      legend: ["Your Plan A start", "Other options"],
+      foot: [["WG Lotse", "https://wglotse.de/en/find-a-wg/berlin/"], ["Global Property Guide", "https://www.globalpropertyguide.com/europe/germany/rent"], ["Numbeo", "https://www.numbeo.com/cost-of-living/city_price_rankings?itemId=26"], ["Nordic Expat", "https://nordicexpat.com/europe/cost-of-living/average-rent-european-cities-2026"], ["Government.nl", "https://www.government.nl/topics/housing/rented-housing/step-by-step-plan-for-tenants"], ["Threshold", "https://threshold.ie/advocacy-campaign/singlepeople/"]]
+    });
+
+    var acc = $("#accounts");
+    acc.replaceChildren.apply(acc, C.accounts.map(function (a) {
+      return el("figure", { "class": "account card" },
+        el("span", { "class": "where" }, a.where),
+        el("span", { "class": "amount" }, a.amount),
+        el("blockquote", null, el("p", null, a.text)),
+        el("figcaption", null, "Source: ", ext(a.src[0], a.src[1])));
+    }));
+
+    function table(sel, head, rows, cells) {
+      var t = $(sel);
+      t.replaceChildren(
+        el("thead", null, el("tr", null, head.map(function (h) { return el("th", null, h); }))),
+        el("tbody", null, rows.map(function (r) { return el("tr", null, cells(r)); })));
+    }
+    table("#ads", ["Country", "Advertised", "What the ad says", "Source"], C.ads, function (r) {
+      return [el("td", { "class": "cname" }, r[0]), el("td", { "class": "num" }, r[1]), el("td", null, r[2]), el("td", null, ext(r[3][0], r[3][1]))];
+    });
+    table("#bdcosts", ["Item", "Cost", "Source"], C.bd, function (r) {
+      return [el("td", null, r[0]), el("td", { "class": "num" }, r[1]), el("td", null, srcLink(r[2], r[3] === "estimate"))];
+    });
+    table("#fees", ["Route", "Fees (in the country's currency)", "Who usually pays", "Source"], C.fees, function (r) {
+      return [el("td", { "class": "cname" }, r[0]), el("td", null, r[1]), el("td", null, r[2]), el("td", null, ext(r[3][0], r[3][1]))];
+    });
+    function ruleList(sel, rows) {
+      var ul = $(sel);
+      ul.replaceChildren.apply(ul, rows.map(function (r) {
+        return el("li", null, el("b", null, r[0] + ". "), r[1] + " ", el("span", { "class": "src" }, "(", ext(r[2][0], r[2][1]), ")"));
+      }));
+    }
+    ruleList("#rules", C.rules);
+    ruleList("#deposits", C.deposits);
+  }
+
   /* ---------- boot ---------- */
   renderCharts();
+  renderCosts();
   initMap();
   renderPlaces();
   rankTable($("#rank-ns"), G.rankNonSkilled);

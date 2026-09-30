@@ -293,7 +293,7 @@ li + li { margin-top: .35rem; }
 .hb-plot {
   position: relative;
   height: 1.6rem;
-  margin-right: 4.75rem;
+  margin-right: var(--room, 4.75rem);
   border-left: 1px solid var(--line-2);
   background: repeating-linear-gradient(to right, transparent 0 calc(100% / var(--n) - 1px), var(--line) calc(100% / var(--n) - 1px) calc(100% / var(--n)));
 }
@@ -336,6 +336,81 @@ li + li { margin-top: .35rem; }
   .hb-row { grid-template-columns: minmax(0, 1fr); gap: .15rem; }
   .hb-axis > span:first-child { display: none; }
 }
+
+/* amounts in other currencies, listed under the euro chart */
+.other-cur { display: grid; gap: .4rem; border-top: 1px solid var(--line); padding-top: .75rem; }
+.other-cur ul { list-style: none; padding: 0; display: grid; gap: .3rem; }
+.other-cur li { margin: 0; display: grid; grid-template-columns: minmax(9rem, 19rem) auto minmax(0, 1fr); gap: .75rem; align-items: baseline; font-size: var(--t-sm); padding: .15rem .25rem; }
+.other-cur .oc-l { color: var(--ink-2); }
+.other-cur b { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.other-cur .oc-n { color: var(--muted); font-size: var(--t-xs); }
+.other-cur li.is-plan .oc-l::after { content: " · Plan A"; color: var(--accent); font-weight: 700; }
+@media (max-width: 40rem) {
+  .other-cur li { grid-template-columns: minmax(0, 1fr) auto; }
+  .other-cur .oc-n { grid-column: 1 / -1; }
+}
+
+/* range chart marks */
+.legend i.bench { background: var(--ink-2); height: 6px; border-radius: 2px; }
+.legend i.refkey { width: 2px; height: 14px; border-radius: 0; background: var(--muted); }
+.rg-bar {
+  position: absolute;
+  top: 50%;
+  height: 14px;
+  transform: translateY(-50%);
+  background: var(--series);
+  border-radius: 4px;
+  min-width: 6px;
+}
+.rg-bench {
+  position: absolute;
+  top: 50%;
+  height: 6px;
+  transform: translateY(-50%);
+  background: var(--ink-2);
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px var(--surface);
+  z-index: 1;
+}
+.rg-ref { position: absolute; top: -4px; bottom: -4px; width: 2px; margin-left: -1px; background: var(--muted); opacity: .7; }
+
+/* budgets */
+.budget { gap: 1rem; }
+.bgroup { display: grid; gap: .45rem; }
+.bgroup .eyebrow { color: var(--ink-2); }
+.lines { list-style: none; padding: 0; display: grid; gap: 0; }
+.lines li { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .75rem; align-items: baseline; padding: .4rem 0; border-bottom: 1px solid var(--line); font-size: var(--t-sm); }
+.lines li.sub { padding-left: 1rem; color: var(--ink-2); }
+.lines .amt { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+.lines li.sub .amt { font-weight: 400; }
+.lines .src, .lines .est { font-size: var(--t-xs); }
+.est {
+  font: 500 var(--t-xs)/1 var(--font-mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--warn-ink);
+  border: 1px solid var(--line-2);
+  border-radius: 4px;
+  padding: .1rem .3rem;
+  white-space: nowrap;
+}
+.btotal { display: flex; justify-content: space-between; gap: 1rem; font-size: var(--t-sm); padding-top: .15rem; }
+.btotal span { color: var(--muted); white-space: nowrap; }
+.btotal b { font-variant-numeric: tabular-nums; text-align: right; }
+
+/* worker accounts */
+.accounts { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); }
+.account { margin: 0; padding: 1rem 1.1rem; display: grid; gap: .35rem; align-content: start; min-width: 0; }
+.account .where { font: 500 var(--t-xs)/1.2 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.account .amount { font: 700 1.6rem/1.1 var(--font-body); }
+.account blockquote { margin: 0; font-size: var(--t-sm); color: var(--ink-2); }
+.account figcaption { font-size: var(--t-xs); color: var(--muted); }
+.account figcaption a { color: var(--muted); }
+
+/* cost tables + rules */
+.ads, .fees { min-width: 36rem; }
+.rules { list-style: none; padding: 0; display: grid; gap: .6rem; font-size: var(--t-sm); }
+.rules li { margin: 0; padding: .75rem .9rem; border-radius: 8px; background: var(--accent-soft); }
 
 /* tooltip */
 .tip {

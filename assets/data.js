@@ -27,12 +27,12 @@ window.GUIDE = {
   /* x/y = position on the tile map (columns west→east, rows north→south). */
   countries: [
     { iso: "NOR", name: "Norway", x: 4, y: 0, apply: "Dhaka (VFS, via Danish Embassy)",
-      you: { lvl: 1, route: "tech", text: "The skilled-worker permit needs a degree or trade certificate, and degree-level jobs must pay at least NOK 545,400 a year (about €50,500)." },
+      you: { lvl: 1, route: "tech", text: "The skilled-worker permit needs a degree or trade certificate, and degree-level jobs must pay at least NOK 545,400 a year." },
       nonskilled: { lvl: 1, text: "No general route for non-skilled workers." },
       skilled: { lvl: 1, text: "From 1 May 2026: NOK 545,400 a year for bachelor-level jobs, NOK 624,700 for master's-level jobs." },
       link: ["UDI – skilled workers", "https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/"] },
     { iso: "SWE", name: "Sweden", x: 5, y: 0, apply: "Dhaka (Swedish Embassy)",
-      you: { lvl: 3, route: "tech", text: "No degree rule. The job must pay at least 90% of the median wage: SEK 34,470 a month (about €3,050)." },
+      you: { lvl: 3, route: "tech", text: "No degree rule. The job must pay at least 90% of the median wage: SEK 34,470 a month." },
       nonskilled: { lvl: 1, text: "Salary floor of SEK 34,470 a month rules out most non-skilled jobs." },
       skilled: { lvl: 2, text: "From 1 June 2026 the salary must be at least 90% of the median wage (SEK 34,470 a month)." },
       link: ["Migrationsverket – salary rule", "https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html"] },
@@ -42,7 +42,7 @@ window.GUIDE = {
       skilled: { lvl: 4, text: "General minimum €1,600 a month; specialist and EU Blue Card €3,937 a month (2026)." },
       link: ["Migri – income requirement", "https://migri.fi/en/working-in-finland/income-requirement"] },
     { iso: "DNK", name: "Denmark", x: 4, y: 1, apply: "Dhaka (VFS)",
-      you: { lvl: 1, route: "tech", text: "Pay Limit Scheme needs DKK 552,000 a year (about €74,000); the supplementary scheme DKK 446,000 (about €59,800)." },
+      you: { lvl: 1, route: "tech", text: "Pay Limit Scheme needs DKK 552,000 a year; the supplementary scheme DKK 446,000." },
       nonskilled: { lvl: 1, text: "No general route for non-skilled workers." },
       skilled: { lvl: 1, text: "DKK 552,000 a year, DKK 446,000 for advertised jobs, or a job on the Positive List." },
       link: ["New to Denmark – Fast-Track", "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Fast-track"] },
@@ -67,7 +67,7 @@ window.GUIDE = {
       skilled: { lvl: 2, text: "Proposed quotas and visa limits (August 2026)." },
       link: ["Inbox.eu – proposal", "https://news.inbox.eu/150kwwc-latvia-may-sharply-limit-entry-for-foreigners-ministry-of-the-interior-proposes-introducing-quotas?language=en"] },
     { iso: "NLD", name: "Netherlands", x: 3, y: 3, apply: "Dhaka (Dutch Embassy)",
-      you: { lvl: 3, route: "tech", text: "Highly skilled migrant permit has no degree rule: €4,357 a month under 30, €5,942 at 30+, with a recognised-sponsor employer." },
+      you: { lvl: 3, route: "tech", text: "Highly skilled migrant permit has no degree rule: €4,357 a month under 30, €5,942 at 30+, with a recognised-sponsor employer. You are 29, so the lower rate applies if the IND receives the application before your 30th birthday." },
       nonskilled: { lvl: 1, text: "No general route for non-skilled workers." },
       skilled: { lvl: 2, text: "Recognised-sponsor employer and €5,942 a month (30+) or €4,357 (under 30)." },
       link: ["IND – recognised sponsors", "https://ind.nl/en/public-register-recognised-sponsors/public-register-work"] },
@@ -167,7 +167,7 @@ window.GUIDE = {
       skilled: { lvl: 0, text: "BMET clearance on hold since September 2026." },
       link: ["TBS – clearance on hold", "https://www.tbsnews.net/bangladesh/visas-holders-urge-bmet-resume-manpower-clearance-serbia-north-macedonia-moldova-1552981"] },
     { iso: "BGR", name: "Bulgaria", x: 7, y: 6, apply: "New Delhi (interview required)",
-      you: { lvl: 4, route: "farm", text: "Single permit; employers may only have 20–35% foreign staff; low wages (about €620 minimum)." },
+      you: { lvl: 4, route: "farm", text: "Single permit; employers may only have 20–35% foreign staff; low wages (minimum wage about €620 a month)." },
       nonskilled: { lvl: 4, text: "Single permit with a 15-day labour-market test; 20–35% foreign-staff cap." },
       skilled: { lvl: 3, text: "Same single permit; EU Blue Card also available." },
       link: ["Bulgarian MFA – Bangladesh", "https://www.mfa.bg/en/embassyinfo/bangladesh"] },
@@ -355,19 +355,23 @@ window.GUIDE = {
   },
 
   /* ---------- charts ---------- */
-  fx: "€1 = SEK 11.31 · NOK 10.81 · DKK 7.46 · £0.86 (September 2026)",
-
+  /* Euro countries only, so every bar is in the currency the country uses. */
   techFloors: [
     { label: "Finland · employee permit", value: 19200, shown: "€1,600 a month", note: "Minimum; a labour-market check applies and collective agreements pay more.", plan: false },
     { label: "Ireland · General Employment Permit", value: 36605, shown: "€36,605 a year", note: "Experience can replace a degree. Labour Market Needs Test applies.", plan: true },
-    { label: "Sweden · work permit", value: 36573, shown: "SEK 34,470 a month", note: "90% of the median wage. No education requirement.", plan: true },
     { label: "Germany · EU Blue Card for IT specialists", value: 45934, shown: "€45,934 a year", note: "3 years' IT experience in the last 7 years instead of a degree.", plan: true },
-    { label: "Netherlands · highly skilled, under 30", value: 52284, shown: "€4,357 a month", note: "No degree rule. Employer must be an IND recognised sponsor. Excludes holiday pay.", plan: true },
-    { label: "Denmark · supplementary pay limit", value: 59786, shown: "DKK 446,000 a year", note: "Job must first be advertised on Jobnet and EURES.", plan: false },
-    { label: "UK · Skilled Worker, software developer", value: 63605, shown: "£54,700 a year", note: "Going rate for SOC 2134; English B2 required.", plan: false },
+    { label: "Netherlands · highly skilled, under 30", value: 52284, shown: "€4,357 a month", note: "You are 29: file before your 30th birthday. No degree rule; recognised-sponsor employer; holiday pay not counted.", plan: true },
     { label: "Ireland · Critical Skills, no degree", value: 68911, shown: "€68,911 a year", note: "Critical Skills permit without a degree.", plan: false },
-    { label: "Netherlands · highly skilled, 30+", value: 71304, shown: "€5,942 a month", note: "No degree rule. Excludes holiday pay.", plan: false },
-    { label: "Denmark · Pay Limit Scheme", value: 73995, shown: "DKK 552,000 a year", note: "No degree rule.", plan: false }
+    { label: "Netherlands · highly skilled, 30+", value: 71304, shown: "€5,942 a month", note: "Applies if you are 30 or older on the day the IND receives the application.", plan: false }
+  ],
+
+  /* Countries with their own currency: shown in that currency, not converted. */
+  otherFloors: [
+    { label: "Sweden · work permit", shown: "SEK 34,470 a month", note: "No education requirement.", plan: true },
+    { label: "Denmark · supplementary pay limit", shown: "DKK 446,000 a year", note: "Job advertised on Jobnet and EURES first." },
+    { label: "Denmark · Pay Limit Scheme", shown: "DKK 552,000 a year", note: "No degree rule." },
+    { label: "United Kingdom · software developer", shown: "£54,700 a year", note: "Going rate for SOC 2134; English B2." },
+    { label: "Norway · degree-level jobs", shown: "NOK 545,400 a year", note: "Needs a degree or trade certificate." }
   ],
 
   remoteFloors: [
@@ -496,6 +500,169 @@ window.GUIDE = {
     ["Boat and Balkan routes", "97,832 Bangladeshis entered Europe irregularly in 2020–2024 (IOM), and many died. The EU's new migration pact makes legal status afterwards harder.", ["Bonik Barta", "https://en.bonikbarta.com/bangladesh/VQHz2VqTzKVHu8Hj"]]
   ],
 
+  /* ---------- costs ----------
+     Every amount is in the currency you pay it in: taka in Bangladesh,
+     the destination's own currency abroad, US dollars for flights.
+     Nothing is converted between currencies. */
+  costs: {
+    kpis: [
+      { value: "Tk 4.63 lakh", label: "average recruitment cost of a Bangladeshi migrant worker, all destinations (BBS Labour Force Survey 2024)", src: ["TBS", "https://www.tbsnews.net/infograph/numbers/how-long-does-it-take-migrant-worker-recover-recruitment-costs-1237726"] },
+      { value: "10.9 months", label: "of wages, on average, just to earn that money back", src: ["TBS", "https://www.tbsnews.net/infograph/numbers/how-long-does-it-take-migrant-worker-recover-recruitment-costs-1237726"] },
+      { value: "53%", label: "of Italy-bound migrants paid more than Tk 5 lakh; 52% of all migrants paid brokers (BBS)", src: ["TBS", "https://www.tbsnews.net/bangladesh/migration/migration-cost-soars-52-workers-rely-brokers-go-abroad-bbs-872541"] }
+    ],
+
+    /* Plan budgets. item = [what, amount, source [label,url] or null, "estimate"?] */
+    plans: [
+      { letter: "A", title: "Germany · EU Blue Card for IT", tag: "No agent needed",
+        groups: [
+          { head: "In Bangladesh · taka", total: "Tk 43,100–58,100", items: [
+            ["IELTS (Academic or General Training)", "Tk 31,100", ["IDP", "https://ielts.idp.com/bangladesh/about/ielts-exam-fee"]],
+            ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+            ["Notary, translation and attestation of your documents", "Tk 5,000–20,000", null, "estimate"],
+            ["BMET clearance: welfare fee Tk 5,500 (from 1 Oct 2026) + insurance Tk 1,000; smart card free", "Tk 6,500", ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"]]
+          ] },
+          { head: "Flight · US dollars", items: [
+            ["Dhaka → Frankfurt, one way (online fares)", "US$417–478", ["Expedia", "https://expedia.com/lp/flights/dac/fra/dhaka-to-frankfurt"]]
+          ] },
+          { head: "In Germany · euros", total: "€2,075–3,675", items: [
+            ["National visa €75 + EU Blue Card €100", "€175", ["Find English", "https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply"]],
+            ["First month's rent: room in a Berlin shared flat (median, warm)", "€650", ["WG Lotse", "https://wglotse.de/en/find-a-wg/berlin/"]],
+            ["Deposit of 1–3 months' cold rent, paid back when you move out", "€650–1,950", ["Rentumo (§551 BGB)", "https://rentumo.de/en/blog/security-deposit-germany-guide"]],
+            ["Food, transport and phone until your first salary", "€600–900", null, "estimate"]
+          ] }
+        ],
+        note: "Tech employers often pay your flight and first weeks of housing. Ask for a relocation package before you sign." },
+      { letter: "B", title: "Spain · digital-nomad visa", tag: "No agent needed",
+        groups: [
+          { head: "In Bangladesh · taka", total: "Tk 5,500–20,500", items: [
+            ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+            ["Notary, translation and attestation of your documents", "Tk 5,000–20,000", null, "estimate"]
+          ] },
+          { head: "Flight · US dollars", items: [
+            ["Dhaka → Europe, one way (Amsterdam and Frankfurt examples)", "US$313–586", ["Expedia", "https://expedia.com/lp/flights/dac/ams/dhaka-to-amsterdam"]]
+          ] },
+          { head: "In Spain · euros", total: "€4,194–8,588", items: [
+            ["Visa process for a do-it-yourself applicant (fees, health insurance, sworn translations)", "€1,000–2,500", ["Klevvera", "https://www.klevvera.com/blog/spain-digital-nomad-visa-cost-breakdown/"]],
+            ["…of which private health insurance", "€600–1,800 a year", ["Klevvera", "https://www.klevvera.com/blog/spain-digital-nomad-visa-cost-breakdown/"]],
+            ["…of which government fees incl. TIE card €16.08 (consular fee varies by nationality)", "about €73", ["Klevvera", "https://www.klevvera.com/blog/spain-digital-nomad-visa-cost-breakdown/"]],
+            ["Move in, Madrid one-bedroom: first month + 1-month deposit + up to 2 months' extra guarantee", "€2,594–5,188", ["Spain Handbook", "https://spainhandbook.com/what-is-fianza-in-spain-deposit-rules-explained-simply/"]],
+            ["Food, transport and phone for the first month", "€600–900", null, "estimate"]
+          ] }
+        ],
+        note: "You must also prove €2,849 a month of remote income. Renting a room instead of a one-bedroom flat cuts the move-in cost a lot." },
+      { letter: "C", title: "Farm or general work · Romania example", tag: "Agent route",
+        groups: [
+          { head: "Official costs in Bangladesh · taka", total: "Tk 30,700–34,700 + Delhi hotel", items: [
+            ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+            ["Medical check (price quoted in agency ads)", "Tk 6,000–10,000", ["Reelpen", "https://www.reelpen.org/how-much-does-it-cost-to-go-to-romania/"]],
+            ["BMET clearance (welfare fee + insurance)", "Tk 6,500", ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"]],
+            ["Indian visa processing for the New Delhi interview (the visa itself is free)", "Tk 1,500", ["Wego", "https://blog.wego.com/indian-tourist-visa-for-bangladeshi-nationals/"]],
+            ["Dhaka ⇄ Delhi return flight, lowest fares seen", "Tk 16,200", ["GoZayaan", "https://gozayaan.com/route/dhaka-to-delhi-flight-ticket-price"]]
+          ] },
+          { head: "Official costs abroad", items: [
+            ["Romanian long-stay work visa (D/AM)", "€120", ["Skuad", "https://www.skuad.io/work-permit/romania"]],
+            ["Flight to Europe, one way (online examples)", "US$313–586", ["Expedia", "https://expedia.com/lp/flights/dac/ams/dhaka-to-amsterdam"]]
+          ] },
+          { head: "What agencies charge · taka", items: [
+            ["All-in price in 2026 agency ads", "Tk 4–7 lakh", ["Reelpen", "https://www.reelpen.org/how-much-does-it-cost-to-go-to-romania/"]],
+            ["What workers report paying", "Tk 7–12 lakh", ["InfoMigrants", "https://www.infomigrants.net/en/post/44251/bangladeshi-migrants-in-romania-from-regular-to-undocumented-part-1-of-2"]],
+            ["Government-fixed cost for Romania (2020)", "Tk 1.65 lakh", ["TBS", "https://www.tbsnews.net/bangladesh/migration/romania-set-temporary-consular-services-dhaka-370771"]]
+          ] }
+        ],
+        note: "Under Romania's 2026 rules, an authorised placement agency may not charge you any fee. Most of the Tk 4–12 lakh goes to middlemen." }
+    ],
+
+    /* Range chart, lakh taka (Bangladeshi prices are quoted in taka). */
+    agencyRanges: [
+      { label: "Italy", low: 4, high: 15, bench: [2, 2.5], benchText: "Should not exceed Tk 2–2.5 lakh", shown: "Tk 4–15 lakh", note: "Ads: Tk 4–5 lakh (seasonal). Workers told TBS they paid up to Tk 15 lakh." },
+      { label: "Croatia", low: 7, high: 15, shown: "Tk 7–15 lakh", note: "Ads: Tk 7–9 lakh through an agency, Tk 10–15 lakh through brokers." },
+      { label: "Serbia (on hold)", low: 6, high: 15, shown: "Tk 6–15 lakh", note: "Ads: Tk 6–9 lakh; Tk 10–15 lakh through brokers. BMET clearance is on hold." },
+      { label: "Romania", low: 4, high: 12, bench: [1.65, 1.65], benchText: "Government-fixed cost Tk 1.65 lakh (2020)", shown: "Tk 4–12 lakh", note: "Ads: Tk 4–7 lakh. Workers report Tk 7–8 lakh (InfoMigrants) and Tk 10–12 lakh (TBS)." },
+      { label: "Malta", low: 7, high: 8, shown: "Tk 7–8 lakh", note: "Private-agency ads. Couriers also report paying €3,500–5,000 more to agencies in Malta." }
+    ],
+    average: { value: 4.63, text: "Average for all destinations: Tk 4.63 lakh (BBS 2024)" },
+
+    /* Move-in cash for a flat, euros (all four cities use the euro). */
+    moveIn: [
+      { label: "Berlin · room in a shared flat", value: 2600, shown: "€2,600", note: "€650 rent + up to 3 months' deposit (deposit is on cold rent, so a little less).", plan: true },
+      { label: "Dublin · one-bedroom, city centre", value: 4266, shown: "€4,266", note: "€2,133 rent + deposit capped at 1 month." },
+      { label: "Berlin · one-bedroom", value: 4300, shown: "€4,300", note: "€1,075 median rent + up to 3 months' cold-rent deposit." },
+      { label: "Madrid · one-bedroom, city centre", value: 5188, shown: "€5,188", note: "€1,297 rent + 1-month deposit + up to 2 months' extra guarantee." },
+      { label: "Amsterdam · one-bedroom", value: 6300, shown: "€6,300", note: "Rent €1,800–2,400 (bar uses €2,100) + deposit capped at 2 months: €5,400–7,200." }
+    ],
+
+    /* Legal deposit limits: [country, rule, [label,url]] */
+    deposits: [
+      ["Germany", "Up to 3 months' cold rent, and you may pay it in 3 instalments.", ["Rentumo (§551 BGB)", "https://rentumo.de/en/blog/security-deposit-germany-guide"]],
+      ["Netherlands", "Up to 2 months' basic rent for contracts from 1 July 2023.", ["Government.nl", "https://www.government.nl/topics/housing/rented-housing/step-by-step-plan-for-tenants"]],
+      ["Spain", "1 month's rent by law, plus up to 2 months' extra guarantee.", ["Spain Handbook", "https://spainhandbook.com/what-is-fianza-in-spain-deposit-rules-explained-simply/"]],
+      ["Ireland", "Up to 1 month's rent, plus 1 month paid in advance (since 9 August 2021).", ["Threshold", "https://threshold.ie/advocacy-campaign/singlepeople/"]]
+    ],
+
+    /* Official fees: [route, fees in the country's currency, who usually pays, [label,url]] */
+    fees: [
+      ["Germany · EU Blue Card", "National visa €75 · Blue Card €100", "You", ["Find English", "https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply"]],
+      ["Netherlands · highly skilled migrant", "IND fee €423", "Usually the employer", ["Envoy", "https://www.envoyglobal.com/news-alert/the-netherlands-immigration-application-fees-2026/"]],
+      ["Sweden · work permit", "Application fee SEK 2,200", "You, online", ["Jobbatical", "https://www.jobbatical.com/blog/sweden-work-permit-guide-process-requirements"]],
+      ["Ireland · General Employment Permit", "Permit €1,000 · visa €60 · residence card €300", "Permit: employer or you, never deducted from your pay", ["Citizens Information", "https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/"]],
+      ["United Kingdom · Skilled Worker", "Visa £819 · health surcharge £1,035 a year", "You; sponsor fees are the employer's", ["Find My Visa", "https://findmyvisa.co.uk/skilled-worker-visa/cost"]],
+      ["Poland · work permit", "Visa about €80–135 · permit PLN 400", "Visa: you · permit: employer", ["Worksol", "https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/"]],
+      ["Spain · digital nomad", "About €73 incl. TIE card €16.08; consular fee varies", "You", ["Klevvera", "https://www.klevvera.com/blog/spain-digital-nomad-visa-cost-breakdown/"]],
+      ["Portugal · D8 digital nomad", "Visa €110 · residence card about €170 · show €11,040 savings", "You", ["Genki", "https://guide.genki.world/portugal-digital-nomad-visa/"]],
+      ["Greece · digital nomad", "Visa €75 · residence permit €1,000", "You", ["Remote Work Europe", "https://remoteworkeurope.eu/insights/greece-digital-nomad-visa/"]],
+      ["Romania · work", "D/AM visa €120", "You; agencies may not charge you", ["Skuad", "https://www.skuad.io/work-permit/romania"]],
+      ["Croatia · work", "Visa €93 · VFS service BDT 4,030 · courier BDT 3,900 · permit about €116", "Visa and VFS: you · permit: employer", ["VFS Croatia", "https://visa.vfsglobal.com/bgd/en/hrv"]],
+      ["Italy · Decreto Flussi", "Visa €116 · nulla osta revenue stamp €16", "Visa: you · nulla osta: employer", ["TBS", "https://www.tbsnews.net/bangladesh/migration/record-bangladeshis-hired-italy-year-800m-sent-home-706554"]],
+      ["Malta · single permit", "Permit €600 · pre-departure course €250 · VFS BDT 13,935–20,900", "Permit: employer · course and VFS: you", ["Free Malta", "https://freemalta.com/hub/single-permit"]],
+      ["Bulgaria · single permit", "D visa €100–120 · permit about €200", "Visa: you · permit: employer", ["Innovires", "https://www.innovires.com/en/blog/work-permit-bulgaria.html"]]
+    ],
+
+    /* Costs paid in Bangladesh, in taka. Passport fees left out on purpose. */
+    bd: [
+      ["IELTS Academic or General Training (UKVI: Tk 34,850)", "Tk 31,100", ["IDP", "https://ielts.idp.com/bangladesh/about/ielts-exam-fee"]],
+      ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+      ["BMET welfare fee from 1 October 2026 (was Tk 3,500)", "Tk 5,500", ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"]],
+      ["BMET insurance fee", "Tk 1,000", ["Migrantimes", "https://migrantimes.com/labour-policy/27-09-2026/bangladesh-raises-overseas-workers-welfare-fee-to-tk-5500"]],
+      ["BMET smart card", "Free", ["TBS", "https://www.tbsnews.net/bangladesh/expat-ministry-scraps-bmet-clearance-card-fee-tk250-outgoing-workers-1007091"]],
+      ["Medical check for agency routes (price in agency ads)", "Tk 6,000–10,000", ["Reelpen", "https://www.reelpen.org/how-much-does-it-cost-to-go-to-romania/"]],
+      ["Indian visa processing, only for New Delhi embassies", "Tk 1,500", ["Wego", "https://blog.wego.com/indian-tourist-visa-for-bangladeshi-nationals/"]],
+      ["Dhaka ⇄ Delhi return flight, lowest fares seen", "Tk 16,200", ["GoZayaan", "https://gozayaan.com/route/dhaka-to-delhi-flight-ticket-price"]],
+      ["Notary, translation and attestation of documents", "Tk 5,000–20,000", null, "estimate"]
+    ],
+
+    /* What Bangladeshi agencies and visa sites advertise, in taka. */
+    ads: [
+      ["Romania", "Tk 4–7 lakh", "Ads split it as: work authorisation Tk 20,000–50,000, visa Tk 12,000–15,000, medical Tk 6,000–10,000, police Tk 500–1,000, air ticket Tk 80,000–1,20,000, rest agency fee.", ["Reelpen", "https://www.reelpen.org/how-much-does-it-cost-to-go-to-romania/"]],
+      ["Croatia", "Tk 7–9 lakh", "Through an agency; Tk 10–15 lakh through brokers (dalal).", ["Probash Guide", "https://probashguide.com/croatia-visa-update-bangladesh/"]],
+      ["Malta", "Tk 7–8 lakh", "Private agency; the same site claims Tk 3–4 lakh through a government channel.", ["Tips Blog BD", "https://tipsblogbd.com/malta-work-permit/"]],
+      ["Italy", "Tk 4–5 lakh", "Seasonal work visa, including visa, agency fee and air ticket.", ["Kajer Visa", "https://kajervisa.com/italy-jete-koto-taka-lage/"]],
+      ["Serbia", "Tk 6–9 lakh", "Work visa through an agency; Tk 10–15 lakh through brokers. BMET clearance is on hold.", ["Uzzala Store", "https://www.uzzalastore.com/cost-of-traveling-from-bangladesh-to-serbia/"]]
+    ],
+
+    /* What workers told journalists and researchers. amount is in the currency they reported. */
+    accounts: [
+      { amount: "Tk 15 lakh", where: "Italy", text: "Workers told TBS they spent as much as Tk 15 lakh to reach Italy, when it should not cost more than Tk 2–2.5 lakh.", src: ["TBS", "https://www.tbsnews.net/bangladesh/migration/record-bangladeshis-hired-italy-year-800m-sent-home-706554"] },
+      { amount: "€16,000", where: "Italy", text: "One worker paid €16,000 for a job in Italy that did not exist. More than 1,200 people were caught in the fake-contract scheme over four years.", src: ["Hyphen, June 2026", "https://hyphenonline.com/2026/06/01/italy-visa-fraud-scheme-bangladeshis-stranded-naples-dhaka/"] },
+      { amount: "Tk 7–8 lakh", where: "Romania", text: "Bangladeshi migrants told InfoMigrants they spent BDT 700,000–800,000 to get to Romania.", src: ["InfoMigrants", "https://www.infomigrants.net/en/post/44251/bangladeshi-migrants-in-romania-from-regular-to-undocumented-part-1-of-2"] },
+      { amount: "€7,000", where: "Romania", text: "Construction workers recruited for Romania were charged about €7,000 each; after arrival some were passed on to other companies.", src: ["Business & Human Rights Centre", "https://www.business-humanrights.org/en/latest-news/romania-bangladeshi-workers-forced-to-travel-undocumented-from-romania-after-being-subjected-to-labour-rights-violations-incl-in-construction-industry-incl-co-comment/"] },
+      { amount: "€3,500", where: "Romania", text: "A Sri Lankan worker paid €3,500 for a kitchen job in Bucharest; a Nepali worker paid about €3,600 to an informal agent.", src: ["Al Jazeera, 2023", "https://www.aljazeera.com/features/2023/12/14/conned-exploited-trapped-romanias-new-flock-of-asian-delivery-riders"] },
+      { amount: "€5,000", where: "Malta", text: "A delivery courier told MaltaToday he paid €5,000 to a recruitment company just to get a Bolt job, on top of visa and permit costs.", src: ["MaltaToday", "https://www.maltatoday.com.mt/news/national/109662/asian_couriers_paying_thousands_in_commissions_to_get_malta_delivery_job"] },
+      { amount: "€3,500", where: "Malta", text: "One Maltese agency charged workers €3,500 in 'admin fees' in two instalments, although licensed agencies may not charge job seekers.", src: ["MaltaToday", "https://www.maltatoday.com.mt/news/national/109662/asian_couriers_paying_thousands_in_commissions_to_get_malta_delivery_job"] },
+      { amount: "€1,500", where: "Malta", text: "Bangladeshi agencies offered Maltese employers a €1,500 'gift' per worker, which experts believe workers repay from their wages.", src: ["The Shift, 2024", "https://theshiftnews.com/2024/07/19/bangladeshi-agencies-targeting-malta-for-e600-a-month-jobs/"] },
+      { amount: "US$10,000", where: "Serbia", text: "More than 40 Bangladeshi workers at the Linglong tyre plant arrived with recruitment debts of up to $10,000.", src: ["Business & Human Rights Centre", "https://www.business-humanrights.org/en/latest-news/serbia-rights-groups-allege-human-trafficking-and-forced-labor-involving-bangladeshi-workers-at-linglong-tire-plant-company-did-not-comment/"] },
+      { amount: "€7,000", where: "Croatia", text: "A Nepali worker paid €7,000 in total for fees, documents and travel before landing in Croatia.", src: ["InfoMigrants", "https://www.infomigrants.net/en/post/69895/nepalese-workers-fueling-croatias-economy-amid-violence-and-exploitation"] },
+      { amount: "€10,000", where: "Portugal", text: "Some migrants paid close to €10,000 trying to enter Portugal on the right visa.", src: ["The Diplomat, 2024", "https://thediplomat.com/2024/10/portugals-immigration-overhaul-hits-south-asian-workers-hard/"] }
+    ],
+
+    /* Rules that make agency fees illegal or refundable. */
+    rules: [
+      ["Romania", "An authorised placement agency may not charge a foreign worker any commission, fee, guarantee or deposit.", ["WorkinRomania.gov.ro", "https://workinromania.gov.ro"]],
+      ["Malta", "Licensed employment agencies may not charge job applicants, or deduct fees from their wages.", ["MaltaToday", "https://www.maltatoday.com.mt/news/national/109662/asian_couriers_paying_thousands_in_commissions_to_get_malta_delivery_job"]],
+      ["Ireland", "An employer cannot recover employment-permit costs from your pay.", ["Recruitroo", "https://www.recruitroo.com/blog/ireland-employment-permit-costs-2026-full-breakdown"]],
+      ["Bangladesh", "Government schemes publish one fixed all-in charge. Example: BOESL's 2026 Brunei circular, Tk 44,850 (unskilled) to Tk 56,350 (skilled) including welfare fee and insurance.", ["BOESL", "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-boesl/2026/6/5651c1ae-8b4a-4ab9-8dce-0472670b31aa.pdf"]]
+    ]
+  },
+
   sources: [
     ["Bangladesh", [
       ["TBS – Europe job migration surges 46% in H1 2026", "https://www.tbsnews.net/world/europe-job-migration-surges-46-h1-amid-gulf-slump-1475796"],
@@ -526,16 +693,20 @@ window.GUIDE = {
       ["Hunt UK Visa Sponsors – SOC 2134 going rate", "https://huntukvisasponsors.com/uk-visa-occupation-eligibility/2134-programmers-and-software-development-professionals"],
       ["Bird & Bird – Denmark 2026 thresholds", "https://www.twobirds.com/en/insights/2026/denmark/udenlandsk-arbejdskraft---nye-bel%C3%B8bsgr%C3%A6nser-under-bel%C3%B8bsordningerne-og-opdateret-positivlister"]
     ]],
+    ["Costs and worker accounts", [
+      ["TBS – how long it takes to recover recruitment costs (BBS 2024)", "https://www.tbsnews.net/infograph/numbers/how-long-does-it-take-migrant-worker-recover-recruitment-costs-1237726"],
+      ["TBS – 52% of workers rely on brokers (BBS)", "https://www.tbsnews.net/bangladesh/migration/migration-cost-soars-52-workers-rely-brokers-go-abroad-bbs-872541"],
+      ["TBS – welfare fee rises to Tk 5,500", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"],
+      ["InfoMigrants – Bangladeshi migrants in Romania", "https://www.infomigrants.net/en/post/44251/bangladeshi-migrants-in-romania-from-regular-to-undocumented-part-1-of-2"],
+      ["MaltaToday – couriers pay thousands in commissions", "https://www.maltatoday.com.mt/news/national/109662/asian_couriers_paying_thousands_in_commissions_to_get_malta_delivery_job"],
+      ["Al Jazeera – Romania's Asian delivery riders", "https://www.aljazeera.com/features/2023/12/14/conned-exploited-trapped-romanias-new-flock-of-asian-delivery-riders"]
+    ]],
     ["Remote-work visas", [
       ["Moving to Spain – digital nomad visa 2026", "https://movingtospain.com/spain-digital-nomad-visa/"],
       ["Portugalist – D8 requirements 2026", "https://www.portugalist.com/portugal-digital-nomad-visa/"],
       ["Remote Work Europe – Croatia 2026", "https://remoteworkeurope.eu/insights/croatia-digital-nomad-visa/"],
       ["Remote Work Europe – Greece 2026", "https://remoteworkeurope.eu/insights/greece-digital-nomad-visa-2026/"],
       ["Remote Work Europe – every option compared", "https://remoteworkeurope.eu/insights/digital-nomad-visas-europe-complete-guide/"]
-    ]],
-    ["Exchange rates (September 2026)", [
-      ["EUR–SEK history 2026", "https://www.exchangerates.org.uk/EUR-SEK-spot-exchange-rates-history-2026.html"],
-      ["EUR–NOK history 2026", "https://www.exchangerates.org.uk/EUR-NOK-spot-exchange-rates-history-2026.html"]
     ]]
   ]
 };

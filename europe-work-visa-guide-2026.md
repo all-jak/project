@@ -4,18 +4,21 @@
 
 > Several countries changed their laws in 2026, and rules keep changing. Before you pay money or submit a document, check the official link given here. This guide is research, not legal advice.
 
+**Interactive version:** open [`index.html`](index.html) in a browser for the map, charts, filterable job portals and checklists.
+
 **Contents**
 
-1. [The short answer](#1-the-short-answer)
-2. [How a European work visa works](#2-how-a-european-work-visa-works)
-3. [Are you a "skilled" or "non-skilled" worker?](#3-are-you-a-skilled-or-non-skilled-worker)
-4. [SECTION A: Non-skilled and semi-skilled workers](#section-a-non-skilled-and-semi-skilled-workers)
-5. [SECTION B: Skilled workers](#section-b-skilled-workers)
-6. [Closed or risky right now](#6-closed-or-risky-right-now)
-7. [Job portals for foreign workers: quick list](#7-job-portals-for-foreign-workers-quick-list)
-8. [Scams and safety checklist](#8-scams-and-safety-checklist)
-9. [Your next 90 days](#9-your-next-90-days)
-10. [Key official sources](#10-key-official-sources)
+- [1. The short answer](#1-the-short-answer)
+- [YOUR PLAN: for your profile](#your-plan-for-your-profile)
+- [2. How a European work visa works](#2-how-a-european-work-visa-works)
+- [3. Are you a "skilled" or "non-skilled" worker?](#3-are-you-a-skilled-or-non-skilled-worker)
+- [SECTION A: Non-skilled and semi-skilled workers](#section-a-non-skilled-and-semi-skilled-workers)
+- [SECTION B: Skilled workers](#section-b-skilled-workers)
+- [6. Closed or risky right now](#6-closed-or-risky-right-now)
+- [7. Job portals for foreign workers: quick list](#7-job-portals-for-foreign-workers-quick-list)
+- [8. Scams and safety checklist](#8-scams-and-safety-checklist)
+- [9. Your next 90 days](#9-your-next-90-days)
+- [10. Key official sources](#10-key-official-sources)
 
 ---
 
@@ -43,6 +46,85 @@
   - Recruitment is also rising for Portugal, Serbia and Romania.
   - Europe gave only ~5% of Bangladesh's overseas jobs but ~19.6% of its remittances.
   - Source: [TBS News](https://www.tbsnews.net/world/europe-job-migration-surges-46-h1-amid-gulf-slump-1475796).
+
+---
+
+## YOUR PLAN: for your profile
+
+**Your profile:** SSC (no HSC) · GED is optional · web & app developer · good English · open to farm and supervisor work.
+
+Your developer experience matters more than your certificates. Several countries give IT workers a visa **without a degree** if you can prove about three years of work and the job pays enough. Run **Plan A and Plan B together**, and keep **Plan C** ready as a backup.
+
+> **Do this first: collect proof of your experience.** Germany's IT route and Spain's remote-work visa both accept about 3 years of documented work instead of a degree. Get:
+> - experience letters on company letterhead (dates, job title, tech stack)
+> - contracts, payslips or bank statements, and tax returns
+> - freelance invoices and platform history
+> - links to your live apps and GitHub
+
+### Plan A: tech job with visa sponsorship (best fit)
+
+| Country | The rule for you (no degree) | Minimum pay, 2026 | Visa submitted in |
+|---|---|---|---|
+| **Germany** | EU Blue Card for IT specialists: 3 years' IT experience in the last 7 years instead of a degree ([Jobbatical](https://www.jobbatical.com/blog/eu-blue-card-hr-guide-it-specialists-germany-latest)) | €45,934 a year | Dhaka |
+| **Netherlands** | Highly skilled migrant permit has no diploma requirement; the employer must be an IND recognised sponsor ([IND register](https://ind.nl/en/public-register-recognised-sponsors/public-register-work)) | €4,357 a month under 30, €5,942 at 30+ | Dhaka |
+| **Sweden** | No education requirement for a work permit ([Migrationsverket](https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html)) | SEK 34,470 a month (about €3,050) | Dhaka |
+| **Ireland** | General Employment Permit: without a degree you need the necessary experience ([Citizens Information](https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/)) | €36,605 a year | New Delhi (by post) |
+| **Poland** | Employer-sponsored work permit; big IT sector ([Grant Thornton](https://grantthornton.pl/en/article/employment-of-foreign-nationals-in-poland-in-2026-key-changes-and-important-deadlines-in-immigration-regulations/)) | Local market rate | Dhaka (VFS), decided in New Delhi |
+
+**Harder tech routes:**
+- UK developer jobs must pay the **£54,700** going rate for SOC 2134 ([Hunt UK Visa Sponsors](https://huntukvisasponsors.com/uk-visa-occupation-eligibility/2134-programmers-and-software-development-professionals)).
+- Denmark needs **DKK 446,000–552,000** a year.
+- Ireland's Critical Skills permit without a degree needs **€68,911** a year.
+
+**Steps**
+
+1. Collect proof of 3+ years' experience (see above).
+2. Take IELTS and aim for 6.5 or higher to prove your English.
+3. Polish your GitHub and 2–3 live projects, and write a one-page English CV.
+4. Apply to 10+ jobs a week on the [visa-sponsorship boards](#b3-where-skilled-workers-should-look-for-jobs), and contact companies on the sponsor registers.
+5. After an offer, the employer handles the permit. Germany, the Netherlands and Sweden take your visa application in Dhaka.
+
+### Plan B: remote job, then a digital-nomad visa (run in parallel)
+
+You can work for foreign companies or clients from Dhaka now, then move. Most nomad visas require your employer or clients to be outside the country you move to.
+
+| Country | Remote income you must show | Notes |
+|---|---|---|
+| **Spain** | €2,849 a month | Accepts a degree **or 3 years' professional experience**. The residence permit can be renewed. Apply at the Spanish Embassy in Dhaka (BLS). ([Moving to Spain](https://movingtospain.com/spain-digital-nomad-visa/)) |
+| **Portugal** | €3,680 a month + €11,040 savings | D8 visa, through the embassy in New Delhi ([Portugalist](https://www.portugalist.com/portugal-digital-nomad-visa/)) |
+| **Greece** | €3,500 a month (net) | Apply at a Greek consulate before you travel ([Remote Work Europe](https://remoteworkeurope.eu/insights/greece-digital-nomad-visa-2026/)) |
+| **Malta** | €42,000 a year | Nomad Residence Permit |
+| **Croatia** | €3,622.50 a month | Up to 18 months only, not renewable ([Remote Work Europe](https://remoteworkeurope.eu/insights/croatia-digital-nomad-visa/)) |
+| **Estonia** | €4,500 a month | Digital Nomad Visa |
+| **Romania** | about €5,700 a month | Three times the average gross salary |
+
+**Steps**
+
+1. Get a steady remote job or long-term foreign clients: [We Work Remotely](https://weworkremotely.com), [Remote OK](https://remoteok.com), [Upwork](https://www.upwork.com).
+2. Take your pay through your bank so every month is on record, and keep your contracts.
+3. Build at least 3–6 months of steady income before you apply. Portugal checks the last 3 months.
+4. Apply for Spain at the Spanish Embassy in Dhaka.
+
+### Plan C: farm or supervisor work (backup)
+
+Your SSC is enough and no degree is needed. Pay is low and the permit ties you to one employer, so treat this as a backup.
+
+- **Greece:** BOESL's government seasonal farm programme takes 4,000 workers a year.
+- **Italy:** seasonal farm quota. An Italian farm must file for you on the **12 January 2027** click day, so it must prepare your file before then.
+- **Romania:** farm and construction jobs are on the 289-job shortage list. The employer must be authorised on WorkinRomania.gov.ro.
+- **Croatia:** seasonal tourism and farm permits for up to 3 years.
+
+**Steps**
+
+1. Register on [BMET OEP](https://www.oep.gov.bd/) and follow [BOESL](https://www.boesl.gov.bd) circulars.
+2. Use only licensed agencies, and check the RL number before paying anything.
+3. For supervisor jobs, get letters proving you supervised people.
+
+### Do you need the GED?
+
+- **Not for these visas.** Work visas for developers look at your experience and the salary, not school certificates.
+- **It won't open doors in Germany either.** A GED on its own does not qualify you for Germany's Opportunity Card or for direct entry to German public universities (check the [DAAD admission database](https://www.daad.de/en/studying-in-germany/requirements/admission-database/)).
+- **When to take it:** only if an employer asks for high-school equivalency, or if you later want to study abroad.
 
 ---
 

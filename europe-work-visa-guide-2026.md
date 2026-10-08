@@ -1,6 +1,6 @@
 # Working in Europe from Bangladesh: Work Visa Guide 2026
 
-*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh.*
+*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh. New Zealand section added 8 October 2026.*
 
 > Several countries changed their laws in 2026, and rules keep changing. Before you pay money or submit a document, check the official link given here. This guide is research, not legal advice.
 
@@ -19,6 +19,7 @@
 - [7. Job portals for foreign workers: quick list](#7-job-portals-for-foreign-workers-quick-list)
 - [8. Scams and safety checklist](#8-scams-and-safety-checklist)
 - [9. Your next 90 days](#9-your-next-90-days)
+- [OUTSIDE EUROPE: New Zealand](#outside-europe-new-zealand)
 - [10. Key official sources](#10-key-official-sources)
 
 ---
@@ -41,6 +42,7 @@
   - **BMET clearance for Serbia and North Macedonia** is currently held up (September 2026).
   - In **Russia and Belarus**, workers have been tricked into the army.
   - **Never use the "boat" or "Balkan" routes.** See [section 6](#6-closed-or-risky-right-now).
+- **Outside Europe: New Zealand.** A developer job there can lead to permanent residence after 2 years of work, with no degree. Jobs are scarce right now. See [the New Zealand section](#outside-europe-new-zealand).
 - **Bangladesh–Europe numbers, first half of 2026:**
   - Legal job migration to Europe rose **46% to 18,220 workers**, while Gulf hiring fell.
   - Italy was the largest European destination (**4,645 workers**).
@@ -120,6 +122,8 @@ Your SSC is enough and no degree is needed. Pay is low and the permit ties you t
 1. Register on [BMET OEP](https://www.oep.gov.bd/) and follow [BOESL](https://www.boesl.gov.bd) circulars.
 2. Use only licensed agencies, and check the RL number before paying anything.
 3. For supervisor jobs, get letters proving you supervised people.
+
+> **Also worth a look: New Zealand.** A developer job there can lead to permanent residence after 2 years of work, with no degree and no English test for the work visa. Jobs are scarce right now, so run it next to Plan A. See [the New Zealand section](#outside-europe-new-zealand).
 
 ### Do you need the GED?
 
@@ -749,6 +753,165 @@ All the links from Sections A3 and B3 in one place:
 
 ---
 
+## OUTSIDE EUROPE: New Zealand
+
+*Checked 8 October 2026. Amounts are in the currency you pay them in: NZ dollars (NZ$) in New Zealand, taka in Bangladesh, US dollars for the flight. Pay is NZ$ an hour before tax; "a year" means 40 hours a week for 52 weeks.*
+
+**Short answer:** yes, New Zealand takes skilled workers from abroad, but only through employers that Immigration New Zealand (INZ) has accredited, and there is no special quota for Bangladeshis. For you, the realistic route is a **developer job on an Accredited Employer Work Visa (AEWV)**, then **permanent residence after 2 years** through the Skilled Migrant Category. No degree needed.
+
+> **What you probably saw.** Bangladeshi news sites reported New Zealand's changes as "two new visas" and "new rules for skilled workers". The two new visas are seasonal farm and tourism visas, and both ask for earlier seasonal experience. The bigger news for you is the residence pathway that opened on 24 August 2026: it counts work experience instead of a degree.
+
+### What changed in 2025–2026
+
+| Date | Change | Effect |
+|---|---|---|
+| 10 Mar 2025 | Work visa: the median-wage pay floor is dropped (the market rate and the minimum wage still apply), and the experience needed falls from 3 years to 2 ([INZ](https://www.immigration.govt.nz/about-us/news-centre/how-changes-to-the-accredited-employer-work-visa-aewv-may-affect-you/)) | Easier |
+| 8 Dec 2025 | Two new seasonal visas for farm and tourism jobs: Global Workforce Seasonal and Peak Seasonal ([INZ](https://www.immigration.govt.nz/about-us/news-centre/new-seasonal-visas-open-8-december-2025)) | Easier |
+| 9 Mar 2026 | The median wage rises to NZ$35.00 an hour, and 47 more skilled jobs join the work-visa occupation list ([Envoy](https://www.envoyglobal.com/news-alert/new-zealand-adds-new-occupations-to-national-occupation-list-and-increases-median-wage/)) | Mixed |
+| 1 Jun 2026 | The English test (IELTS 4.0 or equal) now also covers skill level 3 jobs such as chefs and supervisors; developer jobs stay exempt ([INZ](https://www.immigration.govt.nz/about-us/news-centre/english-language-requirements-extended-to-aewv-skill-level-3-roles/)) | Tighter |
+| 24 Aug 2026 | New Skilled Work Experience and Trades & Technician residence pathways; full points for New Zealand experience after 2 years instead of 3 ([INZ](https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/)) | Easier |
+| 16 Nov 2026 | A new six-month Short-Term Graduate Work Visa will open, only for people who studied in New Zealand ([INZ](https://www.immigration.govt.nz/about-us/news-centre/new-short-term-graduate-work-visa-launching-on-16-november-2026/)) | Easier |
+
+### Route 1: developer job on a work visa (AEWV), best fit
+
+- **Why it fits you:** no degree needed. Two years of provable developer work passes the skills test, and developer jobs (skill level 1) need no English test for this visa.
+- **You need:**
+  - a job offer from an **accredited employer**: 30+ hours a week, paid the market rate and at least the NZ$23.95 minimum wage;
+  - **2+ years** of relevant, verifiable experience (or a Level 4+ qualification, or pay of NZ$70+ an hour);
+  - a medical at IOM Dhaka and a police certificate.
+- **Good to know:**
+  - The visa lasts up to 5 years for skill level 1–3 jobs ([INZ](https://immigration.govt.nz/work/requirements-for-work-visas/how-long-you-can-work-on-work-visas/how-long-you-can-stay-on-an-aewv)). It is tied to your employer; a new employer needs its own job check.
+  - Your partner can get an open work visa if you earn NZ$28.00+ an hour in a skill level 1–3 job ([INZ](https://www.immigration.govt.nz/process-to-apply/once-you-have-a-visa/bringing-family-to-new-zealand/bringing-family-if-you-have-a-work-visa/bringing-family-if-you-have-an-accredited-employer-work-visa-aewv/)).
+  - Fee NZ$1,540. About 4 in 5 decisions take 7 weeks or less ([Visa Atlas](https://visaatlas.org/processing-times/new-zealand/accredited-employer-work-visa)).
+
+### Route 2: residence after 2 years (Skilled Migrant Category), the goal
+
+Since 24 August 2026, experience and New Zealand pay can stand in for a degree ([INZ](https://www.immigration.govt.nz/live/resident-visas-to-live-in-new-zealand/skilled-residence-pathways-in-new-zealand/skilled-migrant-category-pathway-to-residence/2026-changes-to-the-skilled-migrant-category-resident-visa/)).
+
+- **Skilled Work Experience pathway:** 5 years' relevant experience in a skill level 1–3 job, including 2 years in New Zealand at NZ$38.50+ an hour (1.1 × median). Amber-list jobs (such as ICT support and web administrator) need all 5 years in New Zealand at NZ$42.00 (1.2 × median). Red-list jobs can't use it. Developer jobs are skill level 1 and were not on the red or amber lists in our sources, but check INZ's lists for your exact job title.
+- **6-point route:** you need 6 points, from pay plus New Zealand work. New Zealand work gives 1 point after 12 months, 2 after 18 months and 3 after 2 years; it only counts if it is full-time, skilled and paid at least NZ$35.00 an hour.
+
+| Pay (NZ$ an hour) | Points from pay | New Zealand work needed for the rest |
+|---|---|---|
+| 52.50 (1.5 × median) | 3 | 2 years (3 points) |
+| 70.00 (2 × median) | 4 | 18 months (2 points) |
+| 105.00 (3 × median) | 6 | none |
+
+- **Also needed:** age 55 or under, IELTS 6.5 or equal, health and character checks, and a job paying at least NZ$35.00 an hour. Fee NZ$6,450; the Expression of Interest is free ([Visa Atlas](https://visaatlas.org/fees/new-zealand/skilled-migrant-category)).
+- **Shortcut, probably not for you:** Software Engineer is on the Green List's straight-to-residence tier, but it asks for a relevant degree or a long experience record (one guide says 7+ years) and a set salary. Check [INZ's Green List](https://www.immigration.govt.nz/live/resident-visas-to-live-in-new-zealand/skilled-residence-pathways-in-new-zealand/green-list-pathway-to-residence) for your exact job.
+
+**What developers earn:** Payscale's averages are about NZ$73,200 a year early in a career (NZ$35.19 an hour) and NZ$89,200 mid-career (NZ$42.88 an hour) ([Payscale](https://www.payscale.com/research/NZ/Job=Software_Developer/Salary/fb624084/Mid-Career)). So the NZ$38.50 bar for the new pathway is within reach, and NZ$52.50 is a stretch.
+
+**Pay thresholds at a glance**
+
+| Pay (NZ$ an hour) | About NZ$ a year | What it unlocks |
+|---|---|---|
+| 23.95 | 49,800 | The legal minimum wage from 1 April 2026 ([MBIE](https://www.mbie.govt.nz/about/news/minimum-wage-set-for-2026)) |
+| 28.00 | 58,200 | Partner open work visa, in a skill level 1–3 job |
+| 35.00 | 72,800 | Median wage: the least a Skilled Migrant job may pay, and the Green List floor |
+| **38.50** | **80,100** | **Skilled Work Experience pathway (2 years in New Zealand, 5 years in total): your target** |
+| 42.00 | 87,400 | The same pathway for amber-list jobs (all 5 years in New Zealand) |
+| 52.50 | 109,200 | 3 Skilled Migrant points |
+| 70.00 | 145,600 | 4 points; the work visa's experience test no longer applies |
+| 105.00 | 218,400 | 6 points from pay alone |
+
+### Route 3: farm and seasonal work, backup
+
+- **Global Workforce Seasonal Visa:** 3 seasons in a similar job in the last 6 years. Up to 9 months' work a year for 3 years. No English test; the employer invites you ([INZ](https://www.immigration.govt.nz/visas/global-workforce-seasonal-visa)).
+- **Peak Seasonal Visa:** 1 season in the last 3 years. Up to 7 months, then 4 months outside New Zealand. Private health insurance for jobs longer than 3 months ([INZ](https://www.immigration.govt.nz/visas/peak-seasonal-visa)).
+- **Dairy farm assistant on an AEWV:** a skill level 4–5 job, so you need 2 years' farm experience and IELTS 4.0 or equal. Ads pay about NZ$26–30 an hour. The stay is capped at 3 years, and your family can't get visas through this job ([Farm Source Jobs](https://jobs.nzfarmsource.co.nz/)).
+- The seasonal rules don't say your seasons must be in New Zealand, so a farm season in Greece or Italy (Plan C) may count. Confirm with INZ first. Partners and children can't join on either seasonal visa. The Pacific-only RSE scheme and the working holiday visa are not open to Bangladeshis.
+
+### From Dhaka to residence, step by step
+
+1. **Prove 2+ years of developer work:** experience letters, contracts, payslips and tax records that INZ can verify.
+2. **Find an accredited employer** on Seek, LinkedIn or Trade Me Jobs, and check it on [INZ's list](https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/working-in-nz/check-if-an-employer-is-accredited).
+3. **The employer passes a job check** (it pays NZ$735) and sends you a **job token**, your link to apply.
+4. **Get your medical and police certificate:** medical at IOM Dhaka (Tk 10,100) and a Bangladesh police clearance.
+5. **Apply online for the AEWV:** NZ$1,540.
+6. **BMET clearance, then fly:** Tk 6,500 for the welfare fee and insurance; Dhaka → Auckland about US$640.
+7. **After 2 years, apply for residence** through the Skilled Migrant Category, with IELTS 6.5 or equal.
+
+### New Zealand costs
+
+**Your start-up budget (no agent needed)**
+
+| Where | Item | Cost | Source |
+|---|---|---|---|
+| Bangladesh | Medical exam at IOM Dhaka, an INZ panel clinic (adult e-medical) | Tk 10,100 | [IOM Bangladesh](https://bangladesh.iom.int/new-zealand-all-types-visa-applicants) |
+| Bangladesh | Police clearance certificate | Tk 500 | [PCC guide](https://policeclearance.bd/application-fees/) |
+| Bangladesh | BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000 | Tk 6,500 | [TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606) |
+| Bangladesh | Notary, translation and attestation of documents | Tk 5,000–20,000 | estimate |
+| | **Subtotal in Bangladesh** | **Tk 22,100–37,100** | |
+| Flight | Dhaka → Auckland, one way (average online fare) | about US$640 | [Farecompare](https://www.farecompare.com/flights/Dhaka-DAC/Auckland-AKL/market.html) |
+| New Zealand | Work visa (AEWV), including the NZ$1,060 immigration levy | NZ$1,540 | [INZ fee table](https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf) |
+| New Zealand | Room in a shared Auckland flat: 2 weeks' rent in advance at NZ$300 a week | NZ$600 | [Cities Insider](https://citiesinsider.com/country/new-zealand/auckland/flatting-and-shared-housing/en) |
+| New Zealand | Bond for that room, usually 4 weeks' rent | up to NZ$1,200 | [Cities Insider](https://citiesinsider.com/country/new-zealand/auckland/flatting-and-shared-housing/en) |
+| New Zealand | Food, transport and phone until your first pay | NZ$600–1,400 | estimate |
+| | **Subtotal in New Zealand** | **NZ$3,940–4,740** | |
+
+Some tech employers pay the flight or the visa fee, so ask before you sign. IELTS (Tk 31,100) is not needed for a developer work visa, but residence later asks for IELTS 6.5 or equal.
+
+**Who pays which fee**
+
+| Fee | Amount | Who pays | Source |
+|---|---|---|---|
+| Work visa (AEWV) | NZ$1,540 (fee NZ$480 + levy NZ$1,060) | You | [INZ fee table](https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf) |
+| Employer accreditation | NZ$775 for up to 5 migrants · NZ$1,280 high-volume | Employer | [INZ](https://www.immigration.govt.nz/work/for-employers/getting-accreditation-or-approval-to-hire/employer-accreditation-for-the-aewv/aewv-employer-accreditation-and-job-check-process/paying-for-aewv-employer-accreditation-and-job-checks/) |
+| Job check | NZ$735 | Employer | [INZ](https://www.immigration.govt.nz/work/for-employers/getting-accreditation-or-approval-to-hire/employer-accreditation-for-the-aewv/aewv-employer-accreditation-and-job-check-process/paying-for-aewv-employer-accreditation-and-job-checks/) |
+| Recruitment, in New Zealand and overseas | Ads, agency fees, accreditation, job check | Employer, never you | [INZ](https://www.immigration.govt.nz/work/worker-rights/what-your-employer-must-do-when-they-hire-you-on-an-aewv) |
+| Seasonal visas (GWSV, PSV) | From NZ$1,540 | You | [INZ](https://www.immigration.govt.nz/visas/global-workforce-seasonal-visa) |
+| Skilled Migrant residence | NZ$6,450; the Expression of Interest is free | You | [Visa Atlas](https://visaatlas.org/fees/new-zealand/skilled-migrant-category) |
+
+**Weekly rent (NZ$, 2026)**
+
+| Place | Weekly rent | Source |
+|---|---|---|
+| Auckland, room in a shared flat | 220–420 (about 220 in Henderson and Avondale; 280–420 in the CBD and city fringe) | [Cities Insider](https://citiesinsider.com/country/new-zealand/auckland/flatting-and-shared-housing/en) |
+| Wellington, room in a shared flat | 215–380 (Newtown to Te Aro and the CBD) | [Cities Insider](https://citiesinsider.com/country/new-zealand/wellington/flatting-guide/en) |
+| Wellington, whole home (median) | 595–600 | [Trade Me](https://www.trademe.co.nz/c/property/news/rental-price-index) |
+| Auckland, whole home (median) | 655–660 | [Trade Me](https://www.trademe.co.nz/c/property/news/rental-price-index) |
+
+- **Bond:** a landlord can ask for at most 4 weeks' rent and must lodge it with Tenancy Services ([myRent](https://myrent.co.nz/maximum-bond-amount)).
+- **Rent in advance:** at most 2 weeks' rent before you move in ([myRent](https://myrent.co.nz/rent-in-advance)).
+- **Renting a room from a tenant:** flatmates are not covered by the tenancy law, so agree the bond, rent and notice in writing and get a receipt ([Tenancy Services](https://tenancy.govt.nz/starting-a-tenancy/flatting/)).
+
+### Job market, scams and your rights
+
+- **Jobs are scarce right now.** Unemployment was 5.6% in the June 2026 quarter, the highest in more than a decade ([Stats NZ via Mirage News](https://www.miragenews.com/unemployment-rate-at-5-6-percent-in-june-2026-1721808/)). Most employers hire people already in the country, and many ads say "must have NZ work rights". Apply widely and say early that you need an accredited employer.
+- **When it goes wrong:**
+  - **Auckland, 2023, NZ$15,000–40,000:** 115 Bangladeshi and Indian workers arrived on work visas to find no jobs after paying agents this much. They were living in crowded, unsanitary houses; the count later reached 144 ([TBS](https://www.tbsnews.net/node/686434)).
+  - **Auckland, 2026, NZ$44,750:** a migrant paid this for a landscaping job. The company was fined NZ$16,000 and must repay him, and its director must pay him NZ$8,000 more ([Employment New Zealand](https://www.employment.govt.nz/news-and-updates/auckland-company-charged-migrant-worker-almost-45000-for-his-job)).
+  - **Kuala Lumpur, 2024:** 25 Bangladeshi men were stopped from boarding a flight to Auckland. A middleman had apparently convinced them they held valid work visas ([1News](https://www.1news.co.nz/2024/05/08/25-men-caught-trying-to-enter-nz-without-proper-visas/)).
+- **Rules that protect you:**
+  - Employers may not take money (a "premium") for giving you a job or letting you keep it. The Labour Inspectorate makes them pay it back, with penalties ([Employment NZ](https://www.employment.govt.nz/news-and-updates/auckland-company-charged-migrant-worker-almost-45000-for-his-job)).
+  - An accredited employer must pay all recruitment costs, in New Zealand and overseas, and cannot pass them on to you ([INZ](https://www.immigration.govt.nz/work/worker-rights/what-your-employer-must-do-when-they-hire-you-on-an-aewv)).
+  - Anyone giving New Zealand visa advice, in Dhaka too, needs a licence from the Immigration Advisers Authority unless they are a New Zealand lawyer. Check the free register ([IAA](https://iaa.govt.nz/for-migrants)).
+  - Scammers pose as INZ staff or licensed advisers. INZ officers do not call you asking for payment ([INZ via Scoop](https://www.scoop.co.nz/stories/AK2601/S00291.htm)).
+- **Before you pay anyone, check that:**
+  - the employer is accredited: it is on INZ's list, or it showed you its accreditation and job check;
+  - the job token came from the employer, and you applied on INZ's own website and paid INZ directly;
+  - you paid nobody for the job offer;
+  - your adviser is on the IAA register, or is a New Zealand lawyer;
+  - your contract shows the job title, the pay and at least 30 hours a week;
+  - you will get BMET clearance before you fly.
+
+### Where to find a New Zealand job
+
+| Site | What it is for |
+|---|---|
+| [Seek](https://www.seek.co.nz/) | The biggest job board, with most developer jobs. Skip ads that say "must have NZ work rights" and look for employers that mention visa support. |
+| [LinkedIn Jobs](https://www.linkedin.com/jobs) | Search "New Zealand" with your stack plus "accredited employer" or "visa". |
+| [Trade Me Jobs](https://www.trademe.co.nz/a/jobs) | The second-biggest board, strong for farm, trade and supervisor jobs. |
+| [INZ: check if an employer is accredited](https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/working-in-nz/check-if-an-employer-is-accredited) | Only accredited employers can hire you on a work visa. Some choose not to be listed, so also ask the employer. |
+| [WorkHere](https://workhere.co.nz/) | A recruiting platform that connects skilled people overseas with New Zealand employers. |
+| [Farm Source Jobs](https://jobs.nzfarmsource.co.nz/) | Farm-assistant and dairy jobs. Some only accept people already in New Zealand. |
+| [PickNZ](https://jobs.picknz.co.nz/) | Fruit, vegetable and packhouse jobs. Seasonal visas need earlier seasonal experience. |
+| [Immigration Advisers Authority](https://iaa.govt.nz/for-migrants) | Look up any "NZ visa consultant" on the free register before you pay them. |
+| [New Zealand Now](https://www.newzealandnow.govt.nz/) | The government's guide to working and living in New Zealand. |
+
+---
+
 ## 10. Key official sources
 
 - EU overview of each country's rules for non-EU workers: [EU Immigration Portal](https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en)
@@ -769,6 +932,7 @@ All the links from Sections A3 and B3 in one place:
 - Netherlands: [IND](https://ind.nl/en/public-register-recognised-sponsors)
 - UK: [GOV.UK Skilled Worker visa](https://www.gov.uk/skilled-worker-visa)
 - Switzerland: [Swiss Federal Council](https://www.admin.ch/en/newnsb/7HwBjdg5HpBA)
+- New Zealand: [INZ – Skilled Migrant changes, August 2026](https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/) · [INZ – AEWV changes](https://www.immigration.govt.nz/about-us/news-centre/how-changes-to-the-accredited-employer-work-visa-aewv-may-affect-you/) · [INZ – check an employer](https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/working-in-nz/check-if-an-employer-is-accredited) · [Immigration Advisers Authority](https://iaa.govt.nz/for-migrants)
 - Background on Bangladesh–Europe migration:
   - [TBS: Europe job migration H1 2026](https://www.tbsnews.net/world/europe-job-migration-surges-46-h1-amid-gulf-slump-1475796)
   - [Daily Star: overseas jobs FY2025-26](https://www.thedailystar.net/business/economy/news/overseas-jobs-fall-five-year-low-amid-middle-east-uncertainty-4240871)

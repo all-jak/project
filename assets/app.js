@@ -100,8 +100,9 @@
   }
 
   // opts: title, sub, rows, fmt(value)->bar label, tick(value)->axis label,
-  //       legend: [emphasisLabel, contextLabel] or null, foot: [text, [label,url]...],
+  //       legend: [emphasisLabel, contextLabel, referenceLabel?] or null, foot: [text, [label,url]...],
   //       col: header for the value column in the table view
+  // A row with ref: true is a benchmark (outlined bar), not a threshold.
   function barChart(mount, opts) {
     if (!mount) return;
     var rows = opts.rows;
@@ -110,6 +111,7 @@
     var n = Math.ceil(max / step);
     var axisMax = step * n;
     var emphasis = rows.some(function (r) { return r.plan; });
+    var hasRef = rows.some(function (r) { return r.ref; });
 
     var fig = el("figure", { "class": "chart card" });
     var cap = el("figcaption", null, el("h3", null, opts.title), opts.sub ? el("p", { "class": "sub" }, opts.sub) : null);
@@ -118,14 +120,15 @@
     if (emphasis && opts.legend) {
       fig.appendChild(el("div", { "class": "legend" },
         el("span", null, el("i", { "aria-hidden": "true" }), opts.legend[0]),
-        el("span", null, el("i", { "class": "ctx", "aria-hidden": "true" }), opts.legend[1])));
+        el("span", null, el("i", { "class": "ctx", "aria-hidden": "true" }), opts.legend[1]),
+        hasRef && opts.legend[2] ? el("span", null, el("i", { "class": "refbox", "aria-hidden": "true" }), opts.legend[2]) : null));
     }
 
     var plot = el("div", { "class": "hb", role: "list", style: "--n:" + n + (opts.labelWidth ? ";--label:" + opts.labelWidth : "") });
     rows.forEach(function (r) {
       var w = (r.value / axisMax) * 100;
       var row = el("div", {
-        "class": "hb-row" + (emphasis && !r.plan ? " is-context" : ""),
+        "class": "hb-row" + (r.ref ? " is-ref" : emphasis && !r.plan ? " is-context" : ""),
         role: "listitem",
         tabindex: "0",
         "aria-label": r.label + ": " + r.shown + (r.note ? ". " + r.note : "")
@@ -371,18 +374,9 @@
   }
 
   /* ---------- numbers ---------- */
-  function renderKpis() {
-    $("#kpis").replaceChildren.apply($("#kpis"), G.kpis.map(function (k) {
-      return el("div", { "class": "kpi card" },
-        el("span", { "class": "v" }, k.value),
-        el("span", { "class": "l" }, k.label),
-        k.delta ? el("span", { "class": "d " + k.dir }, (k.dir === "up" ? "▲ " : "▼ ") + k.delta) : null,
-        el("span", { "class": "s" }, "Source: ", ext(k.src[0], k.src[1])));
-    }));
-  }
   var KIND = { easier: ["▲", "Easier"], tighter: ["▼", "Tighter"], closed: ["✕", "Closed"], mixed: ["◆", "Mixed"] };
-  function renderTimeline() {
-    $("#timeline").replaceChildren.apply($("#timeline"), G.timeline.map(function (e) {
+  function renderTimeline(mount, rows) {
+    mount.replaceChildren.apply(mount, rows.map(function (e) {
       var k = KIND[e.kind];
       return el("li", null,
         el("span", { "class": "date" }, e.date),
@@ -494,6 +488,7 @@
 
   // Floating range bars (low–high) with an optional benchmark mark and one
   // reference line. Same row grid, gridlines and tooltips as barChart.
+  // opts.cols: [first column, value column] headers for the table view.
   function rangeChart(mount, opts) {
     if (!mount) return;
     var rows = opts.rows;
@@ -503,12 +498,14 @@
     if (step * n <= max) n += 1; // headroom so the longest bar never touches the edge
     var axisMax = step * n;
     var pctOf = function (v) { return ((v / axisMax) * 100).toFixed(2) + "%"; };
+    var hasBench = rows.some(function (r) { return r.bench; });
+    var cols = opts.cols || ["Country", "What people pay"];
 
     var fig = el("figure", { "class": "chart card" });
     fig.appendChild(el("figcaption", null, el("h3", null, opts.title), el("p", { "class": "sub" }, opts.sub)));
     fig.appendChild(el("div", { "class": "legend" },
       el("span", null, el("i", { "aria-hidden": "true" }), opts.legend[0]),
-      el("span", null, el("i", { "class": "bench", "aria-hidden": "true" }), opts.legend[1]),
+      hasBench ? el("span", null, el("i", { "class": "bench", "aria-hidden": "true" }), opts.legend[1]) : null,
       opts.ref ? el("span", null, el("i", { "class": "refkey", "aria-hidden": "true" }), opts.ref.text) : null));
 
     var plot = el("div", { "class": "hb", role: "list", style: "--n:" + n + ";--room:7.5rem" + (opts.labelWidth ? ";--label:" + opts.labelWidth : "") });
@@ -536,9 +533,9 @@
 
     var tableWrap = el("div", { "class": "tbl-wrap", hidden: true },
       el("table", null,
-        el("thead", null, el("tr", null, el("th", null, "Country"), el("th", null, "What people pay"), el("th", null, "Benchmark"), el("th", null, "Details"))),
+        el("thead", null, el("tr", null, el("th", null, cols[0]), el("th", null, cols[1]), hasBench ? el("th", null, "Benchmark") : null, el("th", null, "Details"))),
         el("tbody", null, rows.map(function (r) {
-          return el("tr", null, el("td", { "class": "cname" }, r.label), el("td", { "class": "num" }, r.shown), el("td", null, r.benchText || "—"), el("td", null, r.note));
+          return el("tr", null, el("td", { "class": "cname" }, r.label), el("td", { "class": "num" }, r.shown), hasBench ? el("td", null, r.benchText || "—") : null, el("td", null, r.note));
         }))));
     var btn = el("button", { type: "button", "class": "linkbtn", "aria-expanded": "false" }, "Show table");
     btn.addEventListener("click", function () {
@@ -561,33 +558,65 @@
     return src ? el("span", { "class": "src" }, ext(src[0], src[1])) : null;
   }
 
+  // One plan's itemised budget. item = [what, amount, source or null, "estimate"?]
+  function budgetCard(p) {
+    return el("article", { "class": "plan budget card" },
+      el("div", { "class": "plan-top" }, el("span", { "class": "plan-letter" }, p.letter), el("h3", null, p.title), el("span", { "class": "tag" }, p.tag)),
+      p.groups.map(function (g) {
+        return el("div", { "class": "bgroup" },
+          el("p", { "class": "eyebrow" }, g.head),
+          el("ul", { "class": "lines" }, g.items.map(function (it) {
+            var sub = it[0].indexOf("…of which") === 0;
+            return el("li", { "class": sub ? "sub" : null },
+              el("span", { "class": "what" }, it[0], " ", srcLink(it[2], it[3] === "estimate")),
+              el("span", { "class": "amt" }, it[1]));
+          })),
+          g.total ? el("p", { "class": "btotal" }, el("span", null, "Subtotal"), el("b", null, g.total)) : null);
+      }),
+      el("p", { "class": "small" }, p.note));
+  }
+
+  function kpiCards(mount, rows) {
+    mount.replaceChildren.apply(mount, rows.map(function (k) {
+      return el("div", { "class": "kpi card" },
+        el("span", { "class": "v" }, k.value),
+        el("span", { "class": "l" }, k.label),
+        k.delta ? el("span", { "class": "d " + k.dir }, (k.dir === "up" ? "▲ " : "▼ ") + k.delta) : null,
+        el("span", { "class": "s" }, "Source: ", ext(k.src[0], k.src[1])));
+    }));
+  }
+
+  function dataTable(sel, head, rows, cells) {
+    var t = $(sel);
+    t.replaceChildren(
+      el("thead", null, el("tr", null, head.map(function (h) { return el("th", null, h); }))),
+      el("tbody", null, rows.map(function (r) { return el("tr", null, cells(r)); })));
+  }
+
+  // [title, text, [label,url]] -> highlighted list items
+  function ruleList(sel, rows) {
+    var ul = $(sel);
+    ul.replaceChildren.apply(ul, rows.map(function (r) {
+      return el("li", null, el("b", null, r[0] + ". "), r[1] + " ", el("span", { "class": "src" }, "(", ext(r[2][0], r[2][1]), ")"));
+    }));
+  }
+
+  function accountCards(mount, rows) {
+    mount.replaceChildren.apply(mount, rows.map(function (a) {
+      return el("figure", { "class": "account card" },
+        el("span", { "class": "where" }, a.where),
+        el("span", { "class": "amount" }, a.amount),
+        el("blockquote", null, el("p", null, a.text)),
+        el("figcaption", null, "Source: ", ext(a.src[0], a.src[1])));
+    }));
+  }
+
   function renderCosts() {
     var C = G.costs;
-    var k = $("#cost-kpis");
-    k.replaceChildren.apply(k, C.kpis.map(function (x) {
-      return el("div", { "class": "kpi card" },
-        el("span", { "class": "v" }, x.value),
-        el("span", { "class": "l" }, x.label),
-        el("span", { "class": "s" }, "Source: ", ext(x.src[0], x.src[1])));
-    }));
+    kpiCards($("#cost-kpis"), C.kpis);
 
     var b = $("#budgets");
-    b.replaceChildren.apply(b, C.plans.map(function (p) {
-      return el("article", { "class": "plan budget card" },
-        el("div", { "class": "plan-top" }, el("span", { "class": "plan-letter" }, p.letter), el("h3", null, p.title), el("span", { "class": "tag" }, p.tag)),
-        p.groups.map(function (g) {
-          return el("div", { "class": "bgroup" },
-            el("p", { "class": "eyebrow" }, g.head),
-            el("ul", { "class": "lines" }, g.items.map(function (it) {
-              var sub = it[0].indexOf("…of which") === 0;
-              return el("li", { "class": sub ? "sub" : null },
-                el("span", { "class": "what" }, it[0], " ", srcLink(it[2], it[3] === "estimate")),
-                el("span", { "class": "amt" }, it[1]));
-            })),
-            g.total ? el("p", { "class": "btotal" }, el("span", null, "Subtotal"), el("b", null, g.total)) : null);
-        }),
-        el("p", { "class": "small" }, p.note));
-    }));
+    b.replaceChildren.apply(b, C.plans.map(budgetCard));
 
     rangeChart($("#chart-agency"), {
       title: "Agency routes: what they should cost vs what people pay",
@@ -608,43 +637,143 @@
       foot: [["WG Lotse", "https://wglotse.de/en/find-a-wg/berlin/"], ["Global Property Guide", "https://www.globalpropertyguide.com/europe/germany/rent"], ["Numbeo", "https://www.numbeo.com/cost-of-living/city_price_rankings?itemId=26"], ["Nordic Expat", "https://nordicexpat.com/europe/cost-of-living/average-rent-european-cities-2026"], ["Government.nl", "https://www.government.nl/topics/housing/rented-housing/step-by-step-plan-for-tenants"], ["Threshold", "https://threshold.ie/advocacy-campaign/singlepeople/"]]
     });
 
-    var acc = $("#accounts");
-    acc.replaceChildren.apply(acc, C.accounts.map(function (a) {
-      return el("figure", { "class": "account card" },
-        el("span", { "class": "where" }, a.where),
-        el("span", { "class": "amount" }, a.amount),
-        el("blockquote", null, el("p", null, a.text)),
-        el("figcaption", null, "Source: ", ext(a.src[0], a.src[1])));
-    }));
+    accountCards($("#accounts"), C.accounts);
 
-    function table(sel, head, rows, cells) {
-      var t = $(sel);
-      t.replaceChildren(
-        el("thead", null, el("tr", null, head.map(function (h) { return el("th", null, h); }))),
-        el("tbody", null, rows.map(function (r) { return el("tr", null, cells(r)); })));
-    }
-    table("#ads", ["Country", "Advertised", "What the ad says", "Source"], C.ads, function (r) {
+    dataTable("#ads", ["Country", "Advertised", "What the ad says", "Source"], C.ads, function (r) {
       return [el("td", { "class": "cname" }, r[0]), el("td", { "class": "num" }, r[1]), el("td", null, r[2]), el("td", null, ext(r[3][0], r[3][1]))];
     });
-    table("#bdcosts", ["Item", "Cost", "Source"], C.bd, function (r) {
+    dataTable("#bdcosts", ["Item", "Cost", "Source"], C.bd, function (r) {
       return [el("td", null, r[0]), el("td", { "class": "num" }, r[1]), el("td", null, srcLink(r[2], r[3] === "estimate"))];
     });
-    table("#fees", ["Route", "Fees (in the country's currency)", "Who usually pays", "Source"], C.fees, function (r) {
+    dataTable("#fees", ["Route", "Fees (in the country's currency)", "Who usually pays", "Source"], C.fees, function (r) {
       return [el("td", { "class": "cname" }, r[0]), el("td", null, r[1]), el("td", null, r[2]), el("td", null, ext(r[3][0], r[3][1]))];
     });
-    function ruleList(sel, rows) {
-      var ul = $(sel);
-      ul.replaceChildren.apply(ul, rows.map(function (r) {
-        return el("li", null, el("b", null, r[0] + ". "), r[1] + " ", el("span", { "class": "src" }, "(", ext(r[2][0], r[2][1]), ")"));
-      }));
-    }
     ruleList("#rules", C.rules);
     ruleList("#deposits", C.deposits);
+  }
+
+  /* ---------- New Zealand ---------- */
+  var nzd = function (v) { return "NZ$" + v.toFixed(2); };
+  var nzTick = function (v) { return v === 0 ? "0" : "$" + v; };
+
+  function renderNZ() {
+    var N = G.nz;
+    kpiCards($("#nz-kpis"), N.kpis);
+    renderTimeline($("#nz-timeline"), N.timeline);
+
+    barChart($("#chart-nzwage"), {
+      title: "What New Zealand pay unlocks",
+      sub: "NZ$ an hour before tax, from 9 March 2026. The blue bar is your realistic target; the outlined bar is what a mid-career developer earns on average.",
+      rows: N.wages, fmt: nzd, tick: nzTick, ticks: 5, col: "NZ$ an hour", labelWidth: "minmax(8.5rem, 13rem)",
+      legend: ["Your target", "Other thresholds", "Typical developer pay"],
+      foot: [["INZ", "https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/"], ["Envoy", "https://www.envoyglobal.com/news-alert/new-zealand-adds-new-occupations-to-national-occupation-list-and-increases-median-wage/"], ["MBIE", "https://www.mbie.govt.nz/about/news/minimum-wage-set-for-2026"], ["Payscale", "https://www.payscale.com/research/NZ/Job=Software_Developer/Salary/fb624084/Mid-Career"]]
+    });
+
+    $("#nz-budget").replaceChildren(budgetCard(N.budget));
+    dataTable("#nz-fees", ["Fee", "Amount", "Who pays", "Source"], N.fees, function (r) {
+      return [el("td", { "class": "cname" }, r[0]), el("td", null, r[1]), el("td", null, r[2]), el("td", null, ext(r[3][0], r[3][1]))];
+    });
+    ruleList("#nz-tenancy", N.tenancy);
+
+    rangeChart($("#chart-nzrent"), {
+      title: "Weekly rent in Auckland and Wellington",
+      sub: "NZ$ a week, 2026. A room in a shared flat is the usual start; whole homes are shown for comparison.",
+      rows: N.rents, cols: ["Place", "Weekly rent"],
+      legend: ["Usual weekly rent"],
+      tick: nzTick, labelWidth: "minmax(8.5rem, 12rem)",
+      foot: [["Cities Insider (Auckland)", "https://citiesinsider.com/country/new-zealand/auckland/flatting-and-shared-housing/en"], ["Cities Insider (Wellington)", "https://citiesinsider.com/country/new-zealand/wellington/flatting-guide/en"], ["Trade Me", "https://www.trademe.co.nz/c/property/news/rental-price-index"]]
+    });
+
+    accountCards($("#nz-accounts"), N.accounts);
+    ruleList("#nz-rules", N.rules);
+    var pl = $("#nz-portals");
+    pl.replaceChildren.apply(pl, N.portals.map(function (p) {
+      return el("li", { "class": "card" }, el("span", { "class": "where" }, p.where), ext(p.name, p.url), el("p", null, p.text));
+    }));
+    initNzCalc();
+  }
+
+  // Skilled Migrant Category check. Points: pay 1.5×/2×/3× median = 3/4/6;
+  // New Zealand work 12/18/24 months = 1/2/3 (from 24 August 2026).
+  // Skilled Work Experience pathway: 5 years in total, 2 in New Zealand at
+  // 1.1× median; amber-list jobs need all 5 in New Zealand at 1.2×.
+  var NZ_MEDIAN = 35;
+  function initNzCalc() {
+    var saved = store.get("nzvg-calc", null) || {};
+    var state = {
+      pay: typeof saved.pay === "number" ? saved.pay : 42,
+      nz: typeof saved.nz === "number" ? saved.nz : 0,
+      tot: typeof saved.tot === "number" ? saved.tot : 0,
+      job: saved.job === "amber" ? "amber" : "dev"
+    };
+    var slider = $("#nz-pay");
+    slider.value = String(state.pay);
+    slider.addEventListener("input", function () { state.pay = Number(slider.value); draw(); });
+    [["#nz-yrs", "nz"], ["#nz-tot", "tot"], ["#nz-job", "job"]].forEach(function (g) {
+      $$(g[0] + " button").forEach(function (b) {
+        b.addEventListener("click", function () {
+          var v = b.getAttribute("data-v");
+          state[g[1]] = g[1] === "job" ? v : Number(v);
+          draw();
+        });
+      });
+    });
+
+    function draw() {
+      store.set("nzvg-calc", state);
+      [["#nz-yrs", "nz"], ["#nz-tot", "tot"], ["#nz-job", "job"]].forEach(function (g) {
+        $$(g[0] + " button").forEach(function (b) {
+          var v = b.getAttribute("data-v");
+          b.setAttribute("aria-pressed", String(String(state[g[1]]) === v));
+        });
+      });
+      var pay = state.pay;
+      var nzYears = state.nz;
+      var total = Math.max(state.tot, nzYears);
+      var skilled = pay >= NZ_MEDIAN;
+      $("#nz-pay-out").textContent = nzd(pay) + " an hour · about NZ$" + Math.round(pay * 2080).toLocaleString("en-US") + " a year";
+
+      var payPts = pay >= 3 * NZ_MEDIAN ? 6 : pay >= 2 * NZ_MEDIAN ? 4 : pay >= 1.5 * NZ_MEDIAN ? 3 : 0;
+      var nzPts = !skilled ? 0 : nzYears >= 2 ? 3 : nzYears >= 1.5 ? 2 : nzYears >= 1 ? 1 : 0;
+      var pts = payPts + nzPts;
+      var cells = [];
+      for (var i = 0; i < 6; i++) {
+        cells.push(el("i", { "class": i < payPts ? "inc" : i < pts ? "exp" : null }));
+      }
+
+      var amber = state.job === "amber";
+      var needPay = amber ? 1.2 * NZ_MEDIAN : 1.1 * NZ_MEDIAN;
+      var checks = [
+        [pay >= needPay, "Pay of at least " + nzd(needPay) + " an hour (" + (amber ? "1.2" : "1.1") + " × median)"],
+        [amber ? nzYears >= 5 : nzYears >= 2, amber ? "All 5 years of that work in New Zealand" : "2 years of that work in New Zealand"],
+        [total >= 5, "5 years' relevant experience in total"]
+      ];
+      var pathway = checks.every(function (c) { return c[0]; });
+
+      setKids($("#nz-out"),
+        !skilled ? el("p", { "class": "verdict" }, "Below the NZ$35.00 median, a job cannot support a Skilled Migrant application, and the time does not count as skilled work.") : null,
+        el("div", { "class": "calc-block" },
+          el("p", { "class": "eyebrow" }, "6-point route"),
+          el("div", { "class": "pts", role: "img", "aria-label": pts + " of 6 points" }, cells),
+          el("p", { "class": "pts-key" },
+            el("span", null, el("i", { "class": "inc", "aria-hidden": "true" }), "Pay " + payPts),
+            el("span", null, el("i", { "class": "exp", "aria-hidden": "true" }), "New Zealand work " + nzPts)),
+          el("p", { "class": "verdict" + (pts >= 6 ? " ok" : "") },
+            pts >= 6 ? "✓ " + pts + " points: you can send an Expression of Interest." : pts + " of 6 points. " + (6 - pts) + " more needed.")),
+        el("div", { "class": "calc-block" },
+          el("p", { "class": "eyebrow" }, "Skilled Work Experience pathway"),
+          el("ul", { "class": "checks" }, checks.map(function (c) {
+            return el("li", { "class": c[0] ? "yes" : "no" }, el("b", { "aria-hidden": "true" }, c[0] ? "✓" : "✗"), el("span", null, (c[0] ? "" : "Not yet: ") + c[1]));
+          })),
+          el("p", { "class": "verdict" + (pathway ? " ok" : "") }, pathway ? "✓ You meet this pathway." : "Not yet.")));
+    }
+    draw();
   }
 
   /* ---------- boot ---------- */
   renderCharts();
   renderCosts();
+  renderNZ();
   initMap();
   renderPlaces();
   rankTable($("#rank-ns"), G.rankNonSkilled);
@@ -653,8 +782,8 @@
   notes($("#notes-sk"), G.notesSkilled);
   lookList($("#look-ns"), "nonskilled", ["bd", "country", "eu"]);
   lookList($("#look-sk"), "skilled", ["country", "board", "register", "eu"]);
-  renderKpis();
-  renderTimeline();
+  kpiCards($("#kpis"), G.kpis);
+  renderTimeline($("#timeline"), G.timeline);
   initPortals();
   checklist("#week", "#week-progress", "euvg-week", [
     "Ask past employers and clients for experience letters (dates, job title, tech stack).",
@@ -674,6 +803,14 @@
     "I will keep my own passport. No employer or agent may hold it.",
     "I am not travelling on a visit visa to switch to work, or using Serbia or Bosnia as a stepping stone.",
     "I will get BMET clearance and do the pre-departure training before I fly."
+  ]);
+  checklist("#nz-safe", "#nz-safe-progress", "nzvg-safe", [
+    "The employer is accredited: it is on INZ's list, or it showed me its accreditation and job check.",
+    "The job token came from the employer, and I applied on INZ's own website and paid INZ directly.",
+    "I paid nobody for the job offer. Recruitment is the employer's cost.",
+    "My adviser is on the IAA register, or is a New Zealand lawyer.",
+    "My contract shows the job title, the pay and at least 30 hours a week.",
+    "I will get BMET clearance before I fly."
   ]);
   renderRisk();
   renderSources();

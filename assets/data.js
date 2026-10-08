@@ -663,6 +663,113 @@ window.GUIDE = {
     ]
   },
 
+  /* ---------- New Zealand (outside Europe), checked 8 October 2026 ----------
+     Amounts are in the currency you pay them in: NZ$ in New Zealand, taka in
+     Bangladesh, US$ for the flight. Pay is NZ$ an hour before tax; "a year"
+     means 40 hours a week for 52 weeks. */
+  nz: {
+    kpis: [
+      { value: "NZ$35.00", label: "an hour: the median wage that sets most visa pay rules, from 9 March 2026", src: ["Envoy", "https://www.envoyglobal.com/news-alert/new-zealand-adds-new-occupations-to-national-occupation-list-and-increases-median-wage/"] },
+      { value: "2 years", label: "of New Zealand work at NZ$38.50 an hour or more can lead to residence without a degree, since 24 August 2026", src: ["INZ", "https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/"] },
+      { value: "NZ$1,540", label: "the work-visa fee you pay. The employer pays for its accreditation and the job check", src: ["INZ fee table", "https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf"] },
+      { value: "5.6%", label: "unemployment in the June 2026 quarter, the highest in more than a decade, so employers can be picky", src: ["Stats NZ via Mirage News", "https://www.miragenews.com/unemployment-rate-at-5-6-percent-in-june-2026-1721808/"] }
+    ],
+
+    /* kind: easier | tighter | closed | mixed (same keys as the Europe timeline) */
+    timeline: [
+      { date: "10 Mar 2025", where: "Work visa", text: "The median-wage pay floor is dropped (the market rate and the minimum wage still apply) and the experience needed falls from 3 years to 2.", kind: "easier" },
+      { date: "8 Dec 2025", where: "Seasonal work", text: "Two new seasonal visas open for farm and tourism jobs: Global Workforce Seasonal and Peak Seasonal. Both ask for earlier seasonal experience.", kind: "easier" },
+      { date: "9 Mar 2026", where: "Pay rules", text: "The median wage rises to NZ$35.00 an hour, and 47 more skilled jobs join the work-visa occupation list.", kind: "mixed" },
+      { date: "1 Jun 2026", where: "Work visa", text: "The English test (IELTS 4.0 or equal) now also covers skill level 3 jobs such as chefs and supervisors. Developer jobs stay exempt.", kind: "tighter" },
+      { date: "24 Aug 2026", where: "Residence", text: "New Skilled Work Experience and Trades & Technician pathways. Full points for New Zealand experience after 2 years instead of 3.", kind: "easier" },
+      { date: "16 Nov 2026", where: "Graduates", text: "A new six-month Short-Term Graduate Work Visa will open, but only for people who studied in New Zealand.", kind: "easier" }
+    ],
+
+    /* Hourly thresholds. Yearly figures are hourly × 2,080. */
+    wages: [
+      { label: "Minimum wage", value: 23.95, shown: "NZ$23.95", note: "The legal floor for every job from 1 April 2026. About NZ$49,800 a year." },
+      { label: "80% of median: partner can work", value: 28, shown: "NZ$28.00", note: "In a skill level 1–3 job, your partner can get an open work visa. About NZ$58,200 a year." },
+      { label: "Median wage", value: 35, shown: "NZ$35.00", note: "The least a Skilled Migrant job may pay, and the Green List floor. About NZ$72,800 a year." },
+      { label: "1.1 × median: experience pathway", value: 38.5, shown: "NZ$38.50", note: "Earn this for 2 years in New Zealand, have 5 years' experience in total, and you can apply for residence. About NZ$80,100 a year.", plan: true },
+      { label: "1.2 × median: amber-list jobs", value: 42, shown: "NZ$42.00", note: "Same pathway for amber-list jobs such as ICT support and web administrator, but all 5 years must be in New Zealand. About NZ$87,400 a year." },
+      { label: "Typical mid-career developer", value: 42.88, shown: "NZ$42.88", note: "Payscale's average of NZ$89,200 a year, divided by 2,080 hours. Early-career developers average about NZ$73,200 (NZ$35.19 an hour).", ref: true },
+      { label: "1.5 × median: 3 points", value: 52.5, shown: "NZ$52.50", note: "3 Skilled Migrant points; 2 years of New Zealand work adds the other 3. About NZ$109,200 a year." },
+      { label: "2 × median: 4 points", value: 70, shown: "NZ$70.00", note: "4 points, and the work visa's experience test no longer applies. About NZ$145,600 a year." },
+      { label: "3 × median: 6 points", value: 105, shown: "NZ$105.00", note: "6 points from pay alone: residence with no New Zealand experience. About NZ$218,400 a year." }
+    ],
+
+    /* Your start-up budget, same shape as costs.plans. */
+    budget: { letter: "NZ", title: "New Zealand · developer on a work visa", tag: "No agent needed",
+      groups: [
+        { head: "In Bangladesh · taka", total: "Tk 22,100–37,100", items: [
+          ["Medical exam at IOM Dhaka, an INZ panel clinic (adult e-medical)", "Tk 10,100", ["IOM Bangladesh", "https://bangladesh.iom.int/new-zealand-all-types-visa-applicants"]],
+          ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+          ["BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000", "Tk 6,500", ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"]],
+          ["Notary, translation and attestation of your documents", "Tk 5,000–20,000", null, "estimate"]
+        ] },
+        { head: "Flight · US dollars", items: [
+          ["Dhaka → Auckland, one way (average online fare)", "about US$640", ["Farecompare", "https://www.farecompare.com/flights/Dhaka-DAC/Auckland-AKL/market.html"]]
+        ] },
+        { head: "In New Zealand · NZ dollars", total: "NZ$3,940–4,740", items: [
+          ["Work visa (AEWV), including the NZ$1,060 immigration levy", "NZ$1,540", ["INZ fee table", "https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf"]],
+          ["Room in a shared Auckland flat: 2 weeks' rent in advance at NZ$300 a week", "NZ$600", ["Cities Insider", "https://citiesinsider.com/country/new-zealand/auckland/flatting-and-shared-housing/en"]],
+          ["Bond for that room, usually 4 weeks' rent", "up to NZ$1,200", ["Cities Insider", "https://citiesinsider.com/country/new-zealand/auckland/flatting-and-shared-housing/en"]],
+          ["Food, transport and phone until your first pay", "NZ$600–1,400", null, "estimate"]
+        ] }
+      ],
+      note: "Some tech employers pay the flight or the visa fee, so ask before you sign. IELTS (Tk 31,100) is not needed for a developer work visa, but residence later asks for IELTS 6.5 or equal." },
+
+    /* [what, fee, who pays, [label,url]] */
+    fees: [
+      ["Work visa (AEWV)", "NZ$1,540 (fee NZ$480 + levy NZ$1,060)", "You", ["INZ fee table", "https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf"]],
+      ["Employer accreditation", "NZ$775 for up to 5 migrants · NZ$1,280 high-volume", "Employer", ["INZ", "https://www.immigration.govt.nz/work/for-employers/getting-accreditation-or-approval-to-hire/employer-accreditation-for-the-aewv/aewv-employer-accreditation-and-job-check-process/paying-for-aewv-employer-accreditation-and-job-checks/"]],
+      ["Job check", "NZ$735", "Employer", ["INZ", "https://www.immigration.govt.nz/work/for-employers/getting-accreditation-or-approval-to-hire/employer-accreditation-for-the-aewv/aewv-employer-accreditation-and-job-check-process/paying-for-aewv-employer-accreditation-and-job-checks/"]],
+      ["Recruitment, in New Zealand and overseas", "Ads, agency fees, accreditation, job check", "Employer, never you", ["INZ", "https://www.immigration.govt.nz/work/worker-rights/what-your-employer-must-do-when-they-hire-you-on-an-aewv"]],
+      ["Seasonal visas (GWSV, PSV)", "From NZ$1,540", "You", ["INZ", "https://www.immigration.govt.nz/visas/global-workforce-seasonal-visa"]],
+      ["Skilled Migrant residence", "NZ$6,450; the Expression of Interest is free", "You", ["Visa Atlas", "https://visaatlas.org/fees/new-zealand/skilled-migrant-category"]]
+    ],
+
+    /* Weekly rent ranges, NZ$. */
+    rents: [
+      { label: "Auckland · room in a shared flat", low: 220, high: 420, shown: "NZ$220–420", note: "About NZ$220 in Henderson and Avondale; NZ$280–420 in the CBD and city fringe. Power and internet are usually extra." },
+      { label: "Wellington · room in a shared flat", low: 215, high: 380, shown: "NZ$215–380", note: "From NZ$215 in Newtown to NZ$380 in Te Aro and the CBD." },
+      { label: "Wellington · whole home, median", low: 595, high: 600, shown: "NZ$595–600", note: "Trade Me Rental Price Index, June–July 2026." },
+      { label: "Auckland · whole home, median", low: 655, high: 660, shown: "NZ$655–660", note: "Trade Me Rental Price Index, June–July 2026." }
+    ],
+
+    /* [rule, text, [label,url]] */
+    tenancy: [
+      ["Bond", "A landlord can ask for at most 4 weeks' rent and must lodge it with Tenancy Services.", ["myRent", "https://myrent.co.nz/maximum-bond-amount"]],
+      ["Rent in advance", "At most 2 weeks' rent before you move in.", ["myRent", "https://myrent.co.nz/rent-in-advance"]],
+      ["Renting a room from a tenant", "Flatmates are not covered by the tenancy law. Agree the bond, rent and notice in writing and get a receipt.", ["Tenancy Services", "https://tenancy.govt.nz/starting-a-tenancy/flatting/"]]
+    ],
+
+    accounts: [
+      { amount: "NZ$15,000–40,000", where: "Auckland · 2023", text: "115 Bangladeshi and Indian workers arrived on work visas to find no jobs after paying agents this much. They were living in crowded, unsanitary houses; the count later reached 144.", src: ["TBS", "https://www.tbsnews.net/node/686434"] },
+      { amount: "NZ$44,750", where: "Auckland · 2026", text: "A migrant paid this for a landscaping job. The company was fined NZ$16,000 and must repay him, and its director must pay him NZ$8,000 more.", src: ["Employment New Zealand", "https://www.employment.govt.nz/news-and-updates/auckland-company-charged-migrant-worker-almost-45000-for-his-job"] },
+      { amount: "25 men", where: "Kuala Lumpur · 2024", text: "Bangladeshi men were stopped from boarding a flight to Auckland. A middleman had apparently convinced them they held valid work visas.", src: ["1News", "https://www.1news.co.nz/2024/05/08/25-men-caught-trying-to-enter-nz-without-proper-visas/"] }
+    ],
+
+    rules: [
+      ["No payment for a job", "Employers may not take money (a 'premium') for giving you a job or letting you keep it. The Labour Inspectorate makes them pay it back, with penalties.", ["Employment NZ", "https://www.employment.govt.nz/news-and-updates/auckland-company-charged-migrant-worker-almost-45000-for-his-job"]],
+      ["Recruitment is the employer's cost", "An accredited employer must pay all recruitment costs, in New Zealand and overseas, and cannot pass them on to you.", ["INZ", "https://www.immigration.govt.nz/work/worker-rights/what-your-employer-must-do-when-they-hire-you-on-an-aewv"]],
+      ["Advisers must be licensed", "Anyone giving New Zealand visa advice, in Dhaka too, needs a licence from the Immigration Advisers Authority unless they are a New Zealand lawyer. Check the free register.", ["IAA", "https://iaa.govt.nz/for-migrants"]],
+      ["INZ does not phone for money", "Scammers pose as INZ staff or licensed advisers. INZ officers do not call you asking for payment.", ["INZ via Scoop", "https://www.scoop.co.nz/stories/AK2601/S00291.htm"]]
+    ],
+
+    portals: [
+      { name: "Seek", url: "https://www.seek.co.nz/", where: "Biggest job board", text: "Most developer jobs are here. Skip ads that say 'must have NZ work rights' and look for employers that mention visa support." },
+      { name: "LinkedIn Jobs", url: "https://www.linkedin.com/jobs", where: "Tech", text: "Search 'New Zealand' with your stack plus 'accredited employer' or 'visa'." },
+      { name: "Trade Me Jobs", url: "https://www.trademe.co.nz/a/jobs", where: "General", text: "The second-biggest board, strong for farm, trade and supervisor jobs." },
+      { name: "Check if an employer is accredited", url: "https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/working-in-nz/check-if-an-employer-is-accredited", where: "INZ · official", text: "Only accredited employers can hire you on a work visa. Some choose not to be listed, so also ask the employer." },
+      { name: "WorkHere", url: "https://workhere.co.nz/", where: "Skilled migrants", text: "A recruiting platform that connects skilled people overseas with New Zealand employers." },
+      { name: "Farm Source Jobs", url: "https://jobs.nzfarmsource.co.nz/", where: "Dairy and farm", text: "Farm-assistant and dairy jobs. Read each ad: some only accept people already in New Zealand." },
+      { name: "PickNZ", url: "https://jobs.picknz.co.nz/", where: "Seasonal", text: "Fruit, vegetable and packhouse jobs. Seasonal visas need earlier seasonal experience." },
+      { name: "Immigration Advisers Authority", url: "https://iaa.govt.nz/for-migrants", where: "Check advisers", text: "Look up any 'NZ visa consultant' on the free register before you pay them." },
+      { name: "New Zealand Now", url: "https://www.newzealandnow.govt.nz/", where: "Government", text: "The government's guide to working and living in New Zealand." }
+    ]
+  },
+
   sources: [
     ["Bangladesh", [
       ["TBS – Europe job migration surges 46% in H1 2026", "https://www.tbsnews.net/world/europe-job-migration-surges-46-h1-amid-gulf-slump-1475796"],
@@ -707,6 +814,20 @@ window.GUIDE = {
       ["Remote Work Europe – Croatia 2026", "https://remoteworkeurope.eu/insights/croatia-digital-nomad-visa/"],
       ["Remote Work Europe – Greece 2026", "https://remoteworkeurope.eu/insights/greece-digital-nomad-visa-2026/"],
       ["Remote Work Europe – every option compared", "https://remoteworkeurope.eu/insights/digital-nomad-visas-europe-complete-guide/"]
+    ]],
+    ["New Zealand", [
+      ["INZ – final details of the Skilled Migrant changes (24 August 2026)", "https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/"],
+      ["INZ – 2026 changes to the Skilled Migrant Category", "https://www.immigration.govt.nz/live/resident-visas-to-live-in-new-zealand/skilled-residence-pathways-in-new-zealand/skilled-migrant-category-pathway-to-residence/2026-changes-to-the-skilled-migrant-category-resident-visa/"],
+      ["INZ – how the March 2025 AEWV changes may affect you", "https://www.immigration.govt.nz/about-us/news-centre/how-changes-to-the-accredited-employer-work-visa-aewv-may-affect-you/"],
+      ["INZ – how long you can stay on an AEWV", "https://immigration.govt.nz/work/requirements-for-work-visas/how-long-you-can-work-on-work-visas/how-long-you-can-stay-on-an-aewv"],
+      ["INZ – English rule extended to skill level 3 jobs", "https://www.immigration.govt.nz/about-us/news-centre/english-language-requirements-extended-to-aewv-skill-level-3-roles/"],
+      ["INZ – new seasonal visas open 8 December 2025", "https://www.immigration.govt.nz/about-us/news-centre/new-seasonal-visas-open-8-december-2025"],
+      ["INZ – Green List pathway to residence", "https://www.immigration.govt.nz/live/resident-visas-to-live-in-new-zealand/skilled-residence-pathways-in-new-zealand/green-list-pathway-to-residence"],
+      ["INZ – bringing family on an AEWV", "https://www.immigration.govt.nz/process-to-apply/once-you-have-a-visa/bringing-family-to-new-zealand/bringing-family-if-you-have-a-work-visa/bringing-family-if-you-have-an-accredited-employer-work-visa-aewv/"],
+      ["Envoy – median wage NZ$35 and new occupations (March 2026)", "https://www.envoyglobal.com/news-alert/new-zealand-adds-new-occupations-to-national-occupation-list-and-increases-median-wage/"],
+      ["Payscale – software developer pay in New Zealand", "https://www.payscale.com/research/NZ/Job=Software_Developer/Salary/fb624084/Mid-Career"],
+      ["Trade Me – Rental Price Index", "https://www.trademe.co.nz/c/property/news/rental-price-index"],
+      ["TBS – New Zealand probing exploitation of Bangladeshi and Indian workers", "https://www.tbsnews.net/node/686434"]
     ]]
   ]
 };

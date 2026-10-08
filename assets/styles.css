@@ -146,6 +146,8 @@ li + li { margin-top: .35rem; }
 .answer > div { padding: 1rem 1.1rem; min-width: 0; }
 .answer b { display: block; font-family: var(--font-display); font-variation-settings: "wdth" 85; font-size: var(--t-lg); margin-bottom: .25rem; }
 .answer p { font-size: var(--t-sm); color: var(--ink-2); }
+.answer > .wide { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; gap: .15rem 1rem; }
+.answer > .wide b { margin-bottom: 0; }
 .mrz {
   font: 500 min(.8125rem, 2.35vw)/1.5 var(--font-mono);
   letter-spacing: .08em;
@@ -374,6 +376,12 @@ li + li { margin-top: .35rem; }
 }
 .rg-ref { position: absolute; top: -4px; bottom: -4px; width: 2px; margin-left: -1px; background: var(--muted); opacity: .7; }
 
+/* benchmark rows in bar charts: outlined bar, so it never reads as a rule */
+.legend i.refbox { background: transparent; box-shadow: inset 0 0 0 2px var(--ink-2); }
+.hb-row.is-ref .hb-bar { background: transparent; box-shadow: inset 0 0 0 2px var(--ink-2); }
+.hb-row.is-ref .hb-label { font-style: italic; }
+.hb-row.is-ref .hb-val { font-weight: 400; color: var(--ink-2); }
+
 /* budgets */
 .budget { gap: 1rem; }
 .bgroup { display: grid; gap: .45rem; }
@@ -562,7 +570,8 @@ details.note ul { padding: 0 .25rem 1rem 1.5rem; font-size: var(--t-sm); max-wid
 /* ---------- numbers ---------- */
 .kpis { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
 .kpi { padding: 1.1rem; display: grid; gap: .35rem; align-content: start; min-width: 0; }
-.kpi .v { font: 700 clamp(2rem, 3vw + 1rem, 2.75rem)/1.05 var(--font-body); letter-spacing: -.01em; }
+.kpi .v { font: 700 clamp(2rem, 3vw + 1rem, 2.75rem)/1.05 var(--font-body); letter-spacing: -.01em; overflow-wrap: normal; }
+.kpis.compact .v { font-size: clamp(1.75rem, 1.5vw + 1.1rem, 2.25rem); }
 .kpi .l { font-size: var(--t-sm); color: var(--ink-2); }
 .kpi .d { font-size: var(--t-sm); font-weight: 700; }
 .kpi .d.up { color: var(--good-ink); }
@@ -588,8 +597,10 @@ details.note ul { padding: 0 .25rem 1rem 1.5rem; font-size: var(--t-sm); max-wid
 .timeline .closed b { color: var(--crit); }
 .timeline .mixed b { color: var(--warn); }
 .timeline .where { font-weight: 700; }
+.timeline.long li { grid-template-columns: 6.25rem 7.5rem minmax(0, 1fr); }
 @media (max-width: 40rem) {
   .timeline li { grid-template-columns: 3.75rem minmax(0, 1fr); }
+  .timeline.long li { grid-template-columns: 6.25rem minmax(0, 1fr); }
   .timeline .kind { grid-column: 2; }
   .timeline .what { grid-column: 1 / -1; }
 }
@@ -632,6 +643,32 @@ details.note ul { padding: 0 .25rem 1rem 1.5rem; font-size: var(--t-sm); max-wid
 .mini { list-style: none; padding: 0; display: grid; gap: .45rem; font-size: var(--t-sm); }
 .mini li { margin: 0; }
 .mini span { color: var(--muted); }
+
+/* ---------- New Zealand residence check ---------- */
+.calc { gap: 1rem; align-content: start; }
+.field { display: grid; gap: .45rem; justify-items: start; }
+.field label, .flabel { font: 500 var(--t-xs)/1.2 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.field input[type="range"] { width: 100%; margin: 0; accent-color: var(--accent); }
+.field output { font-weight: 700; font-variant-numeric: tabular-nums; }
+.calc .seg { border-radius: 14px; }
+.calc .seg button { border-radius: 11px; padding-inline: .75rem; }
+.calc-out { display: grid; gap: 1rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+.calc-block { display: grid; gap: .5rem; }
+.pts { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; max-width: 20rem; }
+.pts i { height: 18px; border-radius: 3px; background: transparent; box-shadow: inset 0 0 0 1px var(--line-2); }
+.pts i.inc, .pts-key i.inc { background: var(--series); box-shadow: none; }
+.pts i.exp, .pts-key i.exp { background: var(--accent); box-shadow: none; }
+.pts-key { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: var(--t-sm); color: var(--ink-2); }
+.pts-key span { display: inline-flex; align-items: center; gap: .4rem; }
+.pts-key i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.verdict { font-size: var(--t-sm); font-weight: 700; }
+.verdict.ok { color: var(--good-ink); }
+.checks { list-style: none; padding: 0; display: grid; gap: .3rem; font-size: var(--t-sm); }
+.checks li { margin: 0; display: grid; grid-template-columns: 1.1rem minmax(0, 1fr); gap: .4rem; }
+.checks b { font-family: var(--font-mono); }
+.checks .yes b { color: var(--good-ink); }
+.checks .no b { color: var(--crit-ink); }
+.checks .no span { color: var(--ink-2); }
 
 /* ---------- safety + sources + footer ---------- */
 .risk td:first-child { font-weight: 700; white-space: nowrap; }

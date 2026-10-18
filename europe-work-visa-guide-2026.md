@@ -1,6 +1,6 @@
 # Working in Europe from Bangladesh: Work Visa Guide 2026
 
-*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh. New Zealand section added 8 October 2026; Montenegro section added 18 October 2026.*
+*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh. New Zealand section added 8 October 2026; Montenegro, official-cost and agency-price sections added 18 October 2026.*
 
 > Several countries changed their laws in 2026, and rules keep changing. Before you pay money or submit a document, check the official link given here. This guide is research, not legal advice.
 
@@ -10,7 +10,9 @@
 
 - [1. The short answer](#1-the-short-answer)
 - [YOUR PLAN: for your profile](#your-plan-for-your-profile)
-- [COSTS: what it really costs](#costs-what-it-really-costs)
+- [COSTS: what your three plans cost](#costs-what-your-three-plans-cost)
+- [OFFICIAL COSTS: doing it yourself with a job offer](#official-costs-doing-it-yourself-with-a-job-offer)
+- [AGENCY PRICES: what agencies charge and what workers paid](#agency-prices-what-agencies-charge-and-what-workers-paid)
 - [2. How a European work visa works](#2-how-a-european-work-visa-works)
 - [3. Are you a "skilled" or "non-skilled" worker?](#3-are-you-a-skilled-or-non-skilled-worker)
 - [SECTION A: Non-skilled and semi-skilled workers](#section-a-non-skilled-and-semi-skilled-workers)
@@ -135,19 +137,14 @@ Your SSC is enough and no degree is needed. Pay is low and the permit ties you t
 
 ---
 
-## COSTS: what it really costs
+## COSTS: what your three plans cost
 
-Official fees are small. The big money goes to **agents**, the **flight** and your **first month abroad**.
+Official fees are small; the **flight** and your **first month abroad** cost more. The official cost for every country is in [OFFICIAL COSTS](#official-costs-doing-it-yourself-with-a-job-offer), and agency prices are in [AGENCY PRICES](#agency-prices-what-agencies-charge-and-what-workers-paid).
 
 Every amount below is in the currency you pay it in, and nothing is converted:
 - **taka** for costs in Bangladesh
 - the **destination's own currency** abroad (euros in most countries; pounds, kronor or złoty elsewhere)
 - **US dollars** for flights
-
-**The Bangladesh-wide picture (BBS Labour Force Survey 2024):**
-- The average recruitment cost is **Tk 4.63 lakh**. It takes **10.9 months** of wages to earn that back ([TBS](https://www.tbsnews.net/infograph/numbers/how-long-does-it-take-migrant-worker-recover-recruitment-costs-1237726)).
-- **53%** of Italy-bound migrants paid more than Tk 5 lakh.
-- **52%** of all migrants paid brokers ([TBS](https://www.tbsnews.net/bangladesh/migration/migration-cost-soars-52-workers-rely-brokers-go-abroad-bbs-872541)).
 
 ### Your three plans, item by item
 
@@ -161,11 +158,12 @@ Every amount below is in the currency you pay it in, and nothing is converted:
 | Bangladesh | BMET clearance: welfare fee Tk 5,500 (from 1 Oct 2026) + insurance Tk 1,000; smart card free | Tk 6,500 | [TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606) |
 | | **Subtotal in Bangladesh** | **Tk 43,100–58,100** | |
 | Flight | Dhaka → Frankfurt, one way (online fares) | US$417–478 | [Expedia](https://expedia.com/lp/flights/dac/fra/dhaka-to-frankfurt) |
-| Germany | National visa €75 + EU Blue Card €100 | €175 | [Find English](https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply) |
+| Germany | National visa €75 + VFS service charge €19.13 | €94.13 | [German Mission Dhaka](https://dhaka.diplo.de/bd-en/service/2346500-2346500) |
+| Germany | EU Blue Card, issued after you arrive | €100 | [Find English](https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply) |
 | Germany | First month's rent: room in a Berlin shared flat (median, warm) | €650 | [WG Lotse](https://wglotse.de/en/find-a-wg/berlin/) |
 | Germany | Deposit of 1–3 months' cold rent, paid back when you move out | €650–1,950 | [Rentumo (§551 BGB)](https://rentumo.de/en/blog/security-deposit-germany-guide) |
 | Germany | Food, transport and phone until your first salary | €600–900 | estimate |
-| | **Subtotal in Germany** | **€2,075–3,675** | |
+| | **Subtotal in Germany** | **€2,094–3,694** | |
 
 Tech employers often pay your flight and first weeks of housing, so ask for a relocation package before you sign.
 
@@ -202,15 +200,180 @@ You must also prove €2,849 a month of remote income. Renting a room instead of
 
 Under Romania's 2026 rules, an authorised placement agency may not charge you any fee. Most of the Tk 4–12 lakh goes to middlemen.
 
+### Costs in Bangladesh (taka)
+
+| Item | Cost | Source |
+|---|---|---|
+| IELTS Academic or General Training (UKVI: Tk 34,850) | Tk 31,100 | [IDP](https://ielts.idp.com/bangladesh/about/ielts-exam-fee) |
+| Police clearance certificate | Tk 500 | [PCC guide](https://policeclearance.bd/application-fees/) |
+| BMET welfare fee from 1 October 2026 (was Tk 3,500) | Tk 5,500 | [TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606) |
+| BMET insurance fee | Tk 1,000 | [Migrantimes](https://migrantimes.com/labour-policy/27-09-2026/bangladesh-raises-overseas-workers-welfare-fee-to-tk-5500) |
+| BMET smart card | Free | [TBS](https://www.tbsnews.net/bangladesh/expat-ministry-scraps-bmet-clearance-card-fee-tk250-outgoing-workers-1007091) |
+| Medical check for agency routes (price in agency ads) | Tk 6,000–10,000 | [Reelpen](https://www.reelpen.org/how-much-does-it-cost-to-go-to-romania/) |
+| Indian visa processing, only for New Delhi embassies | Tk 1,500 | [Wego](https://blog.wego.com/indian-tourist-visa-for-bangladeshi-nationals/) |
+| Dhaka ⇄ Delhi return flight, lowest fares seen | Tk 16,200 | [GoZayaan](https://gozayaan.com/route/dhaka-to-delhi-flight-ticket-price) |
+| Notary, translation and attestation of documents | Tk 5,000–20,000 | estimate |
+
+### Moving into a flat: how big a deposit can a landlord ask for?
+
+| City | First month + largest legal deposit | Rule | Source |
+|---|---|---|---|
+| Berlin, room in a shared flat | €2,600 (€650 rent) | Up to 3 months' cold rent, payable in 3 instalments | [WG Lotse](https://wglotse.de/en/find-a-wg/berlin/), [Rentumo](https://rentumo.de/en/blog/security-deposit-germany-guide) |
+| Dublin, one-bedroom, city centre | €4,266 (€2,133 rent) | Deposit up to 1 month + 1 month in advance | [Threshold](https://threshold.ie/advocacy-campaign/singlepeople/) |
+| Berlin, one-bedroom | €4,300 (€1,075 median rent) | Up to 3 months' cold rent | [Global Property Guide](https://www.globalpropertyguide.com/europe/germany/rent) |
+| Madrid, one-bedroom, city centre | €5,188 (€1,297 rent) | 1 month by law + up to 2 months' extra guarantee | [Spain Handbook](https://spainhandbook.com/what-is-fianza-in-spain-deposit-rules-explained-simply/) |
+| Amsterdam, one-bedroom | €5,400–7,200 (€1,800–2,400 rent) | Up to 2 months' basic rent | [Government.nl](https://www.government.nl/topics/housing/rented-housing/step-by-step-plan-for-tenants) |
+
+---
+
+## OFFICIAL COSTS: doing it yourself with a job offer
+
+*Checked 18 October 2026.*
+
+With a real job offer you can do every step yourself and pay only government fees, the visa centre's charge, your own documents and your ticket. No agent and no "processing fee". Here is that cost for every country in this guide, in the currency each fee is charged in.
+
+- **Tk 12,000–27,000:** what everyone pays in Bangladesh for police clearance, BMET clearance and getting documents attested ([TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606)).
+- **16 of 21** euro countries keep your own official fees abroad under €400 (table below).
+- **Tk 4–15 lakh:** what Bangladeshis report paying agencies for the same visas ([AGENCY PRICES](#agency-prices-what-agencies-charge-and-what-workers-paid)).
+
+**Who pays what:** in most countries the **employer** applies and pays for its own permit or approval. **You** pay the visa fee, the visa centre's service charge, your residence card after arrival, and your costs in Bangladesh. In Romania, Malta, Ireland and New Zealand the law also stops employers or licensed agencies from passing these costs on to you.
+
+**Do it yourself in 7 steps**
+
+1. **Find the job yourself** on the portals in this guide, and get a signed offer or contract.
+2. **Check the employer** exists and, where there is a list, is allowed to hire foreigners.
+3. **The employer applies** for your permit and pays its own fee.
+4. **Book your own appointment** on the embassy or visa-centre website. Appointments are free; never buy one.
+5. **Pay the visa fee yourself** at the counter or online, and keep every receipt.
+6. **Get BMET clearance** on oc.bmet.gov.bd and do the pre-departure training.
+7. **Buy your own ticket**, unless the employer pays for it.
+
+### Paid in Bangladesh, whatever the country
+
+| When | Item | Cost | Source |
+|---|---|---|---|
+| Always | Police clearance certificate | Tk 500 | [PCC guide](https://policeclearance.bd/application-fees/) |
+| Always | BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000; smart card free | Tk 6,500 | [TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606) |
+| Always | Notary, translation and attestation of your documents | Tk 5,000–20,000 | estimate |
+| | **Subtotal** | **Tk 12,000–27,000** | |
+| New Delhi embassies only | Indian visa processing (the visa itself is free) | Tk 1,500 | [Wego](https://blog.wego.com/indian-tourist-visa-for-bangladeshi-nationals/) |
+| New Delhi embassies only | Dhaka ⇄ Delhi return flight, lowest fares seen | Tk 16,200 | [GoZayaan](https://gozayaan.com/route/dhaka-to-delhi-flight-ticket-price) |
+| | **Subtotal** | **Tk 17,700 + hotel** | |
+| Only where a country asks for it | IELTS (UK, New Zealand residence, many skilled jobs) | Tk 31,100 | [IDP](https://ielts.idp.com/bangladesh/about/ielts-exam-fee) |
+| Only where a country asks for it | UK tuberculosis test at an approved clinic, paid in taka | US$70 | [GOV.UK](https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-bangladesh/tuberculosis-testing-in-bangladesh) |
+| Only where a country asks for it | New Zealand medical at IOM Dhaka | Tk 10,100 | [IOM Bangladesh](https://bangladesh.iom.int/new-zealand-all-types-visa-applicants) |
+
+BMET clearance is required even when you find the job yourself. Ask BMET which papers it wants: employers' demand letters often need attestation by the Bangladesh embassy in that country. ([TBS](https://www.tbsnews.net/bangladesh/migration/scams-smuggling-battlefields-how-flawed-vetting-sent-our-workers-harms-way))
+
+### Your official fees abroad, euro countries (lowest to highest)
+
+Euros you pay to the destination's government and its visa centre, with a job offer and no agent. Not included: Bangladesh costs, taka charges at visa centres (in the notes) and the flight.
+
+| Country | Your fees | What they are |
+|---|---|---|
+| Montenegro | €0–67 | The employer files the €67 permit. You also pay VFS Tk 4,300 + courier Tk 7,735 and a visa fee. |
+| Croatia | €93 | Visa. Plus VFS Tk 4,030 + courier Tk 3,900; the employer pays the permit (about €116). |
+| Slovenia | €82–114 | €70 if the employer applies in Slovenia, €102 at the embassy; card €12. |
+| Bulgaria | €100–120 | D visa. The employer pays the single permit (about €200–250). |
+| Romania | €120 | D/AM visa. The employer pays the work permit (about €100). |
+| Poland | €80–135 | D visa, plus a VFS fee. The employer pays the PLN 400 permit. |
+| Cyprus | €70–140 | Entry and residence permit €70; first entry in the Aliens' Register €70. |
+| Germany | €194 | Visa €75 + VFS €19.13 + EU Blue Card €100. |
+| Austria | €180–218 | Red-White-Red Card €218; older guides say €160 + €20 card. |
+| Greece | €135–240 | Visa €75 or €180 + contract attestation €30 + GVCW fee €30; courier Tk 10,200. The residence-permit fee in Greece was not found. |
+| Italy | €232–242 | Visa €116 + residence permit kit €116–126. Plus VFS Tk 2,850. |
+| Estonia | €120–280 | D visa €120 (the employer registers the job, €130), or a residence permit €280. |
+| Lithuania | €120–285 | D visa €120–140, or a residence permit €160 + VFS €125. |
+| Slovakia | €264–340 | Residence application €250 + visa €14–90 (2024 fee schedule). |
+| Latvia | €250–370 | D visa €90 + residence permit €160 (€280 fast). |
+| Portugal | €296–397 | D visa €110 (+ VFS about €40) + AIMA residence permit €186–247. |
+| Netherlands | €0–423 | The employer usually pays the €423 IND fee, which covers visa and permit. |
+| France | €399–449 | Visa €99 + residence validation €300 (+ €50 stamp, per one source). |
+| Finland | €530–750 | Online first permit: €750 for most workers, €530 for specialists and Blue Card. |
+| Malta | €250–850 | Pre-departure course €250; the €600 single permit is paid online by the employer or by you. Plus VFS Tk 13,935–20,900. |
+| Ireland | €360–1,360 | Visa €60 + residence card €300; the €1,000 permit is the employer's or yours, never deducted from pay. |
+
+**Other currencies, or fees not fully known**
+
+| Country | Your fees | What they are |
+|---|---|---|
+| United Kingdom | £1,854–3,924 | Visa £819 + health surcharge £1,035 a year (1–3 years). Plus TB test US$70 and an English test. |
+| Sweden | SEK 2,200 | Online application; the card is included. |
+| Denmark | DKK 6,810 | Plus the VFS service fee in Dhaka. |
+| Norway | NOK 6,300 | Plus a VFS service fee in taka equal to €21.42. |
+| Switzerland | CHF 180–250 | Visa about CHF 80–150 + commune registration about CHF 100; the employer pays the cantonal permit. |
+| Czech Republic | CZK 7,500 | Employee Card CZK 5,000 at the embassy + card CZK 2,500 on arrival. |
+| New Zealand | NZ$1,540 | Work visa incl. levy, plus the Tk 10,100 medical. The employer pays NZ$775 + NZ$735. |
+| Spain | TIE €16–22 + visa | The visa fee is paid in taka at BLS (amount not confirmed). The employer pays the work authorisation (about €204–408). |
+| Serbia (on hold) | RSD 23,120 + visa | Single permit RSD 22,700 + submission RSD 420. BMET clearance is on hold. |
+| Bosnia & Herzegovina | Not confirmed | No official fee schedule found for the visa or the work permit. |
+
+### Every country, fee by fee
+
+"You pay" is your own cost; "Employer pays" is the employer's permit or approval. "Delhi trip" = add the New Delhi costs above. Checked against official pages where we could reach them; other figures come from law firms and relocation guides, so confirm before you pay.
+
+| Country | Where you apply | You pay | Employer pays | Notes | Sources |
+|---|---|---|---|---|---|
+| **Romania** · Delhi trip | New Delhi (embassy, eVisa appointment) | D/AM visa €120 | Work permit about €100, paid in lei | Only authorised employers on WorkinRomania.gov.ro; authorised agencies may not charge you. Residence card fee not found. | [Skuad](https://www.skuad.io/work-permit/romania), [Playroll](https://www.playroll.com/work-permit-visas/romania) |
+| **Croatia** | Dhaka (VFS), decided in New Delhi | Visa €93 + VFS Tk 4,030 + courier Tk 3,900 | Residence and work permit about €116 | Croatian A1.1 needed to renew after a year. | [VFS Croatia](https://visa.vfsglobal.com/bgd/en/hrv) |
+| **Italy** | Dhaka (VFS) | Visa €116 + VFS Tk 2,850; residence permit kit €116–126 after arrival | Nulla osta revenue stamp €16 | The employer applies on the Decreto Flussi click day. | [Italian Embassy Dhaka](https://ambdhaka.esteri.it/wp-content/uploads/2026/06/Subordinate-work-type-D.pdf), [Questura](https://questure.poliziadistato.it/statics/29/documenti-da-inserire-nel-kit-postale-per-le-principali-tipologie-di-permesso-di-soggiorno.pdf) |
+| **Greece** | Dhaka (GVCW), decided in New Delhi | Visa €75 or €180 + contract attestation €30 + GVCW €30 + courier Tk 10,200 | Approval inside the yearly quota | Residence-permit fee in Greece not found. BOESL's government programme is the other route. | [GVCW fees](https://in-gr.gvcworld.eu/en/long-term-national-d-visa), [GVCW Bangladesh](https://bd-gr.gvcworld.eu/en/visa-info-long-term-national-d-visa) |
+| **Malta** | Dhaka (VFS) | Pre-departure course €250 + VFS Tk 13,935–20,900 | Single permit €600 (paid online by the employer or by you) | Renewal €150 a year. | [Identità](https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/single-permit-application/), [Free Malta](https://freemalta.com/hub/single-permit) |
+| **Bulgaria** · Delhi trip | New Delhi (interview) | D visa about €100–120 | Single permit about €200–250 | Foreign staff capped at 20–35% of a company. | [Innovires](https://www.innovires.com/en/blog/work-permit-bulgaria.html) |
+| **Poland** | Dhaka (VFS), decided in New Delhi | D visa €80–135 + VFS fee | Work permit PLN 400 | — | [Worksol](https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/), [gov.pl](https://www.gov.pl/web/india/d-type-national-visa) |
+| **Portugal** · Delhi trip | New Delhi (embassy) | D visa €110 (+ VFS about €40) + AIMA residence permit €186–247 | Registers the vacancy with IEFP | Apply to AIMA within 120 days of arrival. | [Jobbatical](https://www.jobbatical.com/blog/portugal-immigration-updates) |
+| **Slovakia** · Delhi trip | New Delhi (embassy) | Residence application €250 + visa €14–90 | — | 2024 fee schedule; confirm on minv.sk. | [Euraxess Slovakia](https://euraxesspoint.sav.sk/changes-in-administrative-fees-as-of-1-4-2024/) |
+| **Cyprus** · Delhi trip | New Delhi (High Commission) | Entry and residence permit €70 + Aliens' Register €70 | Applies for the employment approval | — | [Cyprus Interior Ministry](https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369) |
+| **Slovenia** · Delhi trip | Mostly New Delhi | €102 at the embassy, or €70 if the employer applies in Slovenia; card €12 | Can lodge the application in Slovenia | — | [EU Immigration Portal](https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-slovenia_en) |
+| **Lithuania** · Delhi trip | New Delhi (VFS) | D visa €120–140, or residence permit €160 + VFS €125 | — | 2026 quota 24,706. | [VFS Global](https://www.vfsglobal.com/one-pager/lithuania/uae/residencepermit/english), [VisaVerge](https://www.visaverge.com/schengen/lithuania-visa-fees-and-payment-information/) |
+| **Latvia** · Delhi trip | Mostly New Delhi | D visa €90 + residence permit €160 (€280 fast) | OCMA approval of the invitation | — | [Playroll](https://playroll.com/work-permit-visas/latvia) |
+| **Bosnia & Herzegovina** | Check the embassy page | Visa D fee not confirmed | Work permit (fee not confirmed) | 2026 quota 7,427. | [Playroll](https://playroll.com/work-permit-visas/bosnia-herzegovina) |
+| **Montenegro** | Dhaka (VFS) | VFS Tk 4,300 + courier Tk 7,735 + visa fee | Residence and work permit €67 | See the Montenegro section. | [VFS Global](https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html), [Montenegro e-government](https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola) |
+| **Czech Republic** · Delhi trip | New Delhi (embassy) | Employee Card CZK 5,000 + card CZK 2,500 on arrival | — | Very few places for Bangladeshis. | [Czech MFA](https://mzv.gov.cz/tokyo/en/visas_and_consular_info/visa_and_consular_fees/index.html), [ARWS](https://arws.cz/en/news-at-arrows/czech-visa-and-residence-permit-fees) |
+| **Germany** | Dhaka (embassy, online portal) | Visa €75 + VFS €19.13 + EU Blue Card €100 | Federal Employment Agency approval | — | [German Mission Dhaka](https://dhaka.diplo.de/bd-en/service/2346500-2346500), [Find English](https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply) |
+| **Finland** · Delhi trip | Online, then ID check in New Delhi | €750 online (€530 for specialists and Blue Card) | — | Paper application €950. | [Migri](https://migri.fi/en/-/changes-to-finnish-immigration-service-processing-fees-as-of-1-january-2026) |
+| **Austria** · Delhi trip | New Delhi (embassy) | Red-White-Red Card €218 (older guides: €160 + €20 card) | — | — | [Visa Atlas](https://visaatlas.org/fees/austria/red-white-red-card) |
+| **Ireland** | Online, then by post or VFS | Visa €60 + residence card €300 | Employment permit €1,000 (or you; never deducted from pay) | — | [Citizens Information](https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/) |
+| **Spain** | Dhaka (embassy / BLS) | Visa fee in taka at BLS (not confirmed) + TIE card €16–22 | Work authorisation about €204–408 | — | [BLS Spain Dhaka](https://bgd.blsspainvisa.com/assets/pdf/RESIDENCE-AND-WORK-VISA-TRA.pdf) |
+| **France** | Dhaka (French Embassy) | Visa €99 + residence validation €300 (+ €50 stamp) | OFII employer tax | Taxes rose on 1 May 2026. | [Integration France](https://www.integrationfrance.fr/articles/hausse-taxes-titres-sejour-mai-2026) |
+| **Netherlands** | Dhaka (Dutch Embassy) | €0 if the employer pays the IND fee | IND fee €423 (recognised sponsor) | — | [Envoy](https://www.envoyglobal.com/news-alert/the-netherlands-immigration-application-fees-2026/) |
+| **Sweden** | Online, then Dhaka (embassy) | SEK 2,200 | — | — | [Jobbatical](https://www.jobbatical.com/blog/sweden-work-permit-guide-process-requirements) |
+| **Denmark** | Online, then VFS Dhaka | DKK 6,810 + VFS fee | — (some repay the fee) | — | [Erickson Immigration Group](https://eiglaw.com/denmark-increases-residence-permit-fees-for-work-study-and-family-cases/) |
+| **Norway** | VFS Dhaka (via Danish Embassy) | NOK 6,300 + VFS fee in taka equal to €21.42 | — | — | [Visa Atlas](https://visaatlas.org/fees/norway/skilled-worker-permit), [Norwegian Embassy](https://www.norway.no/en/bangladesh/services-info/visitors-visa-res-permit/res-permit/) |
+| **United Kingdom** | Dhaka (VFS) | Visa £819 + health surcharge £1,035 a year + TB test US$70 + English test | Sponsorship certificate and Immigration Skills Charge | Fees rose on 8 April 2026. | [Davidson Morris](https://www.davidsonmorris.com/uk-visa-fees), [GOV.UK](https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-bangladesh/tuberculosis-testing-in-bangladesh) |
+| **Estonia** | Check the embassy page | D visa €120, or residence permit €280 | Registers short-term employment €130 | — | [Jobbatical](https://www.jobbatical.com/blog/estonia-immigration-fees) |
+| **Switzerland** | Dhaka (Swiss Embassy) | Visa about CHF 80–150 + commune registration about CHF 100 | Cantonal permit, CHF 100–550 | Only 8,500 non-EU permits a year. | [The Local](https://www.thelocal.ch/20260122/how-much-do-switzerlands-work-permits-cost-in-2026) |
+| **New Zealand** | Online | NZ$1,540 + medical Tk 10,100 | Accreditation NZ$775 + job check NZ$735 | See the New Zealand section. | [INZ fee table](https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf) |
+| **Serbia** (on hold) · Delhi trip | New Delhi (Serbian Embassy) | Single permit RSD 22,700 + RSD 420; visa D extra | — | BMET clearance on hold (September 2026). | [Welcome to Serbia](https://welcometoserbia.gov.rs/help) |
+| **North Macedonia** (on hold) | — | Not costed | — | BMET clearance on hold. | — |
+| **Hungary** (closed) | — | Not costed | — | Guest-worker permit closed since 6 June 2026. | — |
+
+### Remote-work visas (Plan B): no employer, no employer fees
+
+- **Spain · digital nomad:** About €73 incl. TIE card €16.08; consular fee varies ([Klevvera](https://www.klevvera.com/blog/spain-digital-nomad-visa-cost-breakdown/)).
+- **Portugal · D8 digital nomad:** Visa €110 · residence card about €170 · show €11,040 savings ([Genki](https://guide.genki.world/portugal-digital-nomad-visa/)).
+- **Greece · digital nomad:** Visa €75 · residence permit €1,000 ([Remote Work Europe](https://remoteworkeurope.eu/insights/greece-digital-nomad-visa/)).
+
+---
+
+## AGENCY PRICES: what agencies charge and what workers paid
+
+Agency prices are many times the official cost, and most of the money goes to brokers, not to any government. Use this section to spot an inflated price. None of these prices are recommendations.
+
+**The Bangladesh-wide picture (BBS Labour Force Survey 2024):**
+- The average recruitment cost is **Tk 4.63 lakh**. It takes **10.9 months** of wages to earn that back ([TBS](https://www.tbsnews.net/infograph/numbers/how-long-does-it-take-migrant-worker-recover-recruitment-costs-1237726)).
+- **53%** of Italy-bound migrants paid more than Tk 5 lakh.
+- **52%** of all migrants paid brokers ([TBS](https://www.tbsnews.net/bangladesh/migration/migration-cost-soars-52-workers-rely-brokers-go-abroad-bbs-872541)).
+
 ### What agency routes should cost vs what people pay (taka)
 
 | Country | Official benchmark | What agencies advertise (2026) | What workers report |
 |---|---|---|---|
 | Italy | Should not exceed Tk 2–2.5 lakh ([TBS](https://www.tbsnews.net/bangladesh/migration/record-bangladeshis-hired-italy-year-800m-sent-home-706554)) | Tk 4–5 lakh, seasonal ([Kajer Visa](https://kajervisa.com/italy-jete-koto-taka-lage/)) | Up to Tk 15 lakh ([TBS](https://www.tbsnews.net/bangladesh/migration/record-bangladeshis-hired-italy-year-800m-sent-home-706554)) |
 | Romania | Tk 1.65 lakh, government-fixed (2020) | Tk 4–7 lakh ([Reelpen](https://www.reelpen.org/how-much-does-it-cost-to-go-to-romania/)) | Tk 7–8 lakh ([InfoMigrants](https://www.infomigrants.net/en/post/44251/bangladeshi-migrants-in-romania-from-regular-to-undocumented-part-1-of-2)); Tk 10–12 lakh ([TBS](https://www.tbsnews.net/bangladesh/migration/romania-set-temporary-consular-services-dhaka-370771)) |
-| Croatia | — | Tk 7–9 lakh through an agency; Tk 10–15 lakh through brokers ([Probash Guide](https://probashguide.com/croatia-visa-update-bangladesh/)) | — |
+| Croatia | Tk 41,250, BOESL fixed cost for skilled workers, 2022 ([Dhaka Tribune](https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries)) | Tk 7–9 lakh through an agency; Tk 10–15 lakh through brokers ([Probash Guide](https://probashguide.com/croatia-visa-update-bangladesh/)) | — |
 | Malta | — | Tk 7–8 lakh, private agency ([Tips Blog BD](https://tipsblogbd.com/malta-work-permit/)) | €3,500–5,000 more paid to agencies in Malta ([MaltaToday](https://www.maltatoday.com.mt/news/national/109662/asian_couriers_paying_thousands_in_commissions_to_get_malta_delivery_job)) |
-| Serbia (on hold) | — | Tk 6–9 lakh; Tk 10–15 lakh through brokers ([Uzzala Store](https://www.uzzalastore.com/cost-of-traveling-from-bangladesh-to-serbia/)) | Debts up to US$10,000 ([BHRRC](https://www.business-humanrights.org/en/latest-news/serbia-rights-groups-allege-human-trafficking-and-forced-labor-involving-bangladeshi-workers-at-linglong-tire-plant-company-did-not-comment/)) |
+| Serbia (on hold) | — | Tk 6–9 lakh; Tk 10–15 lakh through brokers ([Uzzala Store](https://www.uzzalastore.com/cost-of-traveling-from-bangladesh-to-serbia/)) | About Tk 8 lakh each to a syndicate of agencies, said the welfare minister ([tob.news](https://tob.news/the-serbian-work-visa-dilemma/)); debts up to US$10,000 ([BHRRC](https://www.business-humanrights.org/en/latest-news/serbia-rights-groups-allege-human-trafficking-and-forced-labor-involving-bangladeshi-workers-at-linglong-tire-plant-company-did-not-comment/)) |
 
 For comparison, the average for all destinations is **Tk 4.63 lakh** (BBS 2024). Agency prices are listed for comparison only, not as recommendations.
 
@@ -228,56 +391,27 @@ These accounts come from interviews in news reports and investigations, in the c
 - **Serbia, US$10,000:** more than 40 Bangladeshi workers at the Linglong tyre plant arrived with recruitment debts of up to $10,000 ([BHRRC](https://www.business-humanrights.org/en/latest-news/serbia-rights-groups-allege-human-trafficking-and-forced-labor-involving-bangladeshi-workers-at-linglong-tire-plant-company-did-not-comment/)).
 - **Croatia, €7,000:** a Nepali worker paid €7,000 in total for fees, documents and travel ([InfoMigrants](https://www.infomigrants.net/en/post/69895/nepalese-workers-fueling-croatias-economy-amid-violence-and-exploitation)).
 - **Portugal, €10,000:** some migrants paid close to €10,000 trying to enter on the right visa ([The Diplomat, 2024](https://thediplomat.com/2024/10/portugals-immigration-overhaul-hits-south-asian-workers-hard/)).
+- **Serbia, Tk 8 lakh:** the expatriates' welfare minister said a syndicate of travel agencies took about Tk 8 lakh each from hundreds of young men for Serbian work visas ([tob.news](https://tob.news/the-serbian-work-visa-dilemma/)).
+- **Russia, Tk 10 lakh:** men who paid agents around Tk 10 lakh each for construction jobs were sent to the front line instead ([Bangladesh Pratidin, Oct 2026](https://en.bd-pratidin.com/national/2026/10/15/71889)).
+- **New Zealand, NZ$15,000–40,000:** 115 Bangladeshi and Indian workers paid agents this much and arrived on work visas to find no jobs, in 2023 ([TBS](https://www.tbsnews.net/node/686434)).
 
-### Costs in Bangladesh (taka)
+### The government recruiter's fixed prices
 
-| Item | Cost | Source |
-|---|---|---|
-| IELTS Academic or General Training (UKVI: Tk 34,850) | Tk 31,100 | [IDP](https://ielts.idp.com/bangladesh/about/ielts-exam-fee) |
-| Police clearance certificate | Tk 500 | [PCC guide](https://policeclearance.bd/application-fees/) |
-| BMET welfare fee from 1 October 2026 (was Tk 3,500) | Tk 5,500 | [TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606) |
-| BMET insurance fee | Tk 1,000 | [Migrantimes](https://migrantimes.com/labour-policy/27-09-2026/bangladesh-raises-overseas-workers-welfare-fee-to-tk-5500) |
-| BMET smart card | Free | [TBS](https://www.tbsnews.net/bangladesh/expat-ministry-scraps-bmet-clearance-card-fee-tk250-outgoing-workers-1007091) |
-| Medical check for agency routes (price in agency ads) | Tk 6,000–10,000 | [Reelpen](https://www.reelpen.org/how-much-does-it-cost-to-go-to-romania/) |
-| Indian visa processing, only for New Delhi embassies | Tk 1,500 | [Wego](https://blog.wego.com/indian-tourist-visa-for-bangladeshi-nationals/) |
-| Dhaka ⇄ Delhi return flight, lowest fares seen | Tk 16,200 | [GoZayaan](https://gozayaan.com/route/dhaka-to-delhi-flight-ticket-price) |
-| Notary, translation and attestation of documents | Tk 5,000–20,000 | estimate |
+BOESL, the government recruiter, publishes one all-in price when it runs a scheme. Compare these with agency prices.
 
-### Official fees abroad (in each country's currency)
-
-| Route | Fees | Who usually pays | Source |
-|---|---|---|---|
-| Germany · EU Blue Card | National visa €75 · Blue Card €100 | You | [Find English](https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply) |
-| Netherlands · highly skilled migrant | IND fee €423 | Usually the employer | [Envoy](https://www.envoyglobal.com/news-alert/the-netherlands-immigration-application-fees-2026/) |
-| Sweden · work permit | Application fee SEK 2,200 | You, online | [Jobbatical](https://www.jobbatical.com/blog/sweden-work-permit-guide-process-requirements) |
-| Ireland · General Employment Permit | Permit €1,000 · visa €60 · residence card €300 | Permit: employer or you, never deducted from your pay | [Citizens Information](https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/) |
-| United Kingdom · Skilled Worker | Visa £819 · health surcharge £1,035 a year | You; sponsor fees are the employer's | [Find My Visa](https://findmyvisa.co.uk/skilled-worker-visa/cost) |
-| Poland · work permit | Visa about €80–135 · permit PLN 400 | Visa: you · permit: employer | [Worksol](https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/) |
-| Spain · digital nomad | About €73 incl. TIE card €16.08; consular fee varies | You | [Klevvera](https://www.klevvera.com/blog/spain-digital-nomad-visa-cost-breakdown/) |
-| Portugal · D8 digital nomad | Visa €110 · residence card about €170 · show €11,040 savings | You | [Genki](https://guide.genki.world/portugal-digital-nomad-visa/) |
-| Greece · digital nomad | Visa €75 · residence permit €1,000 | You | [Remote Work Europe](https://remoteworkeurope.eu/insights/greece-digital-nomad-visa/) |
-| Romania · work | D/AM visa €120 | You; agencies may not charge you | [Skuad](https://www.skuad.io/work-permit/romania) |
-| Croatia · work | Visa €93 · VFS service BDT 4,030 · courier BDT 3,900 · permit about €116 | Visa and VFS: you · permit: employer | [VFS Croatia](https://visa.vfsglobal.com/bgd/en/hrv) |
-| Italy · Decreto Flussi | Visa €116 · nulla osta revenue stamp €16 | Visa: you · nulla osta: employer | [TBS](https://www.tbsnews.net/bangladesh/migration/record-bangladeshis-hired-italy-year-800m-sent-home-706554) |
-| Malta · single permit | Permit €600 · pre-departure course €250 · VFS BDT 13,935–20,900 | Permit: employer · course and VFS: you | [Free Malta](https://freemalta.com/hub/single-permit) |
-| Bulgaria · single permit | D visa €100–120 · permit about €200 | Visa: you · permit: employer | [Innovires](https://www.innovires.com/en/blog/work-permit-bulgaria.html) |
-
-### Moving into a flat: how big a deposit can a landlord ask for?
-
-| City | First month + largest legal deposit | Rule | Source |
-|---|---|---|---|
-| Berlin, room in a shared flat | €2,600 (€650 rent) | Up to 3 months' cold rent, payable in 3 instalments | [WG Lotse](https://wglotse.de/en/find-a-wg/berlin/), [Rentumo](https://rentumo.de/en/blog/security-deposit-germany-guide) |
-| Dublin, one-bedroom, city centre | €4,266 (€2,133 rent) | Deposit up to 1 month + 1 month in advance | [Threshold](https://threshold.ie/advocacy-campaign/singlepeople/) |
-| Berlin, one-bedroom | €4,300 (€1,075 median rent) | Up to 3 months' cold rent | [Global Property Guide](https://www.globalpropertyguide.com/europe/germany/rent) |
-| Madrid, one-bedroom, city centre | €5,188 (€1,297 rent) | 1 month by law + up to 2 months' extra guarantee | [Spain Handbook](https://spainhandbook.com/what-is-fianza-in-spain-deposit-rules-explained-simply/) |
-| Amsterdam, one-bedroom | €5,400–7,200 (€1,800–2,400 rent) | Up to 2 months' basic rent | [Government.nl](https://www.government.nl/topics/housing/rented-housing/step-by-step-plan-for-tenants) |
+| Destination | Job | Fixed price | What it covers | Source |
+|---|---|---|---|---|
+| Croatia | Skilled workers (2022 revision) | Tk 41,250 | Service charge, welfare fee, pre-exit processing and training, insurance and smart card. Employers mostly pay the airfare. | [Dhaka Tribune](https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries) |
+| Bulgaria | Garment workers, skilled (2022 revision) | Tk 52,850 | Same items as above. | [Dhaka Tribune](https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries) |
+| Romania | Government-fixed cost (2020) | Tk 1.65 lakh | All-in cost set when Romania opened to Bangladeshi workers. | [TBS](https://www.tbsnews.net/bangladesh/migration/romania-set-temporary-consular-services-dhaka-370771) |
+| Brunei (outside Europe) | 2026 circular | Tk 44,850–56,350 | Unskilled to skilled, including welfare fee and insurance. Shows what a published government price looks like. | [BOESL](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-boesl/2026/6/5651c1ae-8b4a-4ab9-8dce-0472670b31aa.pdf) |
 
 ### Rules that protect your money
 
 - **Romania:** an authorised placement agency may not charge a foreign worker any commission, fee, guarantee or deposit ([WorkinRomania.gov.ro](https://workinromania.gov.ro)).
 - **Malta:** licensed employment agencies may not charge job applicants or deduct fees from their wages ([MaltaToday](https://www.maltatoday.com.mt/news/national/109662/asian_couriers_paying_thousands_in_commissions_to_get_malta_delivery_job)).
 - **Ireland:** an employer cannot recover employment-permit costs from your pay ([Recruitroo](https://www.recruitroo.com/blog/ireland-employment-permit-costs-2026-full-breakdown)).
-- **Bangladesh:** government schemes publish one fixed all-in charge. Example: BOESL's 2026 Brunei circular charges Tk 44,850 (unskilled) to Tk 56,350 (skilled), including welfare fee and insurance ([BOESL](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-boesl/2026/6/5651c1ae-8b4a-4ab9-8dce-0472670b31aa.pdf)).
+- **New Zealand:** employers may not take money for a job, and must pay all recruitment costs at home and abroad ([Employment NZ](https://www.employment.govt.nz/news-and-updates/auckland-company-charged-migrant-worker-almost-45000-for-his-job)).
 
 ---
 

@@ -39,7 +39,8 @@
     for (var i = 1; i < arguments.length; i++) append(node, arguments[i]);
   }
   function ext(label, url, cls) {
-    return el("a", { href: url, target: "_blank", rel: "noopener", "class": cls || null }, label);
+    var local = url.charAt(0) === "#";
+    return el("a", { href: url, target: local ? null : "_blank", rel: local ? null : "noopener", "class": cls || null }, label);
   }
 
   var store = {
@@ -530,6 +531,7 @@
     }
     plot.appendChild(el("div", { "class": "hb-row hb-axis", "aria-hidden": "true" }, el("span"), el("span", { "class": "hb-plot" }, ticks)));
     fig.appendChild(plot);
+    if (opts.after) fig.appendChild(opts.after());
 
     var tableWrap = el("div", { "class": "tbl-wrap", hidden: true },
       el("table", null,
@@ -613,10 +615,26 @@
 
   function renderCosts() {
     var C = G.costs;
-    kpiCards($("#cost-kpis"), C.kpis);
-
     var b = $("#budgets");
     b.replaceChildren.apply(b, C.plans.map(budgetCard));
+
+    barChart($("#chart-movein"), {
+      title: "Cash to move into a flat",
+      sub: "First month's rent plus the largest deposit the law allows, in euros, 2026.",
+      rows: C.moveIn, fmt: eur, tick: eurTick, col: "Move-in cash", labelWidth: "minmax(8rem, 14rem)",
+      legend: ["Your Plan A start", "Other options"],
+      foot: [["WG Lotse", "https://wglotse.de/en/find-a-wg/berlin/"], ["Global Property Guide", "https://www.globalpropertyguide.com/europe/germany/rent"], ["Numbeo", "https://www.numbeo.com/cost-of-living/city_price_rankings?itemId=26"], ["Nordic Expat", "https://nordicexpat.com/europe/cost-of-living/average-rent-european-cities-2026"], ["Government.nl", "https://www.government.nl/topics/housing/rented-housing/step-by-step-plan-for-tenants"], ["Threshold", "https://threshold.ie/advocacy-campaign/singlepeople/"]]
+    });
+
+    dataTable("#bdcosts", ["Item", "Cost", "Source"], C.bd, function (r) {
+      return [el("td", null, r[0]), el("td", { "class": "num" }, r[1]), el("td", null, srcLink(r[2], r[3] === "estimate"))];
+    });
+    ruleList("#deposits", C.deposits);
+  }
+
+  function renderAgency() {
+    var C = G.costs;
+    kpiCards($("#ag-kpis"), C.kpis);
 
     rangeChart($("#chart-agency"), {
       title: "Agency routes: what they should cost vs what people pay",
@@ -629,27 +647,70 @@
       foot: [["TBS", "https://www.tbsnews.net/bangladesh/migration/record-bangladeshis-hired-italy-year-800m-sent-home-706554"], ["InfoMigrants", "https://www.infomigrants.net/en/post/44251/bangladeshi-migrants-in-romania-from-regular-to-undocumented-part-1-of-2"], ["Probash Guide", "https://probashguide.com/croatia-visa-update-bangladesh/"], ["Reelpen", "https://www.reelpen.org/how-much-does-it-cost-to-go-to-romania/"]]
     });
 
-    barChart($("#chart-movein"), {
-      title: "Cash to move into a flat",
-      sub: "First month's rent plus the largest deposit the law allows, in euros, 2026.",
-      rows: C.moveIn, fmt: eur, tick: eurTick, col: "Move-in cash", labelWidth: "minmax(8rem, 14rem)",
-      legend: ["Your Plan A start", "Other options"],
-      foot: [["WG Lotse", "https://wglotse.de/en/find-a-wg/berlin/"], ["Global Property Guide", "https://www.globalpropertyguide.com/europe/germany/rent"], ["Numbeo", "https://www.numbeo.com/cost-of-living/city_price_rankings?itemId=26"], ["Nordic Expat", "https://nordicexpat.com/europe/cost-of-living/average-rent-european-cities-2026"], ["Government.nl", "https://www.government.nl/topics/housing/rented-housing/step-by-step-plan-for-tenants"], ["Threshold", "https://threshold.ie/advocacy-campaign/singlepeople/"]]
-    });
-
     accountCards($("#accounts"), C.accounts);
 
     dataTable("#ads", ["Country", "Advertised", "What the ad says", "Source"], C.ads, function (r) {
       return [el("td", { "class": "cname" }, r[0]), el("td", { "class": "num" }, r[1]), el("td", null, r[2]), el("td", null, ext(r[3][0], r[3][1]))];
     });
-    dataTable("#bdcosts", ["Item", "Cost", "Source"], C.bd, function (r) {
-      return [el("td", null, r[0]), el("td", { "class": "num" }, r[1]), el("td", null, srcLink(r[2], r[3] === "estimate"))];
-    });
-    dataTable("#fees", ["Route", "Fees (in the country's currency)", "Who usually pays", "Source"], C.fees, function (r) {
-      return [el("td", { "class": "cname" }, r[0]), el("td", null, r[1]), el("td", null, r[2]), el("td", null, ext(r[3][0], r[3][1]))];
+    dataTable("#ag-fixed", ["Destination", "Job", "Fixed price", "What it covers", "Source"], C.fixed, function (r) {
+      return [el("td", { "class": "cname" }, r[0]), el("td", null, r[1]), el("td", { "class": "num" }, r[2]), el("td", null, r[3]), el("td", null, ext(r[4][0], r[4][1]))];
     });
     ruleList("#rules", C.rules);
-    ruleList("#deposits", C.deposits);
+  }
+
+  /* ---------- official cost if you do it yourself ---------- */
+  var STATUS = { hold: "On hold", closed: "Closed" };
+
+  function renderDIY() {
+    var D = G.diy;
+    kpiCards($("#diy-kpis"), D.kpis);
+    $("#diy-bd").replaceChildren(budgetCard(D.bd));
+
+    var rows = D.chart.slice().sort(function (a, b) { return (a.high - b.high) || (a.low - b.low); });
+    rangeChart($("#chart-diy"), {
+      title: "Your official fees abroad, euro countries",
+      sub: "Euros you pay to the destination's government and its visa centre, with a job offer and no agent. Not included: Bangladesh costs, taka charges at visa centres (see notes) and the flight.",
+      rows: rows, cols: ["Country", "Your fees"],
+      legend: ["Lowest to highest official fees"],
+      tick: function (v) { return v === 0 ? "0" : "€" + num(v); }, labelWidth: "minmax(6.5rem, 9rem)",
+      after: function () {
+        return el("div", { "class": "other-cur" },
+          el("p", { "class": "eyebrow" }, "Other currencies, or fees not fully known"),
+          el("ul", null, D.other.map(function (r) {
+            return el("li", null, el("span", { "class": "oc-l" }, r.label), el("b", null, r.shown), el("span", { "class": "oc-n" }, r.note));
+          })));
+      },
+      foot: [["Country sources in the table below", "#diy-table"]]
+    });
+
+    var q = $("#diy-q"), count = $("#diy-count");
+    function draw() {
+      var term = q.value.trim().toLowerCase();
+      var list = D.rows.filter(function (r) {
+        return !term || (r.name + " " + r.iso + " " + r.apply).toLowerCase().indexOf(term) !== -1;
+      });
+      count.textContent = list.length === 1 ? "1 country" : list.length + " countries";
+      dataTable("#diy-table", ["Country", "Where you apply", "You pay", "Employer pays", "Notes", "Sources"], list, function (r) {
+        return [
+          el("td", { "class": "cname" }, r.name,
+            r.status !== "open" ? el("span", { "class": "flag " + r.status }, STATUS[r.status]) : null,
+            r.delhi ? el("span", { "class": "flag delhi" }, "Delhi trip") : null),
+          el("td", null, r.apply),
+          el("td", null, r.you),
+          el("td", null, r.employer),
+          el("td", null, r.extra || "—"),
+          el("td", { "class": "srcs" }, r.src.length ? r.src.map(function (s2, i) { return [i ? " · " : null, ext(s2[0], s2[1])]; }) : "—")
+        ];
+      });
+      if (!list.length) $("#diy-table tbody").appendChild(el("tr", null, el("td", { colspan: 6, "class": "small" }, "No country matches. Clear the search to see all " + D.rows.length + ".")));
+    }
+    q.addEventListener("input", draw);
+    draw();
+
+    var rl = $("#diy-remote");
+    rl.replaceChildren.apply(rl, D.remote.map(function (r) {
+      return el("li", null, el("b", null, r[0] + ". "), r[1] + " ", el("span", { "class": "src" }, "(", ext(r[2][0], r[2][1]), ")"));
+    }));
   }
 
   function portalCards(mount, rows) {
@@ -806,6 +867,8 @@
   /* ---------- boot ---------- */
   renderCharts();
   renderCosts();
+  renderDIY();
+  renderAgency();
   renderMNE();
   renderNZ();
   initMap();

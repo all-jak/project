@@ -32,6 +32,8 @@ CHECKED&lt;20261008&lt;BGD&lt;ROU&lt;HRV&lt;ITA&lt;GRC&lt;DEU&lt;NZL</p>
   <ul class="wrap">
     <li><a href="#plan">Your plan</a></li>
     <li><a href="#costs">Costs</a></li>
+    <li><a href="#diy">Official costs</a></li>
+    <li><a href="#agency">Agency prices</a></li>
     <li><a href="#map">Map</a></li>
     <li><a href="#how">How it works</a></li>
     <li><a href="#nonskilled">Non-skilled</a></li>
@@ -176,10 +178,9 @@ CHECKED&lt;20261008&lt;BGD&lt;ROU&lt;HRV&lt;ITA&lt;GRC&lt;DEU&lt;NZL</p>
   <section class="sec" id="costs" aria-labelledby="co-h">
     <div class="sec-head">
       <p class="eyebrow">Costs</p>
-      <h2 id="co-h">What it really costs</h2>
-      <p class="lede">Official fees are small. The big money goes to agents, the flight and your first month abroad. Every amount is in the currency you pay it in: taka in Bangladesh, the destination's own currency abroad, and US dollars for flights.</p>
+      <h2 id="co-h">What your three plans cost</h2>
+      <p class="lede">Official fees are small; the flight and your first month abroad cost more. Every amount is in the currency you pay it in: taka in Bangladesh, the destination's own currency abroad, and US dollars for flights. The official cost for every country is in <a href="#diy">Official costs</a>, and agency prices are in <a href="#agency">Agency prices</a>.</p>
     </div>
-    <div class="kpis" id="cost-kpis"></div>
 
     <div class="stack">
       <h3>Your three plans, item by item</h3>
@@ -193,6 +194,72 @@ CHECKED&lt;20261008&lt;BGD&lt;ROU&lt;HRV&lt;ITA&lt;GRC&lt;DEU&lt;NZL</p>
         <ul class="rules" id="deposits"></ul>
       </div>
     </div>
+
+    <div class="stack">
+      <h3>Costs in Bangladesh</h3>
+      <div class="tbl-wrap"><table id="bdcosts"></table></div>
+    </div>
+  </section>
+
+  <!-- ===================== OFFICIAL COST (DO IT YOURSELF) ===================== -->
+  <section class="sec" id="diy" aria-labelledby="diy-h">
+    <div class="sec-head">
+      <p class="eyebrow">Official costs · checked 18 October 2026</p>
+      <h2 id="diy-h">Doing it yourself: the real cost with a job offer</h2>
+      <p class="lede">With a real job offer you can do every step yourself and pay only government fees, the visa centre's charge, your own documents and your ticket. No agent and no "processing fee". Here is that cost for every country in this guide, in the currency each fee is charged in.</p>
+    </div>
+    <div class="kpis compact" id="diy-kpis"></div>
+
+    <div class="callout">
+      <p class="eyebrow">Who pays what</p>
+      <p>In most countries the <strong>employer</strong> applies and pays for its own permit or approval. <strong>You</strong> pay the visa fee, the visa centre's service charge, your residence card after arrival, and your costs in Bangladesh. In Romania, Malta, Ireland and New Zealand the law also stops employers or licensed agencies from passing these costs on to you.</p>
+    </div>
+
+    <div class="two">
+      <div id="diy-bd"></div>
+      <div class="card plan">
+        <h3>Do it yourself in 7 steps</h3>
+        <ol class="diy-steps">
+          <li><b>Find the job yourself</b> on the portals in this guide, and get a signed offer or contract.</li>
+          <li><b>Check the employer</b> exists and, where there is a list, is allowed to hire foreigners.</li>
+          <li><b>The employer applies</b> for your permit and pays its own fee.</li>
+          <li><b>Book your own appointment</b> on the embassy or visa-centre website. Appointments are free; never buy one.</li>
+          <li><b>Pay the visa fee yourself</b> at the counter or online, and keep every receipt.</li>
+          <li><b>Get BMET clearance</b> on oc.bmet.gov.bd and do the pre-departure training.</li>
+          <li><b>Buy your own ticket</b>, unless the employer pays for it.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div id="chart-diy"></div>
+
+    <div class="stack">
+      <h3>Every country, fee by fee</h3>
+      <p class="small">"You pay" is your own cost; "Employer pays" is the employer's permit or approval. Countries marked Delhi trip need the New Delhi costs above. Checked against official pages where we could reach them; other figures come from law firms and relocation guides, so confirm before you pay.</p>
+      <div class="filters">
+        <div class="row">
+          <label class="small" for="diy-q">Find a country</label>
+          <input class="search" id="diy-q" type="search" placeholder="Country, e.g. Italy">
+          <span class="pcount" id="diy-count" aria-live="polite"></span>
+        </div>
+      </div>
+      <div class="tbl-wrap"><table class="diy" id="diy-table"></table></div>
+    </div>
+
+    <div class="stack">
+      <h3>Remote-work visas (Plan B): no employer, no employer fees</h3>
+      <ul class="rules" id="diy-remote"></ul>
+    </div>
+  </section>
+
+  <!-- ===================== AGENCY PRICES ===================== -->
+  <section class="sec" id="agency" aria-labelledby="ag-h">
+    <div class="sec-head">
+      <p class="eyebrow">Agency prices</p>
+      <h2 id="ag-h">What agencies charge, and what workers paid</h2>
+      <p class="lede">Agency prices are many times the official cost, and most of the money goes to brokers, not to any government. Use this section to spot an inflated price. None of these prices are recommendations.</p>
+    </div>
+    <div class="kpis" id="ag-kpis"></div>
 
     <div id="chart-agency"></div>
 
@@ -208,20 +275,15 @@ CHECKED&lt;20261008&lt;BGD&lt;ROU&lt;HRV&lt;ITA&lt;GRC&lt;DEU&lt;NZL</p>
       <div class="tbl-wrap"><table class="ads" id="ads"></table></div>
     </div>
 
-    <div class="two">
-      <div class="stack">
-        <h3>Costs in Bangladesh</h3>
-        <div class="tbl-wrap"><table id="bdcosts"></table></div>
-      </div>
-      <div class="stack">
-        <h3>Rules that protect your money</h3>
-        <ul class="rules" id="rules"></ul>
-      </div>
+    <div class="stack">
+      <h3>The government recruiter's fixed prices</h3>
+      <p class="small">BOESL publishes one all-in price when it runs a scheme. Compare these with agency prices.</p>
+      <div class="tbl-wrap"><table class="fixed" id="ag-fixed"></table></div>
     </div>
 
     <div class="stack">
-      <h3>Official fees abroad</h3>
-      <div class="tbl-wrap"><table class="fees" id="fees"></table></div>
+      <h3>Rules that protect your money</h3>
+      <ul class="rules" id="rules"></ul>
     </div>
   </section>
 

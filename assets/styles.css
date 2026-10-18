@@ -416,7 +416,32 @@ li + li { margin-top: .35rem; }
 .account figcaption a { color: var(--muted); }
 
 /* cost tables + rules */
-.ads, .fees { min-width: 36rem; }
+.ads, .fees, .fixed { min-width: 36rem; }
+
+/* official-cost table: one row per country */
+.diy { min-width: 58rem; }
+.diy td { font-size: var(--t-sm); }
+.diy td.cname { white-space: normal; min-width: 8.5rem; }
+.diy td:nth-child(2) { min-width: 9rem; }
+.diy td:nth-child(3) { min-width: 13rem; }
+.diy .srcs { font-size: var(--t-xs); color: var(--muted); min-width: 8rem; }
+.diy .srcs a { color: var(--muted); }
+.flag {
+  display: inline-block;
+  margin: .3rem .3rem 0 0;
+  font: 500 var(--t-xs)/1 var(--font-mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: .2rem .35rem;
+  border-radius: 4px;
+  border: 1px solid var(--line-2);
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.flag.hold, .flag.closed { color: var(--crit-ink); border-color: currentColor; }
+.flag.delhi { color: var(--warn-ink); }
+.diy-steps { padding-left: 1.25rem; display: grid; gap: .45rem; font-size: var(--t-sm); }
+.diy-steps li + li { margin-top: 0; }
 .rules { list-style: none; padding: 0; display: grid; gap: .6rem; font-size: var(--t-sm); }
 .rules li { margin: 0; padding: .75rem .9rem; border-radius: 8px; background: var(--accent-soft); }
 

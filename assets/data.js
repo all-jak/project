@@ -530,8 +530,9 @@ window.GUIDE = {
           { head: "Flight · US dollars", items: [
             ["Dhaka → Frankfurt, one way (online fares)", "US$417–478", ["Expedia", "https://expedia.com/lp/flights/dac/fra/dhaka-to-frankfurt"]]
           ] },
-          { head: "In Germany · euros", total: "€2,075–3,675", items: [
-            ["National visa €75 + EU Blue Card €100", "€175", ["Find English", "https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply"]],
+          { head: "In Germany · euros", total: "€2,094–3,694", items: [
+            ["National visa €75 + VFS service charge €19.13", "€94.13", ["German Mission Dhaka", "https://dhaka.diplo.de/bd-en/service/2346500-2346500"]],
+            ["EU Blue Card, issued after you arrive", "€100", ["Find English", "https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply"]],
             ["First month's rent: room in a Berlin shared flat (median, warm)", "€650", ["WG Lotse", "https://wglotse.de/en/find-a-wg/berlin/"]],
             ["Deposit of 1–3 months' cold rent, paid back when you move out", "€650–1,950", ["Rentumo (§551 BGB)", "https://rentumo.de/en/blog/security-deposit-germany-guide"]],
             ["Food, transport and phone until your first salary", "€600–900", null, "estimate"]
@@ -581,8 +582,8 @@ window.GUIDE = {
     /* Range chart, lakh taka (Bangladeshi prices are quoted in taka). */
     agencyRanges: [
       { label: "Italy", low: 4, high: 15, bench: [2, 2.5], benchText: "Should not exceed Tk 2–2.5 lakh", shown: "Tk 4–15 lakh", note: "Ads: Tk 4–5 lakh (seasonal). Workers told TBS they paid up to Tk 15 lakh." },
-      { label: "Croatia", low: 7, high: 15, shown: "Tk 7–15 lakh", note: "Ads: Tk 7–9 lakh through an agency, Tk 10–15 lakh through brokers." },
-      { label: "Serbia (on hold)", low: 6, high: 15, shown: "Tk 6–15 lakh", note: "Ads: Tk 6–9 lakh; Tk 10–15 lakh through brokers. BMET clearance is on hold." },
+      { label: "Croatia", low: 7, high: 15, bench: [0.4125, 0.4125], benchText: "BOESL fixed cost for skilled workers Tk 41,250 (2022)", shown: "Tk 7–15 lakh", note: "Ads: Tk 7–9 lakh through an agency, Tk 10–15 lakh through brokers." },
+      { label: "Serbia (on hold)", low: 6, high: 15, shown: "Tk 6–15 lakh", note: "Ads: Tk 6–9 lakh; Tk 10–15 lakh through brokers. The welfare minister said a syndicate took about Tk 8 lakh each. BMET clearance is on hold." },
       { label: "Romania", low: 4, high: 12, bench: [1.65, 1.65], benchText: "Government-fixed cost Tk 1.65 lakh (2020)", shown: "Tk 4–12 lakh", note: "Ads: Tk 4–7 lakh. Workers report Tk 7–8 lakh (InfoMigrants) and Tk 10–12 lakh (TBS)." },
       { label: "Malta", low: 7, high: 8, shown: "Tk 7–8 lakh", note: "Private-agency ads. Couriers also report paying €3,500–5,000 more to agencies in Malta." }
     ],
@@ -603,24 +604,6 @@ window.GUIDE = {
       ["Netherlands", "Up to 2 months' basic rent for contracts from 1 July 2023.", ["Government.nl", "https://www.government.nl/topics/housing/rented-housing/step-by-step-plan-for-tenants"]],
       ["Spain", "1 month's rent by law, plus up to 2 months' extra guarantee.", ["Spain Handbook", "https://spainhandbook.com/what-is-fianza-in-spain-deposit-rules-explained-simply/"]],
       ["Ireland", "Up to 1 month's rent, plus 1 month paid in advance (since 9 August 2021).", ["Threshold", "https://threshold.ie/advocacy-campaign/singlepeople/"]]
-    ],
-
-    /* Official fees: [route, fees in the country's currency, who usually pays, [label,url]] */
-    fees: [
-      ["Germany · EU Blue Card", "National visa €75 · Blue Card €100", "You", ["Find English", "https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply"]],
-      ["Netherlands · highly skilled migrant", "IND fee €423", "Usually the employer", ["Envoy", "https://www.envoyglobal.com/news-alert/the-netherlands-immigration-application-fees-2026/"]],
-      ["Sweden · work permit", "Application fee SEK 2,200", "You, online", ["Jobbatical", "https://www.jobbatical.com/blog/sweden-work-permit-guide-process-requirements"]],
-      ["Ireland · General Employment Permit", "Permit €1,000 · visa €60 · residence card €300", "Permit: employer or you, never deducted from your pay", ["Citizens Information", "https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/"]],
-      ["United Kingdom · Skilled Worker", "Visa £819 · health surcharge £1,035 a year", "You; sponsor fees are the employer's", ["Find My Visa", "https://findmyvisa.co.uk/skilled-worker-visa/cost"]],
-      ["Poland · work permit", "Visa about €80–135 · permit PLN 400", "Visa: you · permit: employer", ["Worksol", "https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/"]],
-      ["Spain · digital nomad", "About €73 incl. TIE card €16.08; consular fee varies", "You", ["Klevvera", "https://www.klevvera.com/blog/spain-digital-nomad-visa-cost-breakdown/"]],
-      ["Portugal · D8 digital nomad", "Visa €110 · residence card about €170 · show €11,040 savings", "You", ["Genki", "https://guide.genki.world/portugal-digital-nomad-visa/"]],
-      ["Greece · digital nomad", "Visa €75 · residence permit €1,000", "You", ["Remote Work Europe", "https://remoteworkeurope.eu/insights/greece-digital-nomad-visa/"]],
-      ["Romania · work", "D/AM visa €120", "You; agencies may not charge you", ["Skuad", "https://www.skuad.io/work-permit/romania"]],
-      ["Croatia · work", "Visa €93 · VFS service BDT 4,030 · courier BDT 3,900 · permit about €116", "Visa and VFS: you · permit: employer", ["VFS Croatia", "https://visa.vfsglobal.com/bgd/en/hrv"]],
-      ["Italy · Decreto Flussi", "Visa €116 · nulla osta revenue stamp €16", "Visa: you · nulla osta: employer", ["TBS", "https://www.tbsnews.net/bangladesh/migration/record-bangladeshis-hired-italy-year-800m-sent-home-706554"]],
-      ["Malta · single permit", "Permit €600 · pre-departure course €250 · VFS BDT 13,935–20,900", "Permit: employer · course and VFS: you", ["Free Malta", "https://freemalta.com/hub/single-permit"]],
-      ["Bulgaria · single permit", "D visa €100–120 · permit about €200", "Visa: you · permit: employer", ["Innovires", "https://www.innovires.com/en/blog/work-permit-bulgaria.html"]]
     ],
 
     /* Costs paid in Bangladesh, in taka. Passport fees left out on purpose. */
@@ -657,7 +640,10 @@ window.GUIDE = {
       { amount: "€1,500", where: "Malta", text: "Bangladeshi agencies offered Maltese employers a €1,500 'gift' per worker, which experts believe workers repay from their wages.", src: ["The Shift, 2024", "https://theshiftnews.com/2024/07/19/bangladeshi-agencies-targeting-malta-for-e600-a-month-jobs/"] },
       { amount: "US$10,000", where: "Serbia", text: "More than 40 Bangladeshi workers at the Linglong tyre plant arrived with recruitment debts of up to $10,000.", src: ["Business & Human Rights Centre", "https://www.business-humanrights.org/en/latest-news/serbia-rights-groups-allege-human-trafficking-and-forced-labor-involving-bangladeshi-workers-at-linglong-tire-plant-company-did-not-comment/"] },
       { amount: "€7,000", where: "Croatia", text: "A Nepali worker paid €7,000 in total for fees, documents and travel before landing in Croatia.", src: ["InfoMigrants", "https://www.infomigrants.net/en/post/69895/nepalese-workers-fueling-croatias-economy-amid-violence-and-exploitation"] },
-      { amount: "€10,000", where: "Portugal", text: "Some migrants paid close to €10,000 trying to enter Portugal on the right visa.", src: ["The Diplomat, 2024", "https://thediplomat.com/2024/10/portugals-immigration-overhaul-hits-south-asian-workers-hard/"] }
+      { amount: "€10,000", where: "Portugal", text: "Some migrants paid close to €10,000 trying to enter Portugal on the right visa.", src: ["The Diplomat, 2024", "https://thediplomat.com/2024/10/portugals-immigration-overhaul-hits-south-asian-workers-hard/"] },
+      { amount: "Tk 8 lakh", where: "Serbia", text: "The expatriates' welfare minister said a syndicate of travel agencies took about Tk 8 lakh each from hundreds of young men for Serbian work visas.", src: ["tob.news", "https://tob.news/the-serbian-work-visa-dilemma/"] },
+      { amount: "Tk 10 lakh", where: "Russia", text: "Men who paid agents around Tk 10 lakh each for construction jobs were sent to the front line instead.", src: ["Bangladesh Pratidin, Oct 2026", "https://en.bd-pratidin.com/national/2026/10/15/71889"] },
+      { amount: "NZ$15,000–40,000", where: "New Zealand", text: "115 Bangladeshi and Indian workers paid agents this much and arrived on work visas to find no jobs (2023).", src: ["TBS", "https://www.tbsnews.net/node/686434"] }
     ],
 
     /* Rules that make agency fees illegal or refundable. */
@@ -665,7 +651,133 @@ window.GUIDE = {
       ["Romania", "An authorised placement agency may not charge a foreign worker any commission, fee, guarantee or deposit.", ["WorkinRomania.gov.ro", "https://workinromania.gov.ro"]],
       ["Malta", "Licensed employment agencies may not charge job applicants, or deduct fees from their wages.", ["MaltaToday", "https://www.maltatoday.com.mt/news/national/109662/asian_couriers_paying_thousands_in_commissions_to_get_malta_delivery_job"]],
       ["Ireland", "An employer cannot recover employment-permit costs from your pay.", ["Recruitroo", "https://www.recruitroo.com/blog/ireland-employment-permit-costs-2026-full-breakdown"]],
-      ["Bangladesh", "Government schemes publish one fixed all-in charge. Example: BOESL's 2026 Brunei circular, Tk 44,850 (unskilled) to Tk 56,350 (skilled) including welfare fee and insurance.", ["BOESL", "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-boesl/2026/6/5651c1ae-8b4a-4ab9-8dce-0472670b31aa.pdf"]]
+      ["New Zealand", "Employers may not take money for a job, and must pay all recruitment costs at home and abroad.", ["Employment NZ", "https://www.employment.govt.nz/news-and-updates/auckland-company-charged-migrant-worker-almost-45000-for-his-job"]]
+    ],
+
+    /* What the government recruiter (BOESL) charges: one fixed all-in price.
+       [destination, job, price in taka, what it covers, [label,url]] */
+    fixed: [
+      ["Croatia", "Skilled workers (2022 revision)", "Tk 41,250", "Service charge, welfare fee, pre-exit processing and training, insurance and smart card. Employers mostly pay the airfare.", ["Dhaka Tribune", "https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries"]],
+      ["Bulgaria", "Garment workers, skilled (2022 revision)", "Tk 52,850", "Same items as above.", ["Dhaka Tribune", "https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries"]],
+      ["Romania", "Government-fixed cost (2020)", "Tk 1.65 lakh", "All-in cost set when Romania opened to Bangladeshi workers.", ["TBS", "https://www.tbsnews.net/bangladesh/migration/romania-set-temporary-consular-services-dhaka-370771"]],
+      ["Brunei (outside Europe)", "2026 circular", "Tk 44,850–56,350", "Unskilled to skilled, including welfare fee and insurance. Shows what a published government price looks like.", ["BOESL", "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-boesl/2026/6/5651c1ae-8b4a-4ab9-8dce-0472670b31aa.pdf"]]
+    ]
+  },
+
+  /* ---------- Official cost if you do it yourself, checked 18 October 2026 ----------
+     With a real job offer and no agent: only government fees, compulsory
+     visa-centre charges and your own documents. Amounts are in the currency
+     each fee is charged in; nothing is converted. "you" is what the worker
+     pays; "employer" is the employer's own permit or approval fee. */
+  diy: {
+    kpis: [
+      { value: "Tk 12,000–27,000", label: "what everyone pays in Bangladesh: police clearance, BMET clearance and getting documents attested", src: ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"] },
+      { value: "16 of 21", label: "euro countries where your own official fees abroad stay under €400", src: ["Table below", "#diy-table"] },
+      { value: "Tk 4–15 lakh", label: "what Bangladeshis report paying agencies for the same visas", src: ["Agency prices", "#agency"] }
+    ],
+
+    /* Paid in Bangladesh, whatever the country. Same shape as costs.plans. */
+    bd: { letter: "BD", title: "Paid in Bangladesh, whatever the country", tag: "Everyone",
+      groups: [
+        { head: "Always · taka", total: "Tk 12,000–27,000", items: [
+          ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+          ["BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000; smart card free", "Tk 6,500", ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"]],
+          ["Notary, translation and attestation of your documents", "Tk 5,000–20,000", null, "estimate"]
+        ] },
+        { head: "Only if the embassy is in New Delhi · taka", total: "Tk 17,700 + hotel", items: [
+          ["Indian visa processing (the visa itself is free)", "Tk 1,500", ["Wego", "https://blog.wego.com/indian-tourist-visa-for-bangladeshi-nationals/"]],
+          ["Dhaka ⇄ Delhi return flight, lowest fares seen", "Tk 16,200", ["GoZayaan", "https://gozayaan.com/route/dhaka-to-delhi-flight-ticket-price"]]
+        ] },
+        { head: "Only where a country asks for it", items: [
+          ["IELTS (UK, New Zealand residence, many skilled jobs)", "Tk 31,100", ["IDP", "https://ielts.idp.com/bangladesh/about/ielts-exam-fee"]],
+          ["UK tuberculosis test at an approved clinic, paid in taka", "US$70", ["GOV.UK", "https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-bangladesh/tuberculosis-testing-in-bangladesh"]],
+          ["New Zealand medical at IOM Dhaka", "Tk 10,100", ["IOM Bangladesh", "https://bangladesh.iom.int/new-zealand-all-types-visa-applicants"]]
+        ] }
+      ],
+      note: "BMET clearance is required even when you find the job yourself. Ask BMET which papers it wants: employers' demand letters often need attestation by the Bangladesh embassy in that country." },
+
+    /* Your official fees abroad in euro countries (low–high, euros). Charges
+       paid in taka at a visa centre are in the note, not in the bar. */
+    chart: [
+      { label: "Montenegro", low: 0, high: 67, shown: "€0–67", note: "The employer files the €67 permit. You also pay VFS Tk 4,300 + courier Tk 7,735 and a visa fee." },
+      { label: "Croatia", low: 93, high: 93, shown: "€93", note: "Visa. Plus VFS Tk 4,030 + courier Tk 3,900; the employer pays the permit (about €116)." },
+      { label: "Slovenia", low: 82, high: 114, shown: "€82–114", note: "€70 if the employer applies in Slovenia, €102 at the embassy; card €12." },
+      { label: "Bulgaria", low: 100, high: 120, shown: "€100–120", note: "D visa. The employer pays the single permit (about €200–250)." },
+      { label: "Romania", low: 120, high: 120, shown: "€120", note: "D/AM visa. The employer pays the work permit (about €100)." },
+      { label: "Poland", low: 80, high: 135, shown: "€80–135", note: "D visa, plus a VFS fee. The employer pays the PLN 400 permit." },
+      { label: "Cyprus", low: 70, high: 140, shown: "€70–140", note: "Entry and residence permit €70; first entry in the Aliens' Register €70." },
+      { label: "Germany", low: 194, high: 194, shown: "€194", note: "Visa €75 + VFS €19.13 + EU Blue Card €100." },
+      { label: "Austria", low: 180, high: 218, shown: "€180–218", note: "Red-White-Red Card €218; older guides say €160 + €20 card." },
+      { label: "Greece", low: 135, high: 240, shown: "€135–240", note: "Visa €75 or €180 + contract attestation €30 + GVCW fee €30; courier Tk 10,200. The residence-permit fee in Greece was not found." },
+      { label: "Italy", low: 232, high: 242, shown: "€232–242", note: "Visa €116 + residence permit kit €116–126. Plus VFS Tk 2,850." },
+      { label: "Estonia", low: 120, high: 280, shown: "€120–280", note: "D visa €120 (the employer registers the job, €130), or a residence permit €280." },
+      { label: "Lithuania", low: 120, high: 285, shown: "€120–285", note: "D visa €120–140, or a residence permit €160 + VFS €125." },
+      { label: "Slovakia", low: 264, high: 340, shown: "€264–340", note: "Residence application €250 + visa €14–90 (2024 fee schedule)." },
+      { label: "Latvia", low: 250, high: 370, shown: "€250–370", note: "D visa €90 + residence permit €160 (€280 fast)." },
+      { label: "Portugal", low: 296, high: 397, shown: "€296–397", note: "D visa €110 (+ VFS about €40) + AIMA residence permit €186–247." },
+      { label: "Netherlands", low: 0, high: 423, shown: "€0–423", note: "The employer usually pays the €423 IND fee, which covers visa and permit." },
+      { label: "France", low: 399, high: 449, shown: "€399–449", note: "Visa €99 + residence validation €300 (+ €50 stamp, per one source)." },
+      { label: "Finland", low: 530, high: 750, shown: "€530–750", note: "Online first permit: €750 for most workers, €530 for specialists and Blue Card." },
+      { label: "Malta", low: 250, high: 850, shown: "€250–850", note: "Pre-departure course €250; the €600 single permit is paid online by the employer or by you. Plus VFS Tk 13,935–20,900." },
+      { label: "Ireland", low: 360, high: 1360, shown: "€360–1,360", note: "Visa €60 + residence card €300; the €1,000 permit is the employer's or yours, never deducted from pay." }
+    ],
+
+    /* Countries whose fees are in another currency, or not fully known. */
+    other: [
+      { label: "United Kingdom", shown: "£1,854–3,924", note: "Visa £819 + health surcharge £1,035 a year (1–3 years). Plus TB test US$70 and an English test." },
+      { label: "Sweden", shown: "SEK 2,200", note: "Online application; the card is included." },
+      { label: "Denmark", shown: "DKK 6,810", note: "Plus the VFS service fee in Dhaka." },
+      { label: "Norway", shown: "NOK 6,300", note: "Plus a VFS service fee in taka equal to €21.42." },
+      { label: "Switzerland", shown: "CHF 180–250", note: "Visa about CHF 80–150 + commune registration about CHF 100; the employer pays the cantonal permit." },
+      { label: "Czech Republic", shown: "CZK 7,500", note: "Employee Card CZK 5,000 at the embassy + card CZK 2,500 on arrival." },
+      { label: "New Zealand", shown: "NZ$1,540", note: "Work visa incl. levy, plus the Tk 10,100 medical. The employer pays NZ$775 + NZ$735." },
+      { label: "Spain", shown: "TIE €16–22 + visa", note: "The visa fee is paid in taka at BLS (amount not confirmed). The employer pays the work authorisation (about €204–408)." },
+      { label: "Serbia (on hold)", shown: "RSD 23,120 + visa", note: "Single permit RSD 22,700 + submission RSD 420. BMET clearance is on hold." },
+      { label: "Bosnia & Herzegovina", shown: "Not confirmed", note: "No official fee schedule found for the visa or the work permit." }
+    ],
+
+    /* Every country. status: open | hold | closed. delhi: add the New Delhi trip. */
+    rows: [
+      { iso: "ROU", name: "Romania", status: "open", delhi: true, apply: "New Delhi (embassy, eVisa appointment)", you: "D/AM visa €120", employer: "Work permit about €100, paid in lei", extra: "Only authorised employers on WorkinRomania.gov.ro; authorised agencies may not charge you. Residence card fee not found.", src: [["Skuad", "https://www.skuad.io/work-permit/romania"], ["Playroll", "https://www.playroll.com/work-permit-visas/romania"]] },
+      { iso: "HRV", name: "Croatia", status: "open", apply: "Dhaka (VFS), decided in New Delhi", you: "Visa €93 + VFS Tk 4,030 + courier Tk 3,900", employer: "Residence and work permit about €116", extra: "Croatian A1.1 needed to renew after a year.", src: [["VFS Croatia", "https://visa.vfsglobal.com/bgd/en/hrv"]] },
+      { iso: "ITA", name: "Italy", status: "open", apply: "Dhaka (VFS)", you: "Visa €116 + VFS Tk 2,850; residence permit kit €116–126 after arrival", employer: "Nulla osta revenue stamp €16", extra: "The employer applies on the Decreto Flussi click day.", src: [["Italian Embassy Dhaka", "https://ambdhaka.esteri.it/wp-content/uploads/2026/06/Subordinate-work-type-D.pdf"], ["Questura", "https://questure.poliziadistato.it/statics/29/documenti-da-inserire-nel-kit-postale-per-le-principali-tipologie-di-permesso-di-soggiorno.pdf"]] },
+      { iso: "GRC", name: "Greece", status: "open", apply: "Dhaka (GVCW), decided in New Delhi", you: "Visa €75 or €180 + contract attestation €30 + GVCW €30 + courier Tk 10,200", employer: "Approval inside the yearly quota", extra: "Residence-permit fee in Greece not found. BOESL's government programme is the other route.", src: [["GVCW fees", "https://in-gr.gvcworld.eu/en/long-term-national-d-visa"], ["GVCW Bangladesh", "https://bd-gr.gvcworld.eu/en/visa-info-long-term-national-d-visa"]] },
+      { iso: "MLT", name: "Malta", status: "open", apply: "Dhaka (VFS)", you: "Pre-departure course €250 + VFS Tk 13,935–20,900", employer: "Single permit €600 (paid online by the employer or by you)", extra: "Renewal €150 a year.", src: [["Identità", "https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/single-permit-application/"], ["Free Malta", "https://freemalta.com/hub/single-permit"]] },
+      { iso: "BGR", name: "Bulgaria", status: "open", delhi: true, apply: "New Delhi (interview)", you: "D visa about €100–120", employer: "Single permit about €200–250", extra: "Foreign staff capped at 20–35% of a company.", src: [["Innovires", "https://www.innovires.com/en/blog/work-permit-bulgaria.html"]] },
+      { iso: "POL", name: "Poland", status: "open", apply: "Dhaka (VFS), decided in New Delhi", you: "D visa €80–135 + VFS fee", employer: "Work permit PLN 400", extra: "", src: [["Worksol", "https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/"], ["gov.pl", "https://www.gov.pl/web/india/d-type-national-visa"]] },
+      { iso: "PRT", name: "Portugal", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "D visa €110 (+ VFS about €40) + AIMA residence permit €186–247", employer: "Registers the vacancy with IEFP", extra: "Apply to AIMA within 120 days of arrival.", src: [["Jobbatical", "https://www.jobbatical.com/blog/portugal-immigration-updates"]] },
+      { iso: "SVK", name: "Slovakia", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "Residence application €250 + visa €14–90", employer: "—", extra: "2024 fee schedule; confirm on minv.sk.", src: [["Euraxess Slovakia", "https://euraxesspoint.sav.sk/changes-in-administrative-fees-as-of-1-4-2024/"]] },
+      { iso: "CYP", name: "Cyprus", status: "open", delhi: true, apply: "New Delhi (High Commission)", you: "Entry and residence permit €70 + Aliens' Register €70", employer: "Applies for the employment approval", extra: "", src: [["Cyprus Interior Ministry", "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369"]] },
+      { iso: "SVN", name: "Slovenia", status: "open", delhi: true, apply: "Mostly New Delhi", you: "€102 at the embassy, or €70 if the employer applies in Slovenia; card €12", employer: "Can lodge the application in Slovenia", extra: "", src: [["EU Immigration Portal", "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-slovenia_en"]] },
+      { iso: "LTU", name: "Lithuania", status: "open", delhi: true, apply: "New Delhi (VFS)", you: "D visa €120–140, or residence permit €160 + VFS €125", employer: "—", extra: "2026 quota 24,706.", src: [["VFS Global", "https://www.vfsglobal.com/one-pager/lithuania/uae/residencepermit/english"], ["VisaVerge", "https://www.visaverge.com/schengen/lithuania-visa-fees-and-payment-information/"]] },
+      { iso: "LVA", name: "Latvia", status: "open", delhi: true, apply: "Mostly New Delhi", you: "D visa €90 + residence permit €160 (€280 fast)", employer: "OCMA approval of the invitation", extra: "", src: [["Playroll", "https://playroll.com/work-permit-visas/latvia"]] },
+      { iso: "BIH", name: "Bosnia & Herzegovina", status: "open", apply: "Check the embassy page", you: "Visa D fee not confirmed", employer: "Work permit (fee not confirmed)", extra: "2026 quota 7,427.", src: [["Playroll", "https://playroll.com/work-permit-visas/bosnia-herzegovina"]] },
+      { iso: "MNE", name: "Montenegro", status: "open", apply: "Dhaka (VFS)", you: "VFS Tk 4,300 + courier Tk 7,735 + visa fee", employer: "Residence and work permit €67", extra: "See the Montenegro section.", src: [["VFS Global", "https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html"], ["Montenegro e-government", "https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola"]] },
+      { iso: "CZE", name: "Czech Republic", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "Employee Card CZK 5,000 + card CZK 2,500 on arrival", employer: "—", extra: "Very few places for Bangladeshis.", src: [["Czech MFA", "https://mzv.gov.cz/tokyo/en/visas_and_consular_info/visa_and_consular_fees/index.html"], ["ARWS", "https://arws.cz/en/news-at-arrows/czech-visa-and-residence-permit-fees"]] },
+      { iso: "DEU", name: "Germany", status: "open", apply: "Dhaka (embassy, online portal)", you: "Visa €75 + VFS €19.13 + EU Blue Card €100", employer: "Federal Employment Agency approval", extra: "", src: [["German Mission Dhaka", "https://dhaka.diplo.de/bd-en/service/2346500-2346500"], ["Find English", "https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply"]] },
+      { iso: "FIN", name: "Finland", status: "open", delhi: true, apply: "Online, then ID check in New Delhi", you: "€750 online (€530 for specialists and Blue Card)", employer: "—", extra: "Paper application €950.", src: [["Migri", "https://migri.fi/en/-/changes-to-finnish-immigration-service-processing-fees-as-of-1-january-2026"]] },
+      { iso: "AUT", name: "Austria", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "Red-White-Red Card €218 (older guides: €160 + €20 card)", employer: "—", extra: "", src: [["Visa Atlas", "https://visaatlas.org/fees/austria/red-white-red-card"]] },
+      { iso: "IRL", name: "Ireland", status: "open", apply: "Online, then by post or VFS", you: "Visa €60 + residence card €300", employer: "Employment permit €1,000 (or you; never deducted from pay)", extra: "", src: [["Citizens Information", "https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/"]] },
+      { iso: "ESP", name: "Spain", status: "open", apply: "Dhaka (embassy / BLS)", you: "Visa fee in taka at BLS (not confirmed) + TIE card €16–22", employer: "Work authorisation about €204–408", extra: "", src: [["BLS Spain Dhaka", "https://bgd.blsspainvisa.com/assets/pdf/RESIDENCE-AND-WORK-VISA-TRA.pdf"]] },
+      { iso: "FRA", name: "France", status: "open", apply: "Dhaka (French Embassy)", you: "Visa €99 + residence validation €300 (+ €50 stamp)", employer: "OFII employer tax", extra: "Taxes rose on 1 May 2026.", src: [["Integration France", "https://www.integrationfrance.fr/articles/hausse-taxes-titres-sejour-mai-2026"]] },
+      { iso: "NLD", name: "Netherlands", status: "open", apply: "Dhaka (Dutch Embassy)", you: "€0 if the employer pays the IND fee", employer: "IND fee €423 (recognised sponsor)", extra: "", src: [["Envoy", "https://www.envoyglobal.com/news-alert/the-netherlands-immigration-application-fees-2026/"]] },
+      { iso: "SWE", name: "Sweden", status: "open", apply: "Online, then Dhaka (embassy)", you: "SEK 2,200", employer: "—", extra: "", src: [["Jobbatical", "https://www.jobbatical.com/blog/sweden-work-permit-guide-process-requirements"]] },
+      { iso: "DNK", name: "Denmark", status: "open", apply: "Online, then VFS Dhaka", you: "DKK 6,810 + VFS fee", employer: "— (some repay the fee)", extra: "", src: [["Erickson Immigration Group", "https://eiglaw.com/denmark-increases-residence-permit-fees-for-work-study-and-family-cases/"]] },
+      { iso: "NOR", name: "Norway", status: "open", apply: "VFS Dhaka (via Danish Embassy)", you: "NOK 6,300 + VFS fee in taka equal to €21.42", employer: "—", extra: "", src: [["Visa Atlas", "https://visaatlas.org/fees/norway/skilled-worker-permit"], ["Norwegian Embassy", "https://www.norway.no/en/bangladesh/services-info/visitors-visa-res-permit/res-permit/"]] },
+      { iso: "GBR", name: "United Kingdom", status: "open", apply: "Dhaka (VFS)", you: "Visa £819 + health surcharge £1,035 a year + TB test US$70 + English test", employer: "Sponsorship certificate and Immigration Skills Charge", extra: "Fees rose on 8 April 2026.", src: [["Davidson Morris", "https://www.davidsonmorris.com/uk-visa-fees"], ["GOV.UK", "https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-bangladesh/tuberculosis-testing-in-bangladesh"]] },
+      { iso: "EST", name: "Estonia", status: "open", apply: "Check the embassy page", you: "D visa €120, or residence permit €280", employer: "Registers short-term employment €130", extra: "", src: [["Jobbatical", "https://www.jobbatical.com/blog/estonia-immigration-fees"]] },
+      { iso: "CHE", name: "Switzerland", status: "open", apply: "Dhaka (Swiss Embassy)", you: "Visa about CHF 80–150 + commune registration about CHF 100", employer: "Cantonal permit, CHF 100–550", extra: "Only 8,500 non-EU permits a year.", src: [["The Local", "https://www.thelocal.ch/20260122/how-much-do-switzerlands-work-permits-cost-in-2026"]] },
+      { iso: "NZL", name: "New Zealand", status: "open", apply: "Online", you: "NZ$1,540 + medical Tk 10,100", employer: "Accreditation NZ$775 + job check NZ$735", extra: "See the New Zealand section.", src: [["INZ fee table", "https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf"]] },
+      { iso: "SRB", name: "Serbia", status: "hold", apply: "New Delhi (Serbian Embassy)", delhi: true, you: "Single permit RSD 22,700 + RSD 420; visa D extra", employer: "—", extra: "BMET clearance on hold (September 2026).", src: [["Welcome to Serbia", "https://welcometoserbia.gov.rs/help"]] },
+      { iso: "MKD", name: "North Macedonia", status: "hold", apply: "—", you: "Not costed", employer: "—", extra: "BMET clearance on hold.", src: [] },
+      { iso: "HUN", name: "Hungary", status: "closed", apply: "—", you: "Not costed", employer: "—", extra: "Guest-worker permit closed since 6 June 2026.", src: [] }
+    ],
+
+    /* Remote-work visas (Plan B): no job offer, so no employer fees. */
+    remote: [
+      ["Spain · digital nomad", "About €73 incl. TIE card €16.08; consular fee varies", ["Klevvera", "https://www.klevvera.com/blog/spain-digital-nomad-visa-cost-breakdown/"]],
+      ["Portugal · D8 digital nomad", "Visa €110 · residence card about €170 · show €11,040 savings", ["Genki", "https://guide.genki.world/portugal-digital-nomad-visa/"]],
+      ["Greece · digital nomad", "Visa €75 · residence permit €1,000", ["Remote Work Europe", "https://remoteworkeurope.eu/insights/greece-digital-nomad-visa/"]]
     ]
   },
 
@@ -900,6 +1012,22 @@ window.GUIDE = {
       ["Remote Work Europe – Croatia 2026", "https://remoteworkeurope.eu/insights/croatia-digital-nomad-visa/"],
       ["Remote Work Europe – Greece 2026", "https://remoteworkeurope.eu/insights/greece-digital-nomad-visa-2026/"],
       ["Remote Work Europe – every option compared", "https://remoteworkeurope.eu/insights/digital-nomad-visas-europe-complete-guide/"]
+    ]],
+    ["Official fees (do it yourself)", [
+      ["German Mission Dhaka – visa and VFS fees", "https://dhaka.diplo.de/bd-en/service/2346500-2346500"],
+      ["Italian Embassy Dhaka – subordinate work visa", "https://ambdhaka.esteri.it/wp-content/uploads/2026/06/Subordinate-work-type-D.pdf"],
+      ["Questura – residence permit kit costs", "https://questure.poliziadistato.it/statics/29/documenti-da-inserire-nel-kit-postale-per-le-principali-tipologie-di-permesso-di-soggiorno.pdf"],
+      ["Identità – Malta single permit fees", "https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/single-permit-application/"],
+      ["Migri – Finland processing fees 2026", "https://migri.fi/en/-/changes-to-finnish-immigration-service-processing-fees-as-of-1-january-2026"],
+      ["EU Immigration Portal – Slovenia single permit", "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-slovenia_en"],
+      ["Cyprus Interior Ministry – permit fees", "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369"],
+      ["Czech MFA – consular fees", "https://mzv.gov.cz/tokyo/en/visas_and_consular_info/visa_and_consular_fees/index.html"],
+      ["Welcome to Serbia – single permit fees", "https://welcometoserbia.gov.rs/help"],
+      ["GVCW – Greek national visa fees", "https://in-gr.gvcworld.eu/en/long-term-national-d-visa"],
+      ["GOV.UK – TB test in Bangladesh", "https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-bangladesh/tuberculosis-testing-in-bangladesh"],
+      ["Norwegian Embassy – residence permit via VFS", "https://www.norway.no/en/bangladesh/services-info/visitors-visa-res-permit/res-permit/"],
+      ["Dhaka Tribune – BOESL fixed migration costs", "https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries"],
+      ["TBS – how flawed vetting sent workers into harm's way", "https://www.tbsnews.net/bangladesh/migration/scams-smuggling-battlefields-how-flawed-vetting-sent-our-workers-harms-way"]
     ]],
     ["Montenegro", [
       ["Government of Montenegro – 2026 permit quota (108th Cabinet session)", "https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session"],

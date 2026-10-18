@@ -1,6 +1,6 @@
 # Working in Europe from Bangladesh: Work Visa Guide 2026
 
-*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh. New Zealand section added 8 October 2026.*
+*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh. New Zealand section added 8 October 2026; Montenegro section added 18 October 2026.*
 
 > Several countries changed their laws in 2026, and rules keep changing. Before you pay money or submit a document, check the official link given here. This guide is research, not legal advice.
 
@@ -19,6 +19,7 @@
 - [7. Job portals for foreign workers: quick list](#7-job-portals-for-foreign-workers-quick-list)
 - [8. Scams and safety checklist](#8-scams-and-safety-checklist)
 - [9. Your next 90 days](#9-your-next-90-days)
+- [COUNTRY DEEP DIVE: Montenegro](#country-deep-dive-montenegro)
 - [OUTSIDE EUROPE: New Zealand](#outside-europe-new-zealand)
 - [10. Key official sources](#10-key-official-sources)
 
@@ -116,6 +117,7 @@ Your SSC is enough and no degree is needed. Pay is low and the permit ties you t
 - **Italy:** seasonal farm quota. An Italian farm must file for you on the **12 January 2027** click day, so it must prepare your file before then.
 - **Romania:** farm and construction jobs are on the 289-job shortage list. The employer must be authorised on WorkinRomania.gov.ro.
 - **Croatia:** seasonal tourism and farm permits for up to 3 years.
+- **Montenegro:** summer hotel and building jobs, and the visa is now applied for in Dhaka. Watch for a government deal; see the [Montenegro deep dive](#country-deep-dive-montenegro).
 
 **Steps**
 
@@ -337,7 +339,7 @@ Difficulty scale: **1 = easiest, 5 = hardest or closed.** The score combines the
 | 8 | **Portugal** 🇵🇹 | **3.5** | Open job-seeker visa abolished Oct 2025. You now need a real job contract. | New Delhi (Portuguese Embassy) |
 | 9 | **Slovakia** 🇸🇰 | **3.5** | Shortage jobs (drivers, construction, factories). Stricter rules from July 2026. | New Delhi (Slovak Embassy) |
 | 10 | **Cyprus** 🇨🇾 | **3.5** | Farm, factory, delivery and retail jobs. Company caps on foreign staff. | New Delhi (High Commission) |
-| 11 | **Slovenia, Lithuania, Latvia, Bosnia, Montenegro** | **4 – Hard** | Quotas cut, new restrictions, employers reluctant to hire Bangladeshis | Mostly New Delhi |
+| 11 | **Slovenia, Lithuania, Latvia, Bosnia, Montenegro** | **4 – Hard** | Quotas cut, new restrictions, employers reluctant to hire Bangladeshis | Mostly New Delhi; Montenegro in **Dhaka** (VFS Global) |
 | ⚠️ | **Serbia, North Macedonia** | **On hold** | BMET clearance held up (Sept 2026). Forced-labour cases reported. | New Delhi |
 | 12 | **Czech Republic** 🇨🇿 | **4.5 – Very hard** | Tiny quotas for Bangladeshis | New Delhi |
 | ✖ | **Hungary** 🇭🇺 | **Closed** | Guest-worker permit ended 6 June 2026 | — |
@@ -475,6 +477,7 @@ Difficulty scale: **1 = easiest, 5 = hardest or closed.** The score combines the
   - Permit quotas for 2026: Bosnia **7,427**, Montenegro **28,988**.
   - Wages are low.
   - These countries are often misused as transit routes ([Lexology](https://www.lexology.com/library/detail.aspx?g=a122552e-d60a-4756-b99f-cbe7acbddb2f), [Rona Legal](https://www.ronalegal.com/en/blog/working-in-montenegro-from-bangladesh)).
+  - **Montenegro update (October 2026):** a visiting MP said Montenegro needs 50,000+ workers a year and is open to a deal with Bangladesh, but nothing is signed. Full details in the [Montenegro deep dive](#country-deep-dive-montenegro).
 
 #### ⚠️ Serbia and North Macedonia (on hold)
 
@@ -753,6 +756,132 @@ All the links from Sections A3 and B3 in one place:
 
 ---
 
+## COUNTRY DEEP DIVE: Montenegro
+
+*Checked 18 October 2026. Montenegro uses the euro. Amounts are in the currency you pay them in: taka in Bangladesh, US dollars for the flight, euros in Montenegro.*
+
+**Short answer:** Montenegro is short of summer workers and has started talking to Bangladesh about hiring through a government deal, but **nothing is signed**. Today, jobs go through a yearly permit quota that Turkish, Serbian and Russian workers mostly fill. The good news: Bangladeshis can now apply for the visa **in Dhaka**, at VFS Global.
+
+> **What you probably saw.** On 5 October 2026, Montenegrin MP Gordan Stojović told Bangladesh's State Minister for Foreign Affairs in Dhaka that his country needs more than 50,000 workers a year, in tourism, construction, hospitality and caregiving, and is open to hiring Bangladeshis through government-to-government agreements ([TBS](https://www.tbsnews.net/foreign-policy/dhaka-podgorica-discuss-trade-investment-labour-cooperation-1563691), [Bangladesh Pratidin](https://en.bd-pratidin.com/national/2026/10/05/71337)). That is an offer to talk, not a quota for Bangladesh: the real 2026 limit is 28,988 permits for all nationalities. If a deal is signed, it would most likely be announced through BOESL and BMET.
+
+**Key numbers**
+
+- **28,988** work permits for all foreign workers in 2026: 21,668 for jobs, 2,320 seasonal and 5,000 held in reserve ([Government of Montenegro](https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session)).
+- **20,000+** workers missing each summer, mostly waiters, cooks, maids, receptionists and cleaners (Employment Agency estimate, May 2026; [SeeSrpska](https://seesrpska.com/en/zapisi/u-ljetnoj-sezoni-nedostaje-20000-radnika-30-5-2026)).
+- **€600** minimum monthly wage after tax for jobs up to secondary-school level; **€800** for degree-level jobs ([WageIndicator](https://wageindicator.org/salary/minimum-wage/montenegro)). The average wage was €1,037 after tax in July 2026 ([Monstat](https://monstat.org/uploads/files/zarade/2026/7/RAD_EN_Jul_2026.pdf)).
+- **Visa in Dhaka:** Bangladeshis need a visa and can apply at VFS Global in Dhaka ([Government of Montenegro](https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh)).
+
+**Who got the permits in 2025** (40,567 temporary residence and work permits in total; [Montenegrobusiness](https://montenegrobusiness.eu/montenegro-moves-towards-integrated-work-and-residence-permits-as-dependence-on-foreign-labour-deepens/)):
+
+| From | Permits | Note |
+|---|---|---|
+| Turkey | 10,346 | 25.5% of all permits; Turkish citizens need visas from 1 November 2026 |
+| Serbia | 8,148 | The second-largest group |
+| Russia | 7,429 | Russian citizens need visas from 1 November 2026 |
+| All other countries | 14,644 | Bangladesh is counted here; it is not reported on its own |
+
+### What changed in 2025–2026
+
+| Date | Change | Effect |
+|---|---|---|
+| 18 Dec 2025 | The 2026 quota is set at 28,988 permits: 21,668 for jobs, 2,320 seasonal and a 5,000 reserve ([Government of Montenegro](https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session)) | Mixed |
+| 17 Jan 2026 | Foreigners Act amendments: permits can be applied for online; IT and healthcare workers can get permits for up to 3 years; only full-time workers can extend ([BDK Advokati](https://bdkadvokati.com/montenegro-adopts-amendments-to-the-foreigners-act)) | Mixed |
+| 23 Jul 2026 | Visa rules aligned with the EU: Turkish, Russian, Chinese, Belarusian and Saudi citizens need visas from 1 November 2026 ([Government of Montenegro](https://www.gov.me/en/article/montenegro-fully-aligns-its-visa-policy-with-the-european-union-citizens-of-numerous-countries-can-now-apply-for-a-montenegrin-visa)) | Tighter |
+| 5 Oct 2026 | A visiting Montenegrin MP says the country needs 50,000+ workers a year and is open to a government-to-government deal with Bangladesh; nothing is signed ([TBS](https://www.tbsnews.net/foreign-policy/dhaka-podgorica-discuss-trade-investment-labour-cooperation-1563691)) | Mixed |
+| Oct 2026 | Montenegrin visas can be applied for at VFS Global centres, including Dhaka ([EIG](https://eiglaw.com/montenegro-aligns-visa-policy-with-the-european-union/)) | Easier |
+
+### Route 1: hotel, restaurant or building job (main route)
+
+- **Why it fits you:** no degree is needed, the summer shortage is real, and your farm and supervisor experience counts for hotel, kitchen and site work.
+- **You need:**
+  - a job offer from a Montenegrin employer that passes the Employment Agency's labour-market check and gets a place in the quota;
+  - a contract paying at least the €600 net minimum wage, plus health insurance;
+  - a Bangladesh police clearance and your passport.
+- **Good to know:**
+  - Ads pay about **€700–1,000 a month after tax**, often with a bed and meals ([Kossev](https://www.kossev.info/en/?p=396272)).
+  - The season runs from about May to September, so apply in winter and spring.
+  - Some ads ask for Montenegrin as well as English.
+
+### Route 2: developer job or remote work (small market)
+
+- **What changed:** since 17 January 2026, IT and healthcare workers with a contract of 12 months or more can get a combined permit for up to 3 years, renewable once ([BDK Advokati](https://bdkadvokati.com/montenegro-adopts-amendments-to-the-foreigners-act)).
+- **The catch:** the tech scene is small and pay is low. Paylab's survey puts most programmers at **€604–2,180 a month before tax** (lead developers €1,016–3,770) ([Paylab](https://www.paylab.com/me/salaryinfo/information-technology/programmer)). Germany, the Netherlands and Sweden pay far more for the same work (Plan A).
+- **Remote option:** Montenegro has a digital nomad permit for up to 2 years, renewable for 2 more. Guides disagree on the income needed (about €1,350–1,800 a month) and on whether it continues after 2026, so check before you plan around it ([Remote Work Europe](https://remoteworkeurope.eu/guides/montenegro)).
+
+### Route 3: a government deal, if it comes (watch)
+
+- **Where it stands:** talks only. Both sides said they want simpler work-permit procedures and labour-mobility arrangements, but no agreement, quota or recruitment date has been announced ([UNB](https://unb.com.bd/category/Bangladesh/dhaka-podgorica-discuss-trade-investment-labour-cooperation/197084)).
+- **What to do now:**
+  - Register on [BMET OEP](https://www.oep.gov.bd/) and follow [BOESL](https://www.boesl.gov.bd) circulars.
+  - Collect experience letters for hotel, kitchen, construction or supervisor work.
+  - Don't pay anyone who claims to sell a place in a "Montenegro G2G" scheme: none exists yet.
+
+### Monthly pay in Montenegro (euros)
+
+| Job | Monthly pay | Note |
+|---|---|---|
+| Minimum wage, jobs up to secondary school | €600 | After tax, since 1 October 2024 |
+| Minimum wage, degree-level jobs | €800 | After tax, education level VI and above |
+| Seasonal hotel and restaurant jobs (ads) | €700–1,000 | After tax, usually with free housing and meals |
+| Average wage, all jobs (July 2026) | €1,037 | After tax; €1,238 before tax |
+| Programmers (middle 80%) | €604–2,180 | **Before** tax (Paylab survey) |
+
+### From job offer to work card, step by step
+
+1. **Find an employer:** Employment Agency, Zaposli.me, Prekoveze, hotel groups, or a future BOESL circular.
+2. **Labour-market check:** the employer advertises the job with the Employment Agency first; you get it only if no suitable local worker applies.
+3. **The employer applies for your permit** online, inside the 2026 quota. Fees €67; decision in about 15 days ([Montenegro e-government](https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola)).
+4. **Police clearance and papers:** Bangladesh police clearance, your passport and the contract.
+5. **D visa at VFS Dhaka:** service charge Tk 4,300 + courier Tk 7,735; at least 3–4 weeks ([VFS Global](https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html)).
+6. **BMET clearance, then fly:** Tk 6,500; Dhaka → Podgorica about US$990–1,020 via Istanbul.
+7. **Biometrics within 10 days** of arrival at a police station; then collect your residence and work card.
+
+### Montenegro costs: your start-up budget (no agent needed)
+
+| Where | Item | Cost | Source |
+|---|---|---|---|
+| Bangladesh | Police clearance certificate | Tk 500 | [PCC guide](https://policeclearance.bd/application-fees/) |
+| Bangladesh | VFS Global Dhaka service charge for the D visa | Tk 4,300 | [VFS Global](https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html) |
+| Bangladesh | VFS two-way courier, compulsory | Tk 7,735 | [VFS Global](https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html) |
+| Bangladesh | BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000 | Tk 6,500 | [TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606) |
+| Bangladesh | Notary, translation and attestation of documents | Tk 5,000–20,000 | estimate |
+| | **Subtotal in Bangladesh** | **Tk 24,035–39,035** | |
+| Flight | Dhaka → Podgorica, one way via Istanbul (lowest online fares) | US$986–1,019 | [Trip.com](https://www.trip.com/flights/dhaka-to-podgorica/airfares-dac-tgd/) |
+| Montenegro | Residence and work permit: fee €60 + form €5 + request €2; the employer files it | €67 | [Montenegro e-government](https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola) |
+| Montenegro | Housing on many seasonal jobs: a bed and three meals a day | €0 | [SeeSrpska](https://seesrpska.com/en/zivot/budva-trazi-8000-sezonaca-za-ljeto-koje-je-pred-nama-17-2-2025) |
+| Montenegro | If you rent instead: one-bedroom in Podgorica, first month | about €451 | [Life Indexed](https://lifeindexed.com/cost/europe/montenegro/podgorica/2026/) |
+| Montenegro | Food, transport and phone until your first pay | €300–500 | estimate |
+| | **Subtotal in Montenegro** | **€367–567 (€818–1,018 if you rent)** | |
+
+The D visa fee itself (in euros) was not readable on VFS's Bangladesh page, so ask VFS. Get free housing and meals written into your contract. We found no reliable 2026 agency prices for Montenegro, so compare any quote with the official costs above.
+
+### Know before you go
+
+- **Not in the EU or Schengen.** A Montenegrin permit does not let you work in Croatia or any EU country. Montenegro hopes to join the EU around 2028 ([PISM](https://pism.pl/publications/montenegro-has-closed-most-of-the-chapters-in-its-eu-accession-negotiations)).
+- **A transit country.** The Council of Europe calls Montenegro mostly a transit point on the Western Balkan migration route. Crossing a border without papers is a crime and can kill ([Council of Europe](https://rm.coe.int/edited-montenegro-country-profile-som-2026/48802ba867)).
+- **One employer only.** The combined permit covers the employer that applied for it; working for anyone else counts as illegal work ([Visa Atlas](https://visaatlas.org/visas/montenegro/single-permit)).
+- **Fingerprints within 10 days.** After you arrive you must give your biometrics at a police station within 10 days ([BDK Advokati](https://bdkadvokati.com/montenegro-adopts-amendments-to-the-foreigners-act)).
+- **Your embassy is in Rome.** Bangladesh's embassy in Rome also covers Montenegro ([Government of Montenegro](https://www.gov.me/en/diplomatic-missions/diplomatic-missions-to-montenegro/bangladesh)).
+- **Permanent residence** is possible after 5 years of continuous legal residence ([Visa Atlas](https://visaatlas.org/visas/montenegro/permanent-residence)).
+- **Holders of a valid Schengen, US, UK or Irish visa** may visit Montenegro for up to 30 days without a Montenegrin visa, but cannot work on that entry ([Government of Montenegro](https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh)).
+
+### Where to find a Montenegrin job
+
+Most ads are in Montenegrin, so use your browser's translate button. Hotels start hiring for summer from about February.
+
+| Site | What it is for |
+|---|---|
+| [Employment Agency of Montenegro](https://www.zzzcg.me/) | Official vacancies ("slobodna radna mjesta"). Employers advertise here before they may hire a foreigner. |
+| [Zaposli.me](https://www.zaposli.me/) | Many large employers and hotels advertise here; ads are mostly in Montenegrin, sometimes in English. |
+| [Prekoveze.me](https://www.prekoveze.me/) | A classifieds site with a big jobs section ("oglasi za posao"), in Montenegrin. |
+| [Careerjet Montenegro](https://www.careerjet.me/) | Collects job ads from many Montenegrin sites in one search. |
+| [Europe Language Jobs: Montenegro](https://www.europelanguagejobs.com/jobs-in-Montenegro-for-English-speakers) | Seasonal hotel jobs for English speakers, some with work-permit help. |
+| [VFS Global: Montenegro visa](https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html) | Fees, documents and appointments for the D visa in Dhaka. |
+| [Work permit rules](https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola) | Documents, fees and the 15-day deadline for the combined permit. |
+| [BOESL](https://www.boesl.gov.bd) | If a government deal is signed, recruitment would most likely be announced here. Never pay a private agent for a "G2G" place. |
+
+---
+
 ## OUTSIDE EUROPE: New Zealand
 
 *Checked 8 October 2026. Amounts are in the currency you pay them in: NZ dollars (NZ$) in New Zealand, taka in Bangladesh, US dollars for the flight. Pay is NZ$ an hour before tax; "a year" means 40 hours a week for 52 weeks.*
@@ -933,6 +1062,7 @@ Some tech employers pay the flight or the visa fee, so ask before you sign. IELT
 - UK: [GOV.UK Skilled Worker visa](https://www.gov.uk/skilled-worker-visa)
 - Switzerland: [Swiss Federal Council](https://www.admin.ch/en/newnsb/7HwBjdg5HpBA)
 - New Zealand: [INZ – Skilled Migrant changes, August 2026](https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/) · [INZ – AEWV changes](https://www.immigration.govt.nz/about-us/news-centre/how-changes-to-the-accredited-employer-work-visa-aewv-may-affect-you/) · [INZ – check an employer](https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/working-in-nz/check-if-an-employer-is-accredited) · [Immigration Advisers Authority](https://iaa.govt.nz/for-migrants)
+- Montenegro: [visa rules for Bangladeshis](https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh) · [2026 permit quota](https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session) · [work permit rules](https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola) · [VFS Global Dhaka](https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html)
 - Background on Bangladesh–Europe migration:
   - [TBS: Europe job migration H1 2026](https://www.tbsnews.net/world/europe-job-migration-surges-46-h1-amid-gulf-slump-1475796)
   - [Daily Star: overseas jobs FY2025-26](https://www.thedailystar.net/business/economy/news/overseas-jobs-fall-five-year-low-amid-middle-east-uncertainty-4240871)

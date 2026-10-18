@@ -176,11 +176,11 @@ window.GUIDE = {
       nonskilled: { lvl: 2, text: "Quota 7,427 permits for 2026." },
       skilled: { lvl: 2, text: "Quota applies." },
       link: ["Lexology – hiring in BiH", "https://www.lexology.com/library/detail.aspx?g=a122552e-d60a-4756-b99f-cbe7acbddb2f"] },
-    { iso: "MNE", name: "Montenegro", x: 6, y: 7, apply: "Check the embassy page",
-      you: { lvl: 2, route: "farm", text: "28,988 permits for 2026; low wages; often misused as a transit route." },
-      nonskilled: { lvl: 2, text: "Quota 28,988 permits for 2026." },
-      skilled: { lvl: 2, text: "Quota applies." },
-      link: ["Rona Legal – Montenegro from Bangladesh", "https://www.ronalegal.com/en/blog/working-in-montenegro-from-bangladesh"] },
+    { iso: "MNE", name: "Montenegro", x: 6, y: 7, apply: "VFS Global, Dhaka",
+      you: { lvl: 2, route: "farm", text: "Summer hotel, restaurant and building jobs; €600 net minimum wage. A visiting MP raised hiring Bangladeshis in October 2026, but nothing is signed. See the Montenegro section." },
+      nonskilled: { lvl: 2, text: "28,988 permits for 2026, mostly taken by Turkish, Serbian and Russian workers; 20,000+ summer workers short." },
+      skilled: { lvl: 2, text: "IT and healthcare workers can get 3-year permits since January 2026, but the job market is small." },
+      link: ["Government of Montenegro – visas for Bangladeshis", "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh"] },
     { iso: "MKD", name: "North Macedonia", x: 7, y: 7, apply: "—",
       you: { lvl: 0, route: "none", text: "BMET clearance on hold (September 2026)." },
       nonskilled: { lvl: 0, text: "BMET clearance on hold." },
@@ -224,7 +224,7 @@ window.GUIDE = {
     ["LTU", 4, "Quota cut to 24,706; industry share ran out early.", "Mostly New Delhi"],
     ["LVA", 4, "New quota and visa limits proposed in August 2026.", "Mostly New Delhi"],
     ["BIH", 4, "7,427 permits for 2026; low wages; transit-route risk.", "Check the embassy page"],
-    ["MNE", 4, "28,988 permits for 2026; low wages; transit-route risk.", "Check the embassy page"],
+    ["MNE", 4, "28,988 permits for 2026, mostly taken by Turkish, Serbian and Russian workers. €600 net minimum wage. Talks on a deal with Bangladesh (October 2026), nothing signed.", "Dhaka (VFS Global)"],
     ["CZE", 4.5, "Tiny quotas for Bangladeshis.", "New Delhi (Czech Embassy)"],
     ["SRB", "hold", "BMET clearance on hold (September 2026). Forced-labour cases reported.", "New Delhi (Serbian Embassy)"],
     ["MKD", "hold", "BMET clearance on hold (September 2026).", "—"],
@@ -299,6 +299,11 @@ window.GUIDE = {
     ],
     CYP: [
       ["Bangladeshis are among the main nationalities in 26,710 general-employment permits (August 2026).", ["Cyprus Mail", "https://cyprus-mail.com/2026/09/27/cyprus-labour-shortages-who-can-legally-work"]]
+    ],
+    MNE: [
+      ["2026 quota: 28,988 permits (21,668 jobs, 2,320 seasonal, 5,000 reserve).", ["Government of Montenegro", "https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session"]],
+      ["Bangladeshis can apply for the visa at VFS Global in Dhaka.", ["Government of Montenegro", "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh"]],
+      ["On 5 October 2026 a visiting Montenegrin MP said the country needs 50,000+ workers a year and is open to a government deal with Bangladesh. Nothing is signed; details in the Montenegro section.", ["TBS", "https://www.tbsnews.net/foreign-policy/dhaka-podgorica-discuss-trade-investment-labour-cooperation-1563691"]]
     ]
   },
 
@@ -388,7 +393,7 @@ window.GUIDE = {
     { label: "Italy", value: 164850, shown: "164,850", note: "All work entries: 88,000 seasonal + 76,850 non-seasonal. Bangladesh is eligible." },
     { label: "Greece", value: 94240, shown: "94,240", note: "Seasonal workers (Law 5275/2026)." },
     { label: "Romania", value: 90000, shown: "90,000", note: "All work permits for non-EU workers; down from 100,000." },
-    { label: "Montenegro", value: 28988, shown: "28,988", note: "Employment, seasonal and reserve permits." },
+    { label: "Montenegro", value: 28988, shown: "28,988", note: "21,668 employment + 2,320 seasonal + 5,000 reserve permits." },
     { label: "Lithuania", value: 24706, shown: "24,706", note: "Down from 40,250 in 2024." },
     { label: "Switzerland", value: 8500, shown: "8,500", note: "All non-EU nationals, highly qualified only." },
     { label: "Bosnia & Herzegovina", value: 7427, shown: "7,427", note: "Across the three administrative units." },
@@ -428,13 +433,14 @@ window.GUIDE = {
     { date: "15 Jul", where: "Slovakia", text: "Workers must stay in the job their permit names.", kind: "tighter" },
     { date: "6 Aug", where: "Romania", text: "WorkinRomania.gov.ro goes live; 289-job shortage list published.", kind: "easier" },
     { date: "Aug", where: "Latvia", text: "Interior Ministry proposes quotas and visa limits.", kind: "tighter" },
-    { date: "24 Sep", where: "Bangladesh", text: "BMET clearance for Serbia, North Macedonia and Moldova on hold.", kind: "closed" }
+    { date: "24 Sep", where: "Bangladesh", text: "BMET clearance for Serbia, North Macedonia and Moldova on hold.", kind: "closed" },
+    { date: "5 Oct", where: "Montenegro", text: "A visiting MP says Montenegro needs 50,000+ workers a year and is open to a deal with Bangladesh. Nothing signed yet.", kind: "mixed" }
   ],
 
   dhaka: [
     ["Croatia", "VFS (decided in New Delhi)"], ["Italy", "Embassy via VFS"], ["Greece", "GVCW centre"], ["Malta", "VFS"],
     ["Poland", "VFS (decided in New Delhi)"], ["Germany", "Embassy, online portal"], ["Spain", "Embassy / BLS"], ["France", "Embassy"],
-    ["Netherlands", "Embassy"], ["Sweden", "Embassy"], ["Denmark", "VFS"], ["Norway", "VFS via Danish Embassy"], ["United Kingdom", "VFS"], ["Switzerland", "Embassy"]
+    ["Netherlands", "Embassy"], ["Sweden", "Embassy"], ["Denmark", "VFS"], ["Norway", "VFS via Danish Embassy"], ["United Kingdom", "VFS"], ["Switzerland", "Embassy"], ["Montenegro", "VFS"]
   ],
   delhi: [
     ["Romania", "Embassy, eVisa appointment"], ["Bulgaria", "Embassy interview"], ["Portugal", "Embassy"], ["Slovakia", "Embassy"],
@@ -663,6 +669,86 @@ window.GUIDE = {
     ]
   },
 
+  /* ---------- Montenegro deep dive, checked 18 October 2026 ----------
+     Montenegro uses the euro. Amounts are in the currency you pay them in:
+     taka in Bangladesh, US$ for the flight, euros in Montenegro. */
+  mne: {
+    kpis: [
+      { value: "28,988", label: "work permits for all foreign workers in 2026: 21,668 for jobs, 2,320 seasonal and 5,000 held in reserve", src: ["Government of Montenegro", "https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session"] },
+      { value: "20,000+", label: "workers missing each summer, mostly waiters, cooks, maids, receptionists and cleaners (Employment Agency, May 2026)", src: ["SeeSrpska", "https://seesrpska.com/en/zapisi/u-ljetnoj-sezoni-nedostaje-20000-radnika-30-5-2026"] },
+      { value: "€600", label: "minimum monthly wage after tax for jobs up to secondary-school level; €800 for degree-level jobs", src: ["WageIndicator", "https://wageindicator.org/salary/minimum-wage/montenegro"] },
+      { value: "VFS Dhaka", label: "is where Bangladeshis now apply for the visa, with no trip to India", src: ["Government of Montenegro", "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh"] }
+    ],
+
+    /* kind: easier | tighter | closed | mixed */
+    timeline: [
+      { date: "18 Dec 2025", where: "Quota", text: "The 2026 quota is set at 28,988 permits: 21,668 for jobs, 2,320 seasonal and a 5,000 reserve.", kind: "mixed" },
+      { date: "17 Jan 2026", where: "Foreigners Act", text: "Permits can be applied for online; IT and healthcare workers can get permits for up to 3 years; only full-time workers can extend.", kind: "mixed" },
+      { date: "23 Jul 2026", where: "Visas", text: "Visa rules aligned with the EU: Turkish, Russian, Chinese, Belarusian and Saudi citizens need visas from 1 November 2026.", kind: "tighter" },
+      { date: "5 Oct 2026", where: "Bangladesh", text: "A visiting Montenegrin MP says the country needs 50,000+ workers a year and is open to a government-to-government deal with Bangladesh. Nothing is signed.", kind: "mixed" },
+      { date: "Oct 2026", where: "Visas", text: "Montenegrin visas can be applied for at VFS Global centres, including Dhaka.", kind: "easier" }
+    ],
+
+    /* Temporary residence and work permits issued in 2025 (40,567 in total). */
+    permits2025: [
+      { label: "Turkey", value: 10346, shown: "10,346", note: "25.5% of all permits. Turkish citizens need visas from 1 November 2026." },
+      { label: "Serbia", value: 8148, shown: "8,148", note: "The second-largest group." },
+      { label: "Russia", value: 7429, shown: "7,429", note: "Russian citizens need visas from 1 November 2026." },
+      { label: "All other countries", value: 14644, shown: "14,644", note: "Bangladesh is counted here; it is not reported on its own.", plan: true }
+    ],
+
+    /* Monthly pay, euros. After tax unless the label says before tax. */
+    pay: [
+      { label: "Minimum wage, jobs up to secondary school", low: 600, high: 600, shown: "€600", note: "After tax, since 1 October 2024." },
+      { label: "Minimum wage, degree-level jobs", low: 800, high: 800, shown: "€800", note: "After tax, for education level VI and above." },
+      { label: "Seasonal hotel and restaurant jobs (ads)", low: 700, high: 1000, shown: "€700–1,000", note: "After tax, usually with free housing and meals. Chefs earn more." },
+      { label: "Average wage, all jobs (July 2026)", low: 1037, high: 1037, shown: "€1,037", note: "After tax. Before tax: €1,238 (Monstat)." },
+      { label: "Programmers, before tax (middle 80%)", low: 604, high: 2180, shown: "€604–2,180", note: "Paylab salary survey. Lead developers: €1,016–3,770 before tax." }
+    ],
+
+    budget: { letter: "ME", title: "Montenegro · hotel or building job on a work permit", tag: "No agent needed",
+      groups: [
+        { head: "In Bangladesh · taka", total: "Tk 24,035–39,035", items: [
+          ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+          ["VFS Global Dhaka service charge for the D visa", "Tk 4,300", ["VFS Global", "https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html"]],
+          ["VFS two-way courier, compulsory", "Tk 7,735", ["VFS Global", "https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html"]],
+          ["BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000", "Tk 6,500", ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"]],
+          ["Notary, translation and attestation of your documents", "Tk 5,000–20,000", null, "estimate"]
+        ] },
+        { head: "Flight · US dollars", items: [
+          ["Dhaka → Podgorica, one way via Istanbul (lowest online fares)", "US$986–1,019", ["Trip.com", "https://www.trip.com/flights/dhaka-to-podgorica/airfares-dac-tgd/"]]
+        ] },
+        { head: "In Montenegro · euros", total: "€367–567 (€818–1,018 if you rent)", items: [
+          ["Residence and work permit: fee €60 + form €5 + request €2; the employer files it", "€67", ["Montenegro e-government", "https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola"]],
+          ["Housing on many seasonal jobs: a bed and three meals a day", "€0", ["SeeSrpska", "https://seesrpska.com/en/zivot/budva-trazi-8000-sezonaca-za-ljeto-koje-je-pred-nama-17-2-2025"]],
+          ["If you rent instead: one-bedroom in Podgorica, first month", "about €451", ["Life Indexed", "https://lifeindexed.com/cost/europe/montenegro/podgorica/2026/"]],
+          ["Food, transport and phone until your first pay", "€300–500", null, "estimate"]
+        ] }
+      ],
+      note: "The D visa fee itself (in euros) was not readable on VFS's Bangladesh page, so ask VFS. Get free housing and meals written into your contract." },
+
+    /* [title, text, [label,url]] */
+    rules: [
+      ["Not in the EU or Schengen", "A Montenegrin permit does not let you work in Croatia or any EU country. Montenegro hopes to join the EU around 2028.", ["PISM", "https://pism.pl/publications/montenegro-has-closed-most-of-the-chapters-in-its-eu-accession-negotiations"]],
+      ["A transit country", "The Council of Europe calls Montenegro mostly a transit point on the Western Balkan migration route. Crossing a border without papers is a crime and can kill.", ["Council of Europe", "https://rm.coe.int/edited-montenegro-country-profile-som-2026/48802ba867"]],
+      ["One employer only", "The combined permit covers the employer that applied for it. Working for anyone else counts as illegal work.", ["Visa Atlas", "https://visaatlas.org/visas/montenegro/single-permit"]],
+      ["Fingerprints within 10 days", "After you arrive you must give your biometrics at a police station within 10 days.", ["BDK Advokati", "https://bdkadvokati.com/montenegro-adopts-amendments-to-the-foreigners-act"]],
+      ["Your embassy is in Rome", "Bangladesh's embassy in Rome also covers Montenegro.", ["Government of Montenegro", "https://www.gov.me/en/diplomatic-missions/diplomatic-missions-to-montenegro/bangladesh"]],
+      ["Permanent residence", "Possible after 5 years of continuous legal residence.", ["Visa Atlas", "https://visaatlas.org/visas/montenegro/permanent-residence"]]
+    ],
+
+    portals: [
+      { name: "Employment Agency of Montenegro", url: "https://www.zzzcg.me/", where: "Government", text: "Official vacancies ('slobodna radna mjesta'). Employers advertise here before they may hire a foreigner." },
+      { name: "Zaposli.me", url: "https://www.zaposli.me/", where: "Job board", text: "Many large employers and hotels advertise here. Ads are mostly in Montenegrin, sometimes in English." },
+      { name: "Prekoveze.me", url: "https://www.prekoveze.me/", where: "Job board", text: "A classifieds site with a big jobs section ('oglasi za posao'), in Montenegrin." },
+      { name: "Careerjet Montenegro", url: "https://www.careerjet.me/", where: "Search engine", text: "Collects job ads from many Montenegrin sites in one search." },
+      { name: "Europe Language Jobs: Montenegro", url: "https://www.europelanguagejobs.com/jobs-in-Montenegro-for-English-speakers", where: "English speakers", text: "Seasonal hotel jobs for English speakers, some with work-permit help." },
+      { name: "VFS Global: Montenegro visa", url: "https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html", where: "Visa · Dhaka", text: "Fees, documents and appointments for the D visa in Dhaka." },
+      { name: "Work permit rules", url: "https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola", where: "Montenegro · official", text: "Documents, fees and the 15-day deadline for the combined permit." },
+      { name: "BOESL", url: "https://www.boesl.gov.bd", where: "Bangladesh", text: "If a government deal is signed, recruitment would most likely be announced here. Never pay a private agent for a 'G2G' place." }
+    ]
+  },
+
   /* ---------- New Zealand (outside Europe), checked 8 October 2026 ----------
      Amounts are in the currency you pay them in: NZ$ in New Zealand, taka in
      Bangladesh, US$ for the flight. Pay is NZ$ an hour before tax; "a year"
@@ -814,6 +900,19 @@ window.GUIDE = {
       ["Remote Work Europe – Croatia 2026", "https://remoteworkeurope.eu/insights/croatia-digital-nomad-visa/"],
       ["Remote Work Europe – Greece 2026", "https://remoteworkeurope.eu/insights/greece-digital-nomad-visa-2026/"],
       ["Remote Work Europe – every option compared", "https://remoteworkeurope.eu/insights/digital-nomad-visas-europe-complete-guide/"]
+    ]],
+    ["Montenegro", [
+      ["Government of Montenegro – 2026 permit quota (108th Cabinet session)", "https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session"],
+      ["Government of Montenegro – visa rules for Bangladeshis", "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh"],
+      ["Government of Montenegro – visa policy aligned with the EU", "https://www.gov.me/en/article/montenegro-fully-aligns-its-visa-policy-with-the-european-union-citizens-of-numerous-countries-can-now-apply-for-a-montenegrin-visa"],
+      ["Montenegro e-government – temporary residence and work permit", "https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola"],
+      ["BDK Advokati – 2026 Foreigners Act amendments", "https://bdkadvokati.com/montenegro-adopts-amendments-to-the-foreigners-act"],
+      ["Montenegrobusiness – permits issued in 2025", "https://montenegrobusiness.eu/montenegro-moves-towards-integrated-work-and-residence-permits-as-dependence-on-foreign-labour-deepens/"],
+      ["TBS – Dhaka and Podgorica discuss labour cooperation", "https://www.tbsnews.net/foreign-policy/dhaka-podgorica-discuss-trade-investment-labour-cooperation-1563691"],
+      ["Bangladesh Pratidin – Montenegro may hire 50,000 workers a year", "https://en.bd-pratidin.com/national/2026/10/05/71337"],
+      ["VFS Global – Montenegro visa in Bangladesh", "https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html"],
+      ["Monstat – wages, July 2026", "https://monstat.org/uploads/files/zarade/2026/7/RAD_EN_Jul_2026.pdf"],
+      ["SeeSrpska – 20,000 summer workers short", "https://seesrpska.com/en/zapisi/u-ljetnoj-sezoni-nedostaje-20000-radnika-30-5-2026"]
     ]],
     ["New Zealand", [
       ["INZ – final details of the Skilled Migrant changes (24 August 2026)", "https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/"],

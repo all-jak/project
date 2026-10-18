@@ -652,6 +652,42 @@
     ruleList("#deposits", C.deposits);
   }
 
+  function portalCards(mount, rows) {
+    mount.replaceChildren.apply(mount, rows.map(function (p) {
+      return el("li", { "class": "card" }, el("span", { "class": "where" }, p.where), ext(p.name, p.url), el("p", null, p.text));
+    }));
+  }
+
+  /* ---------- Montenegro ---------- */
+  var eurTickK = function (v) { return v === 0 ? "0" : "€" + (v / 1000) + "k"; };
+
+  function renderMNE() {
+    var M = G.mne;
+    kpiCards($("#me-kpis"), M.kpis);
+    renderTimeline($("#me-timeline"), M.timeline);
+
+    barChart($("#chart-mepermits"), {
+      title: "Who got Montenegro's work permits in 2025",
+      sub: "Temporary residence and work permits, 40,567 in total. Turkey, Serbia and Russia took almost two in three; Bangladesh is not reported on its own.",
+      rows: M.permits2025, fmt: num, tick: function (v) { return v === 0 ? "0" : Math.round(v / 1000) + "k"; }, col: "Permits", labelWidth: "minmax(6rem, 10rem)",
+      legend: ["Where Bangladeshis are counted", "Largest single countries"],
+      foot: [["Montenegrobusiness", "https://montenegrobusiness.eu/montenegro-moves-towards-integrated-work-and-residence-permits-as-dependence-on-foreign-labour-deepens/"]]
+    });
+
+    rangeChart($("#chart-mepay"), {
+      title: "Monthly pay in Montenegro",
+      sub: "Euros a month, after tax unless the label says before tax. Single values show as a short bar.",
+      rows: M.pay, cols: ["Job", "Monthly pay"],
+      legend: ["Pay or pay range"],
+      tick: eurTickK, labelWidth: "minmax(8rem, 12rem)",
+      foot: [["WageIndicator", "https://wageindicator.org/salary/minimum-wage/montenegro"], ["Kossev", "https://www.kossev.info/en/?p=396272"], ["Monstat", "https://monstat.org/uploads/files/zarade/2026/7/RAD_EN_Jul_2026.pdf"], ["Paylab", "https://www.paylab.com/me/salaryinfo/information-technology/programmer"]]
+    });
+
+    $("#me-budget").replaceChildren(budgetCard(M.budget));
+    ruleList("#me-rules", M.rules);
+    portalCards($("#me-portals"), M.portals);
+  }
+
   /* ---------- New Zealand ---------- */
   var nzd = function (v) { return "NZ$" + v.toFixed(2); };
   var nzTick = function (v) { return v === 0 ? "0" : "$" + v; };
@@ -686,10 +722,7 @@
 
     accountCards($("#nz-accounts"), N.accounts);
     ruleList("#nz-rules", N.rules);
-    var pl = $("#nz-portals");
-    pl.replaceChildren.apply(pl, N.portals.map(function (p) {
-      return el("li", { "class": "card" }, el("span", { "class": "where" }, p.where), ext(p.name, p.url), el("p", null, p.text));
-    }));
+    portalCards($("#nz-portals"), N.portals);
     initNzCalc();
   }
 
@@ -773,6 +806,7 @@
   /* ---------- boot ---------- */
   renderCharts();
   renderCosts();
+  renderMNE();
   renderNZ();
   initMap();
   renderPlaces();

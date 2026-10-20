@@ -439,7 +439,8 @@ li + li { margin-top: .35rem; }
   white-space: nowrap;
 }
 .flag.hold, .flag.closed { color: var(--crit-ink); border-color: currentColor; }
-.flag.delhi { color: var(--warn-ink); }
+.flag.delhi, .flag.limited { color: var(--warn-ink); }
+.flag.limited { border-color: currentColor; }
 .diy-steps { padding-left: 1.25rem; display: grid; gap: .45rem; font-size: var(--t-sm); }
 .diy-steps li + li { margin-top: 0; }
 .rules { list-style: none; padding: 0; display: grid; gap: .6rem; font-size: var(--t-sm); }

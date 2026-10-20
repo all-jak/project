@@ -659,7 +659,7 @@
   }
 
   /* ---------- official cost if you do it yourself ---------- */
-  var STATUS = { hold: "On hold", closed: "Closed" };
+  var STATUS = { hold: "On hold", closed: "Closed", limited: "Limited" };
 
   function renderDIY() {
     var D = G.diy;
@@ -747,6 +747,25 @@
     $("#me-budget").replaceChildren(budgetCard(M.budget));
     ruleList("#me-rules", M.rules);
     portalCards($("#me-portals"), M.portals);
+  }
+
+  /* ---------- Cyprus ---------- */
+  function renderCYP() {
+    var Y = G.cyp;
+    kpiCards($("#cy-kpis"), Y.kpis);
+    renderTimeline($("#cy-timeline"), Y.timeline);
+
+    barChart($("#chart-cypay"), {
+      title: "What each Cyprus route asks you to earn",
+      sub: "Euros a month, before tax unless the label says after tax. The blue bar is the route that fits you best.",
+      rows: Y.thresholds, fmt: function (v) { return "€" + num(v); }, tick: eurTickK, col: "Euros a month", labelWidth: "minmax(9rem, 15rem)",
+      legend: ["Your best fit", "Other routes"],
+      foot: [["Sigmalive", "https://en.sigmalive.com/cyprus-minimum-wage-set-at-e1088-from-january-1-2026"], ["Zeno Legal", "https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026"], ["Zeno Legal (nomad visa)", "https://www.zenolegal.com/resources/cyprus-digital-nomad-visa-2026"], ["Rightax", "https://rightax.com.cy/cyprus-eu-blue-card-guide/"]]
+    });
+
+    $("#cy-budget").replaceChildren(budgetCard(Y.budget));
+    ruleList("#cy-rules", Y.rules);
+    portalCards($("#cy-portals"), Y.portals);
   }
 
   /* ---------- New Zealand ---------- */
@@ -864,12 +883,35 @@
     draw();
   }
 
+  /* ---------- Mauritius ---------- */
+  function renderMUS() {
+    var U = G.mus;
+    kpiCards($("#mu-kpis"), U.kpis);
+    renderTimeline($("#mu-timeline"), U.timeline);
+
+    rangeChart($("#chart-mupay"), {
+      title: "Monthly pay in Mauritius",
+      sub: "Mauritian rupees (MUR) a month before tax. The line marks the MUR 50,000 basic salary a professional Occupation Permit needs.",
+      rows: U.pay, cols: ["Job", "Monthly pay"],
+      legend: ["Pay or pay range"],
+      ref: { value: 50000, text: "Occupation Permit minimum, MUR 50,000" },
+      tick: function (v) { return v === 0 ? "0" : (v / 1000) + "k"; }, labelWidth: "minmax(8rem, 12rem)",
+      foot: [["WageIndicator", "https://wageindicator.org/work/minimum-wage/updates/2026/mauritius-national-minimum-wage-increased-from-1-january-2026-february-11-2026"], ["MyJob.mu", "https://myjob.mu/advice/salary-guide/salary-trends-in-mauritius-2026-what-professionals-need-to-know-before-negotiating"], ["EDB Mauritius", "https://edbmauritius.org/newsletter-august-2026-op"]]
+    });
+
+    $("#mu-budget").replaceChildren(budgetCard(U.budget));
+    ruleList("#mu-rules", U.rules);
+    portalCards($("#mu-portals"), U.portals);
+  }
+
   /* ---------- boot ---------- */
   renderCharts();
   renderCosts();
   renderDIY();
   renderAgency();
+  renderCYP();
   renderMNE();
+  renderMUS();
   renderNZ();
   initMap();
   renderPlaces();

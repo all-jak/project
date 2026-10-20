@@ -1,6 +1,6 @@
 # Working in Europe from Bangladesh: Work Visa Guide 2026
 
-*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh. New Zealand section added 8 October 2026; Montenegro, official-cost and agency-price sections added 18 October 2026.*
+*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh. New Zealand section added 8 October 2026; Montenegro, official-cost and agency-price sections added 18 October 2026; Cyprus and Mauritius sections added 20 October 2026.*
 
 > Several countries changed their laws in 2026, and rules keep changing. Before you pay money or submit a document, check the official link given here. This guide is research, not legal advice.
 
@@ -21,7 +21,9 @@
 - [7. Job portals for foreign workers: quick list](#7-job-portals-for-foreign-workers-quick-list)
 - [8. Scams and safety checklist](#8-scams-and-safety-checklist)
 - [9. Your next 90 days](#9-your-next-90-days)
+- [COUNTRY DEEP DIVE: Cyprus](#country-deep-dive-cyprus)
 - [COUNTRY DEEP DIVE: Montenegro](#country-deep-dive-montenegro)
+- [OUTSIDE EUROPE: Mauritius](#outside-europe-mauritius)
 - [OUTSIDE EUROPE: New Zealand](#outside-europe-new-zealand)
 - [10. Key official sources](#10-key-official-sources)
 
@@ -36,7 +38,7 @@
   - Next: **Bulgaria, Poland, Portugal, Slovakia, Cyprus**
   - See [Section A](#section-a-non-skilled-and-semi-skilled-workers).
 - **Skilled workers** (degree, diploma, recognised trade certificate, IT, nursing, engineering):
-  - Start with **Germany**, then **Finland, Austria, Ireland**.
+  - Start with **Germany**, then **Finland, Cyprus, Austria, Ireland**.
   - Spain, France, the Netherlands, the Nordic countries and the UK are harder, because they demand high salaries or degree-level jobs.
   - See [Section B](#section-b-skilled-workers).
 - **Closed or risky right now:**
@@ -44,8 +46,10 @@
   - The **Czech Republic** has almost no places for Bangladeshis.
   - **BMET clearance for Serbia and North Macedonia** is currently held up (September 2026).
   - In **Russia and Belarus**, workers have been tricked into the army.
+  - **Northern Cyprus** is not in the EU; its student visas are sold as a back door to Europe. See [the Cyprus section](#country-deep-dive-cyprus).
   - **Never use the "boat" or "Balkan" routes.** See [section 6](#6-closed-or-risky-right-now).
 - **Outside Europe: New Zealand.** A developer job there can lead to permanent residence after 2 years of work, with no degree. Jobs are scarce right now. See [the New Zealand section](#outside-europe-new-zealand).
+- **Outside Europe: Mauritius.** A developer job paying MUR 50,000 a month, or a free Premium Visa if you earn US$1,500 a month remotely. Hiring of Bangladeshi factory workers is limited. See [the Mauritius section](#outside-europe-mauritius).
 - **Bangladesh–Europe numbers, first half of 2026:**
   - Legal job migration to Europe rose **46% to 18,220 workers**, while Gulf hiring fell.
   - Italy was the largest European destination (**4,645 workers**).
@@ -76,6 +80,7 @@ Your developer experience matters more than your certificates. Several countries
 | **Sweden** | No education requirement for a work permit ([Migrationsverket](https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html)) | SEK 34,470 a month | Dhaka |
 | **Ireland** | General Employment Permit: without a degree you need the necessary experience ([Citizens Information](https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/)) | €36,605 a year | New Delhi (by post) |
 | **Poland** | Employer-sponsored work permit; big IT sector ([Grant Thornton](https://grantthornton.pl/en/article/employment-of-foreign-nationals-in-poland-in-2026-key-changes-and-important-deadlines-in-immigration-regulations/)) | Local market rate | Dhaka (VFS), decided in New Delhi |
+| **Cyprus** | Fast-track at a foreign-owned company: a degree **or 2 years' relevant experience** ([Zeno Legal](https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026)). See [the Cyprus section](#country-deep-dive-cyprus). | €2,500 a month before tax | Dhaka (VFS), decided in New Delhi |
 
 **Harder tech routes:**
 - UK developer jobs must pay the **£54,700** going rate for SOC 2134 ([Hunt UK Visa Sponsors](https://huntukvisasponsors.com/uk-visa-occupation-eligibility/2134-programmers-and-software-development-professionals)).
@@ -99,10 +104,12 @@ You can work for foreign companies or clients from Dhaka now, then move. Most no
 | **Spain** | €2,849 a month | Accepts a degree **or 3 years' professional experience**. The residence permit can be renewed. Apply at the Spanish Embassy in Dhaka (BLS). ([Moving to Spain](https://movingtospain.com/spain-digital-nomad-visa/)) |
 | **Portugal** | €3,680 a month + €11,040 savings | D8 visa, through the embassy in New Delhi ([Portugalist](https://www.portugalist.com/portugal-digital-nomad-visa/)) |
 | **Greece** | €3,500 a month (net) | Apply at a Greek consulate before you travel ([Remote Work Europe](https://remoteworkeurope.eu/insights/greece-digital-nomad-visa-2026/)) |
+| **Cyprus** | €3,500 a month (net) | Up to 3 years; 1,000 places a year ([Zeno Legal](https://www.zenolegal.com/resources/cyprus-digital-nomad-visa-2026)) |
 | **Malta** | €42,000 a year | Nomad Residence Permit |
 | **Croatia** | €3,622.50 a month | Up to 18 months only, not renewable ([Remote Work Europe](https://remoteworkeurope.eu/insights/croatia-digital-nomad-visa/)) |
 | **Estonia** | €4,500 a month | Digital Nomad Visa |
 | **Romania** | about €5,700 a month | Three times the average gross salary |
+| **Mauritius** (outside Europe) | about US$1,500 a month | Free Premium Visa for up to 1 year, renewable; no route to residence in Europe ([Visa Atlas](https://visaatlas.org/visas/mauritius/premium-visa)) |
 
 **Steps**
 
@@ -304,6 +311,7 @@ Euros you pay to the destination's government and its visa centre, with a job of
 | Switzerland | CHF 180–250 | Visa about CHF 80–150 + commune registration about CHF 100; the employer pays the cantonal permit. |
 | Czech Republic | CZK 7,500 | Employee Card CZK 5,000 at the embassy + card CZK 2,500 on arrival. |
 | New Zealand | NZ$1,540 | Work visa incl. levy, plus the Tk 10,100 medical. The employer pays NZ$775 + NZ$735. |
+| Mauritius | MUR 0 | The employer pays the work permit (MUR 700 processing + permit fee), the MUR 500 yearly residence fee and your ticket home. |
 | Spain | TIE €16–22 + visa | The visa fee is paid in taka at BLS (amount not confirmed). The employer pays the work authorisation (about €204–408). |
 | Serbia (on hold) | RSD 23,120 + visa | Single permit RSD 22,700 + submission RSD 420. BMET clearance is on hold. |
 | Bosnia & Herzegovina | Not confirmed | No official fee schedule found for the visa or the work permit. |
@@ -323,7 +331,7 @@ Euros you pay to the destination's government and its visa centre, with a job of
 | **Poland** | Dhaka (VFS), decided in New Delhi | D visa €80–135 + VFS fee | Work permit PLN 400 | — | [Worksol](https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/), [gov.pl](https://www.gov.pl/web/india/d-type-national-visa) |
 | **Portugal** · Delhi trip | New Delhi (embassy) | D visa €110 (+ VFS about €40) + AIMA residence permit €186–247 | Registers the vacancy with IEFP | Apply to AIMA within 120 days of arrival. | [Jobbatical](https://www.jobbatical.com/blog/portugal-immigration-updates) |
 | **Slovakia** · Delhi trip | New Delhi (embassy) | Residence application €250 + visa €14–90 | — | 2024 fee schedule; confirm on minv.sk. | [Euraxess Slovakia](https://euraxesspoint.sav.sk/changes-in-administrative-fees-as-of-1-4-2024/) |
-| **Cyprus** · Delhi trip | New Delhi (High Commission) | Entry and residence permit €70 + Aliens' Register €70 | Applies for the employment approval | — | [Cyprus Interior Ministry](https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369) |
+| **Cyprus** | Dhaka (VFS), decided in New Delhi | Entry and residence permit €70 + Aliens' Register €70 + visa fee | Applies for the employment approval | Older guides say apply in New Delhi; check with VFS first. See the Cyprus section. | [Cyprus Interior Ministry](https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369), [Visa Bangla](https://visabangla.com/travel/cyprus.html) |
 | **Slovenia** · Delhi trip | Mostly New Delhi | €102 at the embassy, or €70 if the employer applies in Slovenia; card €12 | Can lodge the application in Slovenia | — | [EU Immigration Portal](https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-slovenia_en) |
 | **Lithuania** · Delhi trip | New Delhi (VFS) | D visa €120–140, or residence permit €160 + VFS €125 | — | 2026 quota 24,706. | [VFS Global](https://www.vfsglobal.com/one-pager/lithuania/uae/residencepermit/english), [VisaVerge](https://www.visaverge.com/schengen/lithuania-visa-fees-and-payment-information/) |
 | **Latvia** · Delhi trip | Mostly New Delhi | D visa €90 + residence permit €160 (€280 fast) | OCMA approval of the invitation | — | [Playroll](https://playroll.com/work-permit-visas/latvia) |
@@ -344,6 +352,7 @@ Euros you pay to the destination's government and its visa centre, with a job of
 | **Estonia** | Check the embassy page | D visa €120, or residence permit €280 | Registers short-term employment €130 | — | [Jobbatical](https://www.jobbatical.com/blog/estonia-immigration-fees) |
 | **Switzerland** | Dhaka (Swiss Embassy) | Visa about CHF 80–150 + commune registration about CHF 100 | Cantonal permit, CHF 100–550 | Only 8,500 non-EU permits a year. | [The Local](https://www.thelocal.ch/20260122/how-much-do-switzerlands-work-permits-cost-in-2026) |
 | **New Zealand** | Online | NZ$1,540 + medical Tk 10,100 | Accreditation NZ$775 + job check NZ$735 | See the New Zealand section. | [INZ fee table](https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf) |
+| **Mauritius** (limited) | Online: the employer applies (work permit or Occupation Permit) | Nothing for a work permit: the employer pays recruitment costs | Work permit processing MUR 700 + permit fee; residence permit MUR 500 a year; your ticket home | Bangladeshis hired only for bakery, textile and printing jobs since September 2025. See the Mauritius section. | [Mauritius labour ministry](https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF), [e-Work Permit guidelines](https://workpermit.mu/eworkpermit_wkp/upload/cms/pdf/WP%20GUIDELINES%20UPDATED%20MAR2015.pdf), [Passport and Immigration Office](https://passport.govmu.org/passport/?page_id=557) |
 | **Serbia** (on hold) · Delhi trip | New Delhi (Serbian Embassy) | Single permit RSD 22,700 + RSD 420; visa D extra | — | BMET clearance on hold (September 2026). | [Welcome to Serbia](https://welcometoserbia.gov.rs/help) |
 | **North Macedonia** (on hold) | — | Not costed | — | BMET clearance on hold. | — |
 | **Hungary** (closed) | — | Not costed | — | Guest-worker permit closed since 6 June 2026. | — |
@@ -394,6 +403,7 @@ These accounts come from interviews in news reports and investigations, in the c
 - **Serbia, Tk 8 lakh:** the expatriates' welfare minister said a syndicate of travel agencies took about Tk 8 lakh each from hundreds of young men for Serbian work visas ([tob.news](https://tob.news/the-serbian-work-visa-dilemma/)).
 - **Russia, Tk 10 lakh:** men who paid agents around Tk 10 lakh each for construction jobs were sent to the front line instead ([Bangladesh Pratidin, Oct 2026](https://en.bd-pratidin.com/national/2026/10/15/71889)).
 - **New Zealand, NZ$15,000–40,000:** 115 Bangladeshi and Indian workers paid agents this much and arrived on work visas to find no jobs, in 2023 ([TBS](https://www.tbsnews.net/node/686434)).
+- **Mauritius, US$2,300:** a Bangladeshi garment worker borrowed this to pay his agent. In February 2025 three clothing brands repaid nearly US$390,000 in recruitment fees to 637 Bangladeshi workers at his factory ([Transparentem](https://transparentem.org/report/mauritius-disclosure/)).
 
 ### The government recruiter's fixed prices
 
@@ -401,7 +411,7 @@ BOESL, the government recruiter, publishes one all-in price when it runs a schem
 
 | Destination | Job | Fixed price | What it covers | Source |
 |---|---|---|---|---|
-| Croatia | Skilled workers (2022 revision) | Tk 41,250 | Service charge, welfare fee, pre-exit processing and training, insurance and smart card. Employers mostly pay the airfare. | [Dhaka Tribune](https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries) |
+| Croatia, Mauritius | Skilled workers (2022 revision) | Tk 41,250 | Service charge, welfare fee, pre-exit processing and training, insurance and smart card. Employers mostly pay the airfare. | [Dhaka Tribune](https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries) |
 | Bulgaria | Garment workers, skilled (2022 revision) | Tk 52,850 | Same items as above. | [Dhaka Tribune](https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries) |
 | Romania | Government-fixed cost (2020) | Tk 1.65 lakh | All-in cost set when Romania opened to Bangladeshi workers. | [TBS](https://www.tbsnews.net/bangladesh/migration/romania-set-temporary-consular-services-dhaka-370771) |
 | Brunei (outside Europe) | 2026 circular | Tk 44,850–56,350 | Unskilled to skilled, including welfare fee and insurance. Shows what a published government price looks like. | [BOESL](https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-boesl/2026/6/5651c1ae-8b4a-4ab9-8dce-0472670b31aa.pdf) |
@@ -472,7 +482,7 @@ Difficulty scale: **1 = easiest, 5 = hardest or closed.** The score combines the
 | 7 | **Poland** 🇵🇱 | **3 – Moderate** | Work permit plus D visa. Fees and refusal checks increased in 2026. | Dhaka (VFS), decided in New Delhi |
 | 8 | **Portugal** 🇵🇹 | **3.5** | Open job-seeker visa abolished Oct 2025. You now need a real job contract. | New Delhi (Portuguese Embassy) |
 | 9 | **Slovakia** 🇸🇰 | **3.5** | Shortage jobs (drivers, construction, factories). Stricter rules from July 2026. | New Delhi (Slovak Embassy) |
-| 10 | **Cyprus** 🇨🇾 | **3.5** | Farm, factory, delivery and retail jobs. Company caps on foreign staff. | New Delhi (High Commission) |
+| 10 | **Cyprus** 🇨🇾 | **3.5** | Farm, factory, delivery and retail jobs. Company caps on foreign staff. The Republic of Cyprus only, not the north. | **Dhaka** (VFS), decided in New Delhi |
 | 11 | **Slovenia, Lithuania, Latvia, Bosnia, Montenegro** | **4 – Hard** | Quotas cut, new restrictions, employers reluctant to hire Bangladeshis | Mostly New Delhi; Montenegro in **Dhaka** (VFS Global) |
 | ⚠️ | **Serbia, North Macedonia** | **On hold** | BMET clearance held up (Sept 2026). Forced-labour cases reported. | New Delhi |
 | 12 | **Czech Republic** 🇨🇿 | **4.5 – Very hard** | Tiny quotas for Bangladeshis | New Delhi |
@@ -600,7 +610,8 @@ Difficulty scale: **1 = easiest, 5 = hardest or closed.** The score combines the
 - **Permitted sectors:** agriculture, livestock, manufacturing, trade and food delivery.
 - **Rules:** the employer needs Department of Labour approval, and there are company caps on foreign staff.
 - **Existing workforce:** Bangladeshis are among the main nationalities in the 26,710 general-employment permits (August 2026) ([Cyprus Mail](https://cyprus-mail.com/2026/09/27/cyprus-labour-shortages-who-can-legally-work), [employer guide](https://gk-lawfirm.com/practice-areas/immigration-law/cyprus-work-permit/)).
-- **Visa:** handled by the Cyprus High Commission in New Delhi.
+- **Visa:** apply at VFS Global in Dhaka; the Cyprus High Commission in New Delhi decides ([Visa Bangla](https://visabangla.com/travel/cyprus.html)).
+- **Not the north:** only the Republic of Cyprus (the Greek-Cypriot south) is in the EU. Visas for Northern Cyprus, sold as a way into Europe, are a trap. Details, costs and job sites: [the Cyprus section](#country-deep-dive-cyprus).
 
 #### 11) Harder options: Slovenia, Lithuania, Latvia, Bosnia, Montenegro (difficulty 4)
 
@@ -637,6 +648,9 @@ For factory, farm, construction and hotel jobs, most real offers come through **
    - Malta: **[Jobsplus vacancies](https://jobsplus.gov.mt/vacancy)**
    - Poland: **[CBOP job database](https://oferty.praca.gov.pl/portal)**
    - Serbia: **[National Employment Service (NSZ)](https://www.nsz.gov.rs)**
+   - Montenegro: **[Employment Agency of Montenegro](https://www.zzzcg.me/)** · [Zaposli.me](https://zaposli.me/oglasi-za-posao/crna-gora)
+   - Cyprus (the Republic of Cyprus only): **[Ergodotisi](https://www.ergodotisi.com/)** · [CyprusWork](https://www.cypruswork.com/)
+   - Mauritius (outside Europe): **[Mauritius Jobs](https://mauritiusjobs.govmu.org/)** · [MyJob.mu](https://www.myjob.mu/)
    - All EU: **[EURES](https://eures.europa.eu)**
 3. **Italy specifically:** there is no public job board for Decreto Flussi. You need an Italian employer willing to file on the click day. Use BOESL/BMET programmes and the Talent Partnership, and **never pay for a nulla osta**.
 
@@ -650,17 +664,18 @@ For factory, farm, construction and hotel jobs, most real offers come through **
 |---|---|---|---|---|
 | 1 | **Germany** 🇩🇪 | **3** | Opportunity Card (job-search visa), **or** a job offer plus recognised qualification. EU Blue Card from €50,700/yr (€45,934 in shortage jobs). | **Dhaka** (German Embassy, online portal) |
 | 2 | **Finland** 🇫🇮 | **3** | General minimum €1,600/month. Specialist/Blue Card €3,937/month. | Online, plus ID check in New Delhi |
-| 3 | **Austria** 🇦🇹 | **3.5** | Red-White-Red Card: 55/90 points for shortage jobs, collective-agreement pay | New Delhi (Austrian Embassy) |
-| 4 | **Ireland** 🇮🇪 | **3.5** | General permit €36,605. Critical Skills €40,904 (with degree). | New Delhi, by post (no biometrics) |
-| 5 | **Spain** 🇪🇸 | **4** | Employer authorisation. Labour test waived for "hard-to-fill" jobs. | **Dhaka** (Spanish Embassy / BLS) |
-| 6 | **France** 🇫🇷 | **4** | "Talent" permits (reference salary €39,582) or shortage-list jobs. French helps. | **Dhaka** (French Embassy) |
-| 7 | **Netherlands** 🇳🇱 | **4** | Recognised-sponsor employer, €5,942/month (age 30+) or €4,357 (under 30) | **Dhaka** (Dutch Embassy) |
-| 8 | **Sweden** 🇸🇪 | **4** | At least SEK 34,470/month (90% of median, from June 2026) | **Dhaka** (Swedish Embassy) |
-| 9 | **Denmark** 🇩🇰 | **4.5** | DKK 552,000/yr (Pay Limit), DKK 446,000 (Supplementary), or Positive List job | **Dhaka** (VFS) |
-| 10 | **Norway** 🇳🇴 | **4.5** | Degree or trade certificate. NOK 545,400+/yr for degree jobs. | **Dhaka** (VFS, via Danish Embassy) |
-| 11 | **United Kingdom** 🇬🇧 | **4.5** | Degree-level (RQF 6) job, £41,700+, English B2 | **Dhaka** (VFS) |
-| 12 | **Estonia** 🇪🇪 | **4.5** | Pay at least the average salary; national quota 1,292/yr | Check official page |
-| 13 | **Switzerland** 🇨🇭 | **5** | Only 8,500 permits a year for all non-EU nationals; top specialists only | Dhaka (Swiss Embassy) |
+| 3 | **Cyprus** 🇨🇾 | **3** | Foreign-owned (often tech) companies: €2,500/month before tax, a degree **or** 2 years' experience, no labour-market test. EU Blue Card €43,632/yr. | **Dhaka** (VFS), decided in New Delhi |
+| 4 | **Austria** 🇦🇹 | **3.5** | Red-White-Red Card: 55/90 points for shortage jobs, collective-agreement pay | New Delhi (Austrian Embassy) |
+| 5 | **Ireland** 🇮🇪 | **3.5** | General permit €36,605. Critical Skills €40,904 (with degree). | New Delhi, by post (no biometrics) |
+| 6 | **Spain** 🇪🇸 | **4** | Employer authorisation. Labour test waived for "hard-to-fill" jobs. | **Dhaka** (Spanish Embassy / BLS) |
+| 7 | **France** 🇫🇷 | **4** | "Talent" permits (reference salary €39,582) or shortage-list jobs. French helps. | **Dhaka** (French Embassy) |
+| 8 | **Netherlands** 🇳🇱 | **4** | Recognised-sponsor employer, €5,942/month (age 30+) or €4,357 (under 30) | **Dhaka** (Dutch Embassy) |
+| 9 | **Sweden** 🇸🇪 | **4** | At least SEK 34,470/month (90% of median, from June 2026) | **Dhaka** (Swedish Embassy) |
+| 10 | **Denmark** 🇩🇰 | **4.5** | DKK 552,000/yr (Pay Limit), DKK 446,000 (Supplementary), or Positive List job | **Dhaka** (VFS) |
+| 11 | **Norway** 🇳🇴 | **4.5** | Degree or trade certificate. NOK 545,400+/yr for degree jobs. | **Dhaka** (VFS, via Danish Embassy) |
+| 12 | **United Kingdom** 🇬🇧 | **4.5** | Degree-level (RQF 6) job, £41,700+, English B2 | **Dhaka** (VFS) |
+| 13 | **Estonia** 🇪🇪 | **4.5** | Pay at least the average salary; national quota 1,292/yr | Check official page |
+| 14 | **Switzerland** 🇨🇭 | **5** | Only 8,500 permits a year for all non-EU nationals; top specialists only | Dhaka (Swiss Embassy) |
 
 **Tradespeople** with certificates (electricians, welders, mechanics, cooks) can also use shortage-occupation routes: Germany (recognised vocational qualification), Austria (shortage list), Spain and France (shortage catalogues), Denmark (Positive List) and Norway (trade certificate).
 
@@ -692,7 +707,14 @@ For factory, farm, construction and hotel jobs, most real offers come through **
   - Apply online through Enter Finland, then prove your identity at Finland's visa centre in **New Delhi**.
   - Bangladeshi documents may need extra verification ([Finland abroad – Bangladesh](https://finlandabroad.fi/web/bgd/residence-permits-to-finland)).
 
-#### 3) Austria (difficulty 3.5)
+#### 3) Cyprus (difficulty 3)
+
+- **Fast-track at foreign-owned companies:** tech, shipping and pharma companies registered with the Business Facilitation Unit can hire non-EU staff at **€2,500 a month before tax**, with a degree **or 2 years' relevant experience** and a contract of at least 2 years. No labour-market test ([Zeno Legal](https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026)).
+- **EU Blue Card** (since July 2025): **€43,632 a year**; IT staff can show 3 years' experience in the last 7 instead of a degree ([Rightax](https://rightax.com.cy/cyprus-eu-blue-card-guide/)).
+- **Visa:** apply at VFS Global in Dhaka; the High Commission in New Delhi decides ([Visa Bangla](https://visabangla.com/travel/cyprus.html)).
+- Full details, costs and job sites: [the Cyprus section](#country-deep-dive-cyprus).
+
+#### 4) Austria (difficulty 3.5)
 
 - **Red-White-Red Card for shortage occupations:**
   - Covers 64 nationwide and 66 regional occupations in 2026.
@@ -700,7 +722,7 @@ For factory, farm, construction and hotel jobs, most real offers come through **
 - **"Other key workers":** €3,465/month plus a labour-market test.
 - **Where to apply:** Bangladeshi applications are handled by the **Austrian Embassy in New Delhi** ([BMEIA](https://www.bmeia.gv.at/en/austrian-embassy-new-delhi/travels-to-austria/entry-and-residence/settlement-and-residence)).
 
-#### 4) Ireland (difficulty 3.5)
+#### 5) Ireland (difficulty 3.5)
 
 - **Salary floors from 1 March 2026** ([MRCI](https://www.mrci.ie/2026/03/06/new-employment-permit-salary-thresholds-from-1-march-2026/)):
   - General Employment Permit: **€36,605**
@@ -708,7 +730,7 @@ For factory, farm, construction and hotel jobs, most real offers come through **
   - Healthcare assistants, meat and horticulture workers: **€32,691**
 - **Where to apply:** Bangladeshis apply to the **Embassy of Ireland in New Delhi**, by post or through VFS Kolkata ([Ireland.ie](https://www.ireland.ie/en/india/newdelhi/services/visas/visas-for-ireland/)).
 
-#### 5) Spain (difficulty 4)
+#### 6) Spain (difficulty 4)
 
 - **Work authorisation:** the employer applies. There is **no labour-market test for jobs on the "hard-to-fill occupations" catalogue**.
 - **Other routes:**
@@ -716,13 +738,13 @@ For factory, farm, construction and hotel jobs, most real offers come through **
   - A 12-month job-seeking visa for catalogue occupations ([Giambrone](https://www.giambronelaw.com/site/news-articles-press/library/articles/new-job-seeker-visa-in-spain)).
 - **Where to apply:** the **Spanish Embassy in Dhaka / BLS** ([BLS Spain Bangladesh](https://bgd.blsspainvisa.com/long-term-visa.php)).
 
-#### 6) France (difficulty 4)
+#### 7) France (difficulty 4)
 
 - **"Talent" permits:** reference salary €39,582. The EU Blue Card needs €59,373, or €47,498 for STEM shortage roles.
 - **Shortage jobs:** jobs on the *métiers en tension* list are exempt from the labour-market test until December 2026 ([Fragomen](https://www.fragomen.com/insights/france-changes-to-talent-permit-scheme-processing-timeframes-and-minimum-salary-levels.html)).
 - **Language:** French is a big advantage.
 
-#### 7) Netherlands (difficulty 4)
+#### 8) Netherlands (difficulty 4)
 
 - **Highly skilled migrant salary thresholds, 2026:**
   - **€5,942/month** at age 30+
@@ -731,11 +753,11 @@ For factory, farm, construction and hotel jobs, most real offers come through **
   - Holiday pay is not counted ([Jobbatical](https://www.jobbatical.com/blog/netherlands-highly-skilled-migrant-salary-thresholds-2026)).
 - **Sponsor:** the employer must be an IND **recognised sponsor**. You can search the [public register](https://ind.nl/en/public-register-recognised-sponsors/public-register-work).
 
-#### 8) Sweden (difficulty 4)
+#### 9) Sweden (difficulty 4)
 
 - **Salary:** from 1 June 2026 it must be at least **90% of the median wage**, which was **SEK 34,470/month** as of 16 June 2026 ([Migrationsverket](https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html)).
 
-#### 9) Denmark (difficulty 4.5)
+#### 10) Denmark (difficulty 4.5)
 
 - **Salary schemes** ([Bird & Bird](https://www.twobirds.com/en/insights/2026/denmark/udenlandsk-arbejdskraft---nye-bel%C3%B8bsgr%C3%A6nser-under-bel%C3%B8bsordningerne-og-opdateret-positivlister)):
   - Pay Limit Scheme: **DKK 552,000/yr**
@@ -743,13 +765,13 @@ For factory, farm, construction and hotel jobs, most real offers come through **
   - Or a job on the **Positive Lists**
 - **Where to apply:** biometrics at **VFS Dhaka** ([Danish Embassy Dhaka](https://bangladesh.um.dk/en/travel-and-residence/practical-information/residence-permit/how-and-where-to-apply)).
 
-#### 10) Norway (difficulty 4.5)
+#### 11) Norway (difficulty 4.5)
 
 - **Qualification:** the skilled-worker permit needs a degree or a trade certificate.
 - **Salary from 1 May 2026:** **NOK 545,400** for jobs requiring a bachelor's degree, **NOK 624,700** for jobs requiring a master's ([UDI](https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/), [Relocation.no](https://relocation.no/news-from-the-norwegian-directorate-of-immigration-udi-skilled-worker-salary-requirements-in-norway-increased-from-1-may-2026/)).
 - **Where to apply:** VFS in Dhaka, with the Danish Embassy representing Norway ([Norway in Bangladesh](https://www.norway.no/en/bangladesh/services-info/visitors-visa-res-permit/res-permit/)).
 
-#### 11) United Kingdom (difficulty 4.5)
+#### 12) United Kingdom (difficulty 4.5)
 
 - **Skilled Worker visa:**
   - Degree-level jobs only (RQF 6, since 22 July 2025)
@@ -758,7 +780,7 @@ For factory, farm, construction and hotel jobs, most real offers come through **
 - **Care workers:** overseas recruitment of care workers has been closed since July 2025.
 - **Sponsors:** only employers on the [register of licensed sponsors](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers) can hire you.
 
-#### 12) Estonia and Switzerland (hardest)
+#### 13) Estonia and Switzerland (hardest)
 
 - **Estonia:** national immigration quota of **1,292** for 2026. Short-term employment must pay at least the average salary (€2,092 in 2025) ([Jobbatical](https://www.jobbatical.com/blog/estonia-digital-nomad-visa-income-requirement-immigration-quota), [Estonian Interior Ministry](https://www.siseministeerium.ee/en/activities/efficient-population-management/migration)).
 - **Switzerland:** only **8,500** permits for all non-EU nationals in 2026 (4,500 B and 4,000 L), and only for highly qualified people ([Swiss Federal Council](https://www.admin.ch/en/newnsb/7HwBjdg5HpBA)).
@@ -789,6 +811,8 @@ For factory, farm, construction and hotel jobs, most real offers come through **
 | [Landing.jobs](https://landing.jobs) | Tech jobs in Portugal and Europe, with a visa/work-permit filter |
 | [LinkedIn Jobs](https://www.linkedin.com/jobs) / Indeed country sites | Search "visa sponsorship", "relocation", "work permit provided", "EU Blue Card" plus your job title |
 
+**Job boards in this guide's deep-dive countries:** Cyprus: [CyprusWork](https://www.cypruswork.com/), [Ergodotisi](https://www.ergodotisi.com/), [Carierista](https://www.carierista.com/). Montenegro: [Zaposli.me](https://zaposli.me/oglasi-za-posao/crna-gora). Mauritius: [MyJob.mu IT jobs](https://myjob.mu/jobs/information-technology). Full lists are in each country's section.
+
 **3. Lists of employers that already sponsor visas.** Apply to these companies directly:
 
 - UK: [Register of licensed sponsors – workers (CSV download)](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers)
@@ -812,6 +836,7 @@ For factory, farm, construction and hotel jobs, most real offers come through **
 | **Czech Republic** | Bangladesh is not in the "Qualified Employee" programme. Very few Employee Card slots at the New Delhi embassy. Seasonal quota of just 60 a year, shared with Nepal, Sri Lanka, Bhutan and the Maldives. | [Czech Embassy New Delhi](https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/economic_migration_programs_and_quotas.html), [Czech Ministry of Industry](https://mpo.gov.cz/en/foreign-trade/economic-migration/economic-migration-and-government-programs--239491/) |
 | **Serbia, North Macedonia, Moldova** | BMET clearance held up | [TBS](https://www.tbsnews.net/bangladesh/visas-holders-urge-bmet-resume-manpower-clearance-serbia-north-macedonia-moldova-1552981) |
 | **Russia, Belarus** | Bangladeshi men lured with civilian jobs were **forced to fight in the Ukraine war** (AP investigation, Jan 2026) | [AP via Washington Post](https://www.washingtonpost.com/world/2026/01/27/russia-ukraine-war-bangladesh-migrant-workers/27fd6fb0-fb40-11f0-954b-b80c7ed67fc7_story.html), [Fortify Rights](https://www.fortifyrights.org/reg-inv-2026-03-03/) |
+| **Northern Cyprus** | Not in the EU and recognised only by Turkey. Agents sell its student visas as a back door to Europe; Bangladeshis who cross to the south and claim asylum are almost always refused (3% of claims in the EU succeeded in 2025). | [EUAA](https://www.euaa.europa.eu/latest-asylum-trends-annual-analysis/applications), [TBS](https://www.tbsnews.net/features/panorama/how-bangladeshi-migrants-end-cyprus-450078) |
 | **Illegal routes** (Libya boats, Balkan "game") | **97,832 Bangladeshis** entered Europe irregularly in 2020–2024 (IOM), and many died. The EU's new migration pact (June 2026) makes getting legal status afterwards even harder. | [Bonik Barta](https://en.bonikbarta.com/bangladesh/VQHz2VqTzKVHu8Hj), [TBS](https://www.tbsnews.net/bangladesh/migration/italy-wants-repatriate-undocumented-bangladeshis-1134561) |
 
 ---
@@ -824,7 +849,7 @@ All the links from Sections A3 and B3 in one place:
 |---|---|
 | 🇧🇩 Bangladesh government | [BMET OEP](https://www.oep.gov.bd/) · [Licensed agency check](https://www.oep.gov.bd/agencies) · [BMET clearance](https://oc.bmet.gov.bd) · [BOESL](https://www.boesl.gov.bd) · [BAIRA](https://baira.org.bd) |
 | 🇪🇺 EU-wide | [EURES](https://eures.europa.eu) · EU Talent Pool (coming ~2027) |
-| Country portals for foreign workers | [WorkinRomania](https://workinromania.gov.ro) · [Croatia HZZ](https://burzarada.hzz.hr) · [Malta Jobsplus](https://jobsplus.gov.mt/vacancy) · [Poland CBOP](https://oferty.praca.gov.pl/portal) · [Serbia NSZ](https://www.nsz.gov.rs) · [Make it in Germany](https://www.make-it-in-germany.com/en/working-in-germany/job-listings) · [Work in Austria](https://jobs.workinaustria.com/?lang=en) · [Workindenmark](https://www.workindenmark.dk/) · [Job Market Finland](https://tyomarkkinatori.fi/en) · [Work in Estonia](https://workinestonia.com/) · [Work in Lithuania](https://jobs.workinlithuania.com/) · [JobsIreland](https://jobsireland.ie/) · [Czech Employee Card vacancies](https://up.gov.cz/en/for-foreigners) |
+| Country portals for foreign workers | [WorkinRomania](https://workinromania.gov.ro) · [Croatia HZZ](https://burzarada.hzz.hr) · [Malta Jobsplus](https://jobsplus.gov.mt/vacancy) · [Poland CBOP](https://oferty.praca.gov.pl/portal) · [Serbia NSZ](https://www.nsz.gov.rs) · [Make it in Germany](https://www.make-it-in-germany.com/en/working-in-germany/job-listings) · [Work in Austria](https://jobs.workinaustria.com/?lang=en) · [Workindenmark](https://www.workindenmark.dk/) · [Job Market Finland](https://tyomarkkinatori.fi/en) · [Work in Estonia](https://workinestonia.com/) · [Work in Lithuania](https://jobs.workinlithuania.com/) · [JobsIreland](https://jobsireland.ie/) · [Czech Employee Card vacancies](https://up.gov.cz/en/for-foreigners) · [Montenegro Employment Agency](https://www.zzzcg.me/) · [Zaposli.me](https://zaposli.me/oglasi-za-posao/crna-gora) · [Cyprus: Ergodotisi](https://www.ergodotisi.com/) · [CyprusWork](https://www.cypruswork.com/) · [Mauritius: MyJob.mu](https://www.myjob.mu/) · [Mauritius Jobs](https://mauritiusjobs.govmu.org/) |
 | Visa-sponsorship job boards | [Relocate.me](https://relocate.me) · [Arbeitnow](https://www.arbeitnow.com/visa-sponsorship-jobs) · [EnglishJobs.de](https://englishjobs.de/jobs/visa-sponsorship) · [Landing.jobs](https://landing.jobs) |
 | Sponsor registers | [UK](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers) · [Netherlands](https://ind.nl/en/public-register-recognised-sponsors/public-register-work) · [Denmark](https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Certification) |
 
@@ -887,6 +912,117 @@ All the links from Sections A3 and B3 in one place:
 2. The employer files your permit.
 3. You book your visa appointment.
 4. After the visa: BMET clearance, PDO training, then travel.
+
+---
+
+## COUNTRY DEEP DIVE: Cyprus
+
+*Checked 20 October 2026. Cyprus uses the euro. Amounts are in the currency you pay them in: taka in Bangladesh, US dollars for the flight, euros in Cyprus.*
+
+**Short answer:** the Republic of Cyprus is an EU country short of workers on farms, in factories, shops, delivery and building, and its foreign-owned tech companies can hire developers **without a degree**. The employer applies for you. Avoid anyone who offers "Cyprus" through the Turkish-Cypriot north.
+
+> **Greek Cyprus or Turkish Cyprus?** The Cyprus in this guide is the **Republic of Cyprus**: the Greek-Cypriot south, an EU member. **Northern Cyprus** is run by Turkish Cypriots, is recognised only by Turkey and is not in the EU. Agents sell its student visas as a back door to Europe. Cyprus says about 9 in 10 irregular migrants arrive through Turkey and the north and then cross the UN buffer zone ([TBS](https://www.tbsnews.net/features/panorama/how-bangladeshi-migrants-end-cyprus-450078)). Most Bangladeshis who do this are refused asylum.
+
+**Key numbers**
+
+- **26,710** general-employment work permits in force in August 2026; Bangladesh is one of the main nationalities ([Cyprus Mail](https://cyprus-mail.com/2026/09/27/cyprus-labour-shortages-who-can-legally-work)).
+- **€1,088** minimum wage a month before tax in 2026–2027; €979 in your first 6 months with an employer ([Sigmalive](https://en.sigmalive.com/cyprus-minimum-wage-set-at-e1088-from-january-1-2026)).
+- **€2,500** a month before tax gets a developer a fast permit at a foreign-owned company, with a degree or 2 years' experience ([Zeno Legal](https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026)).
+- **3%** of Bangladeshis' asylum claims in the EU succeeded in 2025: crossing from the north to claim asylum is no way in ([EUAA](https://www.euaa.europa.eu/latest-asylum-trends-annual-analysis/applications)).
+
+### What changed in 2025–2026, and what's next
+
+| Date | Change | Effect |
+|---|---|---|
+| 7 Jul 2025 | **Blue Card.** Cyprus starts taking EU Blue Card applications: €43,632 a year, and IT staff can show 3 years' experience instead of a degree ([Rightax](https://rightax.com.cy/cyprus-eu-blue-card-guide/)) | Easier |
+| 30 Oct 2025 | **Digital nomads.** The digital nomad visa reopens with 1,000 places a year ([Zeno Legal](https://www.zenolegal.com/resources/cyprus-digital-nomad-visa-2026)) | Easier |
+| 1 Jan 2026 | **Pay.** Minimum wage rises to €1,088 a month (€979 in the first 6 months), fixed until the end of 2027 ([Sigmalive](https://en.sigmalive.com/cyprus-minimum-wage-set-at-e1088-from-january-1-2026)) | Easier |
+| Sep 2026 | **Agencies.** Parliament's labour committee links hiring through temporary employment agencies to trafficking; unions ask for inspections ([Cyprus Mail](https://cyprus-mail.com/2026/09/23/workers-trafficked-to-cyprus-through-hiring-agencies)) | Tighter |
+| 1 Jan 2027 | **Fast-track.** Renewals for existing key staff at foreign-owned companies must also pay €2,500 a month; the €2,000 transition ends on 31 December 2026 ([Zeno Legal](https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026)) | Tighter |
+
+### Route 1: developer job at a foreign-owned company (best fit)
+
+- **Why it fits you:** foreign-owned companies, many of them in tech around Limassol, can hire non-EU staff on a fast-track that accepts **2 years of relevant experience instead of a degree**. There is no labour-market test and no cap on these staff ([Zeno Legal](https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026)).
+- **You need:**
+  - a job paying at least **€2,500 a month before tax**, on a contract of at least 2 years;
+  - a degree, or proof of 2 years' relevant experience: letters, contracts and your portfolio;
+  - an employer registered with the Business Facilitation Unit ([Business in Cyprus](https://www.businessincyprus.gov.cy/)).
+- **Good to know:**
+  - Permits take about a month and last up to 3 years, renewable.
+  - The **EU Blue Card** (€43,632 a year) also accepts 3 years' IT experience instead of a degree ([Rightax](https://rightax.com.cy/cyprus-eu-blue-card-guide/)).
+
+### Route 2: farm, factory, shop, delivery or building job (employer route)
+
+- **Jobs open to you:** agriculture, livestock, food delivery, manufacturing, wholesale and retail, construction and other short-staffed jobs ([Cyprus Mail](https://cyprus-mail.com/2026/09/27/cyprus-labour-shortages-who-can-legally-work)).
+- **How it works:**
+  - The employer first offers the job to local and EU workers through the public employment service.
+  - The Department of Labour approves the vacancy (about 3 months), then the Migration Department issues your entry permit.
+  - Each company may hire only a limited share of non-EU staff.
+- **Pay and limits:** at least €979 a month for your first 6 months with an employer, then €1,088 ([Sigmalive](https://en.sigmalive.com/cyprus-minimum-wage-set-at-e1088-from-january-1-2026)). A general-employment permit lasts at most 4 years in total (6 in farming and livestock) ([AGP Law](https://www.agplaw.com/?p=634)).
+
+### Route 3: digital nomad visa (Plan B)
+
+- Live in Cyprus while you work for employers or clients outside Cyprus: 1 year at first, up to 3 years in total.
+- You need at least **€3,500 a month after tax**, health insurance and a clean police record. There are 1,000 places a year since 30 October 2025 ([Zeno Legal](https://www.zenolegal.com/resources/cyprus-digital-nomad-visa-2026)).
+
+### What each route asks you to earn (euros a month)
+
+| Route | Amount | Note |
+|---|---|---|
+| Minimum wage, after 6 months | €1,088 | Before tax; €979 in your first 6 months with an employer (2026–2027). |
+| **Fast-track at a foreign-owned company (your best fit)** | **€2,500** | Before tax, with a degree or 2 years' relevant experience and a contract of at least 2 years. |
+| Digital nomad visa, after tax | €3,500 | From employers or clients outside Cyprus; 1,000 places a year. |
+| EU Blue Card | €3,636 | €43,632 a year before tax. IT staff can show 3 years' experience in the last 7 instead of a degree. |
+
+### From job offer to residence permit, step by step
+
+1. **Find an employer:** Ergodotisi, Carierista or CyprusWork; for the fast-track, foreign-owned tech companies.
+2. **Local workers first** (general jobs only): the employer advertises through the public employment service before it may hire you.
+3. **Approval:** Department of Labour, about 3 months. Fast-track companies skip this step.
+4. **Entry permit:** the employer applies to the Migration Department with your contract.
+5. **Visa at VFS Dhaka:** the Cyprus High Commission in New Delhi decides ([Visa Bangla](https://visabangla.com/travel/cyprus.html)). Check with VFS before you book any trip to Delhi.
+6. **BMET clearance, then fly:** Tk 6,500; Dhaka → Larnaca about US$470–652 one way.
+7. **Register within 7 days** at the Migration Department: residence permit €70 + Aliens' Register €70.
+
+### Cyprus costs: your start-up budget (no agent needed)
+
+| Where | Item | Cost | Source |
+|---|---|---|---|
+| Bangladesh | Police clearance certificate | Tk 500 | [PCC guide](https://policeclearance.bd/application-fees/) |
+| Bangladesh | BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000 | Tk 6,500 | [TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606) |
+| Bangladesh | Notary, translation and attestation of your documents | Tk 5,000–20,000 | estimate |
+| Bangladesh | Entry visa at VFS Dhaka, decided by the High Commission in New Delhi | Ask VFS | [Visa Bangla](https://visabangla.com/travel/cyprus.html) |
+| | **Subtotal in Bangladesh** | **Tk 12,000–27,000 + visa** | |
+| Flight | Dhaka → Larnaca, one way with one stop (lowest online fares) | US$470–652 | [Trip.com](https://ph.trip.com/flights/airport-dac-lca/) |
+| Cyprus | Entry and residence permit | €70 | [Cyprus Interior Ministry](https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369) |
+| Cyprus | First entry in the Aliens' Register | €70 | [Cyprus Interior Ministry](https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369) |
+| Cyprus | Food, transport and phone until your first pay | €300–500 | estimate |
+| | **Subtotal in Cyprus** | **€440–640** | |
+
+The employer applies and pays for its own approval. Ask whether housing is included, and get it in your contract.
+
+### Know before you go
+
+- **The north is not the EU.** Northern Cyprus is run by Turkish Cypriots and recognised only by Turkey. A visa for the north is not a visa for the Republic of Cyprus or the EU. Cyprus says about 9 in 10 irregular migrants arrive through Turkey and the north ([TBS](https://www.tbsnews.net/features/panorama/how-bangladeshi-migrants-end-cyprus-450078)).
+- **Fake "EU job" offers.** In 2025 UN experts said agents promised jobs in the Republic of Cyprus or the EU, then sent more than 600 workers to a state-owned citrus farm in the north, where passports were taken and pay was little or none ([Business & Human Rights Centre](https://www.business-humanrights.org/en/latest-news/cyprus-un-experts-alarmed-by-reports-of-exploitation-of-migrant-workers-at-citrus-farm-owned-by-state-owned-firm-cypfruvex-2/)).
+- **Asylum is not a work route.** Bangladeshis made 37,000 asylum claims in the EU in 2025, and only 3% were accepted at the first decision ([EUAA](https://www.euaa.europa.eu/latest-asylum-trends-annual-analysis/applications)).
+- **Register within 7 days.** After you arrive, register with the Migration Department within 7 days. A general-employment permit lasts at most 4 years in total (6 in farming and livestock) ([AGP Law](https://www.agplaw.com/?p=634)).
+- **Be careful with agency jobs.** In September 2026 parliament's labour committee linked hiring through temporary employment agencies to trafficking. Unions say some workers are rented out to hotels and building sites ([Cyprus Mail](https://cyprus-mail.com/2026/09/23/workers-trafficked-to-cyprus-through-hiring-agencies)).
+
+### Where to find a job in Cyprus
+
+Many ads are in Greek, so use your browser's translate button. For tech jobs, search in English for Limassol and Nicosia.
+
+| Site | What it is for |
+|---|---|
+| [Ergodotisi](https://www.ergodotisi.com/) | Cyprus's best-known job site, in Greek and English. Try "developer Limassol", "farm" or "delivery". |
+| [Carierista](https://www.carierista.com/) | Job portal and professional network; the second most visited job site in Cyprus in April 2026. |
+| [CyprusWork](https://www.cypruswork.com/) | English-language job board with vacancies from over 1,000 recruiters. |
+| [Kariera.com.cy](https://www.kariera.com.cy/) | Long-running Cypriot job portal; most ads are in Greek. |
+| [Relocate.me](https://relocate.me) | Filter by Cyprus for tech jobs that come with visa and relocation help. |
+| [Business in Cyprus (Business Facilitation Unit)](https://www.businessincyprus.gov.cy/) | The government unit that handles fast-track permits for foreign-owned companies. |
+| [Public Employment Service](https://www.pescps.dl.mlsi.gov.cy/) | Official vacancies. Only people already allowed to work in Cyprus can apply, but it shows who is hiring. |
+| [Migration Department permit fees](https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369) | Official fees for entry, residence and employment permits. |
 
 ---
 
@@ -1013,6 +1149,121 @@ Most ads are in Montenegrin, so use your browser's translate button. Hotels star
 | [VFS Global: Montenegro visa](https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html) | Fees, documents and appointments for the D visa in Dhaka. |
 | [Work permit rules](https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola) | Documents, fees and the 15-day deadline for the combined permit. |
 | [BOESL](https://www.boesl.gov.bd) | If a government deal is signed, recruitment would most likely be announced here. Never pay a private agent for a "G2G" place. |
+
+---
+
+## OUTSIDE EUROPE: Mauritius
+
+*Checked 20 October 2026. Amounts are in the currency you pay them in: Mauritian rupees (MUR) in Mauritius, taka in Bangladesh, US dollars for the flight and the Premium Visa.*
+
+**Short answer:** Mauritius, an island country in the Indian Ocean where business runs in English and French, has hired Bangladeshis for decades, mostly for garment factories. Since 2023 it has hired **few Bangladeshi factory workers** while a government deal is negotiated. For you, the better routes are an **IT job paying MUR 50,000 a month**, or its **free visa for remote workers**.
+
+> **Not a way into Europe.** Mauritius is an independent country east of Madagascar. A Mauritian permit does not let you live or work in Europe, and that includes the nearby French island of Réunion. It is in this guide because Bangladeshis have long worked there and its IT sector works in English.
+
+**Key numbers**
+
+- **8,975** Bangladeshi workers in Mauritius in July 2026, down from 10,672 in November 2024 ([L'Express via AllAfrica](https://fr.allafrica.com/stories/202607030159.html)).
+- **MUR 50,000** basic salary a month that a professional Occupation Permit needs, in every sector (2026) ([EDB Mauritius](https://edbmauritius.org/newsletter-august-2026-op)).
+- **MUR 17,745** national minimum wage a month from 1 January 2026 ([WageIndicator](https://wageindicator.org/work/minimum-wage/updates/2026/mauritius-national-minimum-wage-increased-from-1-january-2026-february-11-2026)).
+- **US$1,500** a month of foreign income gets you the free Premium Visa for remote workers ([Visa Atlas](https://visaatlas.org/visas/mauritius/premium-visa)).
+
+### What changed in 2023–2026
+
+| Date | Change | Effect |
+|---|---|---|
+| 2023 | **Bangladesh.** Mauritius stops almost all new hiring of Bangladeshi workers after many leave the employers named on their permits ([Business & Human Rights Centre](https://www.business-humanrights.org/en/latest-news/mauritius-bangladeshi-workers-fleeing-jobs-for-better-wages-prompts-decrease-in-job-orders-from-labour-dept/)) | Closed |
+| Sep 2025 | **Bangladesh.** Hiring of Bangladeshis restarts, but only for short-staffed bakery, textile and printing jobs ([L'Express via AllAfrica](https://fr.allafrica.com/stories/202607030159.html)) | Easier |
+| 1 Jan 2026 | **Pay.** The national minimum wage rises to MUR 17,745 a month ([WageIndicator](https://wageindicator.org/work/minimum-wage/updates/2026/mauritius-national-minimum-wage-increased-from-1-january-2026-february-11-2026)) | Easier |
+| Mar 2026 | **Permits.** 8,733 work-permit applications are still waiting, some since June 2025 ([L'Express via AllAfrica](https://fr.allafrica.com/stories/202603270354.html)) | Tighter |
+| 8 Jun 2026 | **Bangladesh.** The two labour ministers agree in Geneva to speed up a deal (MoU) to reopen hiring, mainly for textile workers. Not signed yet ([Dhaka Tribune](https://www.dhakatribune.com/bangladesh/foreign-affairs/412067/mauritius-labor-market-set-to-reopen-for)) | Mixed |
+| 24 Jun 2026 | **Enforcement.** Police report 428 foreigners without valid papers arrested since January ([L'Express via AllAfrica](https://fr.allafrica.com/stories/202606240382.html)) | Tighter |
+| Jul 2026 | **Bangladesh.** The labour minister says future workers will be recruited through Bangladeshi government bodies and checked before they leave, to cut out middlemen ([L'Express via AllAfrica](https://fr.allafrica.com/stories/202607030159.html)) | Mixed |
+| 13 Aug 2026 | **Permits.** Finance Act 2026: the professional Occupation Permit needs a MUR 50,000 basic salary in every sector. A new Technical permit for government-to-government recruits is not in force yet ([TBI Mauritius](https://tbimauritius.com/technical-occupation-permit-mauritius/)) | Mixed |
+
+### Route 1: developer job on an Occupation Permit (best fit)
+
+- **Why it fits you:** Mauritius has a large IT and outsourcing sector, and one Occupation Permit covers both work and residence, for up to 10 years if your contract is that long.
+- **You need:**
+  - a job with a basic salary of at least **MUR 50,000 a month** (the 2026 rule for every sector) ([EDB Mauritius](https://edbmauritius.org/newsletter-august-2026-op));
+  - an employer that applies for you online at the Economic Development Board (EDB);
+  - experience letters and a portfolio. We found no source saying a degree is required, but check with the employer.
+- **Good to know:**
+  - Mid-level developers earn about MUR 45,000–70,000 a month, so aim for mid-level or senior jobs ([MyJob.mu](https://myjob.mu/advice/salary-guide/salary-trends-in-mauritius-2026-what-professionals-need-to-know-before-negotiating)).
+  - You can apply for permanent residence after 5 years.
+
+### Route 2: Premium Visa: live there, work remotely (Plan B)
+
+- **What it is:** a free visa for up to 1 year, renewable, for people whose work and income come from outside Mauritius ([Visa Atlas](https://visaatlas.org/visas/mauritius/premium-visa)).
+- **You need:** about **US$1,500 a month** of foreign income, and health and travel insurance. You may not take a job with a Mauritian employer.
+- **Compared with Europe:** the income bar is lower than Spain's (€2,849 a month) or Cyprus's (€3,500), but it does not lead to residence in Europe. Check on the EDB website that your nationality can apply.
+
+### Route 3: factory, bakery or printing job (limited)
+
+- **Where it stands:** since September 2025 Mauritius has hired Bangladeshis only for short-staffed bakery, textile and printing jobs ([L'Express via AllAfrica](https://fr.allafrica.com/stories/202607030159.html)). The minimum wage is MUR 17,745 a month.
+- **What's coming:** a government deal (MoU) under which Bangladeshi government bodies recruit and check workers before they leave ([Dhaka Tribune](https://www.dhakatribune.com/bangladesh/foreign-affairs/412067/mauritius-labor-market-set-to-reopen-for)), and a new Technical permit for government-to-government recruits. Neither has started.
+- **What to do now:**
+  - Register on [BMET OEP](https://www.oep.gov.bd/) and follow [BOESL](https://www.boesl.gov.bd) circulars.
+  - Don't pay anyone who sells a place in a "Mauritius G2G" scheme: none exists yet.
+
+### Monthly pay in Mauritius (rupees)
+
+| Job | Monthly pay | Note |
+|---|---|---|
+| National minimum wage | MUR 17,745 | From 1 January 2026. In export factories it can include housing and food allowances. |
+| Junior developer | MUR 25,000–40,000 | MyJob.mu 2026 estimate. |
+| Mid-level developer | MUR 45,000–70,000 | MyJob.mu 2026 estimate. |
+| Senior developer or architect | MUR 80,000–150,000 | MyJob.mu 2026 estimate; some earn more. |
+
+A professional Occupation Permit needs a basic salary of **MUR 50,000** a month.
+
+### From job offer to residence permit, step by step
+
+1. **Find an employer:** MyJob.mu, the government's Mauritius Jobs portal or LinkedIn. For factory jobs, wait for BOESL.
+2. **The employer applies:** an Occupation Permit online at the EDB (MUR 50,000+), or a work permit from the labour ministry for other jobs.
+3. **Approval, then travel:** travel only after the permit is approved; for a work permit you have 6 months to arrive ([labour ministry guidelines](https://empment-labour.govmu.org/Documents/Guidelines%20for%20Work%20Permit%20Application%20June%202016_V1.pdf)).
+4. **Papers and BMET clearance:** police clearance, attested documents and BMET clearance (Tk 6,500).
+5. **Fly to Mauritius:** about US$423–835 one way with one stop.
+6. **Residence permit** at the Passport and Immigration Office; the employer pays MUR 500 a year.
+
+### Mauritius costs: your start-up budget (no agent needed)
+
+| Where | Item | Cost | Source |
+|---|---|---|---|
+| Bangladesh | Police clearance certificate | Tk 500 | [PCC guide](https://policeclearance.bd/application-fees/) |
+| Bangladesh | BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000 | Tk 6,500 | [TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606) |
+| Bangladesh | Notary, translation and attestation of your documents | Tk 5,000–20,000 | estimate |
+| | **Subtotal in Bangladesh** | **Tk 12,000–27,000** | |
+| Flight | Dhaka → Mauritius, one way with one stop (online fares) | US$423–835 | [Jetcost](https://us.jetcost.com/en/flights/dhaka-zia/mauritius/DAC-MRU) |
+| Mauritius (employer pays) | Work permit: processing fee MUR 700 plus the permit fee | paid by the employer | [e-Work Permit guidelines](https://workpermit.mu/eworkpermit_wkp/upload/cms/pdf/WP%20GUIDELINES%20UPDATED%20MAR2015.pdf) |
+| Mauritius (employer pays) | Residence permit fee, every year | MUR 500 | [Passport and Immigration Office](https://passport.govmu.org/passport/?page_id=557) |
+| Mauritius (employer pays) | All recruitment costs, and your ticket home when the contract ends | paid by the employer | [Mauritius labour ministry](https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF) |
+
+Mauritius's labour ministry says employers bear all recruitment costs, including the work permit, and workers should not pay recruitment fees. Ask the employer to pay your outward flight too, and get housing written into your contract.
+
+### Know before you go
+
+- **One employer only.** Your work permit is for one employer. Workers who leave become irregular: in March 2026 Mauritius counted 6,926 foreigners overstaying, 2,819 of them reported missing by their employer ([L'Express via AllAfrica](https://fr.allafrica.com/stories/202604010677.html)).
+- **Arrests and fines.** Police arrested 428 foreigners without valid papers between 1 January and 15 June 2026. Employers who hire them face fines of MUR 100,000–500,000 and up to 5 years in prison ([L'Express via AllAfrica](https://fr.allafrica.com/stories/202606240382.html)).
+- **Fees are still charged.** A Bangladeshi garment worker borrowed US$2,300 to pay his agent. Brands later repaid nearly US$390,000 in fees to 637 Bangladeshi workers at his factory ([Transparentem](https://transparentem.org/report/mauritius-disclosure/)).
+- **No work on a tourist visa.** Someone who enters Mauritius as a tourist may not work. Travel only after your permit is approved ([Australian High Commission](https://mauritius.embassy.gov.au/plut/Working_in_Mauritius.html)).
+- **Your embassy is in Port Louis.** The Bangladesh High Commission's labour wing: fsportlouis@probashi.gov.bd, +230 212 9527 ([Expatriates' Welfare Ministry](https://wewb.portal.gov.bd/site/page/847ba196-b014-49b4-b1f9-de178dba156e)).
+- **Permanent residence.** Occupation Permit holders can apply after 5 years (3 years before the Finance Act 2025) ([KPMG](https://assets.kpmg.com/content/dam/kpmg/za/pdf/2025/tax-alert%2095-changes-to-residency-and-property-ownership-rules-post-the-finance-act-2025.pdf)).
+
+### Where to find a job in Mauritius
+
+Ads are in English or French. IT jobs cluster around Ebène and Port Louis.
+
+| Site | What it is for |
+|---|---|
+| [MyJob.mu: IT jobs](https://myjob.mu/jobs/information-technology) | Mauritius's biggest job site. This page lists IT, web and software jobs. |
+| [MyJob.mu: hotel and tourism jobs](https://myjob.mu/jobs/tourism-and-hospitality) | Hotel, restaurant and tourism jobs on the same site. |
+| [Mauritius Jobs (government)](https://mauritiusjobs.govmu.org/) | Official portal with local and overseas vacancies from registered employers. |
+| [CareerHub.mu](https://careerhub.mu/) | Local job board, one of the most visited in Mauritius. |
+| [HelloJob.mu](https://hellojob.mu/) | One of the first Mauritian job portals. |
+| [EDB: Occupation Permit and Premium Visa](https://edbmauritius.org/) | Official rules for the professional permit and the remote-work Premium Visa. |
+| [e-Work Permit (labour ministry)](https://workpermit.mu/eworkpermit_wkp/web/index/pagename/faq) | How employers apply for work permits: questions and answers. |
+| [Bangladesh High Commission, Port Louis](https://portlouis.mofa.gov.bd/) | Your embassy in Mauritius. Labour wing: fsportlouis@probashi.gov.bd. |
+| [BOESL](https://www.boesl.gov.bd) | If the government deal is signed, Mauritian factory jobs should be announced here. Never pay a private agent for a "G2G" place. |
 
 ---
 
@@ -1196,6 +1447,8 @@ Some tech employers pay the flight or the visa fee, so ask before you sign. IELT
 - UK: [GOV.UK Skilled Worker visa](https://www.gov.uk/skilled-worker-visa)
 - Switzerland: [Swiss Federal Council](https://www.admin.ch/en/newnsb/7HwBjdg5HpBA)
 - New Zealand: [INZ – Skilled Migrant changes, August 2026](https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/) · [INZ – AEWV changes](https://www.immigration.govt.nz/about-us/news-centre/how-changes-to-the-accredited-employer-work-visa-aewv-may-affect-you/) · [INZ – check an employer](https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/working-in-nz/check-if-an-employer-is-accredited) · [Immigration Advisers Authority](https://iaa.govt.nz/for-migrants)
+- Cyprus: [Migration Department permit fees](https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369) · [Business in Cyprus (fast-track permits)](https://www.businessincyprus.gov.cy/) · [Public Employment Service](https://www.pescps.dl.mlsi.gov.cy/)
+- Mauritius: [EDB (Occupation Permit, Premium Visa)](https://edbmauritius.org/) · [e-Work Permit](https://workpermit.mu/eworkpermit_wkp/web/index/pagename/faq) · [Labour ministry guide for migrant workers](https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF) · [Bangladesh High Commission, Port Louis](https://portlouis.mofa.gov.bd/)
 - Montenegro: [visa rules for Bangladeshis](https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh) · [2026 permit quota](https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session) · [work permit rules](https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola) · [VFS Global Dhaka](https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html)
 - Background on Bangladesh–Europe migration:
   - [TBS: Europe job migration H1 2026](https://www.tbsnews.net/world/europe-job-migration-surges-46-h1-amid-gulf-slump-1475796)

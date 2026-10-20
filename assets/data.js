@@ -201,10 +201,10 @@ window.GUIDE = {
       nonskilled: { lvl: 4, text: "Government-to-government seasonal farm programme; new migration law in February 2026." },
       skilled: { lvl: 3, text: "Employer permit with labour-market approval; contracts of at least 6 months." },
       link: ["GVCW – national D visa", "https://bd-gr.gvcworld.eu/en/visa-info-long-term-national-d-visa"] },
-    { iso: "CYP", name: "Cyprus", x: 8, y: 8, apply: "New Delhi (High Commission)",
-      you: { lvl: 3, route: "farm", text: "Farm, factory, delivery and retail jobs; company caps on foreign staff." },
-      nonskilled: { lvl: 3, text: "Department of Labour approval; caps on foreign staff per company." },
-      skilled: { lvl: 2, text: "Same employer route; small market." },
+    { iso: "CYP", name: "Cyprus", x: 8, y: 8, apply: "VFS Dhaka, decided in New Delhi",
+      you: { lvl: 4, route: "tech", text: "Developer job at a foreign-owned company: €2,500 a month before tax and a degree or 2 years' experience. Farm and factory jobs are the backup. This is the Republic of Cyprus, not the north. See the Cyprus section." },
+      nonskilled: { lvl: 3, text: "Department of Labour approval; caps on foreign staff per company. Minimum wage €1,088 a month." },
+      skilled: { lvl: 4, text: "Fast-track at foreign-owned companies: €2,500 a month, a degree or 2 years' experience, no labour-market test." },
       link: ["Cyprus Mail – who can work", "https://cyprus-mail.com/2026/09/27/cyprus-labour-shortages-who-can-legally-work"] }
   ],
 
@@ -219,7 +219,7 @@ window.GUIDE = {
     ["POL", 3, "Work permit plus D visa. Fees and refusal checks increased in 2026.", "Dhaka (VFS), decided in New Delhi"],
     ["PRT", 3.5, "Open job-seeker visa abolished in October 2025. You now need a real job contract.", "New Delhi (Portuguese Embassy)"],
     ["SVK", 3.5, "Shortage jobs (drivers, construction, factories). Stricter rules from July 2026.", "New Delhi (Slovak Embassy)"],
-    ["CYP", 3.5, "Farm, factory, delivery and retail jobs. Company caps on foreign staff.", "New Delhi (High Commission)"],
+    ["CYP", 3.5, "Farm, factory, delivery and retail jobs. Company caps on foreign staff. The Republic of Cyprus only, not the north.", "Dhaka (VFS), decided in New Delhi"],
     ["SVN", 4, "Employers reluctant to hire Bangladeshis.", "Mostly New Delhi"],
     ["LTU", 4, "Quota cut to 24,706; industry share ran out early.", "Mostly New Delhi"],
     ["LVA", 4, "New quota and visa limits proposed in August 2026.", "Mostly New Delhi"],
@@ -234,6 +234,7 @@ window.GUIDE = {
   rankSkilled: [
     ["DEU", 3, "Opportunity Card (job-search visa), or a job offer plus a recognised qualification. EU Blue Card from €50,700 a year (€45,934 in shortage jobs).", "Dhaka (German Embassy, online portal)"],
     ["FIN", 3, "General minimum €1,600 a month. Specialist and Blue Card €3,937 a month.", "Online, then ID check in New Delhi"],
+    ["CYP", 3, "Foreign-owned (often tech) companies: €2,500 a month before tax, a degree or 2 years' experience, no labour-market test. EU Blue Card €43,632 a year.", "Dhaka (VFS), decided in New Delhi"],
     ["AUT", 3.5, "Red-White-Red Card: 55 of 90 points for shortage jobs, collective-agreement pay.", "New Delhi (Austrian Embassy)"],
     ["IRL", 3.5, "General permit €36,605. Critical Skills €40,904 with a degree.", "New Delhi (by post, no biometrics)"],
     ["ESP", 4, "Employer authorisation. No labour-market test for hard-to-fill jobs.", "Dhaka (Spanish Embassy / BLS)"],
@@ -298,7 +299,9 @@ window.GUIDE = {
       ["Since 15 July 2026 you must stay in the job your permit was issued for.", ["Envoy", "https://www.envoyglobal.com/news-alert/slovakia-implements-foreign-worker-employment-changes/"]]
     ],
     CYP: [
-      ["Bangladeshis are among the main nationalities in 26,710 general-employment permits (August 2026).", ["Cyprus Mail", "https://cyprus-mail.com/2026/09/27/cyprus-labour-shortages-who-can-legally-work"]]
+      ["Bangladeshis are among the main nationalities in 26,710 general-employment permits (August 2026).", ["Cyprus Mail", "https://cyprus-mail.com/2026/09/27/cyprus-labour-shortages-who-can-legally-work"]],
+      ["Apply for the visa at VFS Global in Dhaka; the Cyprus High Commission in New Delhi decides.", ["Visa Bangla", "https://visabangla.com/travel/cyprus.html"]],
+      ["Only the Republic of Cyprus (the Greek-Cypriot south) is in the EU. Visas for Northern Cyprus, sold as a way into Europe, are a trap; details in the Cyprus section.", ["TBS", "https://www.tbsnews.net/features/panorama/how-bangladeshi-migrants-end-cyprus-450078"]]
     ],
     MNE: [
       ["2026 quota: 28,988 permits (21,668 jobs, 2,320 seasonal, 5,000 reserve).", ["Government of Montenegro", "https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session"]],
@@ -353,6 +356,10 @@ window.GUIDE = {
     ],
     EST: [
       ["Immigration quota 1,292 for 2026; short-term work must pay the average salary.", ["Estonian Interior Ministry", "https://www.siseministeerium.ee/en/activities/efficient-population-management/migration"]]
+    ],
+    CYP: [
+      ["Foreign-owned companies (tech, shipping, pharma) can hire non-EU staff on a fast-track: €2,500 a month before tax, a degree or 2 years' relevant experience, and a contract of at least 2 years. No labour-market test.", ["Zeno Legal", "https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026"]],
+      ["EU Blue Card since July 2025: €43,632 a year; IT staff can show 3 years' experience in the last 7 instead of a degree.", ["Rightax", "https://rightax.com.cy/cyprus-eu-blue-card-guide/"]]
     ],
     CHE: [
       ["8,500 permits for all non-EU nationals in 2026 (4,500 B + 4,000 L), highly qualified only.", ["Swiss Federal Council", "https://www.admin.ch/en/newnsb/7HwBjdg5HpBA"]]
@@ -440,12 +447,12 @@ window.GUIDE = {
   dhaka: [
     ["Croatia", "VFS (decided in New Delhi)"], ["Italy", "Embassy via VFS"], ["Greece", "GVCW centre"], ["Malta", "VFS"],
     ["Poland", "VFS (decided in New Delhi)"], ["Germany", "Embassy, online portal"], ["Spain", "Embassy / BLS"], ["France", "Embassy"],
-    ["Netherlands", "Embassy"], ["Sweden", "Embassy"], ["Denmark", "VFS"], ["Norway", "VFS via Danish Embassy"], ["United Kingdom", "VFS"], ["Switzerland", "Embassy"], ["Montenegro", "VFS"]
+    ["Netherlands", "Embassy"], ["Sweden", "Embassy"], ["Denmark", "VFS"], ["Norway", "VFS via Danish Embassy"], ["United Kingdom", "VFS"], ["Switzerland", "Embassy"], ["Montenegro", "VFS"], ["Cyprus", "VFS (decided in New Delhi)"]
   ],
   delhi: [
     ["Romania", "Embassy, eVisa appointment"], ["Bulgaria", "Embassy interview"], ["Portugal", "Embassy"], ["Slovakia", "Embassy"],
     ["Czech Republic", "Embassy"], ["Austria", "Embassy"], ["Ireland", "By post or VFS Kolkata"], ["Finland", "ID check at VFS"],
-    ["Serbia", "Embassy"], ["Cyprus", "High Commission"]
+    ["Serbia", "Embassy"]
   ],
 
   /* ---------- job portals ----------
@@ -475,6 +482,12 @@ window.GUIDE = {
     { name: "Work in Estonia", url: "https://workinestonia.com/", type: "country", for: ["you", "skilled"], where: "Estonia", text: "All English-language jobs in Estonia, strong in tech." },
     { name: "Work in Lithuania – jobs", url: "https://jobs.workinlithuania.com/", type: "country", for: ["you", "skilled"], where: "Lithuania", text: "Government-backed portal for international talent." },
     { name: "JobsIreland", url: "https://jobsireland.ie/", type: "country", for: ["you", "skilled"], where: "Ireland", text: "Ireland's public employment service." },
+    { name: "Employment Agency of Montenegro", url: "https://www.zzzcg.me/", type: "country", for: ["nonskilled"], where: "Montenegro", text: "Official vacancies. Employers advertise here before they may hire a foreigner." },
+    { name: "Zaposli.me", url: "https://zaposli.me/oglasi-za-posao/crna-gora", type: "country", for: ["nonskilled"], where: "Montenegro", text: "Montenegro's biggest job board; hotels hire here for the summer. Mostly in Montenegrin." },
+    { name: "Ergodotisi", url: "https://www.ergodotisi.com/", type: "country", for: ["nonskilled", "skilled"], where: "Cyprus", text: "Cyprus's best-known job site, in Greek and English." },
+    { name: "CyprusWork", url: "https://www.cypruswork.com/", type: "country", for: ["you", "skilled"], where: "Cyprus", text: "English-language job board with vacancies from over 1,000 recruiters." },
+    { name: "MyJob.mu", url: "https://www.myjob.mu/", type: "country", for: ["you", "nonskilled", "skilled"], where: "Mauritius", text: "Mauritius's biggest job site, with IT, hotel and factory jobs." },
+    { name: "Mauritius Jobs (government)", url: "https://mauritiusjobs.govmu.org/", type: "country", for: ["nonskilled", "skilled"], where: "Mauritius", text: "Official portal with local and overseas vacancies from registered employers." },
     { name: "Relocate.me", url: "https://relocate.me", type: "board", for: ["you"], where: "Europe", text: "Tech jobs that come with visa and relocation packages." },
     { name: "Arbeitnow – visa sponsorship jobs", url: "https://www.arbeitnow.com/visa-sponsorship-jobs", type: "board", for: ["you", "skilled"], where: "Germany / Europe", text: "English-speaking jobs that sponsor visas." },
     { name: "Arbeitnow – jobs with relocation", url: "https://www.arbeitnow.com/jobs-with-relocation", type: "board", for: ["you"], where: "Germany", text: "Jobs that pay for your move." },
@@ -503,6 +516,7 @@ window.GUIDE = {
     ["Czech Republic", "Not in the Qualified Employee programme; very few Employee Card slots in New Delhi; seasonal quota of 60 a year shared by five countries.", ["Czech Embassy New Delhi", "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/economic_migration_programs_and_quotas.html"]],
     ["Serbia, North Macedonia, Moldova", "BMET clearance on hold; visa holders protested on 24 September 2026.", ["TBS", "https://www.tbsnews.net/bangladesh/visas-holders-urge-bmet-resume-manpower-clearance-serbia-north-macedonia-moldova-1552981"]],
     ["Russia, Belarus", "Bangladeshi men lured with civilian jobs were forced to fight in the war in Ukraine (AP, January 2026).", ["AP via Washington Post", "https://www.washingtonpost.com/world/2026/01/27/russia-ukraine-war-bangladesh-migrant-workers/27fd6fb0-fb40-11f0-954b-b80c7ed67fc7_story.html"]],
+    ["Northern Cyprus", "Not in the EU and recognised only by Turkey. Agents sell its student visas as a back door to Europe; Bangladeshis who cross to the south and claim asylum are almost always refused (3% of claims in the EU succeeded in 2025).", ["EUAA", "https://www.euaa.europa.eu/latest-asylum-trends-annual-analysis/applications"]],
     ["Boat and Balkan routes", "97,832 Bangladeshis entered Europe irregularly in 2020–2024 (IOM), and many died. The EU's new migration pact makes legal status afterwards harder.", ["Bonik Barta", "https://en.bonikbarta.com/bangladesh/VQHz2VqTzKVHu8Hj"]]
   ],
 
@@ -643,7 +657,8 @@ window.GUIDE = {
       { amount: "€10,000", where: "Portugal", text: "Some migrants paid close to €10,000 trying to enter Portugal on the right visa.", src: ["The Diplomat, 2024", "https://thediplomat.com/2024/10/portugals-immigration-overhaul-hits-south-asian-workers-hard/"] },
       { amount: "Tk 8 lakh", where: "Serbia", text: "The expatriates' welfare minister said a syndicate of travel agencies took about Tk 8 lakh each from hundreds of young men for Serbian work visas.", src: ["tob.news", "https://tob.news/the-serbian-work-visa-dilemma/"] },
       { amount: "Tk 10 lakh", where: "Russia", text: "Men who paid agents around Tk 10 lakh each for construction jobs were sent to the front line instead.", src: ["Bangladesh Pratidin, Oct 2026", "https://en.bd-pratidin.com/national/2026/10/15/71889"] },
-      { amount: "NZ$15,000–40,000", where: "New Zealand", text: "115 Bangladeshi and Indian workers paid agents this much and arrived on work visas to find no jobs (2023).", src: ["TBS", "https://www.tbsnews.net/node/686434"] }
+      { amount: "NZ$15,000–40,000", where: "New Zealand", text: "115 Bangladeshi and Indian workers paid agents this much and arrived on work visas to find no jobs (2023).", src: ["TBS", "https://www.tbsnews.net/node/686434"] },
+      { amount: "US$2,300", where: "Mauritius", text: "A Bangladeshi garment worker borrowed this to pay his agent. In February 2025 three clothing brands repaid nearly US$390,000 in recruitment fees to 637 Bangladeshi workers at his factory.", src: ["Transparentem", "https://transparentem.org/report/mauritius-disclosure/"] }
     ],
 
     /* Rules that make agency fees illegal or refundable. */
@@ -657,7 +672,7 @@ window.GUIDE = {
     /* What the government recruiter (BOESL) charges: one fixed all-in price.
        [destination, job, price in taka, what it covers, [label,url]] */
     fixed: [
-      ["Croatia", "Skilled workers (2022 revision)", "Tk 41,250", "Service charge, welfare fee, pre-exit processing and training, insurance and smart card. Employers mostly pay the airfare.", ["Dhaka Tribune", "https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries"]],
+      ["Croatia, Mauritius", "Skilled workers (2022 revision)", "Tk 41,250", "Service charge, welfare fee, pre-exit processing and training, insurance and smart card. Employers mostly pay the airfare.", ["Dhaka Tribune", "https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries"]],
       ["Bulgaria", "Garment workers, skilled (2022 revision)", "Tk 52,850", "Same items as above.", ["Dhaka Tribune", "https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries"]],
       ["Romania", "Government-fixed cost (2020)", "Tk 1.65 lakh", "All-in cost set when Romania opened to Bangladeshi workers.", ["TBS", "https://www.tbsnews.net/bangladesh/migration/romania-set-temporary-consular-services-dhaka-370771"]],
       ["Brunei (outside Europe)", "2026 circular", "Tk 44,850–56,350", "Unskilled to skilled, including welfare fee and insurance. Shows what a published government price looks like.", ["BOESL", "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-boesl/2026/6/5651c1ae-8b4a-4ab9-8dce-0472670b31aa.pdf"]]
@@ -731,6 +746,7 @@ window.GUIDE = {
       { label: "Switzerland", shown: "CHF 180–250", note: "Visa about CHF 80–150 + commune registration about CHF 100; the employer pays the cantonal permit." },
       { label: "Czech Republic", shown: "CZK 7,500", note: "Employee Card CZK 5,000 at the embassy + card CZK 2,500 on arrival." },
       { label: "New Zealand", shown: "NZ$1,540", note: "Work visa incl. levy, plus the Tk 10,100 medical. The employer pays NZ$775 + NZ$735." },
+      { label: "Mauritius", shown: "MUR 0", note: "The employer pays the work permit (MUR 700 processing + permit fee), the MUR 500 yearly residence fee and your ticket home." },
       { label: "Spain", shown: "TIE €16–22 + visa", note: "The visa fee is paid in taka at BLS (amount not confirmed). The employer pays the work authorisation (about €204–408)." },
       { label: "Serbia (on hold)", shown: "RSD 23,120 + visa", note: "Single permit RSD 22,700 + submission RSD 420. BMET clearance is on hold." },
       { label: "Bosnia & Herzegovina", shown: "Not confirmed", note: "No official fee schedule found for the visa or the work permit." }
@@ -747,7 +763,7 @@ window.GUIDE = {
       { iso: "POL", name: "Poland", status: "open", apply: "Dhaka (VFS), decided in New Delhi", you: "D visa €80–135 + VFS fee", employer: "Work permit PLN 400", extra: "", src: [["Worksol", "https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/"], ["gov.pl", "https://www.gov.pl/web/india/d-type-national-visa"]] },
       { iso: "PRT", name: "Portugal", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "D visa €110 (+ VFS about €40) + AIMA residence permit €186–247", employer: "Registers the vacancy with IEFP", extra: "Apply to AIMA within 120 days of arrival.", src: [["Jobbatical", "https://www.jobbatical.com/blog/portugal-immigration-updates"]] },
       { iso: "SVK", name: "Slovakia", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "Residence application €250 + visa €14–90", employer: "—", extra: "2024 fee schedule; confirm on minv.sk.", src: [["Euraxess Slovakia", "https://euraxesspoint.sav.sk/changes-in-administrative-fees-as-of-1-4-2024/"]] },
-      { iso: "CYP", name: "Cyprus", status: "open", delhi: true, apply: "New Delhi (High Commission)", you: "Entry and residence permit €70 + Aliens' Register €70", employer: "Applies for the employment approval", extra: "", src: [["Cyprus Interior Ministry", "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369"]] },
+      { iso: "CYP", name: "Cyprus", status: "open", apply: "Dhaka (VFS), decided in New Delhi", you: "Entry and residence permit €70 + Aliens' Register €70 + visa fee", employer: "Applies for the employment approval", extra: "Older guides say apply in New Delhi; check with VFS first. See the Cyprus section.", src: [["Cyprus Interior Ministry", "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369"], ["Visa Bangla", "https://visabangla.com/travel/cyprus.html"]] },
       { iso: "SVN", name: "Slovenia", status: "open", delhi: true, apply: "Mostly New Delhi", you: "€102 at the embassy, or €70 if the employer applies in Slovenia; card €12", employer: "Can lodge the application in Slovenia", extra: "", src: [["EU Immigration Portal", "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-slovenia_en"]] },
       { iso: "LTU", name: "Lithuania", status: "open", delhi: true, apply: "New Delhi (VFS)", you: "D visa €120–140, or residence permit €160 + VFS €125", employer: "—", extra: "2026 quota 24,706.", src: [["VFS Global", "https://www.vfsglobal.com/one-pager/lithuania/uae/residencepermit/english"], ["VisaVerge", "https://www.visaverge.com/schengen/lithuania-visa-fees-and-payment-information/"]] },
       { iso: "LVA", name: "Latvia", status: "open", delhi: true, apply: "Mostly New Delhi", you: "D visa €90 + residence permit €160 (€280 fast)", employer: "OCMA approval of the invitation", extra: "", src: [["Playroll", "https://playroll.com/work-permit-visas/latvia"]] },
@@ -768,6 +784,7 @@ window.GUIDE = {
       { iso: "EST", name: "Estonia", status: "open", apply: "Check the embassy page", you: "D visa €120, or residence permit €280", employer: "Registers short-term employment €130", extra: "", src: [["Jobbatical", "https://www.jobbatical.com/blog/estonia-immigration-fees"]] },
       { iso: "CHE", name: "Switzerland", status: "open", apply: "Dhaka (Swiss Embassy)", you: "Visa about CHF 80–150 + commune registration about CHF 100", employer: "Cantonal permit, CHF 100–550", extra: "Only 8,500 non-EU permits a year.", src: [["The Local", "https://www.thelocal.ch/20260122/how-much-do-switzerlands-work-permits-cost-in-2026"]] },
       { iso: "NZL", name: "New Zealand", status: "open", apply: "Online", you: "NZ$1,540 + medical Tk 10,100", employer: "Accreditation NZ$775 + job check NZ$735", extra: "See the New Zealand section.", src: [["INZ fee table", "https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf"]] },
+      { iso: "MUS", name: "Mauritius", status: "limited", apply: "Online: the employer applies (work permit or Occupation Permit)", you: "Nothing for a work permit: the employer pays recruitment costs", employer: "Work permit processing MUR 700 + permit fee; residence permit MUR 500 a year; your ticket home", extra: "Bangladeshis hired only for bakery, textile and printing jobs since September 2025. See the Mauritius section.", src: [["Mauritius labour ministry", "https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF"], ["e-Work Permit guidelines", "https://workpermit.mu/eworkpermit_wkp/upload/cms/pdf/WP%20GUIDELINES%20UPDATED%20MAR2015.pdf"], ["Passport and Immigration Office", "https://passport.govmu.org/passport/?page_id=557"]] },
       { iso: "SRB", name: "Serbia", status: "hold", apply: "New Delhi (Serbian Embassy)", delhi: true, you: "Single permit RSD 22,700 + RSD 420; visa D extra", employer: "—", extra: "BMET clearance on hold (September 2026).", src: [["Welcome to Serbia", "https://welcometoserbia.gov.rs/help"]] },
       { iso: "MKD", name: "North Macedonia", status: "hold", apply: "—", you: "Not costed", employer: "—", extra: "BMET clearance on hold.", src: [] },
       { iso: "HUN", name: "Hungary", status: "closed", apply: "—", you: "Not costed", employer: "—", extra: "Guest-worker permit closed since 6 June 2026.", src: [] }
@@ -778,6 +795,73 @@ window.GUIDE = {
       ["Spain · digital nomad", "About €73 incl. TIE card €16.08; consular fee varies", ["Klevvera", "https://www.klevvera.com/blog/spain-digital-nomad-visa-cost-breakdown/"]],
       ["Portugal · D8 digital nomad", "Visa €110 · residence card about €170 · show €11,040 savings", ["Genki", "https://guide.genki.world/portugal-digital-nomad-visa/"]],
       ["Greece · digital nomad", "Visa €75 · residence permit €1,000", ["Remote Work Europe", "https://remoteworkeurope.eu/insights/greece-digital-nomad-visa/"]]
+    ]
+  },
+
+  /* ---------- Cyprus deep dive (Republic of Cyprus), checked 20 October 2026 ----------
+     Euros in Cyprus, taka in Bangladesh, US$ for the flight. */
+  cyp: {
+    kpis: [
+      { value: "26,710", label: "general-employment work permits in force in August 2026; Bangladesh is one of the main nationalities", src: ["Cyprus Mail", "https://cyprus-mail.com/2026/09/27/cyprus-labour-shortages-who-can-legally-work"] },
+      { value: "€1,088", label: "minimum wage a month before tax in 2026–2027; €979 in your first 6 months with an employer", src: ["Sigmalive", "https://en.sigmalive.com/cyprus-minimum-wage-set-at-e1088-from-january-1-2026"] },
+      { value: "€2,500", label: "a month before tax gets a developer a fast permit at a foreign-owned company, with a degree or 2 years' experience", src: ["Zeno Legal", "https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026"] },
+      { value: "3%", label: "of Bangladeshis' asylum claims in the EU succeeded in 2025: crossing from the north to claim asylum is no way in", src: ["EUAA", "https://www.euaa.europa.eu/latest-asylum-trends-annual-analysis/applications"] }
+    ],
+
+    /* kind: easier | tighter | closed | mixed */
+    timeline: [
+      { date: "7 Jul 2025", where: "Blue Card", text: "Cyprus starts taking EU Blue Card applications: €43,632 a year, and IT staff can show 3 years' experience instead of a degree.", kind: "easier" },
+      { date: "30 Oct 2025", where: "Digital nomads", text: "The digital nomad visa reopens with 1,000 places a year.", kind: "easier" },
+      { date: "1 Jan 2026", where: "Pay", text: "Minimum wage rises to €1,088 a month (€979 in the first 6 months), fixed until the end of 2027.", kind: "easier" },
+      { date: "Sep 2026", where: "Agencies", text: "Parliament's labour committee links hiring through temporary employment agencies to trafficking; unions ask for inspections.", kind: "tighter" },
+      { date: "1 Jan 2027", where: "Fast-track", text: "Renewals for existing key staff at foreign-owned companies must also pay €2,500 a month; the €2,000 transition ends on 31 December 2026.", kind: "tighter" }
+    ],
+
+    /* What each route asks you to earn, euros a month. plan = best fit for you. */
+    thresholds: [
+      { label: "Minimum wage, after 6 months", value: 1088, shown: "€1,088", note: "Before tax; €979 in your first 6 months with an employer (2026–2027)." },
+      { label: "Fast-track at a foreign-owned company", value: 2500, shown: "€2,500", note: "Before tax, with a degree or 2 years' relevant experience and a contract of at least 2 years.", plan: true },
+      { label: "Digital nomad visa, after tax", value: 3500, shown: "€3,500", note: "From employers or clients outside Cyprus; 1,000 places a year." },
+      { label: "EU Blue Card", value: 3636, shown: "€3,636", note: "€43,632 a year before tax. IT staff can show 3 years' experience in the last 7 instead of a degree." }
+    ],
+
+    budget: { letter: "CY", title: "Cyprus · job on a work permit", tag: "No agent needed",
+      groups: [
+        { head: "In Bangladesh · taka", total: "Tk 12,000–27,000 + visa", items: [
+          ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+          ["BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000", "Tk 6,500", ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"]],
+          ["Notary, translation and attestation of your documents", "Tk 5,000–20,000", null, "estimate"],
+          ["Entry visa at VFS Dhaka, decided by the High Commission in New Delhi", "Ask VFS", ["Visa Bangla", "https://visabangla.com/travel/cyprus.html"]]
+        ] },
+        { head: "Flight · US dollars", items: [
+          ["Dhaka → Larnaca, one way with one stop (lowest online fares)", "US$470–652", ["Trip.com", "https://ph.trip.com/flights/airport-dac-lca/"]]
+        ] },
+        { head: "In Cyprus · euros", total: "€440–640", items: [
+          ["Entry and residence permit", "€70", ["Cyprus Interior Ministry", "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369"]],
+          ["First entry in the Aliens' Register", "€70", ["Cyprus Interior Ministry", "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369"]],
+          ["Food, transport and phone until your first pay", "€300–500", null, "estimate"]
+        ] }
+      ],
+      note: "The employer applies and pays for its own approval. Ask whether housing is included, and get it in your contract." },
+
+    /* [title, text, [label,url]] */
+    rules: [
+      ["The north is not the EU", "Northern Cyprus is run by Turkish Cypriots and recognised only by Turkey. A visa for the north is not a visa for the Republic of Cyprus or the EU. Cyprus says about 9 in 10 irregular migrants arrive through Turkey and the north.", ["TBS", "https://www.tbsnews.net/features/panorama/how-bangladeshi-migrants-end-cyprus-450078"]],
+      ["Fake 'EU job' offers", "In 2025 UN experts said agents promised jobs in the Republic of Cyprus or the EU, then sent more than 600 workers to a state-owned citrus farm in the north, where passports were taken and pay was little or none.", ["Business & Human Rights Centre", "https://www.business-humanrights.org/en/latest-news/cyprus-un-experts-alarmed-by-reports-of-exploitation-of-migrant-workers-at-citrus-farm-owned-by-state-owned-firm-cypfruvex-2/"]],
+      ["Asylum is not a work route", "Bangladeshis made 37,000 asylum claims in the EU in 2025, and only 3% were accepted at the first decision.", ["EUAA", "https://www.euaa.europa.eu/latest-asylum-trends-annual-analysis/applications"]],
+      ["Register within 7 days", "After you arrive, register with the Migration Department within 7 days. A general-employment permit lasts at most 4 years in total (6 in farming and livestock).", ["AGP Law", "https://www.agplaw.com/?p=634"]],
+      ["Be careful with agency jobs", "In September 2026 parliament's labour committee linked hiring through temporary employment agencies to trafficking. Unions say some workers are rented out to hotels and building sites.", ["Cyprus Mail", "https://cyprus-mail.com/2026/09/23/workers-trafficked-to-cyprus-through-hiring-agencies"]]
+    ],
+
+    portals: [
+      { name: "Ergodotisi", url: "https://www.ergodotisi.com/", where: "Job board", text: "Cyprus's best-known job site, in Greek and English. Try 'developer Limassol', 'farm' or 'delivery'." },
+      { name: "Carierista", url: "https://www.carierista.com/", where: "Job board", text: "Job portal and professional network; the second most visited job site in Cyprus in April 2026." },
+      { name: "CyprusWork", url: "https://www.cypruswork.com/", where: "Job board", text: "English-language job board with vacancies from over 1,000 recruiters." },
+      { name: "Kariera.com.cy", url: "https://www.kariera.com.cy/", where: "Job board", text: "Long-running Cypriot job portal; most ads are in Greek." },
+      { name: "Relocate.me", url: "https://relocate.me", where: "Tech jobs", text: "Filter by Cyprus for tech jobs that come with visa and relocation help." },
+      { name: "Business in Cyprus (Business Facilitation Unit)", url: "https://www.businessincyprus.gov.cy/", where: "Cyprus · official", text: "The government unit that handles fast-track permits for foreign-owned companies." },
+      { name: "Public Employment Service", url: "https://www.pescps.dl.mlsi.gov.cy/", where: "Government", text: "Official vacancies. Only people already allowed to work in Cyprus can apply, but it shows who is hiring." },
+      { name: "Migration Department permit fees", url: "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369", where: "Cyprus · official", text: "Official fees for entry, residence and employment permits." }
     ]
   },
 
@@ -858,6 +942,78 @@ window.GUIDE = {
       { name: "VFS Global: Montenegro visa", url: "https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html", where: "Visa · Dhaka", text: "Fees, documents and appointments for the D visa in Dhaka." },
       { name: "Work permit rules", url: "https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola", where: "Montenegro · official", text: "Documents, fees and the 15-day deadline for the combined permit." },
       { name: "BOESL", url: "https://www.boesl.gov.bd", where: "Bangladesh", text: "If a government deal is signed, recruitment would most likely be announced here. Never pay a private agent for a 'G2G' place." }
+    ]
+  },
+
+  /* ---------- Mauritius (outside Europe), checked 20 October 2026 ----------
+     Amounts are in the currency you pay them in: Mauritian rupees (MUR) in
+     Mauritius, taka in Bangladesh, US$ for the flight and the Premium Visa. */
+  mus: {
+    kpis: [
+      { value: "8,975", label: "Bangladeshi workers in Mauritius in July 2026, down from 10,672 in November 2024", src: ["L'Express via AllAfrica", "https://fr.allafrica.com/stories/202607030159.html"] },
+      { value: "MUR 50,000", label: "basic salary a month that a professional Occupation Permit needs, in every sector (2026)", src: ["EDB Mauritius", "https://edbmauritius.org/newsletter-august-2026-op"] },
+      { value: "MUR 17,745", label: "national minimum wage a month from 1 January 2026", src: ["WageIndicator", "https://wageindicator.org/work/minimum-wage/updates/2026/mauritius-national-minimum-wage-increased-from-1-january-2026-february-11-2026"] },
+      { value: "US$1,500", label: "a month of foreign income gets you the free Premium Visa for remote workers", src: ["Visa Atlas", "https://visaatlas.org/visas/mauritius/premium-visa"] }
+    ],
+
+    /* kind: easier | tighter | closed | mixed */
+    timeline: [
+      { date: "2023", where: "Bangladesh", text: "Mauritius stops almost all new hiring of Bangladeshi workers after many leave the employers named on their permits.", kind: "closed" },
+      { date: "Sep 2025", where: "Bangladesh", text: "Hiring of Bangladeshis restarts, but only for short-staffed bakery, textile and printing jobs.", kind: "easier" },
+      { date: "1 Jan 2026", where: "Pay", text: "The national minimum wage rises to MUR 17,745 a month.", kind: "easier" },
+      { date: "Mar 2026", where: "Permits", text: "8,733 work-permit applications are still waiting, some since June 2025.", kind: "tighter" },
+      { date: "8 Jun 2026", where: "Bangladesh", text: "The two labour ministers agree in Geneva to speed up a deal (MoU) to reopen hiring, mainly for textile workers. Not signed yet.", kind: "mixed" },
+      { date: "24 Jun 2026", where: "Enforcement", text: "Police report 428 foreigners without valid papers arrested since January.", kind: "tighter" },
+      { date: "Jul 2026", where: "Bangladesh", text: "The labour minister says future workers will be recruited through Bangladeshi government bodies and checked before they leave, to cut out middlemen.", kind: "mixed" },
+      { date: "13 Aug 2026", where: "Permits", text: "Finance Act 2026: the professional Occupation Permit needs a MUR 50,000 basic salary in every sector. A new Technical permit for government-to-government recruits is not in force yet.", kind: "mixed" }
+    ],
+
+    /* Monthly pay before tax, MUR. Ranges are 2026 estimates from job sites. */
+    pay: [
+      { label: "National minimum wage", low: 17745, high: 17745, shown: "MUR 17,745", note: "From 1 January 2026. In export factories it can include housing and food allowances." },
+      { label: "Junior developer", low: 25000, high: 40000, shown: "MUR 25,000–40,000", note: "MyJob.mu 2026 estimate." },
+      { label: "Mid-level developer", low: 45000, high: 70000, shown: "MUR 45,000–70,000", note: "MyJob.mu 2026 estimate." },
+      { label: "Senior developer or architect", low: 80000, high: 150000, shown: "MUR 80,000–150,000", note: "MyJob.mu 2026 estimate; some earn more." }
+    ],
+
+    budget: { letter: "MU", title: "Mauritius · job on a work permit or Occupation Permit", tag: "No agent needed",
+      groups: [
+        { head: "In Bangladesh · taka", total: "Tk 12,000–27,000", items: [
+          ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+          ["BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000", "Tk 6,500", ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"]],
+          ["Notary, translation and attestation of your documents", "Tk 5,000–20,000", null, "estimate"]
+        ] },
+        { head: "Flight · US dollars", items: [
+          ["Dhaka → Mauritius, one way with one stop (online fares)", "US$423–835", ["Jetcost", "https://us.jetcost.com/en/flights/dhaka-zia/mauritius/DAC-MRU"]]
+        ] },
+        { head: "Paid by the employer · rupees", items: [
+          ["Work permit: processing fee MUR 700 plus the permit fee", "Employer", ["e-Work Permit guidelines", "https://workpermit.mu/eworkpermit_wkp/upload/cms/pdf/WP%20GUIDELINES%20UPDATED%20MAR2015.pdf"]],
+          ["Residence permit fee, every year", "MUR 500", ["Passport and Immigration Office", "https://passport.govmu.org/passport/?page_id=557"]],
+          ["All recruitment costs, and your ticket home when the contract ends", "Employer", ["Mauritius labour ministry", "https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF"]]
+        ] }
+      ],
+      note: "Mauritius's labour ministry says employers bear all recruitment costs, including the work permit, and workers should not pay recruitment fees. Ask the employer to pay your outward flight too, and get housing written into your contract." },
+
+    /* [title, text, [label,url]] */
+    rules: [
+      ["One employer only", "Your work permit is for one employer. Workers who leave become irregular: in March 2026 Mauritius counted 6,926 foreigners overstaying, 2,819 of them reported missing by their employer.", ["L'Express via AllAfrica", "https://fr.allafrica.com/stories/202604010677.html"]],
+      ["Arrests and fines", "Police arrested 428 foreigners without valid papers between 1 January and 15 June 2026. Employers who hire them face fines of MUR 100,000–500,000 and up to 5 years in prison.", ["L'Express via AllAfrica", "https://fr.allafrica.com/stories/202606240382.html"]],
+      ["Fees are still charged", "A Bangladeshi garment worker borrowed US$2,300 to pay his agent. Brands later repaid nearly US$390,000 in fees to 637 Bangladeshi workers at his factory.", ["Transparentem", "https://transparentem.org/report/mauritius-disclosure/"]],
+      ["No work on a tourist visa", "Someone who enters Mauritius as a tourist may not work. Travel only after your permit is approved.", ["Australian High Commission", "https://mauritius.embassy.gov.au/plut/Working_in_Mauritius.html"]],
+      ["Your embassy is in Port Louis", "The Bangladesh High Commission's labour wing: fsportlouis@probashi.gov.bd, +230 212 9527.", ["Expatriates' Welfare Ministry", "https://wewb.portal.gov.bd/site/page/847ba196-b014-49b4-b1f9-de178dba156e"]],
+      ["Permanent residence", "Occupation Permit holders can apply after 5 years (3 years before the Finance Act 2025).", ["KPMG", "https://assets.kpmg.com/content/dam/kpmg/za/pdf/2025/tax-alert%2095-changes-to-residency-and-property-ownership-rules-post-the-finance-act-2025.pdf"]]
+    ],
+
+    portals: [
+      { name: "MyJob.mu: IT jobs", url: "https://myjob.mu/jobs/information-technology", where: "Job board", text: "Mauritius's biggest job site. This page lists IT, web and software jobs." },
+      { name: "MyJob.mu: hotel and tourism jobs", url: "https://myjob.mu/jobs/tourism-and-hospitality", where: "Job board", text: "Hotel, restaurant and tourism jobs on the same site." },
+      { name: "Mauritius Jobs (government)", url: "https://mauritiusjobs.govmu.org/", where: "Government", text: "Official portal with local and overseas vacancies from registered employers." },
+      { name: "CareerHub.mu", url: "https://careerhub.mu/", where: "Job board", text: "Local job board, one of the most visited in Mauritius." },
+      { name: "HelloJob.mu", url: "https://hellojob.mu/", where: "Job board", text: "One of the first Mauritian job portals." },
+      { name: "EDB: Occupation Permit and Premium Visa", url: "https://edbmauritius.org/", where: "Mauritius · official", text: "Official rules for the professional permit and the remote-work Premium Visa." },
+      { name: "e-Work Permit (labour ministry)", url: "https://workpermit.mu/eworkpermit_wkp/web/index/pagename/faq", where: "Mauritius · official", text: "How employers apply for work permits: questions and answers." },
+      { name: "Bangladesh High Commission, Port Louis", url: "https://portlouis.mofa.gov.bd/", where: "Bangladesh", text: "Your embassy in Mauritius. Labour wing: fsportlouis@probashi.gov.bd." },
+      { name: "BOESL", url: "https://www.boesl.gov.bd", where: "Bangladesh", text: "If the government deal is signed, Mauritian factory jobs should be announced here. Never pay a private agent for a 'G2G' place." }
     ]
   },
 
@@ -1029,6 +1185,19 @@ window.GUIDE = {
       ["Dhaka Tribune – BOESL fixed migration costs", "https://www.dhakatribune.com/business/279798/boesl-revises-migration-cost-for-9-countries"],
       ["TBS – how flawed vetting sent workers into harm's way", "https://www.tbsnews.net/bangladesh/migration/scams-smuggling-battlefields-how-flawed-vetting-sent-our-workers-harms-way"]
     ]],
+    ["Cyprus", [
+      ["Cyprus Mail – labour shortages: who can legally work (Sept 2026)", "https://cyprus-mail.com/2026/09/27/cyprus-labour-shortages-who-can-legally-work"],
+      ["Cyprus Mail – workers trafficked through hiring agencies (Sept 2026)", "https://cyprus-mail.com/2026/09/23/workers-trafficked-to-cyprus-through-hiring-agencies"],
+      ["Sigmalive – minimum wage €1,088 from January 2026", "https://en.sigmalive.com/cyprus-minimum-wage-set-at-e1088-from-january-1-2026"],
+      ["Zeno Legal – Cyprus work permit for non-EU nationals 2026", "https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026"],
+      ["Zeno Legal – Cyprus digital nomad visa 2026", "https://www.zenolegal.com/resources/cyprus-digital-nomad-visa-2026"],
+      ["Rightax – Cyprus EU Blue Card guide", "https://rightax.com.cy/cyprus-eu-blue-card-guide/"],
+      ["AGP Law – work permit for general employment", "https://www.agplaw.com/?p=634"],
+      ["Visa Bangla – Cyprus visa for Bangladeshis", "https://visabangla.com/travel/cyprus.html"],
+      ["TBS – how Bangladeshi migrants end up in Cyprus", "https://www.tbsnews.net/features/panorama/how-bangladeshi-migrants-end-cyprus-450078"],
+      ["BHRRC – UN experts on the Cypfruvex citrus farm", "https://www.business-humanrights.org/en/latest-news/cyprus-un-experts-alarmed-by-reports-of-exploitation-of-migrant-workers-at-citrus-farm-owned-by-state-owned-firm-cypfruvex-2/"],
+      ["EUAA – asylum applications in 2025", "https://www.euaa.europa.eu/latest-asylum-trends-annual-analysis/applications"]
+    ]],
     ["Montenegro", [
       ["Government of Montenegro – 2026 permit quota (108th Cabinet session)", "https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session"],
       ["Government of Montenegro – visa rules for Bangladeshis", "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh"],
@@ -1041,6 +1210,22 @@ window.GUIDE = {
       ["VFS Global – Montenegro visa in Bangladesh", "https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html"],
       ["Monstat – wages, July 2026", "https://monstat.org/uploads/files/zarade/2026/7/RAD_EN_Jul_2026.pdf"],
       ["SeeSrpska – 20,000 summer workers short", "https://seesrpska.com/en/zapisi/u-ljetnoj-sezoni-nedostaje-20000-radnika-30-5-2026"]
+    ]],
+    ["Mauritius", [
+      ["Dhaka Tribune – Mauritius interested in hiring skilled Bangladeshi workers (June 2026)", "https://www.dhakatribune.com/bangladesh/foreign-affairs/412067/mauritius-labor-market-set-to-reopen-for"],
+      ["Bangladesh Monitor – Bangladesh and Mauritius move to restore recruitment", "https://www.bangladeshmonitor.com.bd/en/bangladesh-mauritius-move-to-restore-labor-recruitment-ties"],
+      ["L'Express via AllAfrica – Bangladeshi workers: tighter recruitment control (July 2026)", "https://fr.allafrica.com/stories/202607030159.html"],
+      ["L'Express via AllAfrica – 8,733 work-permit applications pending (March 2026)", "https://fr.allafrica.com/stories/202603270354.html"],
+      ["L'Express via AllAfrica – 6,926 foreigners overstaying (April 2026)", "https://fr.allafrica.com/stories/202604010677.html"],
+      ["L'Express via AllAfrica – 428 foreigners arrested (June 2026)", "https://fr.allafrica.com/stories/202606240382.html"],
+      ["EDB Mauritius – Occupation Permit changes (August 2026)", "https://edbmauritius.org/newsletter-august-2026-op"],
+      ["TBI Mauritius – Technical Occupation Permit", "https://tbimauritius.com/technical-occupation-permit-mauritius/"],
+      ["WageIndicator – minimum wage from 1 January 2026", "https://wageindicator.org/work/minimum-wage/updates/2026/mauritius-national-minimum-wage-increased-from-1-january-2026-february-11-2026"],
+      ["MyJob.mu – salary trends 2026", "https://myjob.mu/advice/salary-guide/salary-trends-in-mauritius-2026-what-professionals-need-to-know-before-negotiating"],
+      ["Visa Atlas – Premium Visa", "https://visaatlas.org/visas/mauritius/premium-visa"],
+      ["Mauritius labour ministry – guide for migrant workers", "https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF"],
+      ["Transparentem – Mauritius apparel factories", "https://transparentem.org/report/mauritius-disclosure/"],
+      ["TBS – BOESL revised migration cost (Mauritius, Croatia)", "https://www.tbsnews.net/bangladesh/migration/state-owned-recruiting-agency-boesl-revised-migration-cost-545894"]
     ]],
     ["New Zealand", [
       ["INZ – final details of the Skilled Migrant changes (24 August 2026)", "https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/"],

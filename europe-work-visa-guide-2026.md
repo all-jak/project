@@ -1,6 +1,6 @@
 # Working in Europe from Bangladesh: Work Visa Guide 2026
 
-*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh. New Zealand section added 8 October 2026; Montenegro, official-cost and agency-price sections added 18 October 2026; Cyprus and Mauritius sections added 20 October 2026.*
+*Researched on 30 September 2026 for a Bangladeshi citizen living in Bangladesh. New Zealand section added 8 October 2026; Montenegro, official-cost and agency-price sections added 18 October 2026; Cyprus and Mauritius sections added 20 October 2026; Malta and where-you-apply sections added 21 October 2026.*
 
 > Several countries changed their laws in 2026, and rules keep changing. Before you pay money or submit a document, check the official link given here. This guide is research, not legal advice.
 
@@ -14,6 +14,7 @@
 - [OFFICIAL COSTS: doing it yourself with a job offer](#official-costs-doing-it-yourself-with-a-job-offer)
 - [AGENCY PRICES: what agencies charge and what workers paid](#agency-prices-what-agencies-charge-and-what-workers-paid)
 - [2. How a European work visa works](#2-how-a-european-work-visa-works)
+- [WHERE YOU APPLY: Dhaka or India](#where-you-apply-dhaka-or-india)
 - [3. Are you a "skilled" or "non-skilled" worker?](#3-are-you-a-skilled-or-non-skilled-worker)
 - [SECTION A: Non-skilled and semi-skilled workers](#section-a-non-skilled-and-semi-skilled-workers)
 - [SECTION B: Skilled workers](#section-b-skilled-workers)
@@ -22,6 +23,7 @@
 - [8. Scams and safety checklist](#8-scams-and-safety-checklist)
 - [9. Your next 90 days](#9-your-next-90-days)
 - [COUNTRY DEEP DIVE: Cyprus](#country-deep-dive-cyprus)
+- [COUNTRY DEEP DIVE: Malta](#country-deep-dive-malta)
 - [COUNTRY DEEP DIVE: Montenegro](#country-deep-dive-montenegro)
 - [OUTSIDE EUROPE: Mauritius](#outside-europe-mauritius)
 - [OUTSIDE EUROPE: New Zealand](#outside-europe-new-zealand)
@@ -50,6 +52,7 @@
   - **Never use the "boat" or "Balkan" routes.** See [section 6](#6-closed-or-risky-right-now).
 - **Outside Europe: New Zealand.** A developer job there can lead to permanent residence after 2 years of work, with no degree. Jobs are scarce right now. See [the New Zealand section](#outside-europe-new-zealand).
 - **Outside Europe: Mauritius.** A developer job paying MUR 50,000 a month, or a free Premium Visa if you earn US$1,500 a month remotely. Hiring of Bangladeshi factory workers is limited. See [the Mauritius section](#outside-europe-mauritius).
+- **Dhaka or India:** 20 countries take your visa application in Bangladesh (Dhaka, online or by post); 13 need a trip to India. See [WHERE YOU APPLY](#where-you-apply-dhaka-or-india).
 - **Bangladesh–Europe numbers, first half of 2026:**
   - Legal job migration to Europe rose **46% to 18,220 workers**, while Gulf hiring fell.
   - Italy was the largest European destination (**4,645 workers**).
@@ -79,7 +82,7 @@ Your developer experience matters more than your certificates. Several countries
 | **Netherlands** | Highly skilled migrant permit has no diploma requirement; the employer must be an IND recognised sponsor ([IND register](https://ind.nl/en/public-register-recognised-sponsors/public-register-work)). **You are 29:** the lower rate applies if the IND receives your application before your 30th birthday ([Mynta](https://www.mynta.nl/en/knowledge-base/which-salary-threshold-applies-to-which-highly-skilled-migrant)) | €4,357 a month under 30, €5,942 at 30+ | Dhaka |
 | **Sweden** | No education requirement for a work permit ([Migrationsverket](https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html)) | SEK 34,470 a month | Dhaka |
 | **Ireland** | General Employment Permit: without a degree you need the necessary experience ([Citizens Information](https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/)) | €36,605 a year | New Delhi (by post) |
-| **Poland** | Employer-sponsored work permit; big IT sector ([Grant Thornton](https://grantthornton.pl/en/article/employment-of-foreign-nationals-in-poland-in-2026-key-changes-and-important-deadlines-in-immigration-regulations/)) | Local market rate | Dhaka (VFS), decided in New Delhi |
+| **Poland** | Employer-sponsored work permit; big IT sector ([Grant Thornton](https://grantthornton.pl/en/article/employment-of-foreign-nationals-in-poland-in-2026-key-changes-and-important-deadlines-in-immigration-regulations/)) | Local market rate | New Delhi (VFS Global) |
 | **Cyprus** | Fast-track at a foreign-owned company: a degree **or 2 years' relevant experience** ([Zeno Legal](https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026)). See [the Cyprus section](#country-deep-dive-cyprus). | €2,500 a month before tax | Dhaka (VFS), decided in New Delhi |
 
 **Harder tech routes:**
@@ -327,21 +330,21 @@ Euros you pay to the destination's government and its visa centre, with a job of
 | **Italy** | Dhaka (VFS) | Visa €116 + VFS Tk 2,850; residence permit kit €116–126 after arrival | Nulla osta revenue stamp €16 | The employer applies on the Decreto Flussi click day. | [Italian Embassy Dhaka](https://ambdhaka.esteri.it/wp-content/uploads/2026/06/Subordinate-work-type-D.pdf), [Questura](https://questure.poliziadistato.it/statics/29/documenti-da-inserire-nel-kit-postale-per-le-principali-tipologie-di-permesso-di-soggiorno.pdf) |
 | **Greece** | Dhaka (GVCW), decided in New Delhi | Visa €75 or €180 + contract attestation €30 + GVCW €30 + courier Tk 10,200 | Approval inside the yearly quota | Residence-permit fee in Greece not found. BOESL's government programme is the other route. | [GVCW fees](https://in-gr.gvcworld.eu/en/long-term-national-d-visa), [GVCW Bangladesh](https://bd-gr.gvcworld.eu/en/visa-info-long-term-national-d-visa) |
 | **Malta** | Dhaka (VFS) | Pre-departure course €250 + VFS Tk 13,935–20,900 | Single permit €600 (paid online by the employer or by you) | Renewal €150 a year. | [Identità](https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/single-permit-application/), [Free Malta](https://freemalta.com/hub/single-permit) |
-| **Bulgaria** · Delhi trip | New Delhi (interview) | D visa about €100–120 | Single permit about €200–250 | Foreign staff capped at 20–35% of a company. | [Innovires](https://www.innovires.com/en/blog/work-permit-bulgaria.html) |
-| **Poland** | Dhaka (VFS), decided in New Delhi | D visa €80–135 + VFS fee | Work permit PLN 400 | — | [Worksol](https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/), [gov.pl](https://www.gov.pl/web/india/d-type-national-visa) |
+| **Bulgaria** · Delhi trip | New Delhi (VFS Global) | D visa about €100–120 | Single permit about €200–250 | Foreign staff capped at 20–35% of a company. | [Innovires](https://www.innovires.com/en/blog/work-permit-bulgaria.html) |
+| **Poland** · Delhi trip | New Delhi (VFS Global) | D visa €80–135 + VFS fee | Work permit PLN 400 | — | [Worksol](https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/), [gov.pl](https://www.gov.pl/web/india/d-type-national-visa) |
 | **Portugal** · Delhi trip | New Delhi (embassy) | D visa €110 (+ VFS about €40) + AIMA residence permit €186–247 | Registers the vacancy with IEFP | Apply to AIMA within 120 days of arrival. | [Jobbatical](https://www.jobbatical.com/blog/portugal-immigration-updates) |
 | **Slovakia** · Delhi trip | New Delhi (embassy) | Residence application €250 + visa €14–90 | — | 2024 fee schedule; confirm on minv.sk. | [Euraxess Slovakia](https://euraxesspoint.sav.sk/changes-in-administrative-fees-as-of-1-4-2024/) |
 | **Cyprus** | Dhaka (VFS), decided in New Delhi | Entry and residence permit €70 + Aliens' Register €70 + visa fee | Applies for the employment approval | Older guides say apply in New Delhi; check with VFS first. See the Cyprus section. | [Cyprus Interior Ministry](https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369), [Visa Bangla](https://visabangla.com/travel/cyprus.html) |
-| **Slovenia** · Delhi trip | Mostly New Delhi | €102 at the embassy, or €70 if the employer applies in Slovenia; card €12 | Can lodge the application in Slovenia | — | [EU Immigration Portal](https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-slovenia_en) |
-| **Lithuania** · Delhi trip | New Delhi (VFS) | D visa €120–140, or residence permit €160 + VFS €125 | — | 2026 quota 24,706. | [VFS Global](https://www.vfsglobal.com/one-pager/lithuania/uae/residencepermit/english), [VisaVerge](https://www.visaverge.com/schengen/lithuania-visa-fees-and-payment-information/) |
-| **Latvia** · Delhi trip | Mostly New Delhi | D visa €90 + residence permit €160 (€280 fast) | OCMA approval of the invitation | — | [Playroll](https://playroll.com/work-permit-visas/latvia) |
-| **Bosnia & Herzegovina** | Check the embassy page | Visa D fee not confirmed | Work permit (fee not confirmed) | 2026 quota 7,427. | [Playroll](https://playroll.com/work-permit-visas/bosnia-herzegovina) |
+| **Slovenia** · Delhi trip | New Delhi (embassy) | €102 at the embassy, or €70 if the employer applies in Slovenia; card €12 | Can lodge the application in Slovenia | — | [EU Immigration Portal](https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-slovenia_en) |
+| **Lithuania** · Delhi trip | India (VFS Global; Indian X visa needed) | D visa €120–140, or residence permit €160 + VFS €125 | — | 2026 quota 24,706. | [VFS Global](https://www.vfsglobal.com/one-pager/lithuania/uae/residencepermit/english), [VisaVerge](https://www.visaverge.com/schengen/lithuania-visa-fees-and-payment-information/) |
+| **Latvia** · Delhi trip | New Delhi (embassy, in person) | D visa €90 + residence permit €160 (€280 fast) | OCMA approval of the invitation | — | [Playroll](https://playroll.com/work-permit-visas/latvia) |
+| **Bosnia & Herzegovina** · Delhi trip | New Delhi (embassy) | Visa D fee not confirmed | Work permit (fee not confirmed) | 2026 quota 7,427. | [Playroll](https://playroll.com/work-permit-visas/bosnia-herzegovina) |
 | **Montenegro** | Dhaka (VFS) | VFS Tk 4,300 + courier Tk 7,735 + visa fee | Residence and work permit €67 | See the Montenegro section. | [VFS Global](https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html), [Montenegro e-government](https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola) |
 | **Czech Republic** · Delhi trip | New Delhi (embassy) | Employee Card CZK 5,000 + card CZK 2,500 on arrival | — | Very few places for Bangladeshis. | [Czech MFA](https://mzv.gov.cz/tokyo/en/visas_and_consular_info/visa_and_consular_fees/index.html), [ARWS](https://arws.cz/en/news-at-arrows/czech-visa-and-residence-permit-fees) |
 | **Germany** | Dhaka (embassy, online portal) | Visa €75 + VFS €19.13 + EU Blue Card €100 | Federal Employment Agency approval | — | [German Mission Dhaka](https://dhaka.diplo.de/bd-en/service/2346500-2346500), [Find English](https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply) |
-| **Finland** · Delhi trip | Online, then ID check in New Delhi | €750 online (€530 for specialists and Blue Card) | — | Paper application €950. | [Migri](https://migri.fi/en/-/changes-to-finnish-immigration-service-processing-fees-as-of-1-january-2026) |
+| **Finland** · Delhi trip | Online, then ID check at VFS New Delhi | €750 online (€530 for specialists and Blue Card) | — | Paper application €950. | [Migri](https://migri.fi/en/-/changes-to-finnish-immigration-service-processing-fees-as-of-1-january-2026) |
 | **Austria** · Delhi trip | New Delhi (embassy) | Red-White-Red Card €218 (older guides: €160 + €20 card) | — | — | [Visa Atlas](https://visaatlas.org/fees/austria/red-white-red-card) |
-| **Ireland** | Online, then by post or VFS | Visa €60 + residence card €300 | Employment permit €1,000 (or you; never deducted from pay) | — | [Citizens Information](https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/) |
+| **Ireland** | Online, then by post to New Delhi (no trip) | Visa €60 + residence card €300 | Employment permit €1,000 (or you; never deducted from pay) | — | [Citizens Information](https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/) |
 | **Spain** | Dhaka (embassy / BLS) | Visa fee in taka at BLS (not confirmed) + TIE card €16–22 | Work authorisation about €204–408 | — | [BLS Spain Dhaka](https://bgd.blsspainvisa.com/assets/pdf/RESIDENCE-AND-WORK-VISA-TRA.pdf) |
 | **France** | Dhaka (French Embassy) | Visa €99 + residence validation €300 (+ €50 stamp) | OFII employer tax | Taxes rose on 1 May 2026. | [Integration France](https://www.integrationfrance.fr/articles/hausse-taxes-titres-sejour-mai-2026) |
 | **Netherlands** | Dhaka (Dutch Embassy) | €0 if the employer pays the IND fee | IND fee €423 (recognised sponsor) | — | [Envoy](https://www.envoyglobal.com/news-alert/the-netherlands-immigration-application-fees-2026/) |
@@ -349,7 +352,7 @@ Euros you pay to the destination's government and its visa centre, with a job of
 | **Denmark** | Online, then VFS Dhaka | DKK 6,810 + VFS fee | — (some repay the fee) | — | [Erickson Immigration Group](https://eiglaw.com/denmark-increases-residence-permit-fees-for-work-study-and-family-cases/) |
 | **Norway** | VFS Dhaka (via Danish Embassy) | NOK 6,300 + VFS fee in taka equal to €21.42 | — | — | [Visa Atlas](https://visaatlas.org/fees/norway/skilled-worker-permit), [Norwegian Embassy](https://www.norway.no/en/bangladesh/services-info/visitors-visa-res-permit/res-permit/) |
 | **United Kingdom** | Dhaka (VFS) | Visa £819 + health surcharge £1,035 a year + TB test US$70 + English test | Sponsorship certificate and Immigration Skills Charge | Fees rose on 8 April 2026. | [Davidson Morris](https://www.davidsonmorris.com/uk-visa-fees), [GOV.UK](https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-bangladesh/tuberculosis-testing-in-bangladesh) |
-| **Estonia** | Check the embassy page | D visa €120, or residence permit €280 | Registers short-term employment €130 | — | [Jobbatical](https://www.jobbatical.com/blog/estonia-immigration-fees) |
+| **Estonia** · Delhi trip | New Delhi (embassy) | D visa €120, or residence permit €280 | Registers short-term employment €130 | — | [Jobbatical](https://www.jobbatical.com/blog/estonia-immigration-fees) |
 | **Switzerland** | Dhaka (Swiss Embassy) | Visa about CHF 80–150 + commune registration about CHF 100 | Cantonal permit, CHF 100–550 | Only 8,500 non-EU permits a year. | [The Local](https://www.thelocal.ch/20260122/how-much-do-switzerlands-work-permits-cost-in-2026) |
 | **New Zealand** | Online | NZ$1,540 + medical Tk 10,100 | Accreditation NZ$775 + job check NZ$735 | See the New Zealand section. | [INZ fee table](https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf) |
 | **Mauritius** (limited) | Online: the employer applies (work permit or Occupation Permit) | Nothing for a work permit: the employer pays recruitment costs | Work permit processing MUR 700 + permit fee; residence permit MUR 500 a year; your ticket home | Bangladeshis hired only for bakery, textile and printing jobs since September 2025. See the Mauritius section. | [Mauritius labour ministry](https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF), [e-Work Permit guidelines](https://workpermit.mu/eworkpermit_wkp/upload/cms/pdf/WP%20GUIDELINES%20UPDATED%20MAR2015.pdf), [Passport and Immigration Office](https://passport.govmu.org/passport/?page_id=557) |
@@ -435,7 +438,7 @@ BOESL, the government recruiter, publishes one all-in price when it runs a schem
    - Malta: the employer applies for a **Single Permit** from Identità.
    - Germany: the employer often gets a pre-approval from the Federal Employment Agency.
 4. **You apply for the long-stay "D" visa** at the embassy or visa centre.
-   - Some countries accept applications in **Dhaka**; others only in **New Delhi**.
+   - 20 countries take your application in Bangladesh (Dhaka, online or by post); 13 need a trip to India. Full list: [WHERE YOU APPLY](#where-you-apply-dhaka-or-india).
    - India restarted tourist visas for Bangladeshis on **28 June 2026**, after almost two years, so the New Delhi route works again ([Business Today](https://www.businesstoday.in/amp/nri/visa/story/india-opens-tourist-visa-window-for-bangladesh-from-june-28-after-prolonged-suspension-539229-2026-06-25)).
 5. **Get BMET emigration clearance.**
    - Apply for the smart card on the government portal **[oc.bmet.gov.bd](https://oc.bmet.gov.bd)** and complete the pre-departure orientation (PDO).
@@ -443,6 +446,77 @@ BOESL, the government recruiter, publishes one all-in price when it runs a schem
    - BMET no longer uses "Ami Probashi" for new clearances ([TBS](https://www.tbsnews.net/bangladesh/migration/manpower-bureau-discontinues-emigration-clearance-card-training-services)).
 6. **Travel, then collect your residence card** in the destination country.
 7. **Learn your rights:** how to change employer, when to renew, and whether a language test is required.
+
+---
+
+## WHERE YOU APPLY: Dhaka or India
+
+*Checked 21 October 2026.*
+
+After your employer's permit is approved, you apply for the visa. For **20 countries** you can do that from Bangladesh: at an embassy or visa centre in Dhaka, online, or by post. For **13** you must travel to India, almost always to New Delhi.
+
+> **If you must go to India.** India gives Bangladeshis who need to visit a foreign embassy in India a double-entry "X" visa, from the Indian High Commission in Dhaka. It is valid for up to 3 months and allows up to 15 days in India. Portugal and Lithuania say they will not accept you without it ([Portuguese Embassy New Delhi](https://novadeli.embaixadaportugal.mne.gov.pt/en/consular-section/visas), [Lithuanian MFA](https://in.mfa.lt/en/coming-to-lithuania/visas/visa-authority-and-visa-application-centers/114)). The cheapest trip costs about Tk 17,700 plus a hotel (see [OFFICIAL COSTS](#official-costs-doing-it-yourself-with-a-job-offer)).
+
+### From Bangladesh, no India trip (20 countries)
+
+**In person in Dhaka (16)**
+
+| Country | Where | What you do | Source |
+|---|---|---|---|
+| **Belgium** (only listed here) | Belgian visa centre, Dhaka | Book at the Belgian Visa Application Centre in Dhaka, open since 16 November 2025. D-visa handling fee €250. | [Belgium in India](https://india.diplomatie.belgium.be/en/travel-belgium/visa-belgium/visa-belgium-if-you-live-bangladesh) |
+| **Croatia** | VFS Global, Banani | VFS Dhaka sends your file to the Croatian Embassy in New Delhi, which decides. The honorary consulate in Dhaka does the identity check. Few permits for Bangladeshis since a January 2025 crackdown. | [VFS Croatia–Bangladesh](https://visa.vfsglobal.com/bgd/en/hrv), [TBS](https://www.tbsnews.net/bangladesh/croatia-stop-issuing-work-permits-bangladeshi-workers-embassy-says-1054731) |
+| **Cyprus** | VFS Global, Gulshan | VFS Dhaka sends your file to the Cyprus High Commission in New Delhi, which decides. Based on one Bangladeshi visa guide; check with VFS before you plan any Delhi trip. | [Visa Bangla](https://visabangla.com/travel/cyprus.html) |
+| **Denmark** | Online, then VFS Dhaka | Apply online, then give your fingerprints and photo at VFS Global in Dhaka. | [Embassy of Denmark](https://bangladesh.um.dk/en/news/important-notice-vfs-closed-for-bangladesh-national-election) |
+| **France** | VFS Global, Dhaka | Long-stay visas are lodged at VFS for the French Embassy in Dhaka. | [France-Visas](https://france-visas.gouv.fr/en/bangladesh) |
+| **Germany** | German Embassy, Dhaka | Book through the embassy's own online system; the embassy in Dhaka decides. | [German Mission Dhaka](https://dhaka.diplo.de/bd-en/service/2346500-2346500) |
+| **Greece** | GVCW visa centre, Dhaka | GVCW sends your file to the Greek Embassy in New Delhi, which decides. Courier Tk 10,200. | [GVCW Bangladesh](https://bd-gr.gvcworld.eu/en/visa-info-long-term-national-d-visa) |
+| **Italy** | VFS Global, Dhaka | Apply with your nulla osta; the Italian Embassy in Dhaka decides. | [VFS Italy–Bangladesh](https://visa.vfsglobal.com/one-pager/italy/bangladesh/english/) |
+| **Malta** | VFS Global, Dhaka | Book only after Identità's approval-in-principle letter arrives, and apply within 60 days of it. | [VFS Malta–Bangladesh](https://www.vfsglobal.com/one-pager/malta-extended-services/bangladesh/english/index.html) |
+| **Montenegro** | VFS Global, Dhaka | Montenegrin D visas are handled at VFS Global in Dhaka. | [Government of Montenegro](https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh) |
+| **Netherlands** | Dutch Embassy, Dhaka | After the IND approves your permit, book the embassy online within 3 months to get the MVV visa sticker. | [Netherlands Worldwide](https://www.netherlandsworldwide.nl/visa-the-netherlands/mvv-long-stay/apply-bangladesh) |
+| **Norway** | VFS Global, Dhaka | Apply online, then hand in your papers at VFS Dhaka; the Danish Embassy handles Norway's cases. | [Norwegian Embassy](https://www.norway.no/en/bangladesh/services-info/visitors-visa-res-permit/res-permit/) |
+| **Spain** | BLS International, Dhaka | Lodge the work and residence visa at BLS for the Spanish Embassy in Dhaka. | [BLS Spain Dhaka](https://bgd.blsspainvisa.com/assets/pdf/RESIDENCE-AND-WORK-VISA-TRA.pdf) |
+| **Sweden** | Online, then VFS Dhaka | Apply online to the Migration Agency, then give your fingerprints and photo at VFS Global in Dhaka. | [VFS Sweden–Bangladesh](https://visa.vfsglobal.com/one-pager/sweden/bangladesh/english/index.html) |
+| **Switzerland** | Swiss Embassy, Dhaka | Work entry visas go to the Swiss Embassy in Gulshan. Book early: appointments are scarce. | [Swiss government](https://www.bundesreisezentrale.admin.ch/countries/bangladesh/en/home/visa/entry-ch/work-permits/where-to-apply-work-permits.html) |
+| **United Kingdom** | Online, then VFS Bangladesh | Apply online on GOV.UK, then give your biometrics at a VFS centre in Bangladesh. | [GOV.UK](https://www.gov.uk/find-a-visa-application-centre) |
+
+**Online, by post or by courier (4)**
+
+| Country | Where | What you do | Source |
+|---|---|---|---|
+| **Ireland** | Online, then by post | Apply online, then post your papers and passport to the Irish Embassy in New Delhi, or use an agent at VFS Kolkata. Bangladeshis give no biometrics. | [Ireland.ie](https://www.ireland.ie/en/india/newdelhi/services/visas/visas-for-ireland/) |
+| **Luxembourg** (only listed here) | By courier to New Delhi | Send the D-visa application to the Luxembourg Embassy in New Delhi by prepaid courier. The procedure changed on 1 October 2026. | [Luxembourg Embassy New Delhi](https://newdelhi.mae.lu/en/service_citoyens/visa-immigration/long-term-national-visa.html) |
+| **Mauritius** | Online, by the employer | Your employer applies for the permit in Mauritius; you travel after it is approved. | [Mauritius labour ministry](https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF) |
+| **New Zealand** | Online | Apply online. The medical check is done at IOM in Dhaka. | [IOM Bangladesh](https://bangladesh.iom.int/new-zealand-all-types-visa-applicants) |
+
+### You must go to India (13 countries)
+
+| Country | Where | What you do | Source |
+|---|---|---|---|
+| **Austria** | Austrian Embassy, New Delhi | The embassy in New Delhi covers Bangladesh; Austria has no mission in Dhaka. | [European Commission](https://intellectual-property-helpdesk.ec.europa.eu/organisations/austrian-embassy-new-delhi_en), [Daily Observer](https://observerbd.com/news/499606) |
+| **Bosnia & Herzegovina** | BiH Embassy, New Delhi | The embassy in New Delhi covers Bangladesh and sometimes holds consular camps in Dhaka. | [BSS](https://www.bssnews.net/news/262769) |
+| **Bulgaria** | VFS Global, New Delhi | Since 1 November 2025 D visas are lodged at VFS in New Delhi instead of at the embassy. | [Bulgarian MFA](https://www.mfa.bg/en/embassyinfo/bangladesh), [VFS Global](https://www.vfsglobal.com/en/PDF/media-releases/2025/MR_Bulgaria_D_visa_services_rollout_in_India_Oct_2025.pdf) |
+| **Czech Republic** | Czech Embassy, New Delhi | Apply in person after booking in the embassy's system. Places for Bangladeshis are very few. | [Czech Embassy New Delhi](https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/index.html) |
+| **Estonia** | Estonian Embassy, New Delhi | D visas cannot be lodged at the embassies in Dhaka that issue some Estonian short-stay visas. | [Estonian Embassy New Delhi](https://newdelhi.mfa.ee/for-bangladesh-nepal-sri-lanka-citizens/) |
+| **Finland** | Online, then VFS New Delhi | Apply online, then prove your identity at VFS Global in New Delhi. VFS India verifies Bangladeshi documents. | [Finland abroad – Bangladesh](https://finlandabroad.fi/web/bgd/residence-permits-to-finland) |
+| **Latvia** | Latvian Embassy, New Delhi | Apply in person, booking only at pieraksts.mfa.gov.lv/en/india. | [Latvian MFA](https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa) |
+| **Lithuania** | VFS Global, India | Apply at a VFS centre in India. You need an Indian double-entry X visa first. | [Lithuanian MFA](https://in.mfa.lt/en/coming-to-lithuania/visas/visa-authority-and-visa-application-centers/114) |
+| **Poland** | VFS Global, New Delhi | The Polish Embassy in New Delhi covers Bangladesh and takes D visas through visa centres in India. Some guides say Dhaka, but we found no Polish visa centre there. | [gov.pl – Embassy in New Delhi](https://www.gov.pl/web/india/d-type-national-visa) |
+| **Portugal** | Portuguese Embassy (VFS), New Delhi | VFS accepts you only with an Indian double-entry X visa, which allows up to 15 days in India. | [Portuguese Embassy New Delhi](https://novadeli.embaixadaportugal.mne.gov.pt/en/consular-section/visas) |
+| **Romania** | Romanian Embassy, New Delhi | Your appointment and consular interview are scheduled by your work-permit date and your eVisa application date. | [Romanian Embassy New Delhi](https://newdelhi.mae.ro/en/local-news/1202) |
+| **Slovakia** | Slovak Embassy, New Delhi | Apply in person; appointments by e-mail (cons.delhi@mzv.sk). Appointments for low- and medium-skilled work visas were suspended in 2024. | [Slovak Embassy New Delhi](https://www.mzv.sk/en/web/dilli-en/services/national-visa) |
+| **Slovenia** | Slovenian Embassy, New Delhi | The embassy in New Delhi covers Bangladesh. | [Government of Slovenia](https://www.gov.si/en/representations/) |
+
+### Not open to you right now (4)
+
+| Country | Where | What you do | Source |
+|---|---|---|---|
+| **Hungary** | Closed | Guest-worker permits closed to new applications since 6 June 2026. | [Fragomen](https://www.fragomen.com/insights/hungary-guest-worker-program-ends.html) |
+| **Moldova** | On hold | BMET clearance on hold (September 2026). | [TBS](https://www.tbsnews.net/bangladesh/visas-holders-urge-bmet-resume-manpower-clearance-serbia-north-macedonia-moldova-1552981) |
+| **North Macedonia** | On hold | BMET clearance on hold (September 2026). | [TBS](https://www.tbsnews.net/bangladesh/visas-holders-urge-bmet-resume-manpower-clearance-serbia-north-macedonia-moldova-1552981) |
+| **Serbia** | On hold · Serbian Embassy, New Delhi | BMET clearance on hold (September 2026). When it reopens, the visa is handled in New Delhi. | [Welcome to Serbia](https://welcometoserbia.gov.rs/help) |
+
+Belgium and Luxembourg are listed here only; the rest of this guide does not cover them.
 
 ---
 
@@ -474,16 +548,16 @@ Difficulty scale: **1 = easiest, 5 = hardest or closed.** The score combines the
 | # | Country | Difficulty | Why | Where Bangladeshis submit the visa |
 |---|---|---|---|---|
 | 1 | **Romania** 🇷🇴 | **2 – Easier** | 90,000 work permits for 2026. Trades on the shortage list. New official online hiring system. | New Delhi (Romanian Embassy, eVisa appointment) |
-| 2 | **Croatia** 🇭🇷 | **2 – Easier** | 100k+ permits a year. Since June 2026 you can change employer after 6 months. | **Dhaka** (VFS Global), decided by the embassy in New Delhi |
+| 2 | **Croatia** 🇭🇷 | **2 – Easier** | 100k+ permits a year, but few for Bangladeshis since a January 2025 crackdown (3,183 in Jan–Nov 2025). Since June 2026 you can change employer after 6 months. | **Dhaka** (VFS Global), decided by the embassy in New Delhi |
 | 3 | **Italy** 🇮🇹 | **3 – Moderate, slow** | Biggest legal European market for Bangladeshis. Yearly quota lottery ("click days" Jan–Feb 2027). Heavy fraud checks. | **Dhaka** (Italian Embassy via VFS) |
 | 4 | **Greece** 🇬🇷 | **3 – Moderate** | Government-to-government seasonal farm programme (4,000/year) through BOESL. New 2026 migration law. | **Dhaka** (Greece visa centre, GVCW) |
 | 5 | **Malta** 🇲🇹 | **3 – Moderate** | Steady demand in hospitality, cleaning and construction. New mandatory €250 pre-departure course (2026). | **Dhaka** (VFS Global) |
-| 6 | **Bulgaria** 🇧🇬 | **3 – Moderate** | Single permit. Employers may only have 20–35% foreign staff. Low wages. | New Delhi (mandatory interview) |
-| 7 | **Poland** 🇵🇱 | **3 – Moderate** | Work permit plus D visa. Fees and refusal checks increased in 2026. | Dhaka (VFS), decided in New Delhi |
+| 6 | **Bulgaria** 🇧🇬 | **3 – Moderate** | Single permit. Employers may only have 20–35% foreign staff. Low wages. | New Delhi (VFS Global) |
+| 7 | **Poland** 🇵🇱 | **3 – Moderate** | Work permit plus D visa. Fees and refusal checks increased in 2026. | New Delhi (VFS Global) |
 | 8 | **Portugal** 🇵🇹 | **3.5** | Open job-seeker visa abolished Oct 2025. You now need a real job contract. | New Delhi (Portuguese Embassy) |
 | 9 | **Slovakia** 🇸🇰 | **3.5** | Shortage jobs (drivers, construction, factories). Stricter rules from July 2026. | New Delhi (Slovak Embassy) |
 | 10 | **Cyprus** 🇨🇾 | **3.5** | Farm, factory, delivery and retail jobs. Company caps on foreign staff. The Republic of Cyprus only, not the north. | **Dhaka** (VFS), decided in New Delhi |
-| 11 | **Slovenia, Lithuania, Latvia, Bosnia, Montenegro** | **4 – Hard** | Quotas cut, new restrictions, employers reluctant to hire Bangladeshis | Mostly New Delhi; Montenegro in **Dhaka** (VFS Global) |
+| 11 | **Slovenia, Lithuania, Latvia, Bosnia, Montenegro** | **4 – Hard** | Quotas cut, new restrictions, employers reluctant to hire Bangladeshis | India (New Delhi embassies; Lithuania at VFS India); Montenegro in **Dhaka** (VFS Global) |
 | ⚠️ | **Serbia, North Macedonia** | **On hold** | BMET clearance held up (Sept 2026). Forced-labour cases reported. | New Delhi |
 | 12 | **Czech Republic** 🇨🇿 | **4.5 – Very hard** | Tiny quotas for Bangladeshis | New Delhi |
 | ✖ | **Hungary** 🇭🇺 | **Closed** | Guest-worker permit ended 6 June 2026 | — |
@@ -514,6 +588,7 @@ Difficulty scale: **1 = easiest, 5 = hardest or closed.** The score combines the
 - **Size of demand:**
   - Over **160,000** residence-and-work permits were issued in Jan–Nov 2025. Bangladesh got **3,183**, compared with Nepal 29,579 and India 14,500 ([Croatia Week](https://www.croatiaweek.com/foreign-workers-in-croatia-160000-permits-in-2025-where-they-come-from/)).
   - **106,395** permits were issued in Jan–Jul 2026 ([Dubrovnik Times](https://www.thedubrovniktimes.com/news/croatia/item/19723-foreign-worker-permits-in-croatia-drop-in-early-2026-tourism-sector-leads-demand)).
+  - ❗ In January 2025 Croatia said it would stop issuing work permits to Bangladeshis, after 8,000 of the 12,400 people given permits and visas in 2024 never arrived ([TBS](https://www.tbsnews.net/bangladesh/croatia-stop-issuing-work-permits-bangladeshi-workers-embassy-says-1054731)). Bangladeshi numbers have stayed low since, so expect strict checks.
 - **Law changes in force since 4 June 2026** ([Croatia Week](https://www.croatiaweek.com/croatia-new-foreign-workers-law-2026/)):
   - ✅ You can **change employer after 6 months** without a new permit.
   - ✅ Seasonal permits can run up to 3 years.
@@ -569,13 +644,14 @@ Difficulty scale: **1 = easiest, 5 = hardest or closed.** The score combines the
   - Wages are low; some agencies have pushed €600-a-month jobs ([The Shift](https://theshiftnews.com/2024/07/19/bangladeshi-agencies-targeting-malta-for-e600-a-month-jobs/)).
   - Bangladeshi visa processing has been frozen before ([Lovin Malta](https://lovinmalta.com/news/bangladesh-malta-visa-applications-frozen/)).
 - **Jobs:** [Jobsplus vacancies](https://jobsplus.gov.mt/vacancy).
+- Full details, costs and job sites: [the Malta section](#country-deep-dive-malta).
 
 #### 6) Bulgaria (difficulty 3)
 
 - **Permit:** single permit with a 15-day labour-market test.
 - **Company caps:** an employer's foreign staff may not exceed **20%** (large companies) or **35%** (small and medium companies). A draft law may raise these caps by 5 points ([Innovires](https://www.innovires.com/en/blog/work-permit-bulgaria.html), [Labour Migration Act](https://www.mlsp.government.bg/uploads/19/zaetost/labour-migration-and-labour-mobility-act.pdf)).
 - **Pay:** minimum wage about €620 a month. Bulgaria uses the euro from 2026 and is in Schengen.
-- **Visa:** there is no Bulgarian embassy in Bangladesh. The **Bulgarian Embassy in New Delhi** handles it, and a D-visa interview is mandatory ([Bulgarian MFA](https://www.mfa.bg/en/embassyinfo/bangladesh)).
+- **Visa:** there is no Bulgarian embassy in Bangladesh. The **Bulgarian Embassy in New Delhi** covers Bangladesh, and since 1 November 2025 D visas are lodged at **VFS Global in New Delhi** instead of at the embassy ([Bulgarian MFA](https://www.mfa.bg/en/embassyinfo/bangladesh), [VFS Global](https://www.vfsglobal.com/en/PDF/media-releases/2025/MR_Bulgaria_D_visa_services_rollout_in_India_Oct_2025.pdf)).
 - **Employer attitudes:** TBS reports Bulgarian employers are becoming reluctant to hire Bangladeshis, because many leave for Western Europe ([TBS](https://www.tbsnews.net/world/europe-job-migration-surges-46-h1-amid-gulf-slump-1475796)).
 
 #### 7) Poland (difficulty 3)
@@ -586,7 +662,7 @@ Difficulty scale: **1 = easiest, 5 = hardest or closed.** The score combines the
   - There are new refusal grounds, for example very part-time jobs or employer tax debts.
   - Most procedures moved online ([Grant Thornton](https://grantthornton.pl/en/article/employment-of-foreign-nationals-in-poland-in-2026-key-changes-and-important-deadlines-in-immigration-regulations/)).
 - **Visa:**
-  - Polish national visas for Bangladeshis are decided by the **Polish Embassy in New Delhi**, with the application lodged through VFS Global in Dhaka.
+  - The **Polish Embassy in New Delhi** covers Bangladesh and takes D visas through visa centres in India, so plan a trip to New Delhi ([gov.pl](https://www.gov.pl/web/india/d-type-national-visa)). Some guides say Dhaka, but we found no Polish visa centre there.
   - Sweden's embassy in Dhaka stopped handling *Schengen* visas for Poland after 15 April 2026 ([Swedish Embassy notice](https://www.swedenabroad.se/en/embassies/bangladesh-dhaka/current/news/notice-visa-application-poland/)).
 - **Official guide:** [Work in Poland – guide for foreigners (PDF)](https://psz.praca.gov.pl/documents/10240/42353333/WORK+IN+POLAND_GUIDE+FOR+FOREIGNERS+FROM+THIRD+COUNTRIES_EN.pdf/18ebf27d-615c-2a18-2c5c-91218071464a?t=1756293815182).
 - **Jobs:** [Central Job Offers Database (CBOP)](https://oferty.praca.gov.pl/portal).
@@ -618,6 +694,7 @@ Difficulty scale: **1 = easiest, 5 = hardest or closed.** The score combines the
 - **Lithuania:** the 2026 quota is **24,706**, down from 40,250 in 2024, and the industry quota ran out early ([Bimaris](https://bimaris.legal/insights/lithuanian-work-permit), [LRT](https://www.lrt.lt/en/news-in-english/19/2415719/lithuanian-industry-exhausts-quota-for-hiring-third-country-nationals)).
 - **Latvia:** in August 2026 the Interior Ministry proposed quotas and limits on visas for countries without readmission agreements ([Inbox.eu](https://news.inbox.eu/150kwwc-latvia-may-sharply-limit-entry-for-foreigners-ministry-of-the-interior-proposes-introducing-quotas?language=en)).
 - **Slovenia:** single permit through the Employment Service ([ZRSZ](https://www.ess.gov.si/en/jobseekers/employment-of-non-eu-migrant-workers/work-in-slovenia/single-permit)). Employers there are reported to be reluctant to hire Bangladeshis.
+- **Where you apply:** Slovenia, Latvia and Bosnia take visas at their embassies in New Delhi, and Lithuania at VFS centres in India, so all four need an India trip ([WHERE YOU APPLY](#where-you-apply-dhaka-or-india)).
 - **Bosnia and Montenegro:**
   - Permit quotas for 2026: Bosnia **7,427**, Montenegro **28,988**.
   - Wages are low.
@@ -663,10 +740,10 @@ For factory, farm, construction and hotel jobs, most real offers come through **
 | # | Country | Difficulty | Key requirement in 2026 | Where Bangladeshis submit the visa |
 |---|---|---|---|---|
 | 1 | **Germany** 🇩🇪 | **3** | Opportunity Card (job-search visa), **or** a job offer plus recognised qualification. EU Blue Card from €50,700/yr (€45,934 in shortage jobs). | **Dhaka** (German Embassy, online portal) |
-| 2 | **Finland** 🇫🇮 | **3** | General minimum €1,600/month. Specialist/Blue Card €3,937/month. | Online, plus ID check in New Delhi |
+| 2 | **Finland** 🇫🇮 | **3** | General minimum €1,600/month. Specialist/Blue Card €3,937/month. | Online, plus ID check at VFS New Delhi |
 | 3 | **Cyprus** 🇨🇾 | **3** | Foreign-owned (often tech) companies: €2,500/month before tax, a degree **or** 2 years' experience, no labour-market test. EU Blue Card €43,632/yr. | **Dhaka** (VFS), decided in New Delhi |
 | 4 | **Austria** 🇦🇹 | **3.5** | Red-White-Red Card: 55/90 points for shortage jobs, collective-agreement pay | New Delhi (Austrian Embassy) |
-| 5 | **Ireland** 🇮🇪 | **3.5** | General permit €36,605. Critical Skills €40,904 (with degree). | New Delhi, by post (no biometrics) |
+| 5 | **Ireland** 🇮🇪 | **3.5** | General permit €36,605. Critical Skills €40,904 (with degree). | Online, then by post to New Delhi (no trip) |
 | 6 | **Spain** 🇪🇸 | **4** | Employer authorisation. Labour test waived for "hard-to-fill" jobs. | **Dhaka** (Spanish Embassy / BLS) |
 | 7 | **France** 🇫🇷 | **4** | "Talent" permits (reference salary €39,582) or shortage-list jobs. French helps. | **Dhaka** (French Embassy) |
 | 8 | **Netherlands** 🇳🇱 | **4** | Recognised-sponsor employer, €5,942/month (age 30+) or €4,357 (under 30) | **Dhaka** (Dutch Embassy) |
@@ -674,7 +751,7 @@ For factory, farm, construction and hotel jobs, most real offers come through **
 | 10 | **Denmark** 🇩🇰 | **4.5** | DKK 552,000/yr (Pay Limit), DKK 446,000 (Supplementary), or Positive List job | **Dhaka** (VFS) |
 | 11 | **Norway** 🇳🇴 | **4.5** | Degree or trade certificate. NOK 545,400+/yr for degree jobs. | **Dhaka** (VFS, via Danish Embassy) |
 | 12 | **United Kingdom** 🇬🇧 | **4.5** | Degree-level (RQF 6) job, £41,700+, English B2 | **Dhaka** (VFS) |
-| 13 | **Estonia** 🇪🇪 | **4.5** | Pay at least the average salary; national quota 1,292/yr | Check official page |
+| 13 | **Estonia** 🇪🇪 | **4.5** | Pay at least the average salary; national quota 1,292/yr | New Delhi (Estonian Embassy) |
 | 14 | **Switzerland** 🇨🇭 | **5** | Only 8,500 permits a year for all non-EU nationals; top specialists only | Dhaka (Swiss Embassy) |
 
 **Tradespeople** with certificates (electricians, welders, mechanics, cooks) can also use shortage-occupation routes: Germany (recognised vocational qualification), Austria (shortage list), Spain and France (shortage catalogues), Denmark (Positive List) and Norway (trade certificate).
@@ -728,7 +805,7 @@ For factory, farm, construction and hotel jobs, most real offers come through **
   - General Employment Permit: **€36,605**
   - Critical Skills: **€40,904** with a relevant degree, or €68,911 without
   - Healthcare assistants, meat and horticulture workers: **€32,691**
-- **Where to apply:** Bangladeshis apply to the **Embassy of Ireland in New Delhi**, by post or through VFS Kolkata ([Ireland.ie](https://www.ireland.ie/en/india/newdelhi/services/visas/visas-for-ireland/)).
+- **Where to apply:** apply online, then post your papers to the **Embassy of Ireland in New Delhi** (or use an agent at VFS Kolkata). Bangladeshis give no biometrics, so no trip is needed ([Ireland.ie](https://www.ireland.ie/en/india/newdelhi/services/visas/visas-for-ireland/)).
 
 #### 6) Spain (difficulty 4)
 
@@ -783,6 +860,7 @@ For factory, farm, construction and hotel jobs, most real offers come through **
 #### 13) Estonia and Switzerland (hardest)
 
 - **Estonia:** national immigration quota of **1,292** for 2026. Short-term employment must pay at least the average salary (€2,092 in 2025) ([Jobbatical](https://www.jobbatical.com/blog/estonia-digital-nomad-visa-income-requirement-immigration-quota), [Estonian Interior Ministry](https://www.siseministeerium.ee/en/activities/efficient-population-management/migration)).
+- **Estonia's visa:** apply for the D visa at the **Estonian Embassy in New Delhi**; the embassies in Dhaka that issue some Estonian short-stay visas cannot take D visas ([Estonian Embassy New Delhi](https://newdelhi.mfa.ee/for-bangladesh-nepal-sri-lanka-citizens/)).
 - **Switzerland:** only **8,500** permits for all non-EU nationals in 2026 (4,500 B and 4,000 L), and only for highly qualified people ([Swiss Federal Council](https://www.admin.ch/en/newnsb/7HwBjdg5HpBA)).
 
 ### B3. Where skilled workers should look for jobs
@@ -849,7 +927,7 @@ All the links from Sections A3 and B3 in one place:
 |---|---|
 | 🇧🇩 Bangladesh government | [BMET OEP](https://www.oep.gov.bd/) · [Licensed agency check](https://www.oep.gov.bd/agencies) · [BMET clearance](https://oc.bmet.gov.bd) · [BOESL](https://www.boesl.gov.bd) · [BAIRA](https://baira.org.bd) |
 | 🇪🇺 EU-wide | [EURES](https://eures.europa.eu) · EU Talent Pool (coming ~2027) |
-| Country portals for foreign workers | [WorkinRomania](https://workinromania.gov.ro) · [Croatia HZZ](https://burzarada.hzz.hr) · [Malta Jobsplus](https://jobsplus.gov.mt/vacancy) · [Poland CBOP](https://oferty.praca.gov.pl/portal) · [Serbia NSZ](https://www.nsz.gov.rs) · [Make it in Germany](https://www.make-it-in-germany.com/en/working-in-germany/job-listings) · [Work in Austria](https://jobs.workinaustria.com/?lang=en) · [Workindenmark](https://www.workindenmark.dk/) · [Job Market Finland](https://tyomarkkinatori.fi/en) · [Work in Estonia](https://workinestonia.com/) · [Work in Lithuania](https://jobs.workinlithuania.com/) · [JobsIreland](https://jobsireland.ie/) · [Czech Employee Card vacancies](https://up.gov.cz/en/for-foreigners) · [Montenegro Employment Agency](https://www.zzzcg.me/) · [Zaposli.me](https://zaposli.me/oglasi-za-posao/crna-gora) · [Cyprus: Ergodotisi](https://www.ergodotisi.com/) · [CyprusWork](https://www.cypruswork.com/) · [Mauritius: MyJob.mu](https://www.myjob.mu/) · [Mauritius Jobs](https://mauritiusjobs.govmu.org/) |
+| Country portals for foreign workers | [WorkinRomania](https://workinromania.gov.ro) · [Croatia HZZ](https://burzarada.hzz.hr) · [Malta Jobsplus](https://jobsplus.gov.mt/vacancy) · [Malta Keepmeposted](https://keepmeposted.com.mt/) · [Poland CBOP](https://oferty.praca.gov.pl/portal) · [Serbia NSZ](https://www.nsz.gov.rs) · [Make it in Germany](https://www.make-it-in-germany.com/en/working-in-germany/job-listings) · [Work in Austria](https://jobs.workinaustria.com/?lang=en) · [Workindenmark](https://www.workindenmark.dk/) · [Job Market Finland](https://tyomarkkinatori.fi/en) · [Work in Estonia](https://workinestonia.com/) · [Work in Lithuania](https://jobs.workinlithuania.com/) · [JobsIreland](https://jobsireland.ie/) · [Czech Employee Card vacancies](https://up.gov.cz/en/for-foreigners) · [Montenegro Employment Agency](https://www.zzzcg.me/) · [Zaposli.me](https://zaposli.me/oglasi-za-posao/crna-gora) · [Cyprus: Ergodotisi](https://www.ergodotisi.com/) · [CyprusWork](https://www.cypruswork.com/) · [Mauritius: MyJob.mu](https://www.myjob.mu/) · [Mauritius Jobs](https://mauritiusjobs.govmu.org/) |
 | Visa-sponsorship job boards | [Relocate.me](https://relocate.me) · [Arbeitnow](https://www.arbeitnow.com/visa-sponsorship-jobs) · [EnglishJobs.de](https://englishjobs.de/jobs/visa-sponsorship) · [Landing.jobs](https://landing.jobs) |
 | Sponsor registers | [UK](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers) · [Netherlands](https://ind.nl/en/public-register-recognised-sponsors/public-register-work) · [Denmark](https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Certification) |
 
@@ -1023,6 +1101,122 @@ Many ads are in Greek, so use your browser's translate button. For tech jobs, se
 | [Business in Cyprus (Business Facilitation Unit)](https://www.businessincyprus.gov.cy/) | The government unit that handles fast-track permits for foreign-owned companies. |
 | [Public Employment Service](https://www.pescps.dl.mlsi.gov.cy/) | Official vacancies. Only people already allowed to work in Cyprus can apply, but it shows who is hiring. |
 | [Migration Department permit fees](https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369) | Official fees for entry, residence and employment permits. |
+
+---
+
+## COUNTRY DEEP DIVE: Malta
+
+*Checked 21 October 2026. Malta uses the euro. Amounts are in the currency you pay them in: taka in Bangladesh, US dollars for the flight, euros in Malta.*
+
+**Short answer:** Malta is a small EU island where work runs in **English**. Hotels, cleaning and building firms hire through an employer-led single permit, and iGaming and tech companies hire developers. Rules have tightened since 2024: a compulsory course, stricter checks on employers, and no new permits for food couriers or cab drivers. You apply for the visa at **VFS in Dhaka**.
+
+> **Before you pay anyone.** A real Maltese job starts with the employer advertising it in Malta and the EU, then applying to Identità for your single permit. You book VFS only after Identità's approval letter arrives. Licensed Maltese agencies may not charge you, and pay below the €994 monthly minimum is illegal. Some Bangladeshi agencies have sold €600-a-month jobs: walk away from those.
+
+**Key numbers**
+
+- **€994** minimum wage a month before tax in 2026 (€229.44 a week) ([WageIndicator](https://wageindicator.org/salary/minimum-wage/malta)).
+- **€250** pre-departure course every first-time worker must pass; Identità checks the certificate since 1 March 2026 ([Identità](https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/expatriates-unit-single-permit-pre-departure-course/)).
+- **€30,000** a year gets a fast-track permit in 15 working days, with a degree or a related qualification and 3 years' experience ([Envoy](https://www.envoyglobal.com/news-alert/malta-new-specialist-employee-initiative/)).
+- **€600** for your first single permit, then €150 for each renewal year; a decision can take up to 4 months ([Jobsplus](https://jobsplus.gov.mt/find-candidates/non-eu-nationals-tcns)).
+
+### What changed in 2024–2026
+
+| Date | Change | Effect |
+|---|---|---|
+| Jul 2024 | **Couriers and cabs.** Malta stops issuing new work permits for food couriers and cab drivers; renewals with the same employer continue ([MaltaToday](https://www.maltatoday.com.mt/news/national/130415/abela_says_malta_has_enough_cab_drivers_and_couriers_after_hundreds_have_permits_refused)) | Closed |
+| 1 Aug 2025 | **Labour migration policy.** Employers must advertise on Jobsplus and EURES for 3 weeks first, and firms that dismiss too many foreign workers can be refused. The Key Employee Initiative minimum rises to €45,000 a year ([Jobsplus](https://jobsplus.gov.mt/media/0c3ppzjb/malta-labour-migration-policy-implementation-doc-jul-2025.pdf)) | Tighter |
+| 1 Jan 2026 | **Pay and renewals.** Minimum wage rises to €229.44 a week; after the first year, a permit can be renewed for 2 years instead of 1 ([WageIndicator](https://wageindicator.org/salary/minimum-wage/malta)) | Easier |
+| 1 Mar 2026 | **Pre-departure course.** Identità starts checking the €250 course certificate on every first application ([Identità](https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/expatriates-unit-single-permit-pre-departure-course/)) | Tighter |
+
+### Route 1: developer job in iGaming or tech (best fit)
+
+- **Why it fits you:** Malta's iGaming, fintech and software companies work in English and hire foreign developers. Juniors earn about **€22,000–30,000 a year**; typical engineers **€42,000–56,000** ([FreeMalta](https://freemalta.com/articles/software-engineer-salary-malta)).
+- **Permit options:**
+  - **Single permit:** any job, after the employer advertises it for 3 weeks.
+  - **Specialist Employee Initiative:** €30,000 a year or more, with a degree, or a related qualification and 3 years' experience. Decision in 15 working days ([Envoy](https://www.envoyglobal.com/news-alert/malta-new-specialist-employee-initiative/)).
+  - **Key Employee Initiative:** €45,000 a year or more, for senior or highly technical jobs; proof of experience can count ([CSB Group](https://www.csbgroup.com/articles/key-employee-initiative-kei-vs-eu-blue-card-choosing-the-right-skilled-worker-permit-for-malta-in-2026/)).
+- **Good to know:** the EU Blue Card (about €38,000 a year) needs a degree. An IT diploma or certificate may count as a related qualification for the fast-track, but your SSC alone probably won't, so ask the employer.
+
+### Route 2: hotel, cleaning or building job (main route)
+
+- **How it works:**
+  - The employer applies to Identità for your single permit: €600, then €150 for each renewal year ([Jobsplus](https://jobsplus.gov.mt/find-candidates/non-eu-nationals-tcns)).
+  - Hotel and tourism jobs also need the Skills Pass (€230 + €5) ([Expatax](https://expatax.mt/maltas-pre-departure-course-explained/)).
+  - Everyone must first pay for and pass the €250 pre-departure course.
+- **Pay:** at least €994 a month before tax in 2026. Some sectors pay more under their own wage rules.
+- **Closed jobs:** no new permits for food couriers or cab drivers since July 2024.
+
+### Route 3: Nomad Residence Permit (Plan B)
+
+- Live in Malta while you work for employers or clients abroad, renewed one year at a time.
+- You need at least **€42,000 a year** of income from outside Malta ([Residency Malta](https://nomad.residencymalta.gov.mt/new-faqs)).
+
+### Pay and permit minimums in Malta (euros a year, before tax)
+
+| Job or permit | Euros a year | Note |
+|---|---|---|
+| National minimum wage | €11,931 | €994 a month, €229.44 a week (2026). |
+| Junior software developer | €22,000–30,000 | FreeMalta salary benchmark, 2026. |
+| EU Blue Card minimum | about €38,000 | Needs a degree. About 1.5 times the average salary, updated every year. |
+| Software engineer, typical | €42,000–56,000 | FreeMalta estimate; iGaming firms often pay 15–25% more. |
+| Key Employee Initiative minimum | €45,000 | Managerial or highly technical jobs; proof of experience can count. Since 1 August 2025. |
+
+The fast-track (Specialist Employee Initiative) needs at least **€30,000 a year**.
+
+### From job offer to residence card, step by step
+
+1. **Find an employer:** Jobsplus, Keepmeposted or jobsinmalta.com; iGaming and tech firms for developer jobs.
+2. **Local and EU workers first:** the employer advertises on Jobsplus and EURES for 3 weeks (2 weeks for fast-track jobs).
+3. **Pre-departure course:** €250, online modules of about 10–12 hours each, then an interview. Hotel jobs also need the Skills Pass.
+4. **Approval letter:** the employer applies to Identità. Up to 4 months, or 15 working days on the fast-track.
+5. **D visa at VFS Dhaka** within 60 days of the letter. Service charge Tk 13,935–20,900 ([VFS Global](https://www.vfsglobal.com/one-pager/malta-extended-services/bangladesh/english/index.html)).
+6. **BMET clearance, then fly:** Tk 6,500; Dhaka → Malta from about US$458 one way.
+7. **Card in Malta:** do the health screening and give your biometrics, then collect your residence card.
+
+### Malta costs: your start-up budget (no agent needed)
+
+| Where | Item | Cost | Source |
+|---|---|---|---|
+| Bangladesh | Police clearance certificate | Tk 500 | [PCC guide](https://policeclearance.bd/application-fees/) |
+| Bangladesh | BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000 | Tk 6,500 | [TBS](https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606) |
+| Bangladesh | Notary, translation and attestation of your documents | Tk 5,000–20,000 | estimate |
+| Bangladesh | VFS Dhaka service charge for the D visa (standard or extended) | Tk 13,935–20,900 | [VFS Malta–Bangladesh](https://www.vfsglobal.com/one-pager/malta-extended-services/bangladesh/english/index.html) |
+| | **Subtotal in Bangladesh** | **Tk 25,935–47,900** | |
+| Before you travel | Pre-departure course, every first-time worker | €250 | [Identità](https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/expatriates-unit-single-permit-pre-departure-course/) |
+| Before you travel | Skills Pass, hotel and tourism jobs only (€230 + €5 interview booking) | €235 | [Expatax](https://expatax.mt/maltas-pre-departure-course-explained/) |
+| Before you travel | First single permit, paid online by the employer or by you | €600 | [Jobsplus](https://jobsplus.gov.mt/find-candidates/non-eu-nationals-tcns) |
+| | **Subtotal before you travel** | **€250–1,085** | |
+| Flight | Dhaka → Malta, one way with one stop (lowest online fares) | US$458–576 | [Jetcost](https://us.jetcost.com/en/flights/dhaka-zia/malta-luqa/DAC-MLA) |
+| Malta | Room in a shared flat in Birkirkara or San Ġwann, before bills | €350–500 | [FreeMalta](https://freemalta.com/articles/shared-apartment-cost-malta-expats) |
+| Malta | Food, transport and phone until your first pay | €300–500 | estimate |
+| | **Subtotal in Malta** | **€650–1,000** | |
+
+Licensed Maltese agencies may not charge you, and pay below the €994 minimum is illegal. Rooms in Msida or Valletta cost €400–560 before bills.
+
+### Know before you go
+
+- **No work before the permit.** It is illegal to employ you before Identità issues your permit, and the permit is for one employer ([Jobsplus](https://jobsplus.gov.mt/find-candidates/non-eu-nationals-tcns)).
+- **Below-minimum offers are illegal.** Some Bangladeshi agencies offered €600-a-month jobs and a €1,500 "gift" per worker to employers. Malta's minimum wage is €994 a month ([The Shift](https://theshiftnews.com/2024/07/19/bangladeshi-agencies-targeting-malta-for-e600-a-month-jobs/)).
+- **No new courier or cab jobs.** Since July 2024 Malta refuses new work permits for food couriers and cab drivers, so don't pay for these jobs ([MaltaToday](https://www.maltatoday.com.mt/news/national/130415/abela_says_malta_has_enough_cab_drivers_and_couriers_after_hundreds_have_permits_refused)).
+- **Employers are checked.** Jobsplus can refuse employers that dismiss too many foreign workers, and every job must be advertised in Malta and the EU first ([Jobsplus](https://jobsplus.gov.mt/media/0c3ppzjb/malta-labour-migration-policy-implementation-doc-jul-2025.pdf)).
+- **Processing can stop.** Malta has frozen Bangladeshi visa applications before, so keep your job in Bangladesh until your visa is issued ([Lovin Malta](https://lovinmalta.com/news/bangladesh-malta-visa-applications-frozen/)).
+- **Remote-work permit.** The Nomad Residence Permit needs €42,000 a year of income from outside Malta and is renewed one year at a time ([Residency Malta](https://nomad.residencymalta.gov.mt/new-faqs)).
+
+### Where to find a job in Malta
+
+Most ads are in English. Hotels hire for summer from early in the year; tech and iGaming firms hire all year.
+
+| Site | What it is for |
+|---|---|
+| [Jobsplus vacancies](https://jobsplus.gov.mt/vacancy) | Malta's public employment service. Employers must advertise here before they may hire you. |
+| [Keepmeposted](https://keepmeposted.com.mt/) | Popular for iGaming, tech and office jobs. |
+| [jobsinmalta.com](https://jobsinmalta.com/) | The most visited Maltese job board in 2026, with job alerts. |
+| [Konnekt](https://www.konnekt.com/) | Recruiter and job portal for tech, finance and iGaming. |
+| [VacancyCentre](https://www.vacancycentre.com/) | Finance, IT and gaming jobs, run by CSB Group. |
+| [Careerjet Malta](https://www.careerjet.com.mt/) | Collects job ads from many Maltese sites in one search. |
+| [Identità: single permit](https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/) | Official rules and fees for the work-and-residence permit. |
+| [Skills Pass and pre-departure course](https://skillspass.org.mt/) | Where you register for the €250 course and the hotel-job Skills Pass. |
+| [VFS Global: Malta D visa in Dhaka](https://www.vfsglobal.com/one-pager/malta-extended-services/bangladesh/english/index.html) | Appointments, fees and the 60-day rule after your approval letter. |
 
 ---
 
@@ -1434,7 +1628,7 @@ Some tech employers pay the flight or the visa fee, so ask before you sign. IELT
 - Croatia: [VFS Croatia–Bangladesh](https://visa.vfsglobal.com/bgd/en/hrv)
 - Italy: [Italian Embassy Dhaka – work visa](https://ambdhaka.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/work-visa/)
 - Greece: [Ministry of Labour](https://ypergasias.gov.gr/en/labour-relations/individual-employment-relations/work-for-third-country-nationals-in-greece/) · [GVCW Dhaka](https://bd-gr.gvcworld.eu/en/visa-info-long-term-national-d-visa)
-- Malta: [Identità – Single Permit](https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/) · [Skills Pass](https://skillspass.org.mt/)
+- Malta: [Identità – Single Permit](https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/) · [Skills Pass](https://skillspass.org.mt/) · [VFS Malta–Bangladesh](https://www.vfsglobal.com/one-pager/malta-extended-services/bangladesh/english/index.html)
 - Portugal: [Portuguese visa portal](https://vistos.mne.gov.pt/en/highlights/change-in-the-regime-regarding-work-seeking-visa-applications)
 - Serbia: [Welcome to Serbia](https://welcometoserbia.gov.rs/residence-and-work-permit)
 - Germany: [Make it in Germany](https://www.make-it-in-germany.com) · [German Embassy Dhaka](https://dhaka.diplo.de/bd-en/service/2682868-2682868)

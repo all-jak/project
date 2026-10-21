@@ -36,7 +36,7 @@ window.GUIDE = {
       nonskilled: { lvl: 1, text: "Salary floor of SEK 34,470 a month rules out most non-skilled jobs." },
       skilled: { lvl: 2, text: "From 1 June 2026 the salary must be at least 90% of the median wage (SEK 34,470 a month)." },
       link: ["Migrationsverket – salary rule", "https://www.migrationsverket.se/en/employers/news-archive-for-employers/news/2026-06-16-new-median-salary-affects-the-salary-requirement-for-work-permits.html"] },
-    { iso: "FIN", name: "Finland", x: 6, y: 0, apply: "Online, then ID check in New Delhi",
+    { iso: "FIN", name: "Finland", x: 6, y: 0, apply: "Online, then ID check at VFS New Delhi",
       you: { lvl: 2, route: "tech", text: "Employee permit from €1,600 a month, but a labour-market check applies. The specialist permit needs €3,937 a month." },
       nonskilled: { lvl: 1, text: "Mostly seasonal berry and farm work through specific recruiters." },
       skilled: { lvl: 4, text: "General minimum €1,600 a month; specialist and EU Blue Card €3,937 a month (2026)." },
@@ -46,12 +46,12 @@ window.GUIDE = {
       nonskilled: { lvl: 1, text: "No general route for non-skilled workers." },
       skilled: { lvl: 1, text: "DKK 552,000 a year, DKK 446,000 for advertised jobs, or a job on the Positive List." },
       link: ["New to Denmark – Fast-Track", "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Fast-track"] },
-    { iso: "EST", name: "Estonia", x: 6, y: 1, apply: "Check the Estonian embassy page",
+    { iso: "EST", name: "Estonia", x: 6, y: 1, apply: "New Delhi (Estonian Embassy)",
       you: { lvl: 2, route: "tech", text: "Tech hub, but a national quota of 1,292 permits. Pay must reach the average salary (€2,092 in 2025). Nomad visa needs €4,500 a month." },
       nonskilled: { lvl: 1, text: "Short-term work must pay the average salary; small national quota." },
       skilled: { lvl: 1, text: "Immigration quota 1,292 for 2026; salary at least the national average." },
       link: ["Estonian Interior Ministry – migration", "https://www.siseministeerium.ee/en/activities/efficient-population-management/migration"] },
-    { iso: "IRL", name: "Ireland", x: 1, y: 2, apply: "New Delhi (by post; no biometrics)",
+    { iso: "IRL", name: "Ireland", x: 1, y: 2, apply: "Online, then by post to New Delhi (no trip)",
       you: { lvl: 3, route: "tech", text: "General Employment Permit from €36,605 a year. Experience can replace a degree. English-speaking." },
       nonskilled: { lvl: 2, text: "Permits for horticulture, meat processing and care assistants from €32,691 a year." },
       skilled: { lvl: 3, text: "From 1 March 2026: General permit €36,605; Critical Skills €40,904 with a degree, €68,911 without." },
@@ -61,7 +61,7 @@ window.GUIDE = {
       nonskilled: { lvl: 1, text: "Overseas recruitment of care workers closed in July 2025." },
       skilled: { lvl: 1, text: "Degree-level (RQF 6) jobs only, £41,700 or the going rate, English B2 from 8 January 2026." },
       link: ["GOV.UK – Skilled Worker visa", "https://www.gov.uk/skilled-worker-visa"] },
-    { iso: "LVA", name: "Latvia", x: 6, y: 2, apply: "Check the Latvian embassy page",
+    { iso: "LVA", name: "Latvia", x: 6, y: 2, apply: "New Delhi (Latvian Embassy, in person)",
       you: { lvl: 2, route: "farm", text: "In August 2026 the government proposed quotas and limits on visas for some countries." },
       nonskilled: { lvl: 2, text: "Proposed quotas and visa limits (August 2026)." },
       skilled: { lvl: 2, text: "Proposed quotas and visa limits (August 2026)." },
@@ -76,22 +76,22 @@ window.GUIDE = {
       nonskilled: { lvl: 1, text: "No general route without a qualification. Vocational training (Ausbildung) usually needs German B1." },
       skilled: { lvl: 4, text: "Opportunity Card (job-search visa), skilled-worker visa, or EU Blue Card from €50,700 (€45,934 in shortage jobs)." },
       link: ["German Embassy Dhaka – national visa", "https://dhaka.diplo.de/bd-en/service/2682868-2682868"] },
-    { iso: "POL", name: "Poland", x: 5, y: 3, apply: "Dhaka (VFS), decided in New Delhi",
+    { iso: "POL", name: "Poland", x: 5, y: 3, apply: "New Delhi (VFS Global)",
       you: { lvl: 4, route: "tech", text: "Big IT sector. The employer gets a work permit for you; fees and checks went up in 2026." },
       nonskilled: { lvl: 4, text: "Work permit plus D visa; higher fees and new refusal grounds in 2026." },
       skilled: { lvl: 4, text: "Employer-sponsored work permit; most steps now online." },
       link: ["Grant Thornton – 2026 changes", "https://grantthornton.pl/en/article/employment-of-foreign-nationals-in-poland-in-2026-key-changes-and-important-deadlines-in-immigration-regulations/"] },
-    { iso: "LTU", name: "Lithuania", x: 6, y: 3, apply: "Check the Lithuanian embassy page",
+    { iso: "LTU", name: "Lithuania", x: 6, y: 3, apply: "India (VFS Global; Indian X visa needed)",
       you: { lvl: 2, route: "tech", text: "Quota of 24,706 permits for 2026, down from 40,250 in 2024; the industry share ran out early." },
       nonskilled: { lvl: 2, text: "2026 quota 24,706; industry quota exhausted early." },
       skilled: { lvl: 2, text: "Quota applies to most employment permits." },
       link: ["LRT – quota exhausted", "https://www.lrt.lt/en/news-in-english/19/2415719/lithuanian-industry-exhausts-quota-for-hiring-third-country-nationals"] },
-    { iso: "BEL", name: "Belgium", x: 2, y: 4, apply: "—",
+    { iso: "BEL", name: "Belgium", x: 2, y: 4, apply: "Dhaka (Belgian visa centre)",
       you: { lvl: -1, route: "none", text: "Not covered in this guide. Check the EU Immigration Portal." },
       nonskilled: { lvl: -1, text: "Not covered in this guide." },
       skilled: { lvl: -1, text: "Not covered in this guide." },
       link: ["EU Immigration Portal", "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en"] },
-    { iso: "LUX", name: "Luxembourg", x: 3, y: 4, apply: "—",
+    { iso: "LUX", name: "Luxembourg", x: 3, y: 4, apply: "By courier to the embassy in New Delhi",
       you: { lvl: -1, route: "none", text: "Not covered in this guide. Check the EU Immigration Portal." },
       nonskilled: { lvl: -1, text: "Not covered in this guide." },
       skilled: { lvl: -1, text: "Not covered in this guide." },
@@ -151,7 +151,7 @@ window.GUIDE = {
       nonskilled: { lvl: 4, text: "Biggest legal European market for Bangladeshis; yearly quota with click days; slow and fraud-prone." },
       skilled: { lvl: 3, text: "EU Blue Card outside the quota, but embassy processing is slow." },
       link: ["Italian Embassy Dhaka – work visa", "https://ambdhaka.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/work-visa/"] },
-    { iso: "SVN", name: "Slovenia", x: 4, y: 6, apply: "Check the Slovenian embassy page",
+    { iso: "SVN", name: "Slovenia", x: 4, y: 6, apply: "New Delhi (Slovenian Embassy)",
       you: { lvl: 2, route: "farm", text: "Single permit through the Employment Service; employers reported reluctant to hire Bangladeshis." },
       nonskilled: { lvl: 2, text: "Employers reported reluctant to hire Bangladeshis." },
       skilled: { lvl: 2, text: "Single permit through the Employment Service (ZRSZ)." },
@@ -166,12 +166,12 @@ window.GUIDE = {
       nonskilled: { lvl: 0, text: "BMET clearance on hold since September 2026." },
       skilled: { lvl: 0, text: "BMET clearance on hold since September 2026." },
       link: ["TBS – clearance on hold", "https://www.tbsnews.net/bangladesh/visas-holders-urge-bmet-resume-manpower-clearance-serbia-north-macedonia-moldova-1552981"] },
-    { iso: "BGR", name: "Bulgaria", x: 7, y: 6, apply: "New Delhi (interview required)",
+    { iso: "BGR", name: "Bulgaria", x: 7, y: 6, apply: "New Delhi (VFS Global)",
       you: { lvl: 4, route: "farm", text: "Single permit; employers may only have 20–35% foreign staff; low wages (minimum wage about €620 a month)." },
       nonskilled: { lvl: 4, text: "Single permit with a 15-day labour-market test; 20–35% foreign-staff cap." },
       skilled: { lvl: 3, text: "Same single permit; EU Blue Card also available." },
       link: ["Bulgarian MFA – Bangladesh", "https://www.mfa.bg/en/embassyinfo/bangladesh"] },
-    { iso: "BIH", name: "Bosnia & Herzegovina", x: 5, y: 7, apply: "Check the embassy page",
+    { iso: "BIH", name: "Bosnia & Herzegovina", x: 5, y: 7, apply: "New Delhi (embassy)",
       you: { lvl: 2, route: "farm", text: "7,427 permits for 2026; low wages; often misused as a transit route." },
       nonskilled: { lvl: 2, text: "Quota 7,427 permits for 2026." },
       skilled: { lvl: 2, text: "Quota applies." },
@@ -187,7 +187,7 @@ window.GUIDE = {
       skilled: { lvl: 0, text: "BMET clearance on hold." },
       link: ["TBS – clearance on hold", "https://www.tbsnews.net/bangladesh/visas-holders-urge-bmet-resume-manpower-clearance-serbia-north-macedonia-moldova-1552981"] },
     { iso: "MLT", name: "Malta", x: 3, y: 8, apply: "Dhaka (VFS)",
-      you: { lvl: 4, route: "farm", text: "Hospitality and general jobs through an Identità single permit plus a €250 pre-departure course. Nomad permit needs €42,000 a year." },
+      you: { lvl: 4, route: "farm", text: "Hospitality and general jobs through an Identità single permit plus a €250 pre-departure course. Developers can use a €30,000 fast-track. See the Malta section." },
       nonskilled: { lvl: 4, text: "Steady demand; mandatory €250 pre-departure course since 1 March 2026." },
       skilled: { lvl: 3, text: "Single permit through the employer." },
       link: ["Identità – single permit", "https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/"] },
@@ -211,19 +211,19 @@ window.GUIDE = {
   /* Section A and B ranking tables (difficulty scale 1 = easiest, as in the markdown guide). */
   rankNonSkilled: [
     ["ROU", 2, "90,000 work permits for 2026. Trades on the shortage list. New official online hiring system.", "New Delhi (Romanian Embassy, eVisa appointment)"],
-    ["HRV", 2, "100k+ permits a year. Since June 2026 you can change employer after 6 months.", "Dhaka (VFS), decided by the embassy in New Delhi"],
+    ["HRV", 2, "100k+ permits a year, but few for Bangladeshis since a January 2025 crackdown (3,183 in Jan–Nov 2025). Since June 2026 you can change employer after 6 months.", "Dhaka (VFS), decided by the embassy in New Delhi"],
     ["ITA", 3, "Biggest legal European market for Bangladeshis. Yearly quota lottery (click days Jan–Feb 2027). Heavy fraud checks.", "Dhaka (Italian Embassy via VFS)"],
     ["GRC", 3, "Government-to-government seasonal farm programme (4,000 a year) through BOESL. New 2026 migration law.", "Dhaka (GVCW visa centre)"],
     ["MLT", 3, "Steady demand in hospitality, cleaning and construction. New mandatory €250 pre-departure course.", "Dhaka (VFS)"],
-    ["BGR", 3, "Single permit. Employers may only have 20–35% foreign staff. Low wages.", "New Delhi (mandatory interview)"],
-    ["POL", 3, "Work permit plus D visa. Fees and refusal checks increased in 2026.", "Dhaka (VFS), decided in New Delhi"],
+    ["BGR", 3, "Single permit. Employers may only have 20–35% foreign staff. Low wages.", "New Delhi (VFS Global)"],
+    ["POL", 3, "Work permit plus D visa. Fees and refusal checks increased in 2026.", "New Delhi (VFS Global)"],
     ["PRT", 3.5, "Open job-seeker visa abolished in October 2025. You now need a real job contract.", "New Delhi (Portuguese Embassy)"],
     ["SVK", 3.5, "Shortage jobs (drivers, construction, factories). Stricter rules from July 2026.", "New Delhi (Slovak Embassy)"],
     ["CYP", 3.5, "Farm, factory, delivery and retail jobs. Company caps on foreign staff. The Republic of Cyprus only, not the north.", "Dhaka (VFS), decided in New Delhi"],
-    ["SVN", 4, "Employers reluctant to hire Bangladeshis.", "Mostly New Delhi"],
-    ["LTU", 4, "Quota cut to 24,706; industry share ran out early.", "Mostly New Delhi"],
-    ["LVA", 4, "New quota and visa limits proposed in August 2026.", "Mostly New Delhi"],
-    ["BIH", 4, "7,427 permits for 2026; low wages; transit-route risk.", "Check the embassy page"],
+    ["SVN", 4, "Employers reluctant to hire Bangladeshis.", "New Delhi (Slovenian Embassy)"],
+    ["LTU", 4, "Quota cut to 24,706; industry share ran out early.", "India (VFS Global)"],
+    ["LVA", 4, "New quota and visa limits proposed in August 2026.", "New Delhi (Latvian Embassy)"],
+    ["BIH", 4, "7,427 permits for 2026; low wages; transit-route risk.", "New Delhi (embassy)"],
     ["MNE", 4, "28,988 permits for 2026, mostly taken by Turkish, Serbian and Russian workers. €600 net minimum wage. Talks on a deal with Bangladesh (October 2026), nothing signed.", "Dhaka (VFS Global)"],
     ["CZE", 4.5, "Tiny quotas for Bangladeshis.", "New Delhi (Czech Embassy)"],
     ["SRB", "hold", "BMET clearance on hold (September 2026). Forced-labour cases reported.", "New Delhi (Serbian Embassy)"],
@@ -233,10 +233,10 @@ window.GUIDE = {
 
   rankSkilled: [
     ["DEU", 3, "Opportunity Card (job-search visa), or a job offer plus a recognised qualification. EU Blue Card from €50,700 a year (€45,934 in shortage jobs).", "Dhaka (German Embassy, online portal)"],
-    ["FIN", 3, "General minimum €1,600 a month. Specialist and Blue Card €3,937 a month.", "Online, then ID check in New Delhi"],
+    ["FIN", 3, "General minimum €1,600 a month. Specialist and Blue Card €3,937 a month.", "Online, then ID check at VFS New Delhi"],
     ["CYP", 3, "Foreign-owned (often tech) companies: €2,500 a month before tax, a degree or 2 years' experience, no labour-market test. EU Blue Card €43,632 a year.", "Dhaka (VFS), decided in New Delhi"],
     ["AUT", 3.5, "Red-White-Red Card: 55 of 90 points for shortage jobs, collective-agreement pay.", "New Delhi (Austrian Embassy)"],
-    ["IRL", 3.5, "General permit €36,605. Critical Skills €40,904 with a degree.", "New Delhi (by post, no biometrics)"],
+    ["IRL", 3.5, "General permit €36,605. Critical Skills €40,904 with a degree.", "Online, then by post to New Delhi (no trip)"],
     ["ESP", 4, "Employer authorisation. No labour-market test for hard-to-fill jobs.", "Dhaka (Spanish Embassy / BLS)"],
     ["FRA", 4, "Talent permits (reference salary €39,582) or shortage-list jobs. French helps.", "Dhaka (French Embassy)"],
     ["NLD", 4, "Recognised-sponsor employer; €5,942 a month (30+) or €4,357 (under 30).", "Dhaka (Dutch Embassy)"],
@@ -244,7 +244,7 @@ window.GUIDE = {
     ["DNK", 4.5, "DKK 552,000 a year, DKK 446,000 (supplementary), or a Positive List job.", "Dhaka (VFS)"],
     ["NOR", 4.5, "Degree or trade certificate; NOK 545,400+ a year for degree-level jobs.", "Dhaka (VFS, via Danish Embassy)"],
     ["GBR", 4.5, "Degree-level (RQF 6) job, £41,700 or the going rate, English B2.", "Dhaka (VFS)"],
-    ["EST", 4.5, "Pay at least the average salary; national quota 1,292 a year.", "Check the embassy page"],
+    ["EST", 4.5, "Pay at least the average salary; national quota 1,292 a year.", "New Delhi (Estonian Embassy)"],
     ["CHE", 5, "Only 8,500 permits a year for all non-EU nationals; top specialists only.", "Dhaka (Swiss Embassy)"]
   ],
 
@@ -263,7 +263,8 @@ window.GUIDE = {
       ["Over 160,000 permits in Jan–Nov 2025; Bangladesh got 3,183 (Nepal 29,579, India 14,500).", ["Croatia Week", "https://www.croatiaweek.com/foreign-workers-in-croatia-160000-permits-in-2025-where-they-come-from/"]],
       ["Since 4 June 2026: change employer after 6 months, seasonal permits up to 3 years, 3 months to find a new job if you lose yours.", ["Croatia Week", "https://www.croatiaweek.com/croatia-new-foreign-workers-law-2026/"]],
       ["You must pass a Croatian A1.1 exam to renew your permit after one year.", ["Croatia Week", "https://www.croatiaweek.com/croatia-mandatory-croatian-language-test-foreign-workers-law/"]],
-      ["Visa files go through VFS Global in Dhaka and are decided by the Croatian Embassy in New Delhi.", ["VFS Croatia–Bangladesh", "https://visa.vfsglobal.com/bgd/en/hrv"]]
+      ["Visa files go through VFS Global in Dhaka and are decided by the Croatian Embassy in New Delhi.", ["VFS Croatia–Bangladesh", "https://visa.vfsglobal.com/bgd/en/hrv"]],
+      ["In January 2025 Croatia said it would stop issuing work permits to Bangladeshis, after 8,000 of 12,400 people given permits and visas in 2024 never arrived. Expect strict checks.", ["TBS", "https://www.tbsnews.net/bangladesh/croatia-stop-issuing-work-permits-bangladeshi-workers-embassy-says-1054731"]]
     ],
     ITA: [
       ["Decreto Flussi: 164,850 places in 2026 and 165,850 in 2027. Bangladesh is on the eligible list.", ["Immigrazione Bologna", "https://www.immigrazionebologna.it/en/2025/10/22/flows-decree-2026-2028/"]],
@@ -285,11 +286,12 @@ window.GUIDE = {
     ],
     BGR: [
       ["Foreign staff capped at 20% (large firms) or 35% (small and medium firms); a draft law may raise this by 5 points.", ["Innovires", "https://www.innovires.com/en/blog/work-permit-bulgaria.html"]],
-      ["No embassy in Bangladesh; D-visa interview at the Bulgarian Embassy in New Delhi.", ["Bulgarian MFA", "https://www.mfa.bg/en/embassyinfo/bangladesh"]]
+      ["No embassy in Bangladesh. Since 1 November 2025 D visas are lodged at VFS Global in New Delhi instead of at the embassy.", ["VFS Global", "https://www.vfsglobal.com/en/PDF/media-releases/2025/MR_Bulgaria_D_visa_services_rollout_in_India_Oct_2025.pdf"]]
     ],
     POL: [
       ["2026: permit fees up to PLN 400, new refusal grounds, most steps online.", ["Grant Thornton", "https://grantthornton.pl/en/article/employment-of-foreign-nationals-in-poland-in-2026-key-changes-and-important-deadlines-in-immigration-regulations/"]],
-      ["Sweden's embassy in Dhaka stopped handling Polish Schengen visas after 15 April 2026.", ["Swedish Embassy notice", "https://www.swedenabroad.se/en/embassies/bangladesh-dhaka/current/news/notice-visa-application-poland/"]]
+      ["Sweden's embassy in Dhaka stopped handling Polish Schengen visas after 15 April 2026.", ["Swedish Embassy notice", "https://www.swedenabroad.se/en/embassies/bangladesh-dhaka/current/news/notice-visa-application-poland/"]],
+      ["The Polish Embassy in New Delhi covers Bangladesh and takes D visas through visa centres in India. We found no Polish visa centre in Dhaka.", ["gov.pl – Embassy in New Delhi", "https://www.gov.pl/web/india/d-type-national-visa"]]
     ],
     PRT: [
       ["Law 61/2025 (23 October 2025) abolished the open job-seeker visa; the replacement is for highly qualified people only.", ["Fragomen", "https://www.fragomen.com/insights/portugal-significant-immigration-reforms-in-effect.html"]],
@@ -318,7 +320,7 @@ window.GUIDE = {
     ],
     FIN: [
       ["Employee permit minimum €1,600 a month; specialist and Blue Card €3,937 a month in 2026.", ["Migri", "https://migri.fi/en/working-in-finland/income-requirement"]],
-      ["Apply online, then prove your identity in New Delhi.", ["Finland abroad – Bangladesh", "https://finlandabroad.fi/web/bgd/residence-permits-to-finland"]]
+      ["Apply online, then prove your identity at VFS Global in New Delhi. VFS India also verifies Bangladeshi documents.", ["Finland abroad – Bangladesh", "https://finlandabroad.fi/web/bgd/residence-permits-to-finland"]]
     ],
     AUT: [
       ["Shortage occupations (64 nationwide, 66 regional): 55 of 90 points, collective-agreement pay, no labour test. Other key workers: €3,465 a month.", ["migration.gv.at", "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/skilled-workers-in-shortage-occupations/"]],
@@ -355,7 +357,8 @@ window.GUIDE = {
       ["Only employers on the licensed-sponsor register can hire you.", ["GOV.UK register", "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers"]]
     ],
     EST: [
-      ["Immigration quota 1,292 for 2026; short-term work must pay the average salary.", ["Estonian Interior Ministry", "https://www.siseministeerium.ee/en/activities/efficient-population-management/migration"]]
+      ["Immigration quota 1,292 for 2026; short-term work must pay the average salary.", ["Estonian Interior Ministry", "https://www.siseministeerium.ee/en/activities/efficient-population-management/migration"]],
+      ["Apply for the D visa at the Estonian Embassy in New Delhi; embassies in Dhaka that issue some Estonian short-stay visas cannot take D visas.", ["Estonian Embassy New Delhi", "https://newdelhi.mfa.ee/for-bangladesh-nepal-sri-lanka-citizens/"]]
     ],
     CYP: [
       ["Foreign-owned companies (tech, shipping, pharma) can hire non-EU staff on a fast-track: €2,500 a month before tax, a degree or 2 years' relevant experience, and a contract of at least 2 years. No labour-market test.", ["Zeno Legal", "https://www.zenolegal.com/resources/cyprus-work-permit-non-eu-employer-sponsorship-2026"]],
@@ -444,17 +447,6 @@ window.GUIDE = {
     { date: "5 Oct", where: "Montenegro", text: "A visiting MP says Montenegro needs 50,000+ workers a year and is open to a deal with Bangladesh. Nothing signed yet.", kind: "mixed" }
   ],
 
-  dhaka: [
-    ["Croatia", "VFS (decided in New Delhi)"], ["Italy", "Embassy via VFS"], ["Greece", "GVCW centre"], ["Malta", "VFS"],
-    ["Poland", "VFS (decided in New Delhi)"], ["Germany", "Embassy, online portal"], ["Spain", "Embassy / BLS"], ["France", "Embassy"],
-    ["Netherlands", "Embassy"], ["Sweden", "Embassy"], ["Denmark", "VFS"], ["Norway", "VFS via Danish Embassy"], ["United Kingdom", "VFS"], ["Switzerland", "Embassy"], ["Montenegro", "VFS"], ["Cyprus", "VFS (decided in New Delhi)"]
-  ],
-  delhi: [
-    ["Romania", "Embassy, eVisa appointment"], ["Bulgaria", "Embassy interview"], ["Portugal", "Embassy"], ["Slovakia", "Embassy"],
-    ["Czech Republic", "Embassy"], ["Austria", "Embassy"], ["Ireland", "By post or VFS Kolkata"], ["Finland", "ID check at VFS"],
-    ["Serbia", "Embassy"]
-  ],
-
   /* ---------- job portals ----------
      type: bd | eu | country | board | register | remote
      for: any of "you" (developer), "nonskilled", "skilled" */
@@ -471,6 +463,7 @@ window.GUIDE = {
     { name: "WorkinRomania.gov.ro", url: "https://workinromania.gov.ro", type: "country", for: ["you", "nonskilled"], where: "Romania", text: "The only legal hiring channel now; your employer must be authorised here." },
     { name: "Croatian Employment Service – Burza rada", url: "https://burzarada.hzz.hr", type: "country", for: ["nonskilled"], where: "Croatia", text: "All registered vacancies in Croatia." },
     { name: "Jobsplus vacancies", url: "https://jobsplus.gov.mt/vacancy", type: "country", for: ["nonskilled"], where: "Malta", text: "Malta's public employment service." },
+    { name: "Keepmeposted", url: "https://keepmeposted.com.mt/", type: "country", for: ["you", "skilled"], where: "Malta", text: "Popular Maltese job board for iGaming, tech and office jobs." },
     { name: "Central Job Offers Database (CBOP)", url: "https://oferty.praca.gov.pl/portal", type: "country", for: ["you", "nonskilled"], where: "Poland", text: "Official database of vacancies from all Polish labour offices." },
     { name: "National Employment Service (NSZ)", url: "https://www.nsz.gov.rs", type: "country", for: ["nonskilled"], where: "Serbia", text: "Official vacancies (BMET clearance for Serbia is on hold)." },
     { name: "Czech jobs open to non-EU workers", url: "https://up.gov.cz/en/for-foreigners", type: "country", for: ["skilled", "nonskilled"], where: "Czech Republic", text: "Central database of vacancies for Employee Card and Blue Card holders." },
@@ -519,6 +512,60 @@ window.GUIDE = {
     ["Northern Cyprus", "Not in the EU and recognised only by Turkey. Agents sell its student visas as a back door to Europe; Bangladeshis who cross to the south and claim asylum are almost always refused (3% of claims in the EU succeeded in 2025).", ["EUAA", "https://www.euaa.europa.eu/latest-asylum-trends-annual-analysis/applications"]],
     ["Boat and Balkan routes", "97,832 Bangladeshis entered Europe irregularly in 2020–2024 (IOM), and many died. The EU's new migration pact makes legal status afterwards harder.", ["Bonik Barta", "https://en.bonikbarta.com/bangladesh/VQHz2VqTzKVHu8Hj"]]
   ],
+
+  /* ---------- Where you apply: Dhaka or India, checked 21 October 2026 ----------
+     group: dhaka (in person in Dhaka) | online (online, by post or by courier, no visit)
+            | india (you must go to India) | closed (not open to you now).
+     only: true = not covered elsewhere in this guide. src = [[label, url], ...] */
+  where: {
+    kpis: [
+      { value: "20", label: "countries take your work-visa application without an India trip: in Dhaka, online or by post", src: ["List below", "#where-lists"] },
+      { value: "13", label: "countries need a trip to India, almost all to New Delhi, often for an in-person appointment", src: ["List below", "#where-lists"] },
+      { value: "Tk 17,700", label: "plus a hotel for the cheapest India trip: Indian visa processing and a Dhaka ⇄ Delhi return flight", src: ["Official costs", "#diy"] }
+    ],
+    rows: [
+      { iso: "BEL", name: "Belgium", group: "dhaka", only: true, place: "Belgian visa centre, Dhaka", how: "Book at the Belgian Visa Application Centre in Dhaka, open since 16 November 2025. D-visa handling fee €250.", src: [["Belgium in India", "https://india.diplomatie.belgium.be/en/travel-belgium/visa-belgium/visa-belgium-if-you-live-bangladesh"]] },
+      { iso: "HRV", name: "Croatia", group: "dhaka", place: "VFS Global, Banani", how: "VFS Dhaka sends your file to the Croatian Embassy in New Delhi, which decides. The honorary consulate in Dhaka does the identity check.", note: "Few permits for Bangladeshis since a January 2025 crackdown.", src: [["VFS Croatia–Bangladesh", "https://visa.vfsglobal.com/bgd/en/hrv"], ["TBS", "https://www.tbsnews.net/bangladesh/croatia-stop-issuing-work-permits-bangladeshi-workers-embassy-says-1054731"]] },
+      { iso: "CYP", name: "Cyprus", group: "dhaka", place: "VFS Global, Gulshan", how: "VFS Dhaka sends your file to the Cyprus High Commission in New Delhi, which decides.", note: "Based on one Bangladeshi visa guide; check with VFS before you plan any Delhi trip.", src: [["Visa Bangla", "https://visabangla.com/travel/cyprus.html"]] },
+      { iso: "DNK", name: "Denmark", group: "dhaka", place: "Online, then VFS Dhaka", how: "Apply online, then give your fingerprints and photo at VFS Global in Dhaka.", src: [["Embassy of Denmark", "https://bangladesh.um.dk/en/news/important-notice-vfs-closed-for-bangladesh-national-election"]] },
+      { iso: "FRA", name: "France", group: "dhaka", place: "VFS Global, Dhaka", how: "Long-stay visas are lodged at VFS for the French Embassy in Dhaka.", src: [["France-Visas", "https://france-visas.gouv.fr/en/bangladesh"]] },
+      { iso: "DEU", name: "Germany", group: "dhaka", place: "German Embassy, Dhaka", how: "Book through the embassy's own online system; the embassy in Dhaka decides.", src: [["German Mission Dhaka", "https://dhaka.diplo.de/bd-en/service/2346500-2346500"]] },
+      { iso: "GRC", name: "Greece", group: "dhaka", place: "GVCW visa centre, Dhaka", how: "GVCW sends your file to the Greek Embassy in New Delhi, which decides. Courier Tk 10,200.", src: [["GVCW Bangladesh", "https://bd-gr.gvcworld.eu/en/visa-info-long-term-national-d-visa"]] },
+      { iso: "ITA", name: "Italy", group: "dhaka", place: "VFS Global, Dhaka", how: "Apply with your nulla osta; the Italian Embassy in Dhaka decides.", src: [["VFS Italy–Bangladesh", "https://visa.vfsglobal.com/one-pager/italy/bangladesh/english/"]] },
+      { iso: "MLT", name: "Malta", group: "dhaka", place: "VFS Global, Dhaka", how: "Book only after Identità's approval-in-principle letter arrives, and apply within 60 days of it.", src: [["VFS Malta–Bangladesh", "https://www.vfsglobal.com/one-pager/malta-extended-services/bangladesh/english/index.html"]] },
+      { iso: "MNE", name: "Montenegro", group: "dhaka", place: "VFS Global, Dhaka", how: "Montenegrin D visas are handled at VFS Global in Dhaka.", src: [["Government of Montenegro", "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/bangladesh"]] },
+      { iso: "NLD", name: "Netherlands", group: "dhaka", place: "Dutch Embassy, Dhaka", how: "After the IND approves your permit, book the embassy online within 3 months to get the MVV visa sticker.", src: [["Netherlands Worldwide", "https://www.netherlandsworldwide.nl/visa-the-netherlands/mvv-long-stay/apply-bangladesh"]] },
+      { iso: "NOR", name: "Norway", group: "dhaka", place: "VFS Global, Dhaka", how: "Apply online, then hand in your papers at VFS Dhaka; the Danish Embassy handles Norway's cases.", src: [["Norwegian Embassy", "https://www.norway.no/en/bangladesh/services-info/visitors-visa-res-permit/res-permit/"]] },
+      { iso: "ESP", name: "Spain", group: "dhaka", place: "BLS International, Dhaka", how: "Lodge the work and residence visa at BLS for the Spanish Embassy in Dhaka.", src: [["BLS Spain Dhaka", "https://bgd.blsspainvisa.com/assets/pdf/RESIDENCE-AND-WORK-VISA-TRA.pdf"]] },
+      { iso: "SWE", name: "Sweden", group: "dhaka", place: "Online, then VFS Dhaka", how: "Apply online to the Migration Agency, then give your fingerprints and photo at VFS Global in Dhaka.", src: [["VFS Sweden–Bangladesh", "https://visa.vfsglobal.com/one-pager/sweden/bangladesh/english/index.html"]] },
+      { iso: "CHE", name: "Switzerland", group: "dhaka", place: "Swiss Embassy, Dhaka", how: "Work entry visas go to the Swiss Embassy in Gulshan. Book early: appointments are scarce.", src: [["Swiss government", "https://www.bundesreisezentrale.admin.ch/countries/bangladesh/en/home/visa/entry-ch/work-permits/where-to-apply-work-permits.html"]] },
+      { iso: "GBR", name: "United Kingdom", group: "dhaka", place: "Online, then VFS Bangladesh", how: "Apply online on GOV.UK, then give your biometrics at a VFS centre in Bangladesh.", src: [["GOV.UK", "https://www.gov.uk/find-a-visa-application-centre"]] },
+
+      { iso: "IRL", name: "Ireland", group: "online", place: "Online, then by post", how: "Apply online, then post your papers and passport to the Irish Embassy in New Delhi, or use an agent at VFS Kolkata. Bangladeshis give no biometrics.", src: [["Ireland.ie", "https://www.ireland.ie/en/india/newdelhi/services/visas/visas-for-ireland/"]] },
+      { iso: "LUX", name: "Luxembourg", group: "online", only: true, place: "By courier to New Delhi", how: "Send the D-visa application to the Luxembourg Embassy in New Delhi by prepaid courier. The procedure changed on 1 October 2026.", src: [["Luxembourg Embassy New Delhi", "https://newdelhi.mae.lu/en/service_citoyens/visa-immigration/long-term-national-visa.html"]] },
+      { iso: "MUS", name: "Mauritius", group: "online", place: "Online, by the employer", how: "Your employer applies for the permit in Mauritius; you travel after it is approved.", src: [["Mauritius labour ministry", "https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF"]] },
+      { iso: "NZL", name: "New Zealand", group: "online", place: "Online", how: "Apply online. The medical check is done at IOM in Dhaka.", src: [["IOM Bangladesh", "https://bangladesh.iom.int/new-zealand-all-types-visa-applicants"]] },
+
+      { iso: "AUT", name: "Austria", group: "india", place: "Austrian Embassy, New Delhi", how: "The embassy in New Delhi covers Bangladesh; Austria has no mission in Dhaka.", src: [["European Commission", "https://intellectual-property-helpdesk.ec.europa.eu/organisations/austrian-embassy-new-delhi_en"], ["Daily Observer", "https://observerbd.com/news/499606"]] },
+      { iso: "BIH", name: "Bosnia & Herzegovina", group: "india", place: "BiH Embassy, New Delhi", how: "The embassy in New Delhi covers Bangladesh and sometimes holds consular camps in Dhaka.", src: [["BSS", "https://www.bssnews.net/news/262769"]] },
+      { iso: "BGR", name: "Bulgaria", group: "india", place: "VFS Global, New Delhi", how: "Since 1 November 2025 D visas are lodged at VFS in New Delhi instead of at the embassy.", src: [["Bulgarian MFA", "https://www.mfa.bg/en/embassyinfo/bangladesh"], ["VFS Global", "https://www.vfsglobal.com/en/PDF/media-releases/2025/MR_Bulgaria_D_visa_services_rollout_in_India_Oct_2025.pdf"]] },
+      { iso: "CZE", name: "Czech Republic", group: "india", place: "Czech Embassy, New Delhi", how: "Apply in person after booking in the embassy's system. Places for Bangladeshis are very few.", src: [["Czech Embassy New Delhi", "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/index.html"]] },
+      { iso: "EST", name: "Estonia", group: "india", place: "Estonian Embassy, New Delhi", how: "D visas cannot be lodged at the embassies in Dhaka that issue some Estonian short-stay visas.", src: [["Estonian Embassy New Delhi", "https://newdelhi.mfa.ee/for-bangladesh-nepal-sri-lanka-citizens/"]] },
+      { iso: "FIN", name: "Finland", group: "india", place: "Online, then VFS New Delhi", how: "Apply online, then prove your identity at VFS Global in New Delhi. VFS India verifies Bangladeshi documents.", src: [["Finland abroad – Bangladesh", "https://finlandabroad.fi/web/bgd/residence-permits-to-finland"]] },
+      { iso: "LVA", name: "Latvia", group: "india", place: "Latvian Embassy, New Delhi", how: "Apply in person, booking only at pieraksts.mfa.gov.lv/en/india.", src: [["Latvian MFA", "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa"]] },
+      { iso: "LTU", name: "Lithuania", group: "india", place: "VFS Global, India", how: "Apply at a VFS centre in India. You need an Indian double-entry X visa first.", src: [["Lithuanian MFA", "https://in.mfa.lt/en/coming-to-lithuania/visas/visa-authority-and-visa-application-centers/114"]] },
+      { iso: "POL", name: "Poland", group: "india", place: "VFS Global, New Delhi", how: "The Polish Embassy in New Delhi covers Bangladesh and takes D visas through visa centres in India.", note: "Some guides say Dhaka, but we found no Polish visa centre there.", src: [["gov.pl – Embassy in New Delhi", "https://www.gov.pl/web/india/d-type-national-visa"]] },
+      { iso: "PRT", name: "Portugal", group: "india", place: "Portuguese Embassy (VFS), New Delhi", how: "VFS accepts you only with an Indian double-entry X visa, which allows up to 15 days in India.", src: [["Portuguese Embassy New Delhi", "https://novadeli.embaixadaportugal.mne.gov.pt/en/consular-section/visas"]] },
+      { iso: "ROU", name: "Romania", group: "india", place: "Romanian Embassy, New Delhi", how: "Your appointment and consular interview are scheduled by your work-permit date and your eVisa application date.", src: [["Romanian Embassy New Delhi", "https://newdelhi.mae.ro/en/local-news/1202"]] },
+      { iso: "SVK", name: "Slovakia", group: "india", place: "Slovak Embassy, New Delhi", how: "Apply in person; appointments by e-mail (cons.delhi@mzv.sk). Appointments for low- and medium-skilled work visas were suspended in 2024.", src: [["Slovak Embassy New Delhi", "https://www.mzv.sk/en/web/dilli-en/services/national-visa"]] },
+      { iso: "SVN", name: "Slovenia", group: "india", place: "Slovenian Embassy, New Delhi", how: "The embassy in New Delhi covers Bangladesh.", src: [["Government of Slovenia", "https://www.gov.si/en/representations/"]] },
+
+      { iso: "HUN", name: "Hungary", group: "closed", place: "Closed", how: "Guest-worker permits closed to new applications since 6 June 2026.", src: [["Fragomen", "https://www.fragomen.com/insights/hungary-guest-worker-program-ends.html"]] },
+      { iso: "MDA", name: "Moldova", group: "closed", place: "On hold", how: "BMET clearance on hold (September 2026).", src: [["TBS", "https://www.tbsnews.net/bangladesh/visas-holders-urge-bmet-resume-manpower-clearance-serbia-north-macedonia-moldova-1552981"]] },
+      { iso: "MKD", name: "North Macedonia", group: "closed", place: "On hold", how: "BMET clearance on hold (September 2026).", src: [["TBS", "https://www.tbsnews.net/bangladesh/visas-holders-urge-bmet-resume-manpower-clearance-serbia-north-macedonia-moldova-1552981"]] },
+      { iso: "SRB", name: "Serbia", group: "closed", place: "On hold · Serbian Embassy, New Delhi", how: "BMET clearance on hold (September 2026). When it reopens, the visa is handled in New Delhi.", src: [["Welcome to Serbia", "https://welcometoserbia.gov.rs/help"]] }
+    ]
+  },
 
   /* ---------- costs ----------
      Every amount is in the currency you pay it in: taka in Bangladesh,
@@ -759,21 +806,21 @@ window.GUIDE = {
       { iso: "ITA", name: "Italy", status: "open", apply: "Dhaka (VFS)", you: "Visa €116 + VFS Tk 2,850; residence permit kit €116–126 after arrival", employer: "Nulla osta revenue stamp €16", extra: "The employer applies on the Decreto Flussi click day.", src: [["Italian Embassy Dhaka", "https://ambdhaka.esteri.it/wp-content/uploads/2026/06/Subordinate-work-type-D.pdf"], ["Questura", "https://questure.poliziadistato.it/statics/29/documenti-da-inserire-nel-kit-postale-per-le-principali-tipologie-di-permesso-di-soggiorno.pdf"]] },
       { iso: "GRC", name: "Greece", status: "open", apply: "Dhaka (GVCW), decided in New Delhi", you: "Visa €75 or €180 + contract attestation €30 + GVCW €30 + courier Tk 10,200", employer: "Approval inside the yearly quota", extra: "Residence-permit fee in Greece not found. BOESL's government programme is the other route.", src: [["GVCW fees", "https://in-gr.gvcworld.eu/en/long-term-national-d-visa"], ["GVCW Bangladesh", "https://bd-gr.gvcworld.eu/en/visa-info-long-term-national-d-visa"]] },
       { iso: "MLT", name: "Malta", status: "open", apply: "Dhaka (VFS)", you: "Pre-departure course €250 + VFS Tk 13,935–20,900", employer: "Single permit €600 (paid online by the employer or by you)", extra: "Renewal €150 a year.", src: [["Identità", "https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/single-permit-application/"], ["Free Malta", "https://freemalta.com/hub/single-permit"]] },
-      { iso: "BGR", name: "Bulgaria", status: "open", delhi: true, apply: "New Delhi (interview)", you: "D visa about €100–120", employer: "Single permit about €200–250", extra: "Foreign staff capped at 20–35% of a company.", src: [["Innovires", "https://www.innovires.com/en/blog/work-permit-bulgaria.html"]] },
-      { iso: "POL", name: "Poland", status: "open", apply: "Dhaka (VFS), decided in New Delhi", you: "D visa €80–135 + VFS fee", employer: "Work permit PLN 400", extra: "", src: [["Worksol", "https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/"], ["gov.pl", "https://www.gov.pl/web/india/d-type-national-visa"]] },
+      { iso: "BGR", name: "Bulgaria", status: "open", delhi: true, apply: "New Delhi (VFS Global)", you: "D visa about €100–120", employer: "Single permit about €200–250", extra: "Foreign staff capped at 20–35% of a company.", src: [["Innovires", "https://www.innovires.com/en/blog/work-permit-bulgaria.html"]] },
+      { iso: "POL", name: "Poland", status: "open", delhi: true, apply: "New Delhi (VFS Global)", you: "D visa €80–135 + VFS fee", employer: "Work permit PLN 400", extra: "", src: [["Worksol", "https://worksol.pl/en/the-real-cost-of-hiring-a-foreign-worker-in-poland-in-2026/"], ["gov.pl", "https://www.gov.pl/web/india/d-type-national-visa"]] },
       { iso: "PRT", name: "Portugal", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "D visa €110 (+ VFS about €40) + AIMA residence permit €186–247", employer: "Registers the vacancy with IEFP", extra: "Apply to AIMA within 120 days of arrival.", src: [["Jobbatical", "https://www.jobbatical.com/blog/portugal-immigration-updates"]] },
       { iso: "SVK", name: "Slovakia", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "Residence application €250 + visa €14–90", employer: "—", extra: "2024 fee schedule; confirm on minv.sk.", src: [["Euraxess Slovakia", "https://euraxesspoint.sav.sk/changes-in-administrative-fees-as-of-1-4-2024/"]] },
       { iso: "CYP", name: "Cyprus", status: "open", apply: "Dhaka (VFS), decided in New Delhi", you: "Entry and residence permit €70 + Aliens' Register €70 + visa fee", employer: "Applies for the employment approval", extra: "Older guides say apply in New Delhi; check with VFS first. See the Cyprus section.", src: [["Cyprus Interior Ministry", "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369"], ["Visa Bangla", "https://visabangla.com/travel/cyprus.html"]] },
-      { iso: "SVN", name: "Slovenia", status: "open", delhi: true, apply: "Mostly New Delhi", you: "€102 at the embassy, or €70 if the employer applies in Slovenia; card €12", employer: "Can lodge the application in Slovenia", extra: "", src: [["EU Immigration Portal", "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-slovenia_en"]] },
-      { iso: "LTU", name: "Lithuania", status: "open", delhi: true, apply: "New Delhi (VFS)", you: "D visa €120–140, or residence permit €160 + VFS €125", employer: "—", extra: "2026 quota 24,706.", src: [["VFS Global", "https://www.vfsglobal.com/one-pager/lithuania/uae/residencepermit/english"], ["VisaVerge", "https://www.visaverge.com/schengen/lithuania-visa-fees-and-payment-information/"]] },
-      { iso: "LVA", name: "Latvia", status: "open", delhi: true, apply: "Mostly New Delhi", you: "D visa €90 + residence permit €160 (€280 fast)", employer: "OCMA approval of the invitation", extra: "", src: [["Playroll", "https://playroll.com/work-permit-visas/latvia"]] },
-      { iso: "BIH", name: "Bosnia & Herzegovina", status: "open", apply: "Check the embassy page", you: "Visa D fee not confirmed", employer: "Work permit (fee not confirmed)", extra: "2026 quota 7,427.", src: [["Playroll", "https://playroll.com/work-permit-visas/bosnia-herzegovina"]] },
+      { iso: "SVN", name: "Slovenia", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "€102 at the embassy, or €70 if the employer applies in Slovenia; card €12", employer: "Can lodge the application in Slovenia", extra: "", src: [["EU Immigration Portal", "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-slovenia_en"]] },
+      { iso: "LTU", name: "Lithuania", status: "open", delhi: true, apply: "India (VFS Global; Indian X visa needed)", you: "D visa €120–140, or residence permit €160 + VFS €125", employer: "—", extra: "2026 quota 24,706.", src: [["VFS Global", "https://www.vfsglobal.com/one-pager/lithuania/uae/residencepermit/english"], ["VisaVerge", "https://www.visaverge.com/schengen/lithuania-visa-fees-and-payment-information/"]] },
+      { iso: "LVA", name: "Latvia", status: "open", delhi: true, apply: "New Delhi (embassy, in person)", you: "D visa €90 + residence permit €160 (€280 fast)", employer: "OCMA approval of the invitation", extra: "", src: [["Playroll", "https://playroll.com/work-permit-visas/latvia"]] },
+      { iso: "BIH", name: "Bosnia & Herzegovina", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "Visa D fee not confirmed", employer: "Work permit (fee not confirmed)", extra: "2026 quota 7,427.", src: [["Playroll", "https://playroll.com/work-permit-visas/bosnia-herzegovina"]] },
       { iso: "MNE", name: "Montenegro", status: "open", apply: "Dhaka (VFS)", you: "VFS Tk 4,300 + courier Tk 7,735 + visa fee", employer: "Residence and work permit €67", extra: "See the Montenegro section.", src: [["VFS Global", "https://visa.vfsglobal.com/one-pager/montenegro/bangladesh/english/index.html"], ["Montenegro e-government", "https://psc.gov.me/en/sektorske-informacije/ministarstvo-unutrasnjih-poslova/privremeni-boravak-i-rad-radna-dozvola"]] },
       { iso: "CZE", name: "Czech Republic", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "Employee Card CZK 5,000 + card CZK 2,500 on arrival", employer: "—", extra: "Very few places for Bangladeshis.", src: [["Czech MFA", "https://mzv.gov.cz/tokyo/en/visas_and_consular_info/visa_and_consular_fees/index.html"], ["ARWS", "https://arws.cz/en/news-at-arrows/czech-visa-and-residence-permit-fees"]] },
       { iso: "DEU", name: "Germany", status: "open", apply: "Dhaka (embassy, online portal)", you: "Visa €75 + VFS €19.13 + EU Blue Card €100", employer: "Federal Employment Agency approval", extra: "", src: [["German Mission Dhaka", "https://dhaka.diplo.de/bd-en/service/2346500-2346500"], ["Find English", "https://www.findenglish.de/blog/eu-blue-card-germany-2026-requirements-salary-threshold-how-to-apply"]] },
-      { iso: "FIN", name: "Finland", status: "open", delhi: true, apply: "Online, then ID check in New Delhi", you: "€750 online (€530 for specialists and Blue Card)", employer: "—", extra: "Paper application €950.", src: [["Migri", "https://migri.fi/en/-/changes-to-finnish-immigration-service-processing-fees-as-of-1-january-2026"]] },
+      { iso: "FIN", name: "Finland", status: "open", delhi: true, apply: "Online, then ID check at VFS New Delhi", you: "€750 online (€530 for specialists and Blue Card)", employer: "—", extra: "Paper application €950.", src: [["Migri", "https://migri.fi/en/-/changes-to-finnish-immigration-service-processing-fees-as-of-1-january-2026"]] },
       { iso: "AUT", name: "Austria", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "Red-White-Red Card €218 (older guides: €160 + €20 card)", employer: "—", extra: "", src: [["Visa Atlas", "https://visaatlas.org/fees/austria/red-white-red-card"]] },
-      { iso: "IRL", name: "Ireland", status: "open", apply: "Online, then by post or VFS", you: "Visa €60 + residence card €300", employer: "Employment permit €1,000 (or you; never deducted from pay)", extra: "", src: [["Citizens Information", "https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/"]] },
+      { iso: "IRL", name: "Ireland", status: "open", apply: "Online, then by post to New Delhi (no trip)", you: "Visa €60 + residence card €300", employer: "Employment permit €1,000 (or you; never deducted from pay)", extra: "", src: [["Citizens Information", "https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/work-permits/"]] },
       { iso: "ESP", name: "Spain", status: "open", apply: "Dhaka (embassy / BLS)", you: "Visa fee in taka at BLS (not confirmed) + TIE card €16–22", employer: "Work authorisation about €204–408", extra: "", src: [["BLS Spain Dhaka", "https://bgd.blsspainvisa.com/assets/pdf/RESIDENCE-AND-WORK-VISA-TRA.pdf"]] },
       { iso: "FRA", name: "France", status: "open", apply: "Dhaka (French Embassy)", you: "Visa €99 + residence validation €300 (+ €50 stamp)", employer: "OFII employer tax", extra: "Taxes rose on 1 May 2026.", src: [["Integration France", "https://www.integrationfrance.fr/articles/hausse-taxes-titres-sejour-mai-2026"]] },
       { iso: "NLD", name: "Netherlands", status: "open", apply: "Dhaka (Dutch Embassy)", you: "€0 if the employer pays the IND fee", employer: "IND fee €423 (recognised sponsor)", extra: "", src: [["Envoy", "https://www.envoyglobal.com/news-alert/the-netherlands-immigration-application-fees-2026/"]] },
@@ -781,7 +828,7 @@ window.GUIDE = {
       { iso: "DNK", name: "Denmark", status: "open", apply: "Online, then VFS Dhaka", you: "DKK 6,810 + VFS fee", employer: "— (some repay the fee)", extra: "", src: [["Erickson Immigration Group", "https://eiglaw.com/denmark-increases-residence-permit-fees-for-work-study-and-family-cases/"]] },
       { iso: "NOR", name: "Norway", status: "open", apply: "VFS Dhaka (via Danish Embassy)", you: "NOK 6,300 + VFS fee in taka equal to €21.42", employer: "—", extra: "", src: [["Visa Atlas", "https://visaatlas.org/fees/norway/skilled-worker-permit"], ["Norwegian Embassy", "https://www.norway.no/en/bangladesh/services-info/visitors-visa-res-permit/res-permit/"]] },
       { iso: "GBR", name: "United Kingdom", status: "open", apply: "Dhaka (VFS)", you: "Visa £819 + health surcharge £1,035 a year + TB test US$70 + English test", employer: "Sponsorship certificate and Immigration Skills Charge", extra: "Fees rose on 8 April 2026.", src: [["Davidson Morris", "https://www.davidsonmorris.com/uk-visa-fees"], ["GOV.UK", "https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-bangladesh/tuberculosis-testing-in-bangladesh"]] },
-      { iso: "EST", name: "Estonia", status: "open", apply: "Check the embassy page", you: "D visa €120, or residence permit €280", employer: "Registers short-term employment €130", extra: "", src: [["Jobbatical", "https://www.jobbatical.com/blog/estonia-immigration-fees"]] },
+      { iso: "EST", name: "Estonia", status: "open", delhi: true, apply: "New Delhi (embassy)", you: "D visa €120, or residence permit €280", employer: "Registers short-term employment €130", extra: "", src: [["Jobbatical", "https://www.jobbatical.com/blog/estonia-immigration-fees"]] },
       { iso: "CHE", name: "Switzerland", status: "open", apply: "Dhaka (Swiss Embassy)", you: "Visa about CHF 80–150 + commune registration about CHF 100", employer: "Cantonal permit, CHF 100–550", extra: "Only 8,500 non-EU permits a year.", src: [["The Local", "https://www.thelocal.ch/20260122/how-much-do-switzerlands-work-permits-cost-in-2026"]] },
       { iso: "NZL", name: "New Zealand", status: "open", apply: "Online", you: "NZ$1,540 + medical Tk 10,100", employer: "Accreditation NZ$775 + job check NZ$735", extra: "See the New Zealand section.", src: [["INZ fee table", "https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf"]] },
       { iso: "MUS", name: "Mauritius", status: "limited", apply: "Online: the employer applies (work permit or Occupation Permit)", you: "Nothing for a work permit: the employer pays recruitment costs", employer: "Work permit processing MUR 700 + permit fee; residence permit MUR 500 a year; your ticket home", extra: "Bangladeshis hired only for bakery, textile and printing jobs since September 2025. See the Mauritius section.", src: [["Mauritius labour ministry", "https://labour.govmu.org/Documents/A%20GUIDE%20FOR%20MIGRANT%20WORKERS%202019.PDF"], ["e-Work Permit guidelines", "https://workpermit.mu/eworkpermit_wkp/upload/cms/pdf/WP%20GUIDELINES%20UPDATED%20MAR2015.pdf"], ["Passport and Immigration Office", "https://passport.govmu.org/passport/?page_id=557"]] },
@@ -862,6 +909,79 @@ window.GUIDE = {
       { name: "Business in Cyprus (Business Facilitation Unit)", url: "https://www.businessincyprus.gov.cy/", where: "Cyprus · official", text: "The government unit that handles fast-track permits for foreign-owned companies." },
       { name: "Public Employment Service", url: "https://www.pescps.dl.mlsi.gov.cy/", where: "Government", text: "Official vacancies. Only people already allowed to work in Cyprus can apply, but it shows who is hiring." },
       { name: "Migration Department permit fees", url: "https://moi.gov.cy/moi/CRMD/crmd.nsf/All/6324DD28E926D4CEC22589200033B369", where: "Cyprus · official", text: "Official fees for entry, residence and employment permits." }
+    ]
+  },
+
+  /* ---------- Malta deep dive, checked 21 October 2026 ----------
+     Euros in Malta, taka in Bangladesh, US$ for the flight. */
+  mlt: {
+    kpis: [
+      { value: "€994", label: "minimum wage a month before tax in 2026 (€229.44 a week)", src: ["WageIndicator", "https://wageindicator.org/salary/minimum-wage/malta"] },
+      { value: "€250", label: "pre-departure course every first-time worker must pass; Identità checks the certificate since 1 March 2026", src: ["Identità", "https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/expatriates-unit-single-permit-pre-departure-course/"] },
+      { value: "€30,000", label: "a year gets a fast-track permit in 15 working days, with a degree or a related qualification and 3 years' experience", src: ["Envoy", "https://www.envoyglobal.com/news-alert/malta-new-specialist-employee-initiative/"] },
+      { value: "€600", label: "for your first single permit, then €150 for each renewal year; a decision can take up to 4 months", src: ["Jobsplus", "https://jobsplus.gov.mt/find-candidates/non-eu-nationals-tcns"] }
+    ],
+
+    /* kind: easier | tighter | closed | mixed */
+    timeline: [
+      { date: "Jul 2024", where: "Couriers and cabs", text: "Malta stops issuing new work permits for food couriers and cab drivers; renewals with the same employer continue.", kind: "closed" },
+      { date: "1 Aug 2025", where: "Labour migration policy", text: "Employers must advertise on Jobsplus and EURES for 3 weeks first, and firms that dismiss too many foreign workers can be refused. The Key Employee Initiative minimum rises to €45,000 a year.", kind: "tighter" },
+      { date: "1 Jan 2026", where: "Pay and renewals", text: "Minimum wage rises to €229.44 a week; after the first year, a permit can be renewed for 2 years instead of 1.", kind: "easier" },
+      { date: "1 Mar 2026", where: "Pre-departure course", text: "Identità starts checking the €250 course certificate on every first application.", kind: "tighter" }
+    ],
+
+    /* Yearly pay and permit thresholds, euros before tax. */
+    pay: [
+      { label: "National minimum wage", low: 11931, high: 11931, shown: "€11,931", note: "€994 a month, €229.44 a week (2026)." },
+      { label: "Junior software developer", low: 22000, high: 30000, shown: "€22,000–30,000", note: "FreeMalta salary benchmark, 2026." },
+      { label: "EU Blue Card minimum", low: 38000, high: 38000, shown: "about €38,000", note: "Needs a degree. About 1.5 times the average salary, updated every year." },
+      { label: "Software engineer, typical", low: 42000, high: 56000, shown: "€42,000–56,000", note: "FreeMalta estimate; iGaming firms often pay 15–25% more." },
+      { label: "Key Employee Initiative minimum", low: 45000, high: 45000, shown: "€45,000", note: "Managerial or highly technical jobs; proof of experience can count. Since 1 August 2025." }
+    ],
+
+    budget: { letter: "MT", title: "Malta · job on a single permit", tag: "No agent needed",
+      groups: [
+        { head: "In Bangladesh · taka", total: "Tk 25,935–47,900", items: [
+          ["Police clearance certificate", "Tk 500", ["PCC guide", "https://policeclearance.bd/application-fees/"]],
+          ["BMET clearance: welfare fee Tk 5,500 + insurance Tk 1,000", "Tk 6,500", ["TBS", "https://www.tbsnews.net/bangladesh/migrant-workers-pay-tk5500-welfare-fee-october-1550606"]],
+          ["Notary, translation and attestation of your documents", "Tk 5,000–20,000", null, "estimate"],
+          ["VFS Dhaka service charge for the D visa (standard or extended)", "Tk 13,935–20,900", ["VFS Malta–Bangladesh", "https://www.vfsglobal.com/one-pager/malta-extended-services/bangladesh/english/index.html"]]
+        ] },
+        { head: "Before you travel · euros", total: "€250–1,085", items: [
+          ["Pre-departure course, every first-time worker", "€250", ["Identità", "https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/expatriates-unit-single-permit-pre-departure-course/"]],
+          ["Skills Pass, hotel and tourism jobs only (€230 + €5 interview booking)", "€235", ["Expatax", "https://expatax.mt/maltas-pre-departure-course-explained/"]],
+          ["First single permit, paid online by the employer or by you", "€600", ["Jobsplus", "https://jobsplus.gov.mt/find-candidates/non-eu-nationals-tcns"]]
+        ] },
+        { head: "Flight · US dollars", items: [
+          ["Dhaka → Malta, one way with one stop (lowest online fares)", "US$458–576", ["Jetcost", "https://us.jetcost.com/en/flights/dhaka-zia/malta-luqa/DAC-MLA"]]
+        ] },
+        { head: "In Malta · euros", total: "€650–1,000", items: [
+          ["Room in a shared flat in Birkirkara or San Ġwann, before bills", "€350–500", ["FreeMalta", "https://freemalta.com/articles/shared-apartment-cost-malta-expats"]],
+          ["Food, transport and phone until your first pay", "€300–500", null, "estimate"]
+        ] }
+      ],
+      note: "Licensed Maltese agencies may not charge you, and pay below the €994 minimum is illegal. Rooms in Msida or Valletta cost €400–560 before bills." },
+
+    /* [title, text, [label,url]] */
+    rules: [
+      ["No work before the permit", "It is illegal to employ you before Identità issues your permit, and the permit is for one employer.", ["Jobsplus", "https://jobsplus.gov.mt/find-candidates/non-eu-nationals-tcns"]],
+      ["Below-minimum offers are illegal", "Some Bangladeshi agencies offered €600-a-month jobs and a €1,500 'gift' per worker to employers. Malta's minimum wage is €994 a month.", ["The Shift", "https://theshiftnews.com/2024/07/19/bangladeshi-agencies-targeting-malta-for-e600-a-month-jobs/"]],
+      ["No new courier or cab jobs", "Since July 2024 Malta refuses new work permits for food couriers and cab drivers, so don't pay for these jobs.", ["MaltaToday", "https://www.maltatoday.com.mt/news/national/130415/abela_says_malta_has_enough_cab_drivers_and_couriers_after_hundreds_have_permits_refused"]],
+      ["Employers are checked", "Jobsplus can refuse employers that dismiss too many foreign workers, and every job must be advertised in Malta and the EU first.", ["Jobsplus", "https://jobsplus.gov.mt/media/0c3ppzjb/malta-labour-migration-policy-implementation-doc-jul-2025.pdf"]],
+      ["Processing can stop", "Malta has frozen Bangladeshi visa applications before, so keep your job in Bangladesh until your visa is issued.", ["Lovin Malta", "https://lovinmalta.com/news/bangladesh-malta-visa-applications-frozen/"]],
+      ["Remote-work permit", "The Nomad Residence Permit needs €42,000 a year of income from outside Malta and is renewed one year at a time.", ["Residency Malta", "https://nomad.residencymalta.gov.mt/new-faqs"]]
+    ],
+
+    portals: [
+      { name: "Jobsplus vacancies", url: "https://jobsplus.gov.mt/vacancy", where: "Government", text: "Malta's public employment service. Employers must advertise here before they may hire you." },
+      { name: "Keepmeposted", url: "https://keepmeposted.com.mt/", where: "Job board", text: "Popular for iGaming, tech and office jobs." },
+      { name: "jobsinmalta.com", url: "https://jobsinmalta.com/", where: "Job board", text: "The most visited Maltese job board in 2026, with job alerts." },
+      { name: "Konnekt", url: "https://www.konnekt.com/", where: "Recruiter", text: "Recruiter and job portal for tech, finance and iGaming." },
+      { name: "VacancyCentre", url: "https://www.vacancycentre.com/", where: "Job board", text: "Finance, IT and gaming jobs, run by CSB Group." },
+      { name: "Careerjet Malta", url: "https://www.careerjet.com.mt/", where: "Search engine", text: "Collects job ads from many Maltese sites in one search." },
+      { name: "Identità: single permit", url: "https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/", where: "Malta · official", text: "Official rules and fees for the work-and-residence permit." },
+      { name: "Skills Pass and pre-departure course", url: "https://skillspass.org.mt/", where: "Malta · official", text: "Where you register for the €250 course and the hotel-job Skills Pass." },
+      { name: "VFS Global: Malta D visa in Dhaka", url: "https://www.vfsglobal.com/one-pager/malta-extended-services/bangladesh/english/index.html", where: "Visa · Dhaka", text: "Appointments, fees and the 60-day rule after your approval letter." }
     ]
   },
 
@@ -1169,6 +1289,22 @@ window.GUIDE = {
       ["Remote Work Europe – Greece 2026", "https://remoteworkeurope.eu/insights/greece-digital-nomad-visa-2026/"],
       ["Remote Work Europe – every option compared", "https://remoteworkeurope.eu/insights/digital-nomad-visas-europe-complete-guide/"]
     ]],
+    ["Where you apply", [
+      ["Polish Embassy New Delhi – D-type national visa", "https://www.gov.pl/web/india/d-type-national-visa"],
+      ["Portuguese Embassy New Delhi – visas (Indian X visa rule)", "https://novadeli.embaixadaportugal.mne.gov.pt/en/consular-section/visas"],
+      ["Romanian Embassy New Delhi – visas for Bangladeshis", "https://newdelhi.mae.ro/en/local-news/1202"],
+      ["Latvian Embassy New Delhi – long-stay visa", "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa"],
+      ["Lithuanian MFA – visa centres in India", "https://in.mfa.lt/en/coming-to-lithuania/visas/visa-authority-and-visa-application-centers/114"],
+      ["Estonian Embassy New Delhi – Bangladesh", "https://newdelhi.mfa.ee/for-bangladesh-nepal-sri-lanka-citizens/"],
+      ["Finland abroad – residence permits (Bangladesh)", "https://finlandabroad.fi/web/bgd/residence-permits-to-finland"],
+      ["Ireland.ie – visas from New Delhi", "https://www.ireland.ie/en/india/newdelhi/services/visas/visas-for-ireland/"],
+      ["Belgium in India – visa if you live in Bangladesh", "https://india.diplomatie.belgium.be/en/travel-belgium/visa-belgium/visa-belgium-if-you-live-bangladesh"],
+      ["Luxembourg Embassy New Delhi – long-term visa", "https://newdelhi.mae.lu/en/service_citoyens/visa-immigration/long-term-national-visa.html"],
+      ["Netherlands Worldwide – MVV in Bangladesh", "https://www.netherlandsworldwide.nl/visa-the-netherlands/mvv-long-stay/apply-bangladesh"],
+      ["Swiss government – where to apply for work visas", "https://www.bundesreisezentrale.admin.ch/countries/bangladesh/en/home/visa/entry-ch/work-permits/where-to-apply-work-permits.html"],
+      ["VFS Global – Bulgaria D visas in India (2025)", "https://www.vfsglobal.com/en/PDF/media-releases/2025/MR_Bulgaria_D_visa_services_rollout_in_India_Oct_2025.pdf"],
+      ["TBS – Croatia to stop issuing work permits to Bangladeshis (Jan 2025)", "https://www.tbsnews.net/bangladesh/croatia-stop-issuing-work-permits-bangladeshi-workers-embassy-says-1054731"]
+    ]],
     ["Official fees (do it yourself)", [
       ["German Mission Dhaka – visa and VFS fees", "https://dhaka.diplo.de/bd-en/service/2346500-2346500"],
       ["Italian Embassy Dhaka – subordinate work visa", "https://ambdhaka.esteri.it/wp-content/uploads/2026/06/Subordinate-work-type-D.pdf"],
@@ -1197,6 +1333,19 @@ window.GUIDE = {
       ["TBS – how Bangladeshi migrants end up in Cyprus", "https://www.tbsnews.net/features/panorama/how-bangladeshi-migrants-end-cyprus-450078"],
       ["BHRRC – UN experts on the Cypfruvex citrus farm", "https://www.business-humanrights.org/en/latest-news/cyprus-un-experts-alarmed-by-reports-of-exploitation-of-migrant-workers-at-citrus-farm-owned-by-state-owned-firm-cypfruvex-2/"],
       ["EUAA – asylum applications in 2025", "https://www.euaa.europa.eu/latest-asylum-trends-annual-analysis/applications"]
+    ]],
+    ["Malta", [
+      ["Identità – pre-departure course", "https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/employment-related-permits/single-permit/expatriates-unit-single-permit-pre-departure-course/"],
+      ["Jobsplus – employing non-EU nationals (fees, timing)", "https://jobsplus.gov.mt/find-candidates/non-eu-nationals-tcns"],
+      ["Jobsplus – labour migration policy, July 2025", "https://jobsplus.gov.mt/media/0c3ppzjb/malta-labour-migration-policy-implementation-doc-jul-2025.pdf"],
+      ["WageIndicator – Malta minimum wage 2026", "https://wageindicator.org/salary/minimum-wage/malta"],
+      ["Envoy – Specialist Employee Initiative", "https://www.envoyglobal.com/news-alert/malta-new-specialist-employee-initiative/"],
+      ["CSB Group – Key Employee Initiative vs EU Blue Card (2026)", "https://www.csbgroup.com/articles/key-employee-initiative-kei-vs-eu-blue-card-choosing-the-right-skilled-worker-permit-for-malta-in-2026/"],
+      ["MaltaToday – no new permits for couriers and cab drivers", "https://www.maltatoday.com.mt/news/national/130415/abela_says_malta_has_enough_cab_drivers_and_couriers_after_hundreds_have_permits_refused"],
+      ["FreeMalta – software engineer salaries", "https://freemalta.com/articles/software-engineer-salary-malta"],
+      ["FreeMalta – shared flat costs", "https://freemalta.com/articles/shared-apartment-cost-malta-expats"],
+      ["Expatax – pre-departure course and Skills Pass", "https://expatax.mt/maltas-pre-departure-course-explained/"],
+      ["Residency Malta – Nomad Residence Permit FAQ", "https://nomad.residencymalta.gov.mt/new-faqs"]
     ]],
     ["Montenegro", [
       ["Government of Montenegro – 2026 permit quota (108th Cabinet session)", "https://www.gov.me/en/article/press-release-from-the-108th-cabinet-session"],

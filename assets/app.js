@@ -387,10 +387,47 @@
   }
   function renderPlaces() {
     function list(mount, rows) {
-      mount.replaceChildren.apply(mount, rows.map(function (r) { return el("li", null, el("span", null, r[0]), el("span", null, r[1])); }));
+      mount.replaceChildren.apply(mount, rows.map(function (r) { return el("li", null, el("span", null, r.name), el("span", null, r.place)); }));
     }
-    list($("#dhaka"), G.dhaka);
-    list($("#delhi"), G.delhi);
+    var rows = G.where.rows;
+    list($("#dhaka"), rows.filter(function (r) { return r.group === "dhaka" || r.group === "online"; }));
+    list($("#delhi"), rows.filter(function (r) { return r.group === "india"; }));
+  }
+
+  /* ---------- Dhaka or India ---------- */
+  function renderWhere() {
+    var W = G.where;
+    kpiCards($("#where-kpis"), W.kpis);
+    var lists = { dhaka: $("#where-dhaka"), online: $("#where-online"), india: $("#where-india"), closed: $("#where-closed") };
+    Object.keys(lists).forEach(function (g) {
+      var ul = lists[g];
+      ul.replaceChildren.apply(ul, W.rows.filter(function (r) { return r.group === g; }).map(function (r) {
+        return el("li", { "data-q": (r.name + " " + r.iso + " " + r.place).toLowerCase() },
+          el("div", { "class": "wtop" },
+            el("b", null, r.name, r.only ? el("span", { "class": "flag" }, "Only listed here") : null),
+            el("span", { "class": "wplace" }, r.place)),
+          el("p", null, r.how, r.note ? " " + r.note : null),
+          el("span", { "class": "src" }, r.src.map(function (s2, i) { return [i ? " · " : null, ext(s2[0], s2[1])]; })));
+      }));
+    });
+
+    var q = $("#where-q"), count = $("#where-count");
+    function draw() {
+      var term = q.value.trim().toLowerCase(), shown = 0;
+      Object.keys(lists).forEach(function (g) {
+        var n = 0;
+        Array.prototype.forEach.call(lists[g].children, function (li) {
+          var hit = !term || li.getAttribute("data-q").indexOf(term) !== -1;
+          li.hidden = !hit;
+          if (hit) n++;
+        });
+        $("#where-n-" + g).textContent = n === 1 ? "1 country" : n + " countries";
+        shown += n;
+      });
+      count.textContent = shown === 1 ? "1 country" : shown + " countries";
+    }
+    q.addEventListener("input", draw);
+    draw();
   }
 
   /* ---------- portal directory ---------- */
@@ -768,6 +805,27 @@
     portalCards($("#cy-portals"), Y.portals);
   }
 
+  /* ---------- Malta ---------- */
+  function renderMLT() {
+    var T = G.mlt;
+    kpiCards($("#mt-kpis"), T.kpis);
+    renderTimeline($("#mt-timeline"), T.timeline);
+
+    rangeChart($("#chart-mtpay"), {
+      title: "Pay and permit minimums in Malta",
+      sub: "Euros a year before tax. The line marks the €30,000 that the fast-track (Specialist Employee Initiative) needs.",
+      rows: T.pay, cols: ["Job or permit", "Euros a year"],
+      legend: ["Pay range or permit minimum"],
+      ref: { value: 30000, text: "Fast-track minimum, €30,000" },
+      tick: eurTickK, labelWidth: "minmax(8rem, 13rem)",
+      foot: [["WageIndicator", "https://wageindicator.org/salary/minimum-wage/malta"], ["FreeMalta", "https://freemalta.com/articles/software-engineer-salary-malta"], ["CSB Group", "https://www.csbgroup.com/articles/key-employee-initiative-kei-vs-eu-blue-card-choosing-the-right-skilled-worker-permit-for-malta-in-2026/"], ["Envoy", "https://www.envoyglobal.com/news-alert/malta-new-specialist-employee-initiative/"]]
+    });
+
+    $("#mt-budget").replaceChildren(budgetCard(T.budget));
+    ruleList("#mt-rules", T.rules);
+    portalCards($("#mt-portals"), T.portals);
+  }
+
   /* ---------- New Zealand ---------- */
   var nzd = function (v) { return "NZ$" + v.toFixed(2); };
   var nzTick = function (v) { return v === 0 ? "0" : "$" + v; };
@@ -910,11 +968,13 @@
   renderDIY();
   renderAgency();
   renderCYP();
+  renderMLT();
   renderMNE();
   renderMUS();
   renderNZ();
   initMap();
   renderPlaces();
+  renderWhere();
   rankTable($("#rank-ns"), G.rankNonSkilled);
   rankTable($("#rank-sk"), G.rankSkilled);
   notes($("#notes-ns"), G.notesNonSkilled);

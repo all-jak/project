@@ -573,6 +573,15 @@ td .code { margin-right: .4rem; }
 .places { list-style: none; padding: 0; display: grid; gap: .35rem; }
 .places li { margin: 0; display: flex; justify-content: space-between; gap: 1rem; border-bottom: 1px solid var(--line); padding-bottom: .35rem; font-size: var(--t-sm); }
 .places li span:last-child { color: var(--muted); text-align: right; }
+.wsub { margin-top: .4rem; font: 500 var(--t-xs)/1.3 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.wlist { list-style: none; padding: 0; display: grid; }
+.wlist li { margin: 0; padding: .6rem 0; border-bottom: 1px solid var(--line); display: grid; gap: .25rem; font-size: var(--t-sm); min-width: 0; }
+.wlist li[hidden] { display: none; }
+.wlist .wtop { display: flex; justify-content: space-between; align-items: baseline; gap: .25rem .75rem; flex-wrap: wrap; }
+.wlist .wtop .flag { margin: 0 0 0 .4rem; }
+.wlist .wplace { font: 500 var(--t-xs)/1.3 var(--font-mono); letter-spacing: .04em; color: var(--ink-2); }
+.wlist p { color: var(--ink-2); }
+.wlist .src { font-size: var(--t-xs); }
 
 /* ---------- notes (accordions) ---------- */
 .notes { display: grid; border-top: 1px solid var(--line); }
